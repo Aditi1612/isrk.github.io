@@ -1,8 +1,8 @@
 title: "Organization Name"
 email: "info@organization.com"
 description: "Organization website built with Jekyll"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http:/Aditi1612/isrk.github.io" # the base hostname & protocol for your site
+baseurl: "/isrk.github.io" # the subpath of your site
+url: "https://Aditi1612.github.io" # your GitHub Pages base URL
 
 # Build settings
 markdown: kramdown
