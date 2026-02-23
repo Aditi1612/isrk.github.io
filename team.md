@@ -16,9 +16,15 @@ permalink: /team/
 
 <div class="team-grid">
   <div class="team-card">
+    <img src="{{ '/assets/images/team/image20.jpeg' | relative_url }}" alt="Dr. Lailesh Kumar" class="team-photo">
+    <h3>Dr. Lailesh Kumar</h3>
+    <span class="team-role">Founder</span>
+    <p>COO, TEXMIN<br>IIT-ISM Dhanbad, India</p>
+  </div>
+  <div class="team-card">
     <img src="{{ '/assets/images/team/image18.jpeg' | relative_url }}" alt="Dr. Mohammed Iqbal Khazi" class="team-photo">
     <h3>Dr. Mohammed Iqbal Khazi</h3>
-    <span class="team-role">Founder & President</span>
+    <span class="team-role">Co-Founder & President</span>
     <p>Research Associate Professor<br>Hanyang University<br>Seoul, South Korea</p>
   </div>
   <div class="team-card">
@@ -26,12 +32,6 @@ permalink: /team/
     <h3>Dr. Vibhu Jain</h3>
     <span class="team-role">Co-Founder</span>
     <p>Global Head — Chemistry Synthesis Solutions<br>Merck, Boston, USA</p>
-  </div>
-  <div class="team-card">
-    <img src="{{ '/assets/images/team/image20.jpeg' | relative_url }}" alt="Dr. Lailesh Kumar" class="team-photo">
-    <h3>Dr. Lailesh Kumar</h3>
-    <span class="team-role">Co-Founder</span>
-    <p>COO, TEXMIN<br>IIT-ISM Dhanbad, India</p>
   </div>
 </div>
 
