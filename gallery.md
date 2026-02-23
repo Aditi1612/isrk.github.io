@@ -5,8 +5,11 @@ permalink: /gallery/
 ---
 
 <div class="page-hero">
-  <h1>Gallery</h1>
-  <p class="subtitle">Memories from our events and activities</p>
+  <div class="page-hero-inner">
+    <p class="breadcrumb"><a href="/">Home</a> / Gallery</p>
+    <h1>Gallery</h1>
+    <p class="subtitle">Moments and memories from our events across Korea</p>
+  </div>
 </div>
 
 Welcome to the ISRK photo gallery — a visual journey through our community's events, celebrations, and milestones in South Korea.

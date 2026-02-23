@@ -5,8 +5,11 @@ permalink: /sns/
 ---
 
 <div class="page-hero">
-  <h1>ISRK Social Networks</h1>
-  <p class="subtitle">Stay connected with the ISRK community</p>
+  <div class="page-hero-inner">
+    <p class="breadcrumb"><a href="/">Home</a> / SNS</p>
+    <h1>ISRK Social Networks</h1>
+    <p class="subtitle">Stay connected with the community across all platforms</p>
+  </div>
 </div>
 
 Stay up to date with ISRK's latest news, events, and community stories across our social media platforms. Follow, subscribe, and join the conversation!

@@ -5,8 +5,11 @@ permalink: /activities/
 ---
 
 <div class="page-hero">
-  <h1>Activities & Events</h1>
-  <p class="subtitle">Educational, Cultural, and Sports Programs</p>
+  <div class="page-hero-inner">
+    <p class="breadcrumb"><a href="/">Home</a> / Activities</p>
+    <h1>Activities &amp; Events</h1>
+    <p class="subtitle">Educational, Cultural, and Sports Programs across Korea</p>
+  </div>
 </div>
 
 ISRK organizes a wide range of activities throughout the year to support the holistic development of the Indian student and researcher community in Korea. Our programs span three major areas:

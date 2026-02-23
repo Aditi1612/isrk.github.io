@@ -5,8 +5,11 @@ permalink: /team/
 ---
 
 <div class="page-hero">
-  <h1>Our Team</h1>
-  <p class="subtitle">The people who make ISRK possible</p>
+  <div class="page-hero-inner">
+    <p class="breadcrumb"><a href="/">Home</a> / Team</p>
+    <h1>Our Team</h1>
+    <p class="subtitle">The dedicated volunteers who make ISRK possible</p>
+  </div>
 </div>
 
 ## Executive Committee

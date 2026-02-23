@@ -5,8 +5,11 @@ permalink: /notices/
 ---
 
 <div class="page-hero">
-  <h1>Notices & Updates</h1>
-  <p class="subtitle">Latest announcements from ISRK</p>
+  <div class="page-hero-inner">
+    <p class="breadcrumb"><a href="/">Home</a> / Notices</p>
+    <h1>Notices &amp; Updates</h1>
+    <p class="subtitle">Latest announcements, upcoming events, and important news</p>
+  </div>
 </div>
 
 Stay informed with the latest news, upcoming events, and important announcements from ISRK. This page is regularly updated.

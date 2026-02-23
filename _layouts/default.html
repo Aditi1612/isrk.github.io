@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | ISRK</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <span>&#128276;</span>
+    <a href="{{ '/notices' | relative_url }}">New: ISRK website is live! Check our latest notices and upcoming events &rarr;</a>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="{{ '/' | relative_url }}" class="site-branding">
+        <div class="site-emblem">
+          <span class="emblem-top"></span>
+          <span class="emblem-mid">ISRK</span>
+          <span class="emblem-bot"></span>
+        </div>
+        <div class="site-brand-text">
+          <span class="site-title">ISRK</span>
+          <span class="site-tagline">Indian Students &amp; Researchers in Korea</span>
+        </div>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="main-nav">
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/about' | relative_url }}">About</a></li>
+          <li><a href="{{ '/team' | relative_url }}">Team</a></li>
+          <li><a href="{{ '/activities' | relative_url }}">Activities</a></li>
+          <li><a href="{{ '/jobs' | relative_url }}">Jobs &amp; Research</a></li>
+          <li><a href="{{ '/gallery' | relative_url }}">Gallery</a></li>
+          <li><a href="{{ '/information' | relative_url }}">Info</a></li>
+          <li><a href="{{ '/sns' | relative_url }}">SNS</a></li>
+          <li><a href="{{ '/notices' | relative_url }}" class="nav-cta">Notices</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="tricolor-bar">
+      <span class="tc-saffron"></span>
+      <span class="tc-white"></span>
+      <span class="tc-green"></span>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <main class="site-main">
+    {{ content }}
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="footer-logo">ISRK</div>
+          <p>Indian Students and Researchers in Korea</p>
+          <p class="footer-stats">Est. May 2019 &bull; 5,000+ Members &bull; 70+ Universities</p>
+          <a href="mailto:isrk.association@gmail.com" class="footer-email">&#9993; isrk.association@gmail.com</a>
+        </div>
+        <div class="footer-col">
+          <h4>Organisation</h4>
+          <ul>
+            <li><a href="{{ '/about' | relative_url }}">About ISRK</a></li>
+            <li><a href="{{ '/team' | relative_url }}">Our Team</a></li>
+            <li><a href="{{ '/activities' | relative_url }}">Activities &amp; Events</a></li>
+            <li><a href="{{ '/notices' | relative_url }}">Notices &amp; Updates</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="{{ '/jobs' | relative_url }}">Jobs &amp; Research</a></li>
+            <li><a href="{{ '/information' | relative_url }}">Important Info</a></li>
+            <li><a href="{{ '/gallery' | relative_url }}">Gallery</a></li>
+            <li><a href="{{ '/sns' | relative_url }}">Social Networks</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="{{ site.youtube }}" target="_blank">YouTube</a></li>
+            <li><a href="mailto:isrk.association@gmail.com?subject=Join WhatsApp Group">WhatsApp Groups</a></li>
+            <li><a href="mailto:isrk.association@gmail.com">Email Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; {{ site.time | date: '%Y' }} ISRK — Indian Students and Researchers in Korea. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.site-nav');
+    toggle.addEventListener('click', function () {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+    // Highlight active nav link
+    const links = document.querySelectorAll('.site-nav a');
+    links.forEach(link => {
+      if (link.href === window.location.href || window.location.pathname.startsWith(new URL(link.href).pathname) && link.href !== window.location.origin + '/') {
+        link.classList.add('active');
+      }
+    });
+  </script>
+</body>
+</html>

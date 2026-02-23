@@ -5,8 +5,11 @@ permalink: /jobs/
 ---
 
 <div class="page-hero">
-  <h1>Jobs & Research Opportunities</h1>
-  <p class="subtitle">Career and research openings for the ISRK community</p>
+  <div class="page-hero-inner">
+    <p class="breadcrumb"><a href="/">Home</a> / Jobs &amp; Research</p>
+    <h1>Jobs &amp; Research Opportunities</h1>
+    <p class="subtitle">Career and research openings for the ISRK community</p>
+  </div>
 </div>
 
 ISRK connects its members with job openings, research positions, internships, and funding opportunities in South Korea and beyond. This page is regularly updated with the latest listings.

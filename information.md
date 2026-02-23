@@ -5,8 +5,11 @@ permalink: /information/
 ---
 
 <div class="page-hero">
-  <h1>Important Information</h1>
-  <p class="subtitle">Essential resources for Indian students and researchers in Korea</p>
+  <div class="page-hero-inner">
+    <p class="breadcrumb"><a href="/">Home</a> / Important Information</p>
+    <h1>Important Information</h1>
+    <p class="subtitle">Essential resources for every Indian student and researcher in Korea</p>
+  </div>
 </div>
 
 This page compiles key information every Indian student or researcher in Korea should know. Bookmark this page for quick reference.

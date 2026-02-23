@@ -1,59 +1,80 @@
 ---
-layout: default
+layout: home
 title: Home
 ---
 
-<div class="hero">
-  <h1>Indian Students & Researchers in Korea</h1>
-  <p>Empowering Indian students and researchers in Korea to thrive academically, professionally, and personally since 2019.</p>
-  <a href="/about/" class="hero-btn">About ISRK</a>
-  <a href="/notices/" class="hero-btn secondary">Latest Notices</a>
+<section class="hero">
+  <div class="hero-inner">
+    <span class="hero-badge">Est. May 2019 &nbsp;&#127470;&#127475; India &nbsp;&#10022;&nbsp; &#127472;&#127479; Korea</span>
+    <h1>Uniting <span>Indian Students</span> &amp; Researchers Across Korea</h1>
+    <p>Your home away from home — academic support, career opportunities, cultural celebrations, and a community of 5,000+ Indians across 70+ Korean universities.</p>
+    <div class="hero-btns">
+      <a href="/about/" class="btn btn-primary">Discover ISRK</a>
+      <a href="/notices/" class="btn btn-outline">Latest Notices</a>
+      <a href="mailto:isrk.association@gmail.com?subject=Join ISRK" class="btn btn-green">Join Community</a>
+    </div>
+  </div>
+</section>
+
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-item">
+      <div class="stat-number">5<span>K+</span></div>
+      <div class="stat-label">Members</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">70<span>+</span></div>
+      <div class="stat-label">Universities</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">100<span>+</span></div>
+      <div class="stat-label">Representatives</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">8<span>+</span></div>
+      <div class="stat-label">MoU Partners</div>
+    </div>
+  </div>
 </div>
 
-<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); gap:1.5rem; margin-bottom:3rem;">
+<div class="section-alt">
+<div class="section">
+  <span class="section-label">What We Do</span>
+  <h2 class="section-title">Supporting You at Every Step</h2>
+  <p class="section-subtitle">ISRK is with you from the moment you land in Korea — through every academic milestone, cultural celebration, and career opportunity.</p>
 
-  <div class="value-card">
-    <h3>5000+ Members</h3>
-    <p>A strong and growing community of Indian students and researchers across South Korea.</p>
+  <div class="values-grid">
+    <div class="value-card">
+      <h3>&#127979; Education</h3>
+      <p>Scholarships, workshops, mentorship programs, and academic guidance for students and researchers.</p>
+    </div>
+    <div class="value-card">
+      <h3>&#127895; Culture</h3>
+      <p>Diwali, Holi, Independence Day, food festivals — celebrating India's rich heritage in Korea.</p>
+    </div>
+    <div class="value-card">
+      <h3>&#9917; Sports</h3>
+      <p>Cricket, football, badminton, and more — staying active and connected through competitive sports.</p>
+    </div>
+    <div class="value-card">
+      <h3>&#128188; Careers</h3>
+      <p>Job postings, research opportunities, internships, and industry networking to grow your career.</p>
+    </div>
   </div>
-
-  <div class="value-card">
-    <h3>70+ Universities</h3>
-    <p>Representatives from over 70 Korean universities ensuring nationwide reach and support.</p>
-  </div>
-
-  <div class="value-card">
-    <h3>Est. 2019</h3>
-    <p>Founded in May 2019 with a vision to unite and empower Indians in Korea.</p>
-  </div>
-
-  <div class="value-card">
-    <h3>Multiple MoUs</h3>
-    <p>Partnerships with KOINA, SPIC MACAY, SENTBE, ACN, and other leading organizations.</p>
-  </div>
-
+</div>
 </div>
 
-## What We Do
+<div class="section">
+  <span class="section-label">About ISRK</span>
+  <h2 class="section-title">A Community Built on Unity</h2>
+  <p>ISRK is a non-profit voluntary organization founded in <strong>May 2019</strong> to connect all Indian-origin students and researchers in South Korea. We provide educational, research, social, recreational, job, and community support — helping every member thrive in their new home.</p>
+  <p>We have signed MoUs with <strong>KOINA, SPIC MACAY, SENTBE, RIST, UCC, ACN, Chakra Indian Restaurant</strong>, and the Honorary Consulate General of Korea in Hyderabad.</p>
+  <a href="/about/" class="btn btn-primary" style="margin-top:0.5rem;">Read Our Story</a>
+</div>
 
-ISRK supports the Indian community in Korea across three key areas:
-
-- **Educational** — Scholarships, workshops, mentorship, and research support
-- **Cultural** — Diwali, Holi, Independence Day, cultural exchange events
-- **Sports** — Cricket, football, badminton, annual sports day
-
-[Explore all activities &rarr;](/activities/)
-
----
-
-## Latest Notices
-
-Check our [Notices & Updates](/notices/) page for the latest announcements, upcoming events, and important news from ISRK.
-
----
-
-## Connect With Us
-
-Follow ISRK on our [social media platforms](/sns/) and join our community groups to stay connected and informed.
-
-**Email:** [isrk.association@gmail.com](mailto:isrk.association@gmail.com)
+<div class="cta-banner">
+  <h2>New to Korea? We've Got You.</h2>
+  <p>From visa guidance to finding housing, banking, and connecting with fellow Indians — ISRK is your first stop.</p>
+  <a href="/information/" class="btn btn-primary" style="margin-right:0.8rem;">Important Information</a>
+  <a href="/sns/" class="btn btn-outline">Join Our Groups</a>
+</div>

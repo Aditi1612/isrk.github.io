@@ -5,8 +5,11 @@ permalink: /about/
 ---
 
 <div class="page-hero">
-  <h1>About ISRK</h1>
-  <p class="subtitle">Indian Students and Researchers in Korea</p>
+  <div class="page-hero-inner">
+    <p class="breadcrumb"><a href="/">Home</a> / About</p>
+    <h1>About ISRK</h1>
+    <p class="subtitle">Indian Students and Researchers in Korea — Est. May 2019</p>
+  </div>
 </div>
 
 ## Who We Are
