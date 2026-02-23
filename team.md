@@ -215,19 +215,19 @@ permalink: /team/
     <p>Program Manager<br>Spirit AeroSystems<br>Busan, South Korea</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image43.jpeg' | relative_url }}" alt="Prof. Biswajeet Sarkar" class="team-photo">
+    <img src="{{ '/assets/images/team/image42.png' | relative_url }}" alt="Prof. Biswajeet Sarkar" class="team-photo">
     <h3>Prof. Biswajeet Sarkar</h3>
     <span class="team-role">Advisory Board Member</span>
     <p>Professor, Industrial Engineering<br>Yonsei University<br>Seoul, South Korea</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image44.jpeg' | relative_url }}" alt="Prof. Mukul Basu" class="team-photo">
+    <img src="{{ '/assets/images/team/image43.jpeg' | relative_url }}" alt="Prof. Mukul Basu" class="team-photo">
     <h3>Prof. Mukul Basu</h3>
     <span class="team-role">Advisory Board Member</span>
     <p>Overseas Director, RIST<br>President, UCC<br>Gwangju, South Korea</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image47.jpeg' | relative_url }}" alt="Mr. Rohit Kunal" class="team-photo">
+    <img src="{{ '/assets/images/team/image44.jpeg' | relative_url }}" alt="Mr. Rohit Kunal" class="team-photo">
     <h3>Mr. Rohit Kunal</h3>
     <span class="team-role">Advisory Board Member</span>
     <p>Vice President, Global Operations<br>Coupang<br>Seoul, South Korea</p>
@@ -245,31 +245,31 @@ permalink: /team/
     <p>Founder & Editor-in-Chief<br>Asian Community News Network<br>Gurgaon, India</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image42.png' | relative_url }}" alt="Mr. Justin You" class="team-photo">
+    <img src="{{ '/assets/images/team/image47.jpeg' | relative_url }}" alt="Mr. Justin You" class="team-photo">
     <h3>Mr. Justin You (Sunghoon You)</h3>
     <span class="team-role">Advisory Board Member</span>
     <p>CEO, INDOIN Co., Inc<br>Centre Head, Korea Centre, CMR University<br>Seoul, South Korea</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image48.jpeg' | relative_url }}" alt="Dr. Jaydip Chandrkant Mehta" class="team-photo">
+    <img src="{{ '/assets/images/team/image49.jpeg' | relative_url }}" alt="Dr. Jaydip Chandrkant Mehta" class="team-photo">
     <h3>Dr. Jaydip Chandrkant Mehta</h3>
     <span class="team-role">Advisory Board Member</span>
     <p>Professor, MGTE/MIB Department<br>Namseoul University<br>Cheonan, South Korea</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image49.jpeg' | relative_url }}" alt="Dr. Pankaj Garg" class="team-photo">
+    <img src="{{ '/assets/images/team/image50.jpeg' | relative_url }}" alt="Dr. Pankaj Garg" class="team-photo">
     <h3>Dr. Pankaj Garg</h3>
     <span class="team-role">Advisory Board Member</span>
     <p>Vice-CTO & R&D Head<br>ELBIO Inc. Korea<br>Seoul, South Korea</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image50.jpeg' | relative_url }}" alt="Dr. Geon Do Park" class="team-photo">
+    <img src="{{ '/assets/images/team/image51.jpeg' | relative_url }}" alt="Dr. Geon Do Park" class="team-photo">
     <h3>Dr. Geon Do Park</h3>
     <span class="team-role">Advisory Board Member</span>
     <p>Director<br>Dasan Call Foundation<br>Seoul, South Korea</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image51.jpeg' | relative_url }}" alt="Prof. Seok-gu Lee" class="team-photo">
+    <img src="{{ '/assets/images/team/image52.jpeg' | relative_url }}" alt="Prof. Seok-gu Lee" class="team-photo">
     <h3>Prof. Seok-gu Lee</h3>
     <span class="team-role">Advisory Board Member</span>
     <p>Distinguished Professor, GLC<br>Yonsei University, Seoul<br><em>Former Ambassador of Korea to UAE</em></p>
