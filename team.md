@@ -41,25 +41,25 @@ permalink: /team/
 
 <div class="team-grid">
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image21.png' | relative_url }}" alt="Dr. Mohammed Iqbal Khazi" class="team-photo">
+    <img src="{{ '/assets/images/team/image18.jpeg' | relative_url }}" alt="Dr. Mohammed Iqbal Khazi" class="team-photo">
     <h3>Dr. Mohammed Iqbal Khazi</h3>
     <span class="team-role">President</span>
     <p>Research Associate Professor<br>Hanyang University<br>Seoul, South Korea</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image22.png' | relative_url }}" alt="Dr. Manas Biswal" class="team-photo">
+    <img src="{{ '/assets/images/team/image21.png' | relative_url }}" alt="Dr. Manas Biswal" class="team-photo">
     <h3>Dr. Manas Biswal</h3>
     <span class="team-role">Vice President — Cultural Programs & Events</span>
     <p>Research Engineer<br>SRC Co Ltd<br>Busan, South Korea</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image23.jpeg' | relative_url }}" alt="Dr. Dilip V. Patil" class="team-photo">
+    <img src="{{ '/assets/images/team/image22.png' | relative_url }}" alt="Dr. Dilip V. Patil" class="team-photo">
     <h3>Dr. Dilip V. Patil</h3>
     <span class="team-role">Vice President — Sports</span>
     <p>Senior Researcher<br>Y S Pharma<br>Suwon, South Korea</p>
   </div>
   <div class="team-card">
-    <div class="team-photo-placeholder"><span>NB</span></div>
+    <img src="{{ '/assets/images/team/image23.jpeg' | relative_url }}" alt="Noopur Baghel" class="team-photo">
     <h3>Noopur Baghel</h3>
     <span class="team-role">Vice President — Educational Programs & Student Affairs</span>
     <p>Ph.D. Scholar<br>Korea University<br>Seoul, South Korea</p>
