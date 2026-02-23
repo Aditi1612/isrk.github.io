@@ -125,7 +125,7 @@ ISRK is led by a dedicated executive committee of volunteers who are committed t
 ISRK has **100+ student representatives** from over **70 universities** across South Korea. These representatives serve as the local point of contact for ISRK members at their respective universities.
 
 <div class="info-box">
-  <strong>Are you a student leader?</strong> If you are an Indian student or researcher at a Korean university and would like to become an ISRK representative, reach out to us at <a href="mailto:isrk.association@gmail.com">isrk.association@gmail.com</a>
+  <strong>Are you a student leader?</strong> If you are an Indian student or researcher at a Korean university and would like to become an ISRK representative, reach out to us at <a href="mailto:isrk.website@gmail.com">isrk.website@gmail.com</a>
 </div>
 
 ---
@@ -139,4 +139,4 @@ ISRK runs entirely on the passion and dedication of volunteers. If you want to c
 - Event organizing committees
 - University representative positions
 
-**Contact us:** [isrk.association@gmail.com](mailto:isrk.association@gmail.com)
+**Contact us:** [isrk.website@gmail.com](mailto:isrk.website@gmail.com)

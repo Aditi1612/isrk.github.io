@@ -51,7 +51,7 @@ Stay informed with the latest news, upcoming events, and important announcements
     <span class="notice-date">Ongoing</span>
   </div>
   <h3>New Members Welcome — Join ISRK Today</h3>
-  <p>If you are a new Indian student or researcher who recently arrived in Korea, welcome! Register with ISRK to access our community, resources, and events. Email us at isrk.association@gmail.com to join.</p>
+  <p>If you are a new Indian student or researcher who recently arrived in Korea, welcome! Register with ISRK to access our community, resources, and events. Email us at isrk.website@gmail.com to join.</p>
 </div>
 
 ---
@@ -97,8 +97,8 @@ Stay informed with the latest news, upcoming events, and important announcements
 To receive ISRK notices and announcements directly:
 
 <div class="info-box">
-  <strong>Email:</strong> Send a subscription request to <a href="mailto:isrk.association@gmail.com">isrk.association@gmail.com</a> with subject "Subscribe to Updates"<br><br>
-  <strong>WhatsApp:</strong> Join our announcement group — <a href="mailto:isrk.association@gmail.com?subject=Join Announcements Group">Request to join</a><br><br>
+  <strong>Email:</strong> Send a subscription request to <a href="mailto:isrk.website@gmail.com">isrk.website@gmail.com</a> with subject "Subscribe to Updates"<br><br>
+  <strong>WhatsApp:</strong> Join our announcement group — <a href="mailto:isrk.website@gmail.com?subject=Join Announcements Group">Request to join</a><br><br>
   <strong>Social Media:</strong> Follow our platforms on the <a href="{{ '/sns/' | relative_url }}">SNS page</a> for real-time updates.
 </div>
 
@@ -106,4 +106,4 @@ To receive ISRK notices and announcements directly:
 
 ## Archive
 
-For past notices and event announcements, contact us at [isrk.association@gmail.com](mailto:isrk.association@gmail.com).
+For past notices and event announcements, contact us at [isrk.website@gmail.com](mailto:isrk.website@gmail.com).

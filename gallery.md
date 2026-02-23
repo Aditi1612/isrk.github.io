@@ -141,4 +141,4 @@ Watch videos, event recordings, and community stories on our **YouTube channel**
 
 Are you an ISRK member with photos from our events? We'd love to feature them here!
 
-Send your photos to [isrk.association@gmail.com](mailto:isrk.association@gmail.com) with the subject line **"Photo Submission"** and the event name.
+Send your photos to [isrk.website@gmail.com](mailto:isrk.website@gmail.com) with the subject line **"Photo Submission"** and the event name.

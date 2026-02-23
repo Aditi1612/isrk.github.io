@@ -31,14 +31,14 @@ Stay up to date with ISRK's latest news, events, and community stories across ou
     <div class="sns-icon">&#9993;</div>
     <h3>Email / Newsletter</h3>
     <p>Receive important updates, event invitations, and community news directly in your inbox.</p>
-    <a href="mailto:isrk.association@gmail.com" class="sns-btn">Email Us</a>
+    <a href="mailto:isrk.website@gmail.com" class="sns-btn">Email Us</a>
   </div>
 
   <div class="sns-card whatsapp">
     <div class="sns-icon">&#128172;</div>
     <h3>WhatsApp Groups</h3>
     <p>Join our city-wise and university-wise WhatsApp groups for real-time updates and community discussions.</p>
-    <a href="mailto:isrk.association@gmail.com?subject=Join WhatsApp Group" class="sns-btn">Request to Join</a>
+    <a href="mailto:isrk.website@gmail.com?subject=Join WhatsApp Group" class="sns-btn">Request to Join</a>
   </div>
 
   <div class="sns-card facebook">
@@ -93,7 +93,7 @@ ISRK also maintains groups for major Korean universities with significant Indian
 
 ## Join the Community
 
-To join any ISRK community group, send an email to [isrk.association@gmail.com](mailto:isrk.association@gmail.com) with:
+To join any ISRK community group, send an email to [isrk.website@gmail.com](mailto:isrk.website@gmail.com) with:
 
 1. Your name
 2. University / institution
@@ -107,7 +107,7 @@ To join any ISRK community group, send an email to [isrk.association@gmail.com](
 
 We love hearing from our community members! Share your stories, photos, achievements, and experiences with us:
 
-- **Email:** [isrk.association@gmail.com](mailto:isrk.association@gmail.com)
+- **Email:** [isrk.website@gmail.com](mailto:isrk.website@gmail.com)
 - **Tag us** on social media and we'll reshare your content
 
 <div class="info-box">

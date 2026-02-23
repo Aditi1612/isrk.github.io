@@ -11,7 +11,7 @@ title: Home
     <div class="hero-btns">
       <a href="{{ '/about/' | relative_url }}" class="btn btn-primary">Discover ISRK</a>
       <a href="{{ '/notices/' | relative_url }}" class="btn btn-outline">Latest Notices</a>
-      <a href="mailto:isrk.association@gmail.com?subject=Join ISRK" class="btn btn-green">Join Community</a>
+      <a href="mailto:isrk.website@gmail.com?subject=Join ISRK" class="btn btn-green">Join Community</a>
     </div>
   </div>
 </section>

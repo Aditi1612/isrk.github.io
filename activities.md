@@ -103,4 +103,4 @@ Visit our [Gallery](/gallery/) to see photos and memories from our past events a
 
 ## Organize an Event
 
-Have an idea for an event or activity? ISRK welcomes proposals from community members. Write to us at [isrk.association@gmail.com](mailto:isrk.association@gmail.com) with your idea and we'll be in touch.
+Have an idea for an event or activity? ISRK welcomes proposals from community members. Write to us at [isrk.website@gmail.com](mailto:isrk.website@gmail.com) with your idea and we'll be in touch.
