@@ -72,6 +72,23 @@ title: Home
   <a href="{{ '/about/' | relative_url }}" class="btn btn-primary" style="margin-top:0.5rem;">Read Our Story</a>
 </div>
 
+<div class="section-alt">
+<div class="section">
+  <span class="section-label">Our Partners</span>
+  <h2 class="section-title">Supported By</h2>
+  <div class="logo-grid">
+    <div class="logo-item"><img src="{{ '/assets/images/logos/embassy-of-india.png' | relative_url }}" alt="Embassy of India"><span>Embassy of India</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/niied.png' | relative_url }}" alt="NIIED"><span>NIIED</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/svcc-embassy.png' | relative_url }}" alt="SVCC"><span>SVCC Embassy of India</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/spic-macay.png' | relative_url }}" alt="SPIC MACAY"><span>SPIC MACAY</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/merck.png' | relative_url }}" alt="Merck"><span>Merck</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/iik.png' | relative_url }}" alt="Indians in Korea"><span>Indians in Korea</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/seoul-global-center.png' | relative_url }}" alt="Seoul Global Center"><span>Seoul Global Center</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/hanpass.png' | relative_url }}" alt="Hanpass"><span>Hanpass</span></div>
+  </div>
+</div>
+</div>
+
 <div class="cta-banner">
   <h2>New to Korea? We've Got You.</h2>
   <p>From visa guidance to finding housing, banking, and connecting with fellow Indians — ISRK is your first stop.</p>

@@ -202,6 +202,78 @@ p { margin-bottom: 1rem; color: var(--text-md); }
   background: var(--saffron-lt);
 }
 
+/* Site Logo */
+.site-logo {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* Footer Logo */
+.footer-logo-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.8rem;
+}
+
+/* Partner / Sponsor Logo Grid */
+.logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem 2rem;
+  margin: 1.5rem 0;
+}
+
+.logo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  text-align: center;
+}
+
+.logo-item img {
+  height: 60px;
+  width: auto;
+  max-width: 140px;
+  object-fit: contain;
+  filter: grayscale(20%);
+  transition: filter 0.2s, transform 0.2s;
+}
+
+.logo-item img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.07);
+}
+
+.logo-item span {
+  font-size: 0.7rem;
+  color: var(--text-lt);
+  font-weight: 500;
+  max-width: 120px;
+  line-height: 1.3;
+}
+
+.logo-grid-dark {
+  background: rgba(255,255,255,0.04);
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+}
+
+.logo-grid-dark .logo-item img {
+  filter: brightness(0) invert(1) opacity(0.75);
+}
+
+.logo-grid-dark .logo-item img:hover {
+  filter: brightness(0) invert(1) opacity(1);
+}
+
 /* Hamburger */
 .nav-toggle {
   display: none;
