@@ -6,7 +6,7 @@ permalink: /about/
 
 <div class="page-hero">
   <div class="page-hero-inner">
-    <p class="breadcrumb"><a href="/">Home</a> / About</p>
+    <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> / About</p>
     <h1>About ISRK</h1>
     <p class="subtitle">Indian Students and Researchers in Korea — Est. May 2019</p>
   </div>

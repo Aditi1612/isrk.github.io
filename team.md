@@ -6,7 +6,7 @@ permalink: /team/
 
 <div class="page-hero">
   <div class="page-hero-inner">
-    <p class="breadcrumb"><a href="/">Home</a> / Team</p>
+    <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> / Team</p>
     <h1>Our Team</h1>
     <p class="subtitle">The dedicated volunteers who make ISRK possible</p>
   </div>

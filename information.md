@@ -6,7 +6,7 @@ permalink: /information/
 
 <div class="page-hero">
   <div class="page-hero-inner">
-    <p class="breadcrumb"><a href="/">Home</a> / Important Information</p>
+    <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> / Important Information</p>
     <h1>Important Information</h1>
     <p class="subtitle">Essential resources for every Indian student and researcher in Korea</p>
   </div>

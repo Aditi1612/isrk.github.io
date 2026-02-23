@@ -6,7 +6,7 @@ permalink: /gallery/
 
 <div class="page-hero">
   <div class="page-hero-inner">
-    <p class="breadcrumb"><a href="/">Home</a> / Gallery</p>
+    <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> / Gallery</p>
     <h1>Gallery</h1>
     <p class="subtitle">Moments and memories from our events across Korea</p>
   </div>

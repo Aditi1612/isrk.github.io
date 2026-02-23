@@ -6,7 +6,7 @@ permalink: /sns/
 
 <div class="page-hero">
   <div class="page-hero-inner">
-    <p class="breadcrumb"><a href="/">Home</a> / SNS</p>
+    <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> / SNS</p>
     <h1>ISRK Social Networks</h1>
     <p class="subtitle">Stay connected with the community across all platforms</p>
   </div>

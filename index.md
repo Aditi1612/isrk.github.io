@@ -9,8 +9,8 @@ title: Home
     <h1>Uniting <span>Indian Students</span> &amp; Researchers Across Korea</h1>
     <p>Your home away from home — academic support, career opportunities, cultural celebrations, and a community of 5,000+ Indians across 70+ Korean universities.</p>
     <div class="hero-btns">
-      <a href="/about/" class="btn btn-primary">Discover ISRK</a>
-      <a href="/notices/" class="btn btn-outline">Latest Notices</a>
+      <a href="{{ '/about/' | relative_url }}" class="btn btn-primary">Discover ISRK</a>
+      <a href="{{ '/notices/' | relative_url }}" class="btn btn-outline">Latest Notices</a>
       <a href="mailto:isrk.association@gmail.com?subject=Join ISRK" class="btn btn-green">Join Community</a>
     </div>
   </div>
@@ -69,12 +69,12 @@ title: Home
   <h2 class="section-title">A Community Built on Unity</h2>
   <p>ISRK is a non-profit voluntary organization founded in <strong>May 2019</strong> to connect all Indian-origin students and researchers in South Korea. We provide educational, research, social, recreational, job, and community support — helping every member thrive in their new home.</p>
   <p>We have signed MoUs with <strong>KOINA, SPIC MACAY, SENTBE, RIST, UCC, ACN, Chakra Indian Restaurant</strong>, and the Honorary Consulate General of Korea in Hyderabad.</p>
-  <a href="/about/" class="btn btn-primary" style="margin-top:0.5rem;">Read Our Story</a>
+  <a href="{{ '/about/' | relative_url }}" class="btn btn-primary" style="margin-top:0.5rem;">Read Our Story</a>
 </div>
 
 <div class="cta-banner">
   <h2>New to Korea? We've Got You.</h2>
   <p>From visa guidance to finding housing, banking, and connecting with fellow Indians — ISRK is your first stop.</p>
-  <a href="/information/" class="btn btn-primary" style="margin-right:0.8rem;">Important Information</a>
-  <a href="/sns/" class="btn btn-outline">Join Our Groups</a>
+  <a href="{{ '/information/' | relative_url }}" class="btn btn-primary" style="margin-right:0.8rem;">Important Information</a>
+  <a href="{{ '/sns/' | relative_url }}" class="btn btn-outline">Join Our Groups</a>
 </div>

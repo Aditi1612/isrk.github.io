@@ -6,7 +6,7 @@ permalink: /jobs/
 
 <div class="page-hero">
   <div class="page-hero-inner">
-    <p class="breadcrumb"><a href="/">Home</a> / Jobs &amp; Research</p>
+    <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> / Jobs &amp; Research</p>
     <h1>Jobs &amp; Research Opportunities</h1>
     <p class="subtitle">Career and research openings for the ISRK community</p>
   </div>
@@ -109,5 +109,5 @@ Send your job description, research opening, or internship announcement to [isrk
 ## Stay Updated
 
 <div class="info-box">
-  Join our <a href="/sns/">ISRK social media channels</a> and WhatsApp groups to receive real-time job and research opportunity alerts shared by our active community of 5,000+ members.
+  Join our <a href="{{ '/sns/' | relative_url }}">ISRK social media channels</a> and WhatsApp groups to receive real-time job and research opportunity alerts shared by our active community of 5,000+ members.
 </div>

@@ -6,7 +6,7 @@ permalink: /activities/
 
 <div class="page-hero">
   <div class="page-hero-inner">
-    <p class="breadcrumb"><a href="/">Home</a> / Activities</p>
+    <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> / Activities</p>
     <h1>Activities &amp; Events</h1>
     <p class="subtitle">Educational, Cultural, and Sports Programs across Korea</p>
   </div>
@@ -90,7 +90,7 @@ ISRK hosts an **Annual Sports Day** that brings together students from universit
 ## Upcoming Events
 
 <div class="info-box">
-  Check our <a href="/notices/">Notices & Updates</a> page and our social media channels for the latest event announcements, schedules, and registration details.
+  Check our <a href="{{ '/notices/' | relative_url }}">Notices &amp; Updates</a> page and our social media channels for the latest event announcements, schedules, and registration details.
 </div>
 
 ---
