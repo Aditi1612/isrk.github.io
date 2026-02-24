@@ -20,6 +20,14 @@ permalink: /sns/
   </div>
 </div>
 
+<div class="registry-section" style="margin-top:1.5rem; border-left-color: var(--green);">
+  <h2 class="registry-title">Join Our Representative Network</h2>
+  <p class="registry-subtitle">Interested in becoming an ISRK representative at your university or city? Fill out this form to join our representative group.</p>
+  <div style="text-align:center; margin-top:1rem;">
+    <a href="https://docs.google.com/forms/d/1xxwdqXQlgaZn5ZgQ2XR65YZ9e9Fz-n2vjHvIja8TTLs/viewform" target="_blank" class="btn btn-green">&#128101; Join as Representative</a>
+  </div>
+</div>
+
 <div style="margin-top:3rem;"></div>
 
 ## Our Social Platforms
