@@ -20,7 +20,7 @@ permalink: /sns/
   </div>
 </div>
 
----
+<div style="margin-top:3rem;"></div>
 
 ## Our Social Platforms
 
