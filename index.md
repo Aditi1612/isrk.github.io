@@ -7,7 +7,7 @@ title: Home
   <div class="hero-inner">
     <img src="{{ '/assets/images/logos/isrk_logo_tri_color.png' | relative_url }}" alt="ISRK Logo" class="hero-logo">
     <span class="hero-badge">Est. May 2019 &nbsp;&#127470;&#127475; India &nbsp;&#10022;&nbsp; &#127472;&#127479; Korea</span>
-    <h1>Uniting <span>Indian Students</span> &amp; Researchers Across Korea</h1>
+    <h1><span>Indian Students</span> &amp; Researchers Across Korea</h1>
     <p>Your home away from home — academic support, career opportunities, cultural celebrations, and a community of 5,000+ Indians across 70+ Korean universities.</p>
     <div class="hero-btns">
       <a href="{{ '/about/' | relative_url }}" class="btn btn-primary">Discover ISRK</a>
