@@ -45,7 +45,7 @@ permalink: /activities/
         <span>Scholarships, webinars &amp; academic support</span>
       </a>
       <a href="#culture" class="cat-jump">
-        <span class="cat-jump-icon">&#127895;</span>
+        <span class="cat-jump-icon">&#129684;</span>
         <strong>Culture</strong>
         <span>Festivals, arts &amp; cultural exchange</span>
       </a>
@@ -134,7 +134,7 @@ permalink: /activities/
 <div id="culture">
   <div class="prog-banner cult-banner">
     <div class="prog-banner-inner">
-      <span class="prog-banner-icon">&#127895;</span>
+      <span class="prog-banner-icon">&#129684;</span>
       <div>
         <h2>Cultural Programs &amp; Events</h2>
         <p>Celebrating India's rich heritage through festivals, classical arts, and cultural exchange</p>

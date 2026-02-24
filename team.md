@@ -327,7 +327,6 @@ ISRK has city coordinators across South Korea ensuring community support at the 
 | Busan | Dr. Shriya Jaiswal | Pusan National University |
 | Daejeon | Dr. Gaurav Bartwal | Cheonam University |
 | Daejeon | Abhishek Negi | KRICT |
-| Daegu | Dr. Vasudeva Reddy | Yeungnam University |
 | Daegu | Dr. Alka Singh | Yeungnam University |
 | Incheon | Bhaskar M.C. | General Motors Korea |
 | Jeju | Vishwanathan R | Jeju National University |

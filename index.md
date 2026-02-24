@@ -50,7 +50,7 @@ title: Home
       <p>Scholarships, workshops, mentorship programs, and academic guidance for students and researchers.</p>
     </div>
     <div class="value-card">
-      <h3>&#127895; Culture</h3>
+      <h3>&#129684; Culture</h3>
       <p>Diwali, Holi, Independence Day, food festivals — celebrating India's rich heritage in Korea.</p>
     </div>
     <div class="value-card">

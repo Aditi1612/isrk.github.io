@@ -47,7 +47,7 @@ Today, ISRK has grown to over **5,000 members** and includes representatives fro
 </div>
 
 <div class="activity-section cultural">
-  <h3>&#127895; Cultural Events & Festival Celebrations</h3>
+  <h3>&#129684; Cultural Events & Festival Celebrations</h3>
   <p>Organizing events and celebrations to mark Indian festivals and cultural occasions, promoting a sense of community and cultural exchange between India and Korea.</p>
 </div>
 
