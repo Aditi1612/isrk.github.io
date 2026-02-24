@@ -75,6 +75,17 @@ title: Home
 
 <div class="section-alt">
 <div class="section">
+  <span class="section-label">Introduction</span>
+  <h2 class="section-title">Who We Are — Watch Our Story</h2>
+  <p class="section-subtitle">Get to know ISRK — our journey, our community, and what we stand for.</p>
+  <div class="video-wrapper">
+    <iframe src="https://www.youtube.com/embed/ww9_gg80R5s" title="ISRK Introduction" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</div>
+</div>
+
+<div class="section-alt">
+<div class="section">
   <span class="section-label">Our Partners</span>
   <h2 class="section-title">Supported By</h2>
   <div class="logo-grid">
