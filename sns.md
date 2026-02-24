@@ -68,16 +68,8 @@ Stay up to date with ISRK's latest news, events, and community stories across ou
 
 ## Community Groups
 
-### City-wise Telegram Groups
-ISRK maintains city-specific Telegram groups to connect members in the same region:
-
-- Seoul Group
-- Daejeon Group
-- Busan Group
-- Daegu Group
-- Incheon Group
-- Gwangju Group
-- Other Cities
+### Telegram Group
+Join the ISRK Telegram group to stay connected with the community, receive real-time updates, and participate in discussions. [Join here &rarr;](https://t.me/+U30rQW7o4KWYPExs)
 
 ### University-wise Groups
 ISRK also maintains groups for major Korean universities with significant Indian student populations including KAIST, POSTECH, SNU, SKKU, Yonsei, Korea University, UNIST, and more.
