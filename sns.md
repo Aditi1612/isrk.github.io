@@ -15,7 +15,9 @@ permalink: /sns/
 <div class="registry-section">
   <h2 class="registry-title">Indians in Korea: Academic &amp; Professional Registry</h2>
   <p class="registry-subtitle">A joint initiative of the Embassy of India, Seoul and ISRK to build a database of Indian academics and professionals in Korea for networking, collaboration, and career growth.</p>
-  <a href="https://forms.gle/BhU4a6nAJuJvWcdH8" target="_blank" class="btn btn-primary">&#128393; Register Now</a>
+  <div style="text-align:center; margin-top:1rem;">
+    <a href="https://forms.gle/BhU4a6nAJuJvWcdH8" target="_blank" class="btn btn-primary">&#128393; Register Now</a>
+  </div>
 </div>
 
 ---
