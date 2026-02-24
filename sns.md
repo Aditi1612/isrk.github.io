@@ -12,7 +12,39 @@ permalink: /sns/
   </div>
 </div>
 
-Stay up to date with ISRK's latest news, events, and community stories across our social media platforms. Follow, subscribe, and join the conversation!
+<div class="registry-section">
+  <div class="registry-badge">&#127981; Joint Initiative — Embassy of India, Seoul &amp; ISRK</div>
+  <h2 class="registry-title">Indians in Korea: Academic &amp; Professional Registry</h2>
+  <p class="registry-subtitle">A joint initiative to capture academic and professional profiles of Indians in Korea — to strengthen networks, foster collaboration, and support career growth.</p>
+
+  <div class="registry-grid">
+    <div class="registry-card">
+      <div class="registry-card-icon">&#127979;</div>
+      <h4>Students &amp; Researchers</h4>
+      <p>Support academic growth, research collaboration, mentorship opportunities, professional networking, and career connections.</p>
+    </div>
+    <div class="registry-card">
+      <div class="registry-card-icon">&#128188;</div>
+      <h4>Professionals &amp; Executives</h4>
+      <p>Strengthen professional networks and enable meaningful industry connections across Korea.</p>
+    </div>
+    <div class="registry-card">
+      <div class="registry-card-icon">&#128640;</div>
+      <h4>Startups &amp; Business Owners</h4>
+      <p>Encourage innovation, partnerships, and entrepreneurial growth within the Indian community in Korea.</p>
+    </div>
+    <div class="registry-card">
+      <div class="registry-card-icon">&#127970;</div>
+      <h4>Corporate Engagement</h4>
+      <p>Facilitate connections with organizations to enhance career opportunities and workforce development.</p>
+    </div>
+  </div>
+
+  <div style="text-align:center; margin-top:2rem;">
+    <a href="https://forms.gle/BhU4a6nAJuJvWcdH8" target="_blank" class="btn btn-primary" style="font-size:1rem; padding:0.9rem 2.5rem;">&#128393; Register Now</a>
+    <p style="margin-top:0.8rem; font-size:0.82rem; color:var(--text-lt);">Takes less than 2 minutes &bull; Free to join</p>
+  </div>
+</div>
 
 ---
 
