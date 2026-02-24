@@ -37,13 +37,37 @@ This page compiles key information every Indian student or researcher in Korea s
 ## Visa & Immigration
 
 ### Useful Visa Types for Indians in Korea
-| Visa Type | Purpose |
-|-----------|---------|
-| D-2 | Student visa (degree programs) |
-| D-10 | Job seeker visa (after graduation) |
-| E-3 | Research visa |
-| E-7 | Specially designated activities (employment) |
-| F-2 | Residency visa (long-term stay) |
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:110px;">Visa Type</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong style="font-size:1.05rem; color:var(--navy);">D-2</strong></td>
+      <td>Student visa <span style="color:var(--text-lt);">(degree programs)</span></td>
+    </tr>
+    <tr>
+      <td><strong style="font-size:1.05rem; color:var(--navy);">D-10</strong></td>
+      <td>Job seeker visa <span style="color:var(--text-lt);">(after graduation)</span></td>
+    </tr>
+    <tr>
+      <td><strong style="font-size:1.05rem; color:var(--navy);">E-3</strong></td>
+      <td>Research visa</td>
+    </tr>
+    <tr>
+      <td><strong style="font-size:1.05rem; color:var(--navy);">E-7</strong></td>
+      <td>Specially designated activities <span style="color:var(--text-lt);">(employment)</span></td>
+    </tr>
+    <tr>
+      <td><strong style="font-size:1.05rem; color:var(--navy);">F-2</strong></td>
+      <td>Residency visa <span style="color:var(--text-lt);">(long-term stay)</span></td>
+    </tr>
+  </tbody>
+</table>
 
 ### Key Immigration Contacts
 - **Hi Korea (Immigration Portal):** [www.hikorea.go.kr](https://www.hikorea.go.kr)
