@@ -66,23 +66,6 @@ Stay up to date with ISRK's latest news, events, and community stories across ou
 
 ---
 
-## Community Groups
-
-### Telegram Group
-Join the ISRK Telegram group to stay connected with the community, receive real-time updates, and participate in discussions. [Join here &rarr;](https://t.me/+U30rQW7o4KWYPExs)
-
-### University-wise Groups
-ISRK also maintains groups for major Korean universities with significant Indian student populations including KAIST, POSTECH, SNU, SKKU, Yonsei, Korea University, UNIST, and more.
-
-### Interest Groups
-- **Research & Academic** — For sharing research opportunities and academic news
-- **Jobs & Internships** — For job and internship opportunity sharing
-- **Cultural & Events** — For cultural event planning and discussions
-- **Sports** — For organizing and joining sports activities
-- **New Arrivals** — For newcomers settling into life in Korea
-
----
-
 ## Join the Community
 
 To join any ISRK community group, send an email to [isrk.association@gmail.com](mailto:isrk.association@gmail.com) or join directly via our [Telegram group](https://t.me/+U30rQW7o4KWYPExs) with:
