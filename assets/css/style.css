@@ -1130,6 +1130,25 @@ tbody tr:hover td { background: var(--light); }
 }
 
 /* ============ VIDEO EMBED ============ */
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.video-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 900px) {
+  .video-grid-3 { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 768px) {
+  .video-grid, .video-grid-3 { grid-template-columns: 1fr; }
+}
+
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 ratio */
@@ -1137,7 +1156,6 @@ tbody tr:hover td { background: var(--light); }
   overflow: hidden;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
-  margin-top: 1.5rem;
 }
 
 .video-wrapper iframe {
