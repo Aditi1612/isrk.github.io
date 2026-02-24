@@ -205,19 +205,17 @@ p { margin-bottom: 1rem; color: var(--text-md); }
 
 /* Site Logo */
 .site-logo {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  object-fit: cover;
+  height: 46px;
+  width: auto;
   flex-shrink: 0;
+  border-radius: 6px;
 }
 
 /* Footer Logo */
 .footer-logo-img {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  object-fit: cover;
+  height: 56px;
+  width: auto;
+  border-radius: 6px;
   margin-bottom: 0.8rem;
 }
 
@@ -345,14 +343,12 @@ p { margin-bottom: 1rem; color: var(--text-md); }
 }
 
 .hero-logo {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
   display: block;
   margin: 0 auto 2rem auto;
-  box-shadow: 0 8px 40px rgba(0,0,0,0.5);
-  border: 4px solid rgba(255,255,255,0.25);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.4);
 }
 
 .hero-badge {
