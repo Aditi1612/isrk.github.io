@@ -34,25 +34,25 @@ Stay up to date with ISRK's latest news, events, and community stories across ou
     <a href="mailto:isrk.website@gmail.com" class="sns-btn">Email Us</a>
   </div>
 
-  <div class="sns-card whatsapp">
-    <div class="sns-icon">&#128172;</div>
-    <h3>WhatsApp Groups</h3>
-    <p>Join our city-wise and university-wise WhatsApp groups for real-time updates and community discussions.</p>
-    <a href="mailto:isrk.website@gmail.com?subject=Join WhatsApp Group" class="sns-btn">Request to Join</a>
+  <div class="sns-card telegram">
+    <div class="sns-icon">&#9992;</div>
+    <h3>Telegram</h3>
+    <p>Join our Telegram group for real-time updates, community discussions, and announcements.</p>
+    <a href="https://t.me/+U30rQW7o4KWYPExs" target="_blank" class="sns-btn">Join on Telegram</a>
   </div>
 
   <div class="sns-card facebook">
     <div class="sns-icon">&#128101;</div>
     <h3>Facebook</h3>
-    <p>Follow our Facebook page for event updates, photo albums, and community announcements.</p>
-    <a href="https://www.facebook.com" target="_blank" class="sns-btn">Follow on Facebook</a>
+    <p>Follow our Facebook group for event updates, photo albums, and community announcements.</p>
+    <a href="https://www.facebook.com/share/g/1Jev7ykSSE/" target="_blank" class="sns-btn">Join on Facebook</a>
   </div>
 
   <div class="sns-card instagram">
     <div class="sns-icon">&#128247;</div>
     <h3>Instagram</h3>
     <p>Visual highlights from our events, cultural celebrations, and life in Korea.</p>
-    <a href="https://www.instagram.com" target="_blank" class="sns-btn">Follow on Instagram</a>
+    <a href="https://www.instagram.com/teamisrk?igsh=a2M0dmw1cWN4Nmtr" target="_blank" class="sns-btn">Follow on Instagram</a>
   </div>
 
   <div class="sns-card linkedin">
@@ -68,8 +68,8 @@ Stay up to date with ISRK's latest news, events, and community stories across ou
 
 ## Community Groups
 
-### City-wise WhatsApp Groups
-ISRK maintains city-specific WhatsApp groups to connect members in the same region:
+### City-wise Telegram Groups
+ISRK maintains city-specific Telegram groups to connect members in the same region:
 
 - Seoul Group
 - Daejeon Group
@@ -93,7 +93,7 @@ ISRK also maintains groups for major Korean universities with significant Indian
 
 ## Join the Community
 
-To join any ISRK community group, send an email to [isrk.website@gmail.com](mailto:isrk.website@gmail.com) with:
+To join any ISRK community group, send an email to [isrk.website@gmail.com](mailto:isrk.website@gmail.com) or join directly via our [Telegram group](https://t.me/+U30rQW7o4KWYPExs) with:
 
 1. Your name
 2. University / institution
