@@ -58,13 +58,43 @@ Korea offers numerous postdoctoral positions funded by top research bodies. Key 
 ## Funding & Grants
 
 ### For Students & Researchers
-| Grant | Eligibility | Details |
-|-------|-------------|---------|
-| KGSP | Undergraduate & Graduate | Full scholarship from Korean government |
-| NRF Research Grant | PhD & Postdoc | Research funding across all fields |
-| BK21 | PhD students | Stipend + research support |
-| Sejong Institute Fellowship | All levels | Korean studies focus |
-| POSCO Fellowship | Graduate students | STEM focus |
+
+<table>
+  <thead>
+    <tr>
+      <th>Grant</th>
+      <th>Eligibility</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>KGSP</strong></td>
+      <td>Undergraduate &amp; Graduate</td>
+      <td>Full scholarship from Korean government</td>
+    </tr>
+    <tr>
+      <td><strong>NRF Research Grant</strong></td>
+      <td>PhD &amp; Postdoc</td>
+      <td>Research funding across all fields</td>
+    </tr>
+    <tr>
+      <td><strong>BK21</strong></td>
+      <td>PhD students</td>
+      <td>Stipend + research support</td>
+    </tr>
+    <tr>
+      <td><strong>Sejong Institute Fellowship</strong></td>
+      <td>All levels</td>
+      <td>Korean studies focus</td>
+    </tr>
+    <tr>
+      <td><strong>POSCO Fellowship</strong></td>
+      <td>Graduate students</td>
+      <td>STEM focus</td>
+    </tr>
+  </tbody>
+</table>
 
 ### For Entrepreneurs
 - **K-Startup Grand Challenge** — For international startup founders in Korea
