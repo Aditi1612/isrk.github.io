@@ -440,7 +440,7 @@ permalink: /activities/
     <h2>Want to Propose an Event?</h2>
     <p>Have an idea for an activity or community event? We'd love to hear from you.</p>
     <div class="acts-cta-row">
-      <a href="mailto:isrk.website@gmail.com?subject=Event Proposal" class="btn btn-white">&#128140; Send a Proposal</a>
+      <a href="mailto:isrk.association@gmail.com?subject=Event Proposal" class="btn btn-white">&#128140; Send a Proposal</a>
       <a href="{{ '/notices/' | relative_url }}" class="btn btn-outline">View Upcoming Events</a>
     </div>
   </div>

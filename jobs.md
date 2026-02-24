@@ -102,7 +102,7 @@ Are you an employer, professor, or organization looking to reach talented Indian
 
 **Post an opportunity through ISRK:**
 
-Send your job description, research opening, or internship announcement to [isrk.website@gmail.com](mailto:isrk.website@gmail.com) with the subject line **"Opportunity Posting"** and we will share it with our community.
+Send your job description, research opening, or internship announcement to [isrk.association@gmail.com](mailto:isrk.association@gmail.com) with the subject line **"Opportunity Posting"** and we will share it with our community.
 
 ---
 

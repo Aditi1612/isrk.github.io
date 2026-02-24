@@ -897,10 +897,18 @@ tbody tr:hover td { background: var(--light); }
 .sns-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
 
 .sns-icon {
-  font-size: 2.2rem;
+  font-size: 2.8rem;
   margin-bottom: 0.75rem;
   display: block;
+  line-height: 1;
 }
+
+.sns-card.youtube  .sns-icon { color: #ff0000; }
+.sns-card.email    .sns-icon { color: var(--saffron); }
+.sns-card.telegram .sns-icon { color: #229ED9; }
+.sns-card.facebook .sns-icon { color: #1877f2; }
+.sns-card.instagram .sns-icon { color: #e1306c; }
+.sns-card.linkedin  .sns-icon { color: #0077b5; }
 
 .sns-card h3 { font-size: 1rem; margin-bottom: 0.4rem; }
 .sns-card p  { font-size: 0.86rem; color: var(--text-lt); margin-bottom: 1.2rem; }

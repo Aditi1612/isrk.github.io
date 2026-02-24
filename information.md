@@ -30,7 +30,7 @@ This page compiles key information every Indian student or researcher in Korea s
 3. Enroll in National Health Insurance if not already covered by university
 4. Get a Korean SIM card (KT, SKT, or LG U+)
 5. Open a Korean bank account
-6. Join ISRK — register at [isrk.website@gmail.com](mailto:isrk.website@gmail.com)
+6. Join ISRK — register at [isrk.association@gmail.com](mailto:isrk.association@gmail.com)
 
 ---
 
@@ -153,7 +153,7 @@ Adjusting to life in a new country can be challenging. Resources available:
 | Emergency Medical Info | 1339 |
 | Immigration Contact Center | 1345 |
 | Foreigner Support Center | 1345 |
-| ISRK Emergency Contact | [isrk.website@gmail.com](mailto:isrk.website@gmail.com) |
+| ISRK Emergency Contact | [isrk.association@gmail.com](mailto:isrk.association@gmail.com) |
 
 ---
 

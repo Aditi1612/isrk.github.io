@@ -345,5 +345,5 @@ ISRK has city coordinators across South Korea ensuring community support at the 
 | Chuncheon | Dr. Ayushi Randhava | Kangwon National University |
 
 <div class="info-box">
-  <strong>Want to become a representative?</strong> Reach out to us at <a href="mailto:isrk.website@gmail.com">isrk.website@gmail.com</a>
+  <strong>Want to become a representative?</strong> Reach out to us at <a href="mailto:isrk.association@gmail.com">isrk.association@gmail.com</a>
 </div>
