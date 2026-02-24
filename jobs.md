@@ -51,7 +51,7 @@ Korea offers numerous postdoctoral positions funded by top research bodies. Key 
 - **[WorknPlay](https://www.worknplay.co.kr)** — English-language jobs in Korea
 - **[Jobkorea](https://www.jobkorea.co.kr)** — Korea's major job portal
 - **[LinkedIn Korea](https://www.linkedin.com)** — International job listings including Korea
-- **ISRK WhatsApp Groups** — Community job sharing in our member groups
+- **ISRK Telegram Group** — Community job sharing in our member groups
 
 ---
 
@@ -108,7 +108,7 @@ Korea offers numerous postdoctoral positions funded by top research bodies. Key 
 <div class="resources-grid">
   <div class="resource-card">
     <h3>Resume & CV Help</h3>
-    <p>ISRK members can request peer review of their CV/resume. Connect via our WhatsApp groups or email.</p>
+    <p>ISRK members can request peer review of their CV/resume. Connect via our Telegram group or email.</p>
   </div>
   <div class="resource-card">
     <h3>Interview Preparation</h3>
@@ -139,5 +139,5 @@ Send your job description, research opening, or internship announcement to [isrk
 ## Stay Updated
 
 <div class="info-box">
-  Join our <a href="{{ '/sns/' | relative_url }}">ISRK social media channels</a> and WhatsApp groups to receive real-time job and research opportunity alerts shared by our active community of 5,000+ members.
+  Join our <a href="{{ '/sns/' | relative_url }}">ISRK social media channels</a> and Telegram group to receive real-time job and research opportunity alerts shared by our active community of 5,000+ members.
 </div>
