@@ -16,12 +16,6 @@ permalink: /team/
 
 <div class="team-grid">
   <div class="team-card">
-    <div class="team-photo" style="display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--navy),#2e4a8e); color:#fff; font-size:2rem; font-weight:700; letter-spacing:1px;">SK</div>
-    <h3>Mr. Suresh Kumar</h3>
-    <span class="team-role">Head of Consular Wing and Community Affairs Division</span>
-    <p>First Secretary — Consular &amp; Community Affairs<br>Embassy of India, Seoul</p>
-  </div>
-  <div class="team-card">
     <img src="{{ '/assets/images/team/image20.jpeg' | relative_url }}" alt="Dr. Lailesh Kumar" class="team-photo">
     <h3>Dr. Lailesh Kumar</h3>
     <span class="team-role">Founder</span>
@@ -38,6 +32,12 @@ permalink: /team/
     <h3>Dr. Vibhu Jain</h3>
     <span class="team-role">Co-Founder</span>
     <p>Global Head — Chemistry Synthesis Solutions<br>Merck, Boston, USA</p>
+  </div>
+  <div class="team-card">
+    <div class="team-photo" style="display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--navy),#2e4a8e); color:#fff; font-size:2rem; font-weight:700; letter-spacing:1px;">SK</div>
+    <h3>Mr. Suresh Kumar</h3>
+    <span class="team-role">Head of Consular Wing and Community Affairs Division</span>
+    <p>First Secretary — Consular &amp; Community Affairs<br>Embassy of India, Seoul</p>
   </div>
 </div>
 
