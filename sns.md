@@ -12,23 +12,9 @@ permalink: /sns/
   </div>
 </div>
 
-<div class="registry-section" style="text-align:center;">
-  <h2 class="registry-title">Indians in Korea: Academic &amp; Professional Registry</h2>
-  <p class="registry-subtitle" style="margin-left:auto; margin-right:auto;">A joint initiative of the Embassy of India, Seoul and ISRK to build a database of Indian academics and professionals in Korea for networking, collaboration, and career growth.</p>
-  <div style="margin-top:1rem;">
-    <a href="https://forms.gle/BhU4a6nAJuJvWcdH8" target="_blank" class="btn btn-primary">&#128393; Register Now</a>
-  </div>
+<div class="info-box" style="margin-bottom:1.5rem;">
+  Looking to register or join a research network? Visit our <a href="{{ '/networks/' | relative_url }}"><strong>Networks &amp; Registry</strong></a> page.
 </div>
-
-<div class="registry-section" style="margin-top:1.5rem; border-left-color: var(--green); text-align:center;">
-  <h2 class="registry-title">Join Our Representative Network</h2>
-  <p class="registry-subtitle" style="margin-left:auto; margin-right:auto;">Interested in becoming an ISRK representative at your university or city? Fill out this form to join our representative group.</p>
-  <div style="margin-top:1rem;">
-    <a href="https://docs.google.com/forms/d/1xxwdqXQlgaZn5ZgQ2XR65YZ9e9Fz-n2vjHvIja8TTLs/viewform" target="_blank" class="btn btn-green">&#128101; Join as Representative</a>
-  </div>
-</div>
-
-<div style="margin-top:3rem;"></div>
 
 ## Our Social Platforms
 
