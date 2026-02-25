@@ -73,7 +73,7 @@ permalink: /sns/
     <div class="sns-icon"><i class="fa-brands fa-linkedin"></i></div>
     <h3>LinkedIn</h3>
     <p>Professional networking, research collaboration opportunities, and career-related announcements.</p>
-    <a href="https://www.linkedin.com" target="_blank" class="sns-btn">Connect on LinkedIn</a>
+    <a href="https://www.linkedin.com/groups/13929925/" target="_blank" class="sns-btn">Connect on LinkedIn</a>
   </div>
 
 </div>
