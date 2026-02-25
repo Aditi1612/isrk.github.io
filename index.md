@@ -150,6 +150,78 @@ title: Home
     <div class="logo-item"><img src="{{ '/assets/images/logos/assam-association.png' | relative_url }}" alt="Assam Association Korea"></div>
     <div class="logo-item"><img src="{{ '/assets/images/logos/keralites-in-korea.png' | relative_url }}" alt="Keralites in Korea"></div>
   </div>
+
+  <p class="partners-group-label" style="margin-top:2rem;">More Partners &amp; Supporters</p>
+  <div class="logo-grid">
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image1.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image2.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image3.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image4.svg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image5.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image6.svg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image7.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image8.svg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image91.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image92.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image184.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image185.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image186.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image187.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image188.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image189.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image190.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image191.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image192.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image193.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image194.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image195.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image196.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image197.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image198.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image199.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image200.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image201.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image202.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image203.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image204.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image205.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image206.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image207.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image208.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image209.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image210.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image211.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image212.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image213.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image214.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image215.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image216.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image217.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image218.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image219.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image220.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image221.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image222.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image223.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image224.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image225.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image226.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image227.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image228.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image229.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image230.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image231.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image232.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image233.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image234.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image235.jpeg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image236.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image237.svg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image238.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image239.svg' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image240.png' | relative_url }}" alt="Partner"></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/image241.svg' | relative_url }}" alt="Partner"></div>
+  </div>
 </div>
 </div>
 
