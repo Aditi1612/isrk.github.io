@@ -280,6 +280,12 @@ permalink: /team/
     <span class="team-role">Advisory Board Member</span>
     <p>Distinguished Professor, GLC<br>Yonsei University, Seoul<br><em>Former Ambassador of Korea to UAE</em></p>
   </div>
+  <div class="team-card">
+    <img src="{{ '/assets/images/team/image_ocean.png' | relative_url }}" alt="Mr. Ocean Yang" class="team-photo">
+    <h3>Mr. Ocean Yang</h3>
+    <span class="team-role">Member, Advisory Board</span>
+    <p>Founder and CEO<br>Stuvisor and Careertus<br>Seoul, South Korea</p>
+  </div>
 </div>
 
 ---
