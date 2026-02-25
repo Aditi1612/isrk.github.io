@@ -486,8 +486,7 @@ p { margin-bottom: 1rem; color: var(--text-md); }
   text-decoration: none;
 }
 
-.hero-sns-icon.whatsapp         { background: #25d366; border-color: #25d366; color: #fff; border-radius: 10px; }
-.hero-sns-icon.whatsapp:hover   { background: #1da851; border-color: #1da851; }
+.hero-sns-icon.whatsapp:hover   { background: #25d366; border-color: #25d366; }
 .hero-sns-icon.youtube:hover   { background: #ff0000; border-color: #ff0000; }
 .hero-sns-icon.telegram:hover  { background: #229ED9; border-color: #229ED9; }
 .hero-sns-icon.facebook:hover  { background: #1877f2; border-color: #1877f2; }
