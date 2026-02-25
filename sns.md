@@ -78,6 +78,28 @@ permalink: /sns/
 
 </div>
 
+<div style="margin-top:3rem;"></div>
+
+## Our Media Partners
+
+<div class="sns-grid">
+
+  <div class="sns-card" style="border-top-color: var(--navy);">
+    <div class="sns-icon" style="color: var(--navy);"><i class="fa-solid fa-newspaper"></i></div>
+    <h3>Asian Community News</h3>
+    <p>Leading media platform covering Asian diaspora stories, community events, and cultural news across Asia.</p>
+    <a href="https://www.asiancommunitynews.com" target="_blank" class="sns-btn">Visit Website</a>
+  </div>
+
+  <div class="sns-card" style="border-top-color: var(--saffron);">
+    <div class="sns-icon" style="color: var(--saffron);"><i class="fa-solid fa-graduation-cap"></i></div>
+    <h3>Study Korea News</h3>
+    <p>Your go-to source for studying in Korea — scholarships, university news, and student life updates.</p>
+    <a href="https://www.studykoreanews.com/" target="_blank" class="sns-btn">Visit Website</a>
+  </div>
+
+</div>
+
 ---
 
 ## Join the Community
