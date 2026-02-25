@@ -42,23 +42,23 @@ Today, ISRK has grown to over **5,000 members** and includes representatives fro
 ## What We Do
 
 <div class="activity-section">
-  <h3>&#127979; Educational Programs & Career Support</h3>
-  <p>Providing resources and support for students and researchers through workshops, seminars, and job-related guidance. Assisting students in academic matters, distress, or emergencies, along with other community-based support initiatives.</p>
-</div>
-
-<div class="activity-section cultural">
-  <h3>&#129684; Cultural Events & Festival Celebrations</h3>
-  <p>Organizing events and celebrations to mark Indian festivals and cultural occasions, promoting a sense of community and cultural exchange between India and Korea.</p>
-</div>
-
-<div class="activity-section sports">
-  <h3>&#9917; Sports & Outdoor Activities</h3>
-  <p>Organizing sports events and outdoor gatherings to encourage physical wellness and social bonding across the Korean peninsula.</p>
+  <h3>&#127979; Education</h3>
+  <p>Scholarships, webinars, mentorship, and academic support for students and researchers at every stage.</p>
 </div>
 
 <div class="activity-section">
-  <h3>&#128101; Student Affairs & Community Support</h3>
-  <p>Assisting new arrivals in adjusting to life in Korea, providing guidance on visas, accommodation, banking, healthcare, and connecting members with the wider community.</p>
+  <h3>&#128188; Careers</h3>
+  <p>Job fairs, industry networking, research opportunities, and career guidance to help members grow professionally.</p>
+</div>
+
+<div class="activity-section cultural">
+  <h3>&#129684; Culture</h3>
+  <p>Celebrating India's heritage through festivals, classical arts, and cultural exchange across Korea.</p>
+</div>
+
+<div class="activity-section sports">
+  <h3>&#9917; Sports</h3>
+  <p>Cricket, football, hiking, cycling, and more — keeping the community active and connected.</p>
 </div>
 
 ---
