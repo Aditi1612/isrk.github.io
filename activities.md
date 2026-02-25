@@ -116,8 +116,8 @@ permalink: /activities/
           </div>
           <div class="fc-body">
             <ul>
-              <li>Student Meetups — regular community gatherings for new and existing students</li>
               <li>ISRK–Embassy of India Orientation &amp; Networking Event for new arrivals</li>
+              <li>Student Meetups — regular community gatherings for new and existing students</li>
               <li>ISRK Student Affairs Meetings — regular coordination and support sessions</li>
             </ul>
           </div>
