@@ -1592,18 +1592,18 @@ tbody tr:hover td { background: var(--light); }
 /* ── Events at a glance (dark section) ── */
 .evts-glance {
   background: var(--navy);
-  padding: 4rem 0;
+  padding: 2.5rem 0;
 }
 .evts-glance h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 800;
   color: #fff;
   margin-bottom: 0.4rem;
 }
 .evts-glance > .acts-container > p {
   color: rgba(255,255,255,0.6);
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.2rem;
 }
 .evts-cols {
   display: grid;
@@ -1613,56 +1613,56 @@ tbody tr:hover td { background: var(--light); }
 }
 .evts-col-hd {
   font-family: 'Poppins', sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  padding: 0.55rem 1rem;
+  padding: 0.4rem 0.9rem;
   border-radius: var(--radius);
-  margin-bottom: 0.9rem;
+  margin-bottom: 0.5rem;
 }
 .ech-online  { background: rgba(38,171,255,0.15); color: #7dd3fc; border-left: 3px solid var(--cyan); }
 .ech-offline { background: rgba(252,106,3,0.15);  color: #fdba74; border-left: 3px solid var(--saffron); }
 .ech-meeting { background: rgba(18,160,61,0.15);  color: #86efac; border-left: 3px solid var(--green-lt); }
 
-.evts-list { display: flex; flex-direction: column; gap: 0.5rem; }
+.evts-list { display: flex; flex-direction: column; gap: 0.2rem; }
 .evts-item {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: var(--radius);
-  padding: 0.75rem 1rem;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 6px;
+  padding: 0.35rem 0.75rem;
   display: flex;
-  align-items: flex-start;
-  gap: 0.75rem;
+  align-items: center;
+  gap: 0.6rem;
 }
 .evts-dot {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
   flex-shrink: 0;
-  margin-top: 0.35rem;
 }
 .ed-blue   { background: var(--cyan); }
 .ed-orange { background: var(--saffron); }
 .ed-green  { background: var(--green-lt); }
-.evts-item strong { display: block; font-size: 0.88rem; color: #fff; font-weight: 600; margin-bottom: 0.1rem; }
-.evts-item span   { font-size: 0.75rem; color: rgba(255,255,255,0.5); }
+.evts-item strong { display: inline; font-size: 0.8rem; color: #fff; font-weight: 600; }
+.evts-item div span { font-size: 0.78rem; color: rgba(255,255,255,0.45); }
+.evts-item div span::before { content: " · "; color: rgba(255,255,255,0.25); }
 
-.evts-meetings { margin-top: 2.5rem; }
+.evts-meetings { margin-top: 1.2rem; }
 .evts-meetings-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  gap: 0.8rem;
-  margin-top: 0.9rem;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
 }
 .evts-meeting-item {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.07);
   border-left: 3px solid var(--green-lt);
-  border-radius: var(--radius);
-  padding: 0.9rem 1rem;
-  font-size: 0.85rem;
-  color: rgba(255,255,255,0.78);
+  border-radius: 6px;
+  padding: 0.5rem 0.85rem;
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.75);
   font-weight: 500;
 }
 
