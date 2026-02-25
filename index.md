@@ -116,15 +116,39 @@ title: Home
 <div class="section">
   <span class="section-label">Our Partners</span>
   <h2 class="section-title">Supported By</h2>
+
+  <p class="partners-group-label">Official &amp; Government</p>
   <div class="logo-grid">
     <div class="logo-item"><img src="{{ '/assets/images/logos/embassy-of-india.png' | relative_url }}" alt="Embassy of India"><span>Embassy of India</span></div>
     <div class="logo-item"><img src="{{ '/assets/images/logos/niied.png' | relative_url }}" alt="NIIED"><span>NIIED</span></div>
     <div class="logo-item"><img src="{{ '/assets/images/logos/svcc-embassy.png' | relative_url }}" alt="SVCC"><span>SVCC Embassy of India</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/seoul-global-center.png' | relative_url }}" alt="Seoul Global Center"><span>Seoul Global Center</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/dasan-foundation.png' | relative_url }}" alt="Dasan Call Foundation"><span>Dasan Call Foundation</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/india-centre.png' | relative_url }}" alt="India Centre"><span>India Centre</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/sejong-university.png' | relative_url }}" alt="Sejong University"><span>Sejong University</span></div>
+  </div>
+
+  <p class="partners-group-label" style="margin-top:2rem;">Partners &amp; Sponsors</p>
+  <div class="logo-grid">
     <div class="logo-item"><img src="{{ '/assets/images/logos/spic-macay.png' | relative_url }}" alt="SPIC MACAY"><span>SPIC MACAY</span></div>
     <div class="logo-item"><img src="{{ '/assets/images/logos/merck.png' | relative_url }}" alt="Merck"><span>Merck</span></div>
-    <div class="logo-item"><img src="{{ '/assets/images/logos/iik.png' | relative_url }}" alt="Indians in Korea"><span>Indians in Korea</span></div>
-    <div class="logo-item"><img src="{{ '/assets/images/logos/seoul-global-center.png' | relative_url }}" alt="Seoul Global Center"><span>Seoul Global Center</span></div>
     <div class="logo-item"><img src="{{ '/assets/images/logos/hanpass.png' | relative_url }}" alt="Hanpass"><span>Hanpass</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/atomy.png' | relative_url }}" alt="Atomy"><span>Atomy</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/gme-remittance.png' | relative_url }}" alt="GME Remittance"><span>GME Remittance</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/gme-finance.png' | relative_url }}" alt="GME Finance"><span>GME Finance</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/kiswa-world-mart.png' | relative_url }}" alt="Kiswa World Mart"><span>Kiswa World Mart</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/kowork.png' | relative_url }}" alt="Kowork"><span>Kowork</span></div>
+  </div>
+
+  <p class="partners-group-label" style="margin-top:2rem;">Indian Community in Korea</p>
+  <div class="logo-grid">
+    <div class="logo-item"><img src="{{ '/assets/images/logos/iik.png' | relative_url }}" alt="Indians in Korea"><span>Indians in Korea</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/korea-kannada-koota.png' | relative_url }}" alt="Korea Kannada Koota"><span>Korea Kannada Koota</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/telugu-association.png' | relative_url }}" alt="Telugu Association Korea"><span>Telugu Association Korea</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/marathi-mandal.png' | relative_url }}" alt="Marathi Mandal Korea"><span>Marathi Mandal Korea</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/tamil-sangham.png' | relative_url }}" alt="Tamil Sangham Korea"><span>Tamil Sangham Korea</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/assam-association.png' | relative_url }}" alt="Assam Association Korea"><span>Assam Association Korea</span></div>
+    <div class="logo-item"><img src="{{ '/assets/images/logos/keralites-in-korea.png' | relative_url }}" alt="Keralites in Korea"><span>Keralites in Korea</span></div>
   </div>
 </div>
 </div>

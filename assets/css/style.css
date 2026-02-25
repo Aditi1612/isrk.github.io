@@ -219,6 +219,19 @@ p { margin-bottom: 1rem; color: var(--text-md); }
   margin-bottom: 0.8rem;
 }
 
+/* Partner group label */
+.partners-group-label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--navy);
+  opacity: 0.5;
+  margin-bottom: 1rem;
+  padding-left: 0.25rem;
+}
+
 /* Partner / Sponsor Logo Grid */
 .logo-grid {
   display: flex;
