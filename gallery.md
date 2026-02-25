@@ -19,10 +19,37 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 ## Categories
 
 <div class="gallery-nav">
+  <a href="#educational" class="gallery-tab">Educational</a>
   <a href="#cultural" class="gallery-tab">Cultural Events</a>
   <a href="#sports" class="gallery-tab">Sports</a>
-  <a href="#educational" class="gallery-tab">Educational</a>
   <a href="#community" class="gallery-tab">Community</a>
+  <a href="#mous" class="gallery-tab">MoUs &amp; Partnerships</a>
+  <a href="#former-executives" class="gallery-tab">Former Executives</a>
+</div>
+
+---
+
+## Educational Activities {#educational}
+
+<div class="gallery-grid">
+  <div class="gallery-placeholder">
+    <span>Research Seminar</span>
+  </div>
+  <div class="gallery-placeholder">
+    <span>Korean Language Class</span>
+  </div>
+  <div class="gallery-placeholder">
+    <span>Career Workshop</span>
+  </div>
+  <div class="gallery-placeholder">
+    <span>Guest Lecture</span>
+  </div>
+  <div class="gallery-placeholder">
+    <span>Scholarship Orientation</span>
+  </div>
+  <div class="gallery-placeholder">
+    <span>Mentorship Meet</span>
+  </div>
 </div>
 
 ---
@@ -77,31 +104,6 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 
 ---
 
-## Educational Activities {#educational}
-
-<div class="gallery-grid">
-  <div class="gallery-placeholder">
-    <span>Research Seminar</span>
-  </div>
-  <div class="gallery-placeholder">
-    <span>Korean Language Class</span>
-  </div>
-  <div class="gallery-placeholder">
-    <span>Career Workshop</span>
-  </div>
-  <div class="gallery-placeholder">
-    <span>Guest Lecture</span>
-  </div>
-  <div class="gallery-placeholder">
-    <span>Scholarship Orientation</span>
-  </div>
-  <div class="gallery-placeholder">
-    <span>Mentorship Meet</span>
-  </div>
-</div>
-
----
-
 ## Community Life {#community}
 
 <div class="gallery-grid">
@@ -112,9 +114,6 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
     <span>ISRK Annual Meet</span>
   </div>
   <div class="gallery-placeholder">
-    <span>MoU Signing Ceremony</span>
-  </div>
-  <div class="gallery-placeholder">
     <span>Community Picnic</span>
   </div>
   <div class="gallery-placeholder">
@@ -122,6 +121,47 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
   </div>
   <div class="gallery-placeholder">
     <span>Travel & Exploration</span>
+  </div>
+</div>
+
+---
+
+## MoUs &amp; Partnerships {#mous}
+
+<div class="gallery-grid">
+  <div class="gallery-placeholder">
+    <span>MoU Signing — KOINA</span>
+  </div>
+  <div class="gallery-placeholder">
+    <span>MoU Signing — SPIC MACAY</span>
+  </div>
+  <div class="gallery-placeholder">
+    <span>MoU Signing — SENTBE</span>
+  </div>
+  <div class="gallery-placeholder">
+    <span>MoU Signing — RIST</span>
+  </div>
+  <div class="gallery-placeholder">
+    <span>MoU Signing — UCC</span>
+  </div>
+  <div class="gallery-placeholder">
+    <span>Partnership Events</span>
+  </div>
+</div>
+
+---
+
+## Former Executives {#former-executives}
+
+<div class="gallery-grid">
+  <div class="gallery-placeholder">
+    <span>Former Executive Team</span>
+  </div>
+  <div class="gallery-placeholder">
+    <span>Past Leadership</span>
+  </div>
+  <div class="gallery-placeholder">
+    <span>Founding Members</span>
   </div>
 </div>
 
