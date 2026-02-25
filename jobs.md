@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Jobs & Research Opportunities
+title: Academic & Career Opportunities
 permalink: /jobs/
 ---
 
 <div class="page-hero">
   <div class="page-hero-inner">
-    <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> / Jobs &amp; Research</p>
-    <h1>Jobs &amp; Research Opportunities</h1>
+    <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> / Academic &amp; Career Opportunities</p>
+    <h1>Academic &amp; Career Opportunities</h1>
     <p class="subtitle">Career and research openings for the ISRK community</p>
   </div>
 </div>
