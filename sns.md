@@ -20,6 +20,13 @@ permalink: /sns/
 
 <div class="sns-grid">
 
+  <div class="sns-card whatsapp">
+    <div class="sns-icon"><i class="fa-brands fa-whatsapp"></i></div>
+    <h3>WhatsApp</h3>
+    <p>Join our WhatsApp community group for real-time updates, announcements, and peer support.</p>
+    <a href="https://chat.whatsapp.com/KdrmdYrla6WFHnt6E7wMVL" target="_blank" class="sns-btn">Join on WhatsApp</a>
+  </div>
+
   <div class="sns-card youtube">
     <div class="sns-icon"><i class="fa-brands fa-youtube"></i></div>
     <h3>YouTube</h3>

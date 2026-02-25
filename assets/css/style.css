@@ -963,6 +963,7 @@ tbody tr:hover td { background: var(--light); }
   line-height: 1;
 }
 
+.sns-card.whatsapp .sns-icon { color: #25d366; }
 .sns-card.youtube  .sns-icon { color: #ff0000; }
 .sns-card.email    .sns-icon { color: var(--saffron); }
 .sns-card.telegram .sns-icon { color: #229ED9; }
@@ -973,6 +974,7 @@ tbody tr:hover td { background: var(--light); }
 .sns-card h3 { font-size: 1rem; margin-bottom: 0.4rem; }
 .sns-card p  { font-size: 0.86rem; color: var(--text-lt); margin-bottom: 1.2rem; }
 
+.sns-card.whatsapp  { border-top: 4px solid #25d366; }
 .sns-card.youtube   { border-top: 4px solid #ff0000; }
 .sns-card.email     { border-top: 4px solid var(--saffron); }
 .sns-card.telegram  { border-top: 4px solid #229ED9; }
