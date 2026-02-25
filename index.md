@@ -14,6 +14,17 @@ title: Home
       <a href="{{ '/notices/' | relative_url }}" class="btn btn-outline">Latest Notices</a>
       <a href="mailto:isrk.association@gmail.com?subject=Join ISRK" class="btn btn-green">Join Community</a>
     </div>
+    <div class="hero-sns">
+      <span class="hero-sns-label">Connect with us</span>
+      <div class="hero-sns-icons">
+        <a href="https://www.youtube.com/channel/UCVtezYzITvXCpl54UPPIJTQ/streams" target="_blank" class="hero-sns-icon youtube" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://t.me/+U30rQW7o4KWYPExs" target="_blank" class="hero-sns-icon telegram" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+        <a href="https://www.facebook.com/share/g/1Jev7ykSSE/" target="_blank" class="hero-sns-icon facebook" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/teamisrk?igsh=a2M0dmw1cWN4Nmtr" target="_blank" class="hero-sns-icon instagram" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com" target="_blank" class="hero-sns-icon linkedin" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:isrk.association@gmail.com" class="hero-sns-icon email" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
   </div>
 </section>
 

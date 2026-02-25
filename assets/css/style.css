@@ -433,6 +433,56 @@ p { margin-bottom: 1rem; color: var(--text-md); }
 
 .btn-green:hover { background: var(--green-lt); }
 
+/* ============ HERO SNS ICONS ============ */
+.hero-sns {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.hero-sns-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: rgba(255,255,255,0.45);
+}
+
+.hero-sns-icons {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.hero-sns-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  text-decoration: none;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #fff !important;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.hero-sns-icon:hover {
+  transform: translateY(-3px);
+  text-decoration: none;
+}
+
+.hero-sns-icon.youtube:hover   { background: #ff0000; border-color: #ff0000; }
+.hero-sns-icon.telegram:hover  { background: #229ED9; border-color: #229ED9; }
+.hero-sns-icon.facebook:hover  { background: #1877f2; border-color: #1877f2; }
+.hero-sns-icon.instagram:hover { background: #e1306c; border-color: #e1306c; }
+.hero-sns-icon.linkedin:hover  { background: #0077b5; border-color: #0077b5; }
+.hero-sns-icon.email:hover     { background: var(--saffron); border-color: var(--saffron); }
+
 /* ============ STATS BAR ============ */
 .stats-bar {
   background: var(--navy-mid);
