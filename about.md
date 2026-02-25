@@ -67,13 +67,57 @@ Today, ISRK has grown to over **5,000 members** and includes representatives fro
 
 ISRK operates through a structured five-tier organization:
 
-| Level | Role |
-|-------|------|
-| **Founders & Board of Directors** | Provide strategic vision and long-term policies |
-| **Executive Board** | Leadership team responsible for day-to-day governance |
-| **Executive Secretaries** | Department leads for Education, Culture, Sports, Events, and Social Engagement |
-| **City Coordinators & Representatives** | Local representatives across cities, universities, and institutes |
-| **Outreach & Promotion Consultants** | Support ISRK's visibility and promotional activities |
+<div class="org-chart">
+  <div class="org-tier org-tier-1">
+    <div class="org-node">
+      <span class="org-num">1</span>
+      <div>
+        <strong>Founders &amp; Board of Directors</strong>
+        <p>Provide strategic vision and long-term goals and policies for the association.</p>
+      </div>
+    </div>
+  </div>
+  <div class="org-arrow">&#8595;</div>
+  <div class="org-tier org-tier-2">
+    <div class="org-node">
+      <span class="org-num">2</span>
+      <div>
+        <strong>Executive Board &amp; Executive Secretaries</strong>
+        <p>Main team of ISRK organization functioning — responsible for decision-making related to day-to-day functioning, overall governance, and implementation of policies.</p>
+      </div>
+    </div>
+  </div>
+  <div class="org-arrow">&#8595;</div>
+  <div class="org-tier org-tier-3">
+    <div class="org-node">
+      <span class="org-num">3</span>
+      <div>
+        <strong>Regional Coordinators &amp; Representatives</strong>
+        <p>Coordinate activities locally and represent the association in different cities, provinces, universities, institutes, and companies.</p>
+      </div>
+    </div>
+  </div>
+  <div class="org-support-row">
+    <div class="org-tier org-tier-4">
+      <div class="org-node org-node-support">
+        <span class="org-num org-num-gold">4</span>
+        <div>
+          <strong>Senior Consultant Advisory Board</strong>
+          <p>Provide expert advice and mentorship to support the association's growth.</p>
+        </div>
+      </div>
+    </div>
+    <div class="org-tier org-tier-5">
+      <div class="org-node org-node-support">
+        <span class="org-num org-num-green">5</span>
+        <div>
+          <strong>ISRK Outreach &amp; Promotion Coordinators</strong>
+          <p>Support ISRK outreach and promotional activities to boost visibility.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ---
 
