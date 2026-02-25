@@ -12,9 +12,8 @@ title: Home
     <div class="hero-btns">
       <a href="{{ '/about/' | relative_url }}" class="btn btn-primary">Discover ISRK</a>
       <a href="{{ '/notices/' | relative_url }}" class="btn btn-outline">Latest Notices</a>
-      <button class="btn btn-green" onclick="toggleHeroSNS(this)" aria-expanded="false">Join Community</button>
     </div>
-    <div class="hero-sns" id="hero-sns-panel" style="display:none;">
+    <div class="hero-sns">
       <span class="hero-sns-label">Connect with us</span>
       <div class="hero-sns-icons">
         <a href="https://chat.whatsapp.com/KdrmdYrla6WFHnt6E7wMVL" target="_blank" class="hero-sns-icon whatsapp" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
@@ -26,15 +25,6 @@ title: Home
         <a href="mailto:isrk.association@gmail.com" class="hero-sns-icon email" title="Email"><i class="fa-solid fa-envelope"></i></a>
       </div>
     </div>
-    <script>
-      function toggleHeroSNS(btn) {
-        var panel = document.getElementById('hero-sns-panel');
-        var open = panel.style.display === 'none';
-        panel.style.display = open ? 'flex' : 'none';
-        btn.setAttribute('aria-expanded', open);
-        btn.textContent = open ? 'Close ✕' : 'Join Community';
-      }
-    </script>
   </div>
 </section>
 
