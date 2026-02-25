@@ -67,13 +67,52 @@ Today, ISRK has grown to over **5,000 members** and includes representatives fro
 
 ISRK operates through a structured five-tier organization:
 
-| Level | Role | Responsibility |
-|-------|------|----------------|
-| **Founders & Board of Directors** | Strategic Leadership | Provide strategic vision and long-term goals and policies for the association |
-| **Executive Board & Executive Secretaries** | Main Team of ISRK Organization Functioning | Responsible for decision-making related to day-to-day functioning, overall governance, and implementation of policies |
-| **Regional Coordinators & Representatives** | Local Representation | Coordinate activities locally and represent the association in different cities, provinces, universities, institutes, and companies |
-| **Senior Consultant Advisory Board** | Advisory | Provide expert advice and mentorship to support the association's growth |
-| **ISRK Outreach & Promotion Coordinators** | Visibility & Outreach | Support ISRK outreach and promotional activities to boost visibility |
+<div class="org-wrap">
+
+  <div class="org-main">
+    <div class="org-box org-box-1">
+      <div class="org-box-num">1</div>
+      <div class="org-box-content">
+        <strong>Founders &amp; Board of Directors</strong>
+        <span>Provide strategic vision and long-term goals and policies for the association</span>
+      </div>
+    </div>
+    <div class="org-connector"></div>
+    <div class="org-box org-box-2">
+      <div class="org-box-num">2</div>
+      <div class="org-box-content">
+        <strong>Executive Board &amp; Executive Secretaries</strong>
+        <span>Main team responsible for day-to-day functioning, overall governance, and implementation of policies</span>
+      </div>
+    </div>
+    <div class="org-connector"></div>
+    <div class="org-box org-box-3">
+      <div class="org-box-num">3</div>
+      <div class="org-box-content">
+        <strong>Regional Coordinators &amp; Representatives</strong>
+        <span>Coordinate activities locally and represent the association across cities, universities, institutes, and companies</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="org-side">
+    <div class="org-box org-box-4">
+      <div class="org-box-num org-box-num-gold">4</div>
+      <div class="org-box-content">
+        <strong>Senior Consultant Advisory Board</strong>
+        <span>Provide expert advice and mentorship to support the association's growth</span>
+      </div>
+    </div>
+    <div class="org-box org-box-5" style="margin-top:1rem;">
+      <div class="org-box-num org-box-num-green">5</div>
+      <div class="org-box-content">
+        <strong>ISRK Outreach &amp; Promotion Coordinators</strong>
+        <span>Support ISRK outreach and promotional activities to boost visibility</span>
+      </div>
+    </div>
+  </div>
+
+</div>
 
 ---
 
