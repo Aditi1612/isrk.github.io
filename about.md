@@ -112,128 +112,90 @@ On the occasion of India's 75th Independence Anniversary, ISRK launched an initi
 
 ---
 
-## Our Partners & MoU Signatories
+## Our Partners, MoUs & Supporters
 
-ISRK has signed MoUs and collaborates with:
+ISRK has signed MoUs and actively collaborates with:
 
+**Government & Institutional**
+- **Embassy of India, Seoul** — Primary liaison for Indian community support
+- **NIIED** — National Institute for International Education, Korea
+- **SVCC** — Swami Vivekananda Cultural Centre, Embassy of India
+- **Seoul Global Center** — Foreigner support and community services
+- **Dasan Call Foundation** — Seoul citizen services
+- **GIST** — Gwangju Institute of Science and Technology
+- **Sejong University**, Seoul
+- **Royal Society of Chemistry**
+- **Embassy of the Republic of Korea**
+
+**MoU Partners**
 - **RIST** — Research Center of Indian Culture on Science and Technology
 - **UCC** — Universal Cultural Center
 - **SPIC MACAY** — Society for the Promotion of Indian Classical Music and Culture Amongst Youth
 - **SENTBE** — Remittance Services
-- **Indian Chakraa Restaurant & Expat Mart**
 - **KOINA** — Korea-India Association
 - **ACN** — Asian Community News Network
-- **Embassy of Korea to India**
 - **JobBridge Korea**
-- **India Center, Busan**
+- **India Centre, Busan**
+- **Chakraa Indian Restaurant & Expat Mart**
+
+**Sponsors & Business Partners**
+- Merck KGaA Korea &bull; Atomy &bull; GME Finance &bull; GME Remittance &bull; Hanpass &bull; Kiswa World Mart &bull; Kowork &bull; INDOIN &bull; StaraJIN &bull; K-Respect &bull; TheBizIndia &bull; K.L Global &bull; Khemani Tex &bull; Namaste India &bull; Expat Mart &bull; Lucky India &bull; Hello India &bull; Peteeco &bull; JTREE &bull; ESOMI &bull; Rita &bull; K-Culture &bull; Study Korea News
+
+**Indian Community Organizations in Korea**
+- Indians in Korea (IIK) &bull; Korea Kannada Koota &bull; Telugu Association of South Korea (TASK) &bull; Marathi Mandal Korea (MMK) &bull; Korean Tamil Sangam &bull; Assam Association of South Korea (AASK) &bull; Keralites in Korea (KIK) &bull; Bengali Association of Korea (BAK) &bull; Bihar Association of Korea
 
 ---
 
-## Official & Government Partners
+## Partner Logos
 
 <div class="logo-grid">
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/embassy-of-india.png' | relative_url }}" alt="Embassy of India, Seoul">
-    <span>Embassy of India, Seoul</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/niied.png' | relative_url }}" alt="NIIED">
-    <span>NIIED</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/svcc-embassy.png' | relative_url }}" alt="Swami Vivekananda Cultural Centre">
-    <span>Swami Vivekananda Cultural Centre</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/spic-macay.png' | relative_url }}" alt="SPIC MACAY">
-    <span>SPIC MACAY</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/seoul-global-center.png' | relative_url }}" alt="Seoul Global Center">
-    <span>Seoul Global Center</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/dasan-foundation.png' | relative_url }}" alt="Dasan Call Foundation">
-    <span>Dasan Call Foundation</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/india-centre.png' | relative_url }}" alt="India Centre">
-    <span>India Centre</span>
-  </div>
-</div>
-
----
-
-## Indian Community Partner Organizations
-
-ISRK works alongside diverse Indian regional communities in Korea:
-
-<div class="logo-grid">
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/iik.png' | relative_url }}" alt="Indians in Korea">
-    <span>Indians in Korea</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/korea-kannada-koota.png' | relative_url }}" alt="Korea Kannada Koota">
-    <span>Korea Kannada Koota</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/marathi-mandal.png' | relative_url }}" alt="Marathi Mandal Korea">
-    <span>Marathi Mandal Korea</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/tamil-sangham.png' | relative_url }}" alt="Korea Tamil Sangham">
-    <span>Korea Tamil Sangham</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/telugu-association.png' | relative_url }}" alt="Telugu Association of South Korea">
-    <span>Telugu Association of South Korea</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/assam-association.png' | relative_url }}" alt="Assam Association of South Korea">
-    <span>Assam Association of South Korea</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/keralites-in-korea.png' | relative_url }}" alt="Keralites in Korea">
-    <span>Keralites in Korea</span>
-  </div>
-</div>
-
----
-
-## Sponsors & Collaborators
-
-<div class="logo-grid">
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/merck.png' | relative_url }}" alt="Merck">
-    <span>Merck</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/atomy.png' | relative_url }}" alt="Atomy">
-    <span>Atomy</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/gme-finance.png' | relative_url }}" alt="GME Finance">
-    <span>GME Finance</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/gme-remittance.png' | relative_url }}" alt="GME Remittance">
-    <span>GME Remittance</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/hanpass.png' | relative_url }}" alt="Hanpass">
-    <span>Hanpass</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/kiswa-world-mart.png' | relative_url }}" alt="Kiswa World Mart">
-    <span>Kiswa World Mart</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/kowork.png' | relative_url }}" alt="Kowork">
-    <span>Kowork</span>
-  </div>
-  <div class="logo-item">
-    <img src="{{ '/assets/images/logos/sejong-university.png' | relative_url }}" alt="Sejong University">
-    <span>Sejong University</span>
-  </div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image91.png' | relative_url }}" alt="Government of India"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/embassy-of-india.png' | relative_url }}" alt="Embassy of India"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/niied.png' | relative_url }}" alt="NIIED"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/svcc-embassy.png' | relative_url }}" alt="SVCC"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/spic-macay.png' | relative_url }}" alt="SPIC MACAY"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/seoul-global-center.png' | relative_url }}" alt="Seoul Global Center"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/dasan-foundation.png' | relative_url }}" alt="Dasan Call Foundation"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/india-centre.png' | relative_url }}" alt="India Centre"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image187.jpeg' | relative_url }}" alt="GIST"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image188.jpeg' | relative_url }}" alt="UCC"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image189.jpeg' | relative_url }}" alt="KOINA"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image190.jpeg' | relative_url }}" alt="Embassy of Korea"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/sejong-university.png' | relative_url }}" alt="Sejong University"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image232.png' | relative_url }}" alt="Royal Society of Chemistry"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/merck.png' | relative_url }}" alt="Merck"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/atomy.png' | relative_url }}" alt="Atomy"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/gme-finance.png' | relative_url }}" alt="GME Finance"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/gme-remittance.png' | relative_url }}" alt="GME Remittance"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/hanpass.png' | relative_url }}" alt="Hanpass"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/kiswa-world-mart.png' | relative_url }}" alt="Kiswa World Mart"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/kowork.png' | relative_url }}" alt="Kowork"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image205.png' | relative_url }}" alt="StaraJIN"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image206.jpeg' | relative_url }}" alt="K-Respect"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image207.png' | relative_url }}" alt="Namaste India"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image208.png' | relative_url }}" alt="Expat Mart"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image209.png' | relative_url }}" alt="Chakraa Indian Restaurant"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image210.jpeg' | relative_url }}" alt="Asian Community News"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image213.png' | relative_url }}" alt="Lucky India"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image216.jpeg' | relative_url }}" alt="K-Culture"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image217.jpeg' | relative_url }}" alt="Khemani Tex"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image218.png' | relative_url }}" alt="TheBizIndia"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image219.png' | relative_url }}" alt="GME Finance"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image221.jpeg' | relative_url }}" alt="Hello India"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image222.jpeg' | relative_url }}" alt="Peteeco"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image223.jpeg' | relative_url }}" alt="JTREE"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image224.jpeg' | relative_url }}" alt="ESOMI"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image225.png' | relative_url }}" alt="Rita"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image228.jpeg' | relative_url }}" alt="INDOIN"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image229.jpeg' | relative_url }}" alt="K.L Global"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image230.jpeg' | relative_url }}" alt="Study Korea News"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/iik.png' | relative_url }}" alt="Indians in Korea"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/korea-kannada-koota.png' | relative_url }}" alt="Korea Kannada Koota"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/telugu-association.png' | relative_url }}" alt="Telugu Association"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/marathi-mandal.png' | relative_url }}" alt="Marathi Mandal Korea"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/tamil-sangham.png' | relative_url }}" alt="Tamil Sangham Korea"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/assam-association.png' | relative_url }}" alt="Assam Association Korea"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/keralites-in-korea.png' | relative_url }}" alt="Keralites in Korea"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image195.jpeg' | relative_url }}" alt="Bengali Association of Korea"></div>
+  <div class="logo-item"><img src="{{ '/assets/images/logos/image196.png' | relative_url }}" alt="Bihar Association of Korea"></div>
 </div>
