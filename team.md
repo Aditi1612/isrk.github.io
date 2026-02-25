@@ -128,13 +128,13 @@ permalink: /team/
 
 <div class="team-grid">
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image31.jpeg' | relative_url }}" alt="Kunal Kumar" class="team-photo">
+    <img src="{{ '/assets/images/team/image32.png' | relative_url }}" alt="Kunal Kumar" class="team-photo">
     <h3>Kunal Kumar</h3>
     <span class="team-role">Executive Secretary</span>
     <p>Director<br>HVS India<br>Seoul, South Korea</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image32.png' | relative_url }}" alt="Dr. Pravin P. Upare" class="team-photo">
+    <img src="{{ '/assets/images/team/image31.jpeg' | relative_url }}" alt="Dr. Pravin P. Upare" class="team-photo">
     <h3>Dr. Pravin P. Upare</h3>
     <span class="team-role">Executive Secretary</span>
     <p>Principal Research Scientist<br>Activon Co. Ltd<br>Cheongju, South Korea</p>
