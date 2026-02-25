@@ -11,7 +11,7 @@ title: Home
     <p>Your home away from home — academic support, career opportunities, cultural celebrations, and a community of 5,000+ Indians across 70+ Korean universities.</p>
     <div class="hero-btns">
       <a href="{{ '/about/' | relative_url }}" class="btn btn-primary">Discover ISRK</a>
-      <a href="{{ '/notices/' | relative_url }}" class="btn btn-outline">Latest Notices</a>
+      <a href="{{ '/notices/' | relative_url }}" class="btn btn-green">Latest Notices</a>
     </div>
     <div class="hero-sns">
       <span class="hero-sns-label">Connect with us</span>
