@@ -36,7 +36,8 @@ permalink: /team/
   <div class="team-card">
     <div class="team-photo" style="display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--navy),#2e4a8e); color:#fff; font-size:2rem; font-weight:700; letter-spacing:1px;">SK</div>
     <h3>Mr. Suresh Kumar</h3>
-    <span class="team-role">Head of Consular Wing and Community Affairs Division</span>
+    <span class="team-role" style="color:var(--saffron);">Board of Director</span>
+    <p style="color:var(--text-dark); font-weight:500;">Head of Consular Wing and Community Affairs Division</p>
     <p>First Secretary — Consular &amp; Community Affairs<br>Embassy of India, Seoul</p>
   </div>
 </div>
