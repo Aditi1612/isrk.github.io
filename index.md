@@ -17,6 +17,7 @@ title: Home
     <div class="hero-sns" id="hero-sns-panel" style="display:none;">
       <span class="hero-sns-label">Connect with us</span>
       <div class="hero-sns-icons">
+        <a href="https://chat.whatsapp.com/KdrmdYrla6WFHnt6E7wMVL" target="_blank" class="hero-sns-icon whatsapp" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
         <a href="https://www.youtube.com/channel/UCVtezYzITvXCpl54UPPIJTQ/streams" target="_blank" class="hero-sns-icon youtube" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
         <a href="https://t.me/+U30rQW7o4KWYPExs" target="_blank" class="hero-sns-icon telegram" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
         <a href="https://www.facebook.com/share/g/1Jev7ykSSE/" target="_blank" class="hero-sns-icon facebook" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
