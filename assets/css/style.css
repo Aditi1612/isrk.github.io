@@ -955,42 +955,73 @@ tbody tr:hover td { background: var(--light); }
   transform: scale(1.03);
   box-shadow: var(--shadow-md);
 }
-.gallery-event {
-  margin: 0.6rem 0 0;
+/* ---- Gallery Folder Grid ---- */
+.gallery-folder-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 1rem;
+  margin: 1.2rem 0 0.5rem;
+}
+.gallery-folder-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 1rem 0.6rem 0.85rem;
+  aspect-ratio: 1 / 1;
+  background: var(--white);
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--navy);
+  transition: border-color 0.15s, background 0.15s, box-shadow 0.15s, transform 0.15s;
+  word-break: break-word;
+  line-height: 1.3;
+}
+.gallery-folder-btn .folder-icon {
+  font-size: 2.2rem;
+  line-height: 1;
+}
+.gallery-folder-btn:hover {
+  border-color: var(--saffron);
+  background: #fff8f0;
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+}
+.gallery-folder-btn.active {
+  border-color: var(--navy);
+  background: #eef1f8;
+  box-shadow: var(--shadow-md);
+}
+
+/* ---- Gallery Photo Panel ---- */
+.gallery-panel {
+  display: none;
+  margin: 0.3rem 0 1.5rem;
+  border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
-  border: 1px solid var(--border);
 }
-.gallery-event-label {
+.gallery-panel.open {
+  display: block;
+}
+.gallery-panel-title {
   font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   color: #fff;
   background: var(--navy);
   padding: 0.6rem 1rem;
-  cursor: pointer;
-  list-style: none;
   display: flex;
   align-items: center;
-  gap: 0.6rem;
-  user-select: none;
-  transition: background 0.15s;
+  gap: 0.5rem;
 }
-.gallery-event-label::-webkit-details-marker { display: none; }
-.gallery-event-label::before {
-  content: '▶';
-  font-size: 0.65rem;
-  transition: transform 0.2s;
-  flex-shrink: 0;
-}
-.gallery-event[open] > .gallery-event-label::before {
-  transform: rotate(90deg);
-}
-.gallery-event[open] > .gallery-event-label {
-  background: #152249;
-  border-radius: var(--radius) var(--radius) 0 0;
-}
-.gallery-event .gallery-grid {
+.gallery-panel .gallery-grid {
   padding: 0.75rem;
   margin: 0;
   background: var(--white);
