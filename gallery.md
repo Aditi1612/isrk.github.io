@@ -386,7 +386,7 @@ permalink: /gallery/
 </div>
 <div class="gallery-event-card" data-category="mous" data-event="mou-6">
   <div class="gallery-card-img-wrap">
-    <img src="{{ '/assets/images/gallery/mous/mou-vijob/540683596_18055274939563879_2182126219011806_n.webp' | relative_url }}" alt="MoU ViJob" loading="lazy">
+    <img src="{{ '/assets/images/gallery/mous/mou-vijob/540683596_18055274939563879_2180373126219011806_n.webp' | relative_url }}" alt="MoU ViJob" loading="lazy">
   </div>
   <div class="gallery-card-info">
     <p class="gallery-card-title">MoU Signing — ViJob Korea</p>
@@ -720,7 +720,7 @@ permalink: /gallery/
   <img src="{{ '/assets/images/gallery/mous/mou-jobbridge/524800411_18051851582563879_7017572538719928943_n.webp' | relative_url }}" alt="MoU JobBridge" loading="lazy">
 </div>
 <div data-event="mou-6">
-  <img src="{{ '/assets/images/gallery/mous/mou-vijob/540683596_18055274939563879_2182126219011806_n.webp' | relative_url }}" alt="MoU ViJob" loading="lazy">
+  <img src="{{ '/assets/images/gallery/mous/mou-vijob/540683596_18055274939563879_2180373126219011806_n.webp' | relative_url }}" alt="MoU ViJob" loading="lazy">
 </div>
 </div>
 
