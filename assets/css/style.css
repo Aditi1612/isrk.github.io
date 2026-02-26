@@ -956,7 +956,7 @@ tbody tr:hover td { background: var(--light); }
   box-shadow: var(--shadow-md);
 }
 .gallery-event {
-  margin: 2rem 0 0;
+  margin: 0.6rem 0 0;
   border-radius: var(--radius);
   overflow: hidden;
   border: 1px solid var(--border);
@@ -967,16 +967,32 @@ tbody tr:hover td { background: var(--light); }
   font-weight: 600;
   color: #fff;
   background: var(--navy);
-  padding: 0.55rem 1rem;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  list-style: none;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.6rem;
+  user-select: none;
+  transition: background 0.15s;
+}
+.gallery-event-label::-webkit-details-marker { display: none; }
+.gallery-event-label::before {
+  content: '▶';
+  font-size: 0.65rem;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+.gallery-event[open] > .gallery-event-label::before {
+  transform: rotate(90deg);
+}
+.gallery-event[open] > .gallery-event-label {
+  background: #152249;
+  border-radius: var(--radius) var(--radius) 0 0;
 }
 .gallery-event .gallery-grid {
-  border-top: none;
   padding: 0.75rem;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   background: var(--white);
 }
 
