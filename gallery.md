@@ -667,28 +667,9 @@ document.querySelectorAll('.gallery-folder-btn').forEach(function(btn) {
   btn.addEventListener('click', function() {
     var panelId = this.dataset.panel;
     var panel = document.getElementById(panelId);
-    var section = this.closest('.gallery-folder-grid').parentElement;
     var isActive = this.classList.contains('active');
-    section.querySelectorAll('.gallery-folder-btn').forEach(function(b) { b.classList.remove('active'); });
-    section.querySelectorAll('.gallery-panel').forEach(function(p) { p.classList.remove('open'); });
-    if (!isActive) {
-      this.classList.add('active');
-      panel.classList.add('open');
-      panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-    }
-  });
-});
-</script>
-
-<script>
-document.querySelectorAll('.gallery-folder-btn').forEach(function(btn) {
-  btn.addEventListener('click', function() {
-    var panelId = this.dataset.panel;
-    var panel = document.getElementById(panelId);
-    var section = this.closest('.gallery-folder-grid').parentElement;
-    var isActive = this.classList.contains('active');
-    section.querySelectorAll('.gallery-folder-btn').forEach(function(b) { b.classList.remove('active'); });
-    section.querySelectorAll('.gallery-panel').forEach(function(p) { p.classList.remove('open'); });
+    document.querySelectorAll('.gallery-folder-btn').forEach(function(b) { b.classList.remove('active'); });
+    document.querySelectorAll('.gallery-panel').forEach(function(p) { p.classList.remove('open'); });
     if (!isActive) {
       this.classList.add('active');
       panel.classList.add('open');
