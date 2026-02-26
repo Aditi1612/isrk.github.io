@@ -33,53 +33,42 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 
 <div class="gallery-folder-grid">
 <button class="gallery-folder-btn" data-panel="edu-0">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">NIIED Best Performing Student Association Award</span>
 </button>
 <button class="gallery-folder-btn" data-panel="edu-1">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">NIIED Meeting</span>
 </button>
 <button class="gallery-folder-btn" data-panel="edu-2">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Student Orientation Event</span>
 </button>
 <button class="gallery-folder-btn" data-panel="edu-3">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Career Connect — Sejong University (June 2025)</span>
 </button>
 <button class="gallery-folder-btn" data-panel="edu-4">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Visit to IBS Center for Quantum Nanoscience (QNS) — Ewha Womans University</span>
 </button>
 <button class="gallery-folder-btn" data-panel="edu-5">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">ISRK Workshop</span>
 </button>
 <button class="gallery-folder-btn" data-panel="edu-6">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Songdo Global Fair — Yonsei University</span>
 </button>
 <button class="gallery-folder-btn" data-panel="edu-7">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Brain Pool Postdoc Session</span>
 </button>
 <button class="gallery-folder-btn" data-panel="edu-8">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Global Korea Scholarship</span>
 </button>
 <button class="gallery-folder-btn" data-panel="edu-9">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Distinguished Indian Heroes of Science &amp; Technology — India@75</span>
 </button>
 <button class="gallery-folder-btn" data-panel="edu-10">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">ISRK President Meeting — Minister M. B. Patil, Karnataka</span>
 </button>
 </div>
 
 <div class="gallery-panel" id="edu-0">
-  <div class="gallery-panel-title">&#128193; NIIED Best Performing Student Association Award</div>
+  <div class="gallery-panel-title">NIIED Best Performing Student Association Award</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/niied-best-award/610800381_18069850001563879_6076289141958199282_n.jpg' | relative_url }}" alt="NIIED Best Award" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/niied-best-award/611287626_18069850031563879_7282338322035398444_n.jpg' | relative_url }}" alt="NIIED Best Award" loading="lazy"></div>
@@ -89,7 +78,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="edu-1">
-  <div class="gallery-panel-title">&#128193; NIIED Meeting</div>
+  <div class="gallery-panel-title">NIIED Meeting</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/niied-meeting/501006394_18045410396563879_7475238493305547790_n.webp' | relative_url }}" alt="NIIED Meeting" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/niied-meeting/501548478_18045410378563879_7587879917822655768_n.webp' | relative_url }}" alt="NIIED Meeting" loading="lazy"></div>
@@ -101,7 +90,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="edu-2">
-  <div class="gallery-panel-title">&#128193; Student Orientation Event</div>
+  <div class="gallery-panel-title">Student Orientation Event</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/orientation-event/587786309_18066186185563879_2112093973828285573_n.jpg' | relative_url }}" alt="Orientation Event" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/orientation-event/588236955_18066186167563879_2161407322330733287_n.jpg' | relative_url }}" alt="Orientation Event" loading="lazy"></div>
@@ -116,7 +105,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="edu-3">
-  <div class="gallery-panel-title">&#128193; Career Connect — Sejong University (June 2025)</div>
+  <div class="gallery-panel-title">Career Connect — Sejong University (June 2025)</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/career-connect/502357277_18047946749563879_3133738627408979359_n.webp' | relative_url }}" alt="Career Connect" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/career-connect/502406952_18047946803563879_6424156465478798918_n.webp' | relative_url }}" alt="Career Connect" loading="lazy"></div>
@@ -133,7 +122,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="edu-4">
-  <div class="gallery-panel-title">&#128193; Visit to IBS Center for Quantum Nanoscience (QNS) — Ewha Womans University</div>
+  <div class="gallery-panel-title">Visit to IBS Center for Quantum Nanoscience (QNS) — Ewha Womans University</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/isrk-qns-meeting/490269104_18040961054563879_1863837381532274713_n.webp' | relative_url }}" alt="QNS Meeting" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/isrk-qns-meeting/490471353_18040961027563879_4759608945443041662_n.webp' | relative_url }}" alt="QNS Meeting" loading="lazy"></div>
@@ -146,7 +135,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="edu-5">
-  <div class="gallery-panel-title">&#128193; ISRK Workshop</div>
+  <div class="gallery-panel-title">ISRK Workshop</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/isrk-workshop/579658503_18064049210563879_668967912134720429_n.jpg' | relative_url }}" alt="ISRK Workshop" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/isrk-workshop/580520647_18064049285563879_1315705161919536761_n.jpg' | relative_url }}" alt="ISRK Workshop" loading="lazy"></div>
@@ -157,7 +146,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="edu-6">
-  <div class="gallery-panel-title">&#128193; Songdo Global Fair — Yonsei University</div>
+  <div class="gallery-panel-title">Songdo Global Fair — Yonsei University</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/songdo-global-fair/WhatsApp_Image_2026-02-26_at_14.48.58.jpeg' | relative_url }}" alt="Songdo Global Fair" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/songdo-global-fair/WhatsApp_Image_2026-02-26_at_14.48.59.jpeg' | relative_url }}" alt="Songdo Global Fair" loading="lazy"></div>
@@ -165,7 +154,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="edu-7">
-  <div class="gallery-panel-title">&#128193; Brain Pool Postdoc Session</div>
+  <div class="gallery-panel-title">Brain Pool Postdoc Session</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/brain-pool-postdoc/WhatsApp_Image_2026-02-26_at_14.55.43.jpeg' | relative_url }}" alt="Brain Pool Postdoc" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/brain-pool-postdoc/WhatsApp_Image_2026-02-26_at_14.55.44.jpeg' | relative_url }}" alt="Brain Pool Postdoc" loading="lazy"></div>
@@ -173,7 +162,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="edu-8">
-  <div class="gallery-panel-title">&#128193; Global Korea Scholarship</div>
+  <div class="gallery-panel-title">Global Korea Scholarship</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/global-korea-scholarship/WhatsApp_Image_2026-02-26_at_14.55.42.jpeg' | relative_url }}" alt="Global Korea Scholarship" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/global-korea-scholarship/WhatsApp_Image_2026-02-26_at_14.55.43_1.jpeg' | relative_url }}" alt="Global Korea Scholarship" loading="lazy"></div>
@@ -181,7 +170,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="edu-9">
-  <div class="gallery-panel-title">&#128193; Distinguished Indian Heroes of Science &amp; Technology — India@75</div>
+  <div class="gallery-panel-title">Distinguished Indian Heroes of Science &amp; Technology — India@75</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/indian-heroes-science-technology/202583308_330144595179116_407126109243393632_n.jpg' | relative_url }}" alt="India@75" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/indian-heroes-science-technology/202824193_862217861311162_352362960304075617_n.jpg' | relative_url }}" alt="India@75" loading="lazy"></div>
@@ -192,7 +181,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="edu-10">
-  <div class="gallery-panel-title">&#128193; ISRK President Meeting — Minister M. B. Patil, Karnataka</div>
+  <div class="gallery-panel-title">ISRK President Meeting — Minister M. B. Patil, Karnataka</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/president-minister-meeting/469464994_18026938934563879_2340328838727185368_n.jpg' | relative_url }}" alt="Minister Meeting" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/educational/president-minister-meeting/469531536_18026938940563879_4425036537638681046_n.jpg' | relative_url }}" alt="Minister Meeting" loading="lazy"></div>
@@ -205,61 +194,48 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 
 <div class="gallery-folder-grid">
 <button class="gallery-folder-btn" data-panel="cult-0">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Deepotsav 2025</span>
 </button>
 <button class="gallery-folder-btn" data-panel="cult-1">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Durga Puja</span>
 </button>
 <button class="gallery-folder-btn" data-panel="cult-2">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Eid Milan 2025</span>
 </button>
 <button class="gallery-folder-btn" data-panel="cult-3">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Indo Utsav — Independence Day</span>
 </button>
 <button class="gallery-folder-btn" data-panel="cult-4">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Indo Utsav Busan</span>
 </button>
 <button class="gallery-folder-btn" data-panel="cult-5">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">SPIC MACAY — Mystic Music Series</span>
 </button>
 <button class="gallery-folder-btn" data-panel="cult-6">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Seoul Friendship Event</span>
 </button>
 <button class="gallery-folder-btn" data-panel="cult-7">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">NAMI MoU &amp; Sarang Event</span>
 </button>
 <button class="gallery-folder-btn" data-panel="cult-8">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Ek Ped Maa Ke Naam — Tree Plantation Drive at Boramae Park (March 2025)</span>
 </button>
 <button class="gallery-folder-btn" data-panel="cult-9">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Viksit Bharat Mini Marathon</span>
 </button>
 <button class="gallery-folder-btn" data-panel="cult-10">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">International Yoga Day — Nami Island (June 2025)</span>
 </button>
 <button class="gallery-folder-btn" data-panel="cult-11">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">SPIC MACAY at French School</span>
 </button>
 <button class="gallery-folder-btn" data-panel="cult-12">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Sinchon World Youth Festival 2025</span>
 </button>
 </div>
 
 <div class="gallery-panel" id="cult-0">
-  <div class="gallery-panel-title">&#128193; Deepotsav 2025</div>
+  <div class="gallery-panel-title">Deepotsav 2025</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/deepotsav-2025/570222675_18062927843563879_1508982328955727872_n.jpg' | relative_url }}" alt="Deepotsav 2025" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/deepotsav-2025/570551244_18062927756563879_8198873496619864925_n.jpg' | relative_url }}" alt="Deepotsav 2025" loading="lazy"></div>
@@ -277,7 +253,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="cult-1">
-  <div class="gallery-panel-title">&#128193; Durga Puja</div>
+  <div class="gallery-panel-title">Durga Puja</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/durga-puja/572241631_18063135422563879_4709532556735020642_n.jpg' | relative_url }}" alt="Durga Puja" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/durga-puja/572632937_18063135359563879_2019512280448240139_n.jpg' | relative_url }}" alt="Durga Puja" loading="lazy"></div>
@@ -289,7 +265,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="cult-2">
-  <div class="gallery-panel-title">&#128193; Eid Milan 2025</div>
+  <div class="gallery-panel-title">Eid Milan 2025</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/eid-milan/488596832_18040228931563879_3598166441830726423_n.webp' | relative_url }}" alt="Eid Milan" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/eid-milan/489340837_18040228958563879_997581543354712957_n.webp' | relative_url }}" alt="Eid Milan" loading="lazy"></div>
@@ -300,7 +276,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="cult-3">
-  <div class="gallery-panel-title">&#128193; Indo Utsav — Independence Day</div>
+  <div class="gallery-panel-title">Indo Utsav — Independence Day</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/indo-utsav-independence-day/537812495_18054757172563879_2402828231424947897_n.webp' | relative_url }}" alt="Indo Utsav Independence Day" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/indo-utsav-independence-day/538023022_18054757163563879_3019854899898915778_n.webp' | relative_url }}" alt="Indo Utsav Independence Day" loading="lazy"></div>
@@ -322,7 +298,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="cult-4">
-  <div class="gallery-panel-title">&#128193; Indo Utsav Busan</div>
+  <div class="gallery-panel-title">Indo Utsav Busan</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/indo-utsav-busan/532980427_18053889359563879_6705366177041545368_n.jpg' | relative_url }}" alt="Indo Utsav Busan" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/indo-utsav-busan/533167021_18053889386563879_4506591526592339359_n.jpg' | relative_url }}" alt="Indo Utsav Busan" loading="lazy"></div>
@@ -333,7 +309,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="cult-5">
-  <div class="gallery-panel-title">&#128193; SPIC MACAY — Mystic Music Series</div>
+  <div class="gallery-panel-title">SPIC MACAY — Mystic Music Series</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-mystic-music/191854685_2947038415622761_6464937068737480483_n.jpg' | relative_url }}" alt="SPIC MACAY" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-mystic-music/191988535_791390691799297_6451860399187940994_n.jpg' | relative_url }}" alt="SPIC MACAY" loading="lazy"></div>
@@ -349,7 +325,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="cult-6">
-  <div class="gallery-panel-title">&#128193; Seoul Friendship Event</div>
+  <div class="gallery-panel-title">Seoul Friendship Event</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/seoul-friendship-event/581086610_18066332363610543_1603502470208094927_n.jpg' | relative_url }}" alt="Seoul Friendship Event" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/seoul-friendship-event/581999230_18066332369610543_6414860770639372822_n.jpg' | relative_url }}" alt="Seoul Friendship Event" loading="lazy"></div>
@@ -361,7 +337,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="cult-7">
-  <div class="gallery-panel-title">&#128193; NAMI MoU &amp; Sarang Event</div>
+  <div class="gallery-panel-title">NAMI MoU &amp; Sarang Event</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/nami-sarang-event/572133999_18063307559563879_4309901622655767360_n.jpg' | relative_url }}" alt="NAMI Sarang Event" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/nami-sarang-event/572523097_18063307577563879_6721789401590838501_n.jpg' | relative_url }}" alt="NAMI Sarang Event" loading="lazy"></div>
@@ -375,7 +351,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="cult-8">
-  <div class="gallery-panel-title">&#128193; Ek Ped Maa Ke Naam — Tree Plantation Drive at Boramae Park (March 2025)</div>
+  <div class="gallery-panel-title">Ek Ped Maa Ke Naam — Tree Plantation Drive at Boramae Park (March 2025)</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/embassy-tree-plantation/489490095_18040663250563879_5700653128435284349_n.webp' | relative_url }}" alt="Tree Plantation Drive" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/embassy-tree-plantation/489963970_18040663274563879_1113442541996683993_n.webp' | relative_url }}" alt="Tree Plantation Drive" loading="lazy"></div>
@@ -386,7 +362,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="cult-9">
-  <div class="gallery-panel-title">&#128193; Viksit Bharat Mini Marathon</div>
+  <div class="gallery-panel-title">Viksit Bharat Mini Marathon</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/viksit-bharat-marathon/571763890_18063209132563879_1175844266704033739_n.jpg' | relative_url }}" alt="Viksit Bharat Marathon" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/viksit-bharat-marathon/573003945_18063209114563879_5235659074603341115_n.jpg' | relative_url }}" alt="Viksit Bharat Marathon" loading="lazy"></div>
@@ -397,7 +373,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="cult-10">
-  <div class="gallery-panel-title">&#128193; International Yoga Day — Nami Island (June 2025)</div>
+  <div class="gallery-panel-title">International Yoga Day — Nami Island (June 2025)</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/yoga-event-nami/503651742_18048930317563879_5675397986948477940_n.jpg' | relative_url }}" alt="Yoga Day Nami" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/yoga-event-nami/504284780_18048930284563879_6298283867705069379_n.jpg' | relative_url }}" alt="Yoga Day Nami" loading="lazy"></div>
@@ -409,7 +385,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="cult-11">
-  <div class="gallery-panel-title">&#128193; SPIC MACAY at French School</div>
+  <div class="gallery-panel-title">SPIC MACAY at French School</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/503976551_1369488990972078_6075585433912601964_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/504022548_671323062620068_6156488706281391958_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
@@ -431,7 +407,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="cult-12">
-  <div class="gallery-panel-title">&#128193; Sinchon World Youth Festival 2025</div>
+  <div class="gallery-panel-title">Sinchon World Youth Festival 2025</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/sinchon-world-youth/549205036_18057123008563879_5630270209623377839_n.jpg' | relative_url }}" alt="Sinchon World Youth" loading="lazy"></div>
 </div>
@@ -443,25 +419,21 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 
 <div class="gallery-folder-grid">
 <button class="gallery-folder-btn" data-panel="sport-0">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">ISRK Cricket Championship</span>
 </button>
 <button class="gallery-folder-btn" data-panel="sport-1">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">ISRK Cricket Team</span>
 </button>
 <button class="gallery-folder-btn" data-panel="sport-2">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">ISRK Cricket 2023 — Monster Energy</span>
 </button>
 <button class="gallery-folder-btn" data-panel="sport-3">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">ISRK Hiking Expedition</span>
 </button>
 </div>
 
 <div class="gallery-panel" id="sport-0">
-  <div class="gallery-panel-title">&#128193; ISRK Cricket Championship</div>
+  <div class="gallery-panel-title">ISRK Cricket Championship</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/sports/cricket-championship/558088639_18059374553563879_5807098476771496910_n.jpg' | relative_url }}" alt="Cricket Championship" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/sports/cricket-championship/558267130_18059374544563879_238152016732859268_n.jpg' | relative_url }}" alt="Cricket Championship" loading="lazy"></div>
@@ -476,7 +448,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="sport-1">
-  <div class="gallery-panel-title">&#128193; ISRK Cricket Team</div>
+  <div class="gallery-panel-title">ISRK Cricket Team</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/sports/cricket-team/534734811_18054095867563879_4018461029109876336_n.webp' | relative_url }}" alt="ISRK Cricket Team" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/sports/cricket-team/535782121_18054095876563879_3491441036698519883_n.webp' | relative_url }}" alt="ISRK Cricket Team" loading="lazy"></div>
@@ -485,7 +457,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="sport-2">
-  <div class="gallery-panel-title">&#128193; ISRK Cricket 2023 — Monster Energy</div>
+  <div class="gallery-panel-title">ISRK Cricket 2023 — Monster Energy</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/sports/cricket-kowork-2023/355829113_257352930324074_2646447788840801954_n.jpg' | relative_url }}" alt="Cricket 2023" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/sports/cricket-kowork-2023/356001916_622531383166508_8567144696433274376_n.jpg' | relative_url }}" alt="Cricket 2023" loading="lazy"></div>
@@ -501,7 +473,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="sport-3">
-  <div class="gallery-panel-title">&#128193; ISRK Hiking Expedition</div>
+  <div class="gallery-panel-title">ISRK Hiking Expedition</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/sports/hiking/481768886_3496636387308799_1809222634228943955_n.jpg' | relative_url }}" alt="Hiking" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/sports/hiking/485017522_3237636986378042_6737255635000746377_n_1.jpg' | relative_url }}" alt="Hiking" loading="lazy"></div>
@@ -530,33 +502,27 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 
 <div class="gallery-folder-grid">
 <button class="gallery-folder-btn" data-panel="comm-0">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Farewell — H.E. Ambassador Amit Kumar (August 2025)</span>
 </button>
 <button class="gallery-folder-btn" data-panel="comm-1">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Meeting with H.E. Ambassador Gourangalal Das (October 2025)</span>
 </button>
 <button class="gallery-folder-btn" data-panel="comm-2">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">ISRK Board Meeting</span>
 </button>
 <button class="gallery-folder-btn" data-panel="comm-3">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Reception onboard INS SAHYADRI — Busan (October 2025)</span>
 </button>
 <button class="gallery-folder-btn" data-panel="comm-4">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">ISRK Trip — Goheung &amp; Suncheon (with UCC)</span>
 </button>
 <button class="gallery-folder-btn" data-panel="comm-5">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">Minister Meeting</span>
 </button>
 </div>
 
 <div class="gallery-panel" id="comm-0">
-  <div class="gallery-panel-title">&#128193; Farewell — H.E. Ambassador Amit Kumar (August 2025)</div>
+  <div class="gallery-panel-title">Farewell — H.E. Ambassador Amit Kumar (August 2025)</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/community/amb-amit-kumar-farewell/530657443_18053364605563879_154701590584028521_n.jpg' | relative_url }}" alt="Amb Farewell" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/community/amb-amit-kumar-farewell/531037265_18053364596563879_3912841421043396658_n.jpg' | relative_url }}" alt="Amb Farewell" loading="lazy"></div>
@@ -564,21 +530,21 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="comm-1">
-  <div class="gallery-panel-title">&#128193; Meeting with H.E. Ambassador Gourangalal Das (October 2025)</div>
+  <div class="gallery-panel-title">Meeting with H.E. Ambassador Gourangalal Das (October 2025)</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/community/amb-gourangalal-meeting/572258828_18062752097563879_7530845847898431029_n.webp' | relative_url }}" alt="Ambassador Meeting" loading="lazy"></div>
 </div>
 </div>
 
 <div class="gallery-panel" id="comm-2">
-  <div class="gallery-panel-title">&#128193; ISRK Board Meeting</div>
+  <div class="gallery-panel-title">ISRK Board Meeting</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/community/board-meeting/491466757_18041372897563879_7900300239173158764_n.webp' | relative_url }}" alt="Board Meeting" loading="lazy"></div>
 </div>
 </div>
 
 <div class="gallery-panel" id="comm-3">
-  <div class="gallery-panel-title">&#128193; Reception onboard INS SAHYADRI — Busan (October 2025)</div>
+  <div class="gallery-panel-title">Reception onboard INS SAHYADRI — Busan (October 2025)</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/community/ins-sahyadri-busan/571682927_18062752985563879_4966114562152628481_n.webp' | relative_url }}" alt="INS Sahyadri" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/community/ins-sahyadri-busan/571975497_18062752976563879_7086457782825396936_n.webp' | relative_url }}" alt="INS Sahyadri" loading="lazy"></div>
@@ -586,7 +552,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="comm-4">
-  <div class="gallery-panel-title">&#128193; ISRK Trip — Goheung &amp; Suncheon (with UCC)</div>
+  <div class="gallery-panel-title">ISRK Trip — Goheung &amp; Suncheon (with UCC)</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/community/isrk-trip/399022248_17981081213563879_4021927759882034209_n.jpg' | relative_url }}" alt="ISRK Trip" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/community/isrk-trip/399032522_17981081222563879_3191454905520522482_n.jpg' | relative_url }}" alt="ISRK Trip" loading="lazy"></div>
@@ -598,7 +564,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="comm-5">
-  <div class="gallery-panel-title">&#128193; Minister Meeting</div>
+  <div class="gallery-panel-title">Minister Meeting</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/community/minister-meeting/581332140_18064469009563879_6846128586148533479_n.jpg' | relative_url }}" alt="Minister Meeting" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/community/minister-meeting/582723974_18064469036563879_276585804140276147_n.jpg' | relative_url }}" alt="Minister Meeting" loading="lazy"></div>
@@ -616,37 +582,30 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 
 <div class="gallery-folder-grid">
 <button class="gallery-folder-btn" data-panel="mou-0">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">MoU Signing — KOINA (Korea-India Association)</span>
 </button>
 <button class="gallery-folder-btn" data-panel="mou-1">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">MoU Signing — Kowork</span>
 </button>
 <button class="gallery-folder-btn" data-panel="mou-2">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">MoU Signing — Dasan Call Foundation (October 2025)</span>
 </button>
 <button class="gallery-folder-btn" data-panel="mou-3">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">MoU Signing — Seoul Foreign Resident Center</span>
 </button>
 <button class="gallery-folder-btn" data-panel="mou-4">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">MoU Signing — Study Korea News</span>
 </button>
 <button class="gallery-folder-btn" data-panel="mou-5">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">MoU Signing — JobBridge Korea</span>
 </button>
 <button class="gallery-folder-btn" data-panel="mou-6">
-  <span class="folder-icon">&#128193;</span>
   <span class="folder-name">MoU Signing — ViJob Korea</span>
 </button>
 </div>
 
 <div class="gallery-panel" id="mou-0">
-  <div class="gallery-panel-title">&#128193; MoU Signing — KOINA (Korea-India Association)</div>
+  <div class="gallery-panel-title">MoU Signing — KOINA (Korea-India Association)</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/mous/mou-koina/286273089_360913802795568_1522589813855861255_n.jpg' | relative_url }}" alt="MoU KOINA" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/mous/mou-koina/286396406_384247153678166_2236957462384059933_n.jpg' | relative_url }}" alt="MoU KOINA" loading="lazy"></div>
@@ -656,7 +615,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="mou-1">
-  <div class="gallery-panel-title">&#128193; MoU Signing — Kowork</div>
+  <div class="gallery-panel-title">MoU Signing — Kowork</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/mous/mou-kowork/516131311_18049328672563879_1060928535863546800_n.jpg' | relative_url }}" alt="MoU Kowork" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/mous/mou-kowork/516227662_18049328663563879_6736076318024592624_n_1.jpg' | relative_url }}" alt="MoU Kowork" loading="lazy"></div>
@@ -665,7 +624,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="mou-2">
-  <div class="gallery-panel-title">&#128193; MoU Signing — Dasan Call Foundation (October 2025)</div>
+  <div class="gallery-panel-title">MoU Signing — Dasan Call Foundation (October 2025)</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/mous/mou-dasan-call/571771379_18062793317563879_8639943241943140738_n.webp' | relative_url }}" alt="MoU Dasan Call" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/mous/mou-dasan-call/572643845_18062793326563879_4681422160286853639_n.webp' | relative_url }}" alt="MoU Dasan Call" loading="lazy"></div>
@@ -673,7 +632,7 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="mou-3">
-  <div class="gallery-panel-title">&#128193; MoU Signing — Seoul Foreign Resident Center</div>
+  <div class="gallery-panel-title">MoU Signing — Seoul Foreign Resident Center</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/mous/mou-seoul-foreign-resident/611287040_17991949019910525_6076994428845785602_n.jpg' | relative_url }}" alt="MoU Seoul Foreign Resident" loading="lazy"></div>
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/mous/mou-seoul-foreign-resident/611678379_17991948992910525_4702529702086711042_n.jpg' | relative_url }}" alt="MoU Seoul Foreign Resident" loading="lazy"></div>
@@ -683,21 +642,21 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
 </div>
 
 <div class="gallery-panel" id="mou-4">
-  <div class="gallery-panel-title">&#128193; MoU Signing — Study Korea News</div>
+  <div class="gallery-panel-title">MoU Signing — Study Korea News</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/mous/mou-skn-news/539439920_18054883490563879_6039760116934089504_n.webp' | relative_url }}" alt="MoU SKN News" loading="lazy"></div>
 </div>
 </div>
 
 <div class="gallery-panel" id="mou-5">
-  <div class="gallery-panel-title">&#128193; MoU Signing — JobBridge Korea</div>
+  <div class="gallery-panel-title">MoU Signing — JobBridge Korea</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/mous/mou-jobbridge/524800411_18051851582563879_7017572538719928943_n.webp' | relative_url }}" alt="MoU JobBridge" loading="lazy"></div>
 </div>
 </div>
 
 <div class="gallery-panel" id="mou-6">
-  <div class="gallery-panel-title">&#128193; MoU Signing — ViJob Korea</div>
+  <div class="gallery-panel-title">MoU Signing — ViJob Korea</div>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/mous/mou-vijob/540683596_18055274939563879_2182126219011806_n.webp' | relative_url }}" alt="MoU ViJob" loading="lazy"></div>
 </div>

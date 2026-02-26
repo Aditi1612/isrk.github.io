@@ -983,10 +983,6 @@ tbody tr:hover td { background: var(--light); }
   word-break: break-word;
   line-height: 1.3;
 }
-.gallery-folder-btn .folder-icon {
-  font-size: 2.2rem;
-  line-height: 1;
-}
 .gallery-folder-btn:hover {
   border-color: var(--saffron);
   background: #fff8f0;
