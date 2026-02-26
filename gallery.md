@@ -818,6 +818,7 @@ permalink: /gallery/
     e.stopPropagation(); showZoom(zoomIndex + 1);
   });
 
+  // Keyboard navigation
   document.addEventListener('keydown', function(e) {
     if (zoom.classList.contains('open')) {
       if (e.key === 'ArrowLeft')  showZoom(zoomIndex - 1);
@@ -825,6 +826,18 @@ permalink: /gallery/
       if (e.key === 'Escape') closeZoom();
     } else if (modal.classList.contains('open')) {
       if (e.key === 'Escape') closeModal();
+    }
+  });
+
+  // Touch swipe
+  var touchStartX = 0;
+  zoom.addEventListener('touchstart', function(e) {
+    touchStartX = e.changedTouches[0].screenX;
+  }, { passive: true });
+  zoom.addEventListener('touchend', function(e) {
+    var diff = touchStartX - e.changedTouches[0].screenX;
+    if (Math.abs(diff) > 40) {
+      showZoom(diff > 0 ? zoomIndex + 1 : zoomIndex - 1);
     }
   });
 })();
