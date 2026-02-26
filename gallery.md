@@ -262,6 +262,26 @@ Welcome to the ISRK photo gallery — a visual journey through our community's e
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/yoga-event-nami/514965774_18048930320563879_8242648823936242168_n.jpg' | relative_url }}" alt="Yoga Day Nami" loading="lazy"></div>
 </div>
 
+<p class="gallery-event-label">SPIC MACAY at French School</p>
+<div class="gallery-grid">
+  <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/503976551_1369488990972078_6075585433912601964_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
+  <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/504022548_671323062620068_6156488706281391958_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
+  <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/504057716_1082421287131899_8320449321986223111_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
+  <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/504091400_10065740236820094_7687013343410271114_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
+  <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/504102964_1798740930674697_3463799829001977454_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
+  <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/504115938_1056211733117002_2687894111191474095_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
+  <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/504174252_903099095301262_4953923566657512837_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
+  <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/504210283_9628878160571256_1170434044788201236_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
+  <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/504222865_1127469012582914_7741281910707717845_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
+  <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/504225614_1211282746858460_2556151117115985735_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
+  <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/504233521_1422966675401805_4323746748458602767_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
+  <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/504331294_1811049332959900_623008509722133666_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
+  <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/504441676_705877075507380_5164812586908546414_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
+  <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/504481751_1253959972977042_102541371261026100_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
+  <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/504504528_1021047779754785_7871263756895001023_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
+  <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/spic-macay-french-school/504525894_2433221610387638_2285489510399360207_n.jpg' | relative_url }}" alt="SPIC MACAY French School" loading="lazy"></div>
+</div>
+
 <p class="gallery-event-label">Sinchon World Youth Festival 2025</p>
 <div class="gallery-grid">
   <div class="gallery-photo"><img src="{{ '/assets/images/gallery/cultural/sinchon-world-youth/549205036_18057123008563879_5630270209623377839_n.jpg' | relative_url }}" alt="Sinchon World Youth" loading="lazy"></div>
