@@ -410,8 +410,13 @@ permalink: /gallery/
 <!-- Full-screen zoom overlay -->
 <div class="gallery-zoom" id="gallery-zoom">
   <div class="gallery-zoom-backdrop"></div>
-  <img class="gallery-zoom-img" src="" alt="">
   <button class="gallery-zoom-close" aria-label="Close">&times;</button>
+  <button class="gallery-zoom-prev" aria-label="Previous">&#8249;</button>
+  <button class="gallery-zoom-next" aria-label="Next">&#8250;</button>
+  <div class="gallery-zoom-inner">
+    <img class="gallery-zoom-img" src="" alt="">
+  </div>
+  <div class="gallery-zoom-counter"></div>
 </div>
 
 <!-- Hidden photo data -->
@@ -770,15 +775,32 @@ permalink: /gallery/
   modal.querySelector('.gallery-modal-backdrop').addEventListener('click', closeModal);
   modal.querySelector('.gallery-modal-close').addEventListener('click', closeModal);
 
-  // Zoom (click photo inside modal)
+  // Lightbox zoom
   var zoom = document.getElementById('gallery-zoom');
   var zoomImg = zoom.querySelector('.gallery-zoom-img');
+  var zoomCounter = zoom.querySelector('.gallery-zoom-counter');
+  var zoomImages = [];
+  var zoomIndex = 0;
+
+  function showZoom(index) {
+    zoomIndex = (index + zoomImages.length) % zoomImages.length;
+    zoomImg.style.opacity = '0';
+    setTimeout(function() {
+      zoomImg.src = zoomImages[zoomIndex].src;
+      zoomImg.alt = zoomImages[zoomIndex].alt;
+      zoomImg.style.opacity = '1';
+    }, 120);
+    zoomCounter.textContent = (zoomIndex + 1) + ' / ' + zoomImages.length;
+    zoom.querySelector('.gallery-zoom-prev').style.visibility = zoomImages.length > 1 ? 'visible' : 'hidden';
+    zoom.querySelector('.gallery-zoom-next').style.visibility = zoomImages.length > 1 ? 'visible' : 'hidden';
+  }
 
   modalPhotos.addEventListener('click', function(e) {
     if (e.target.tagName === 'IMG') {
-      zoomImg.src = e.target.src;
-      zoomImg.alt = e.target.alt;
+      zoomImages = Array.from(modalPhotos.querySelectorAll('img'));
       zoom.classList.add('open');
+      document.body.style.overflow = 'hidden';
+      showZoom(zoomImages.indexOf(e.target));
     }
   });
 
@@ -786,13 +808,23 @@ permalink: /gallery/
     zoom.classList.remove('open');
     zoomImg.src = '';
   }
+
   zoom.querySelector('.gallery-zoom-backdrop').addEventListener('click', closeZoom);
   zoom.querySelector('.gallery-zoom-close').addEventListener('click', closeZoom);
+  zoom.querySelector('.gallery-zoom-prev').addEventListener('click', function(e) {
+    e.stopPropagation(); showZoom(zoomIndex - 1);
+  });
+  zoom.querySelector('.gallery-zoom-next').addEventListener('click', function(e) {
+    e.stopPropagation(); showZoom(zoomIndex + 1);
+  });
 
   document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-      if (zoom.classList.contains('open')) closeZoom();
-      else closeModal();
+    if (zoom.classList.contains('open')) {
+      if (e.key === 'ArrowLeft')  showZoom(zoomIndex - 1);
+      if (e.key === 'ArrowRight') showZoom(zoomIndex + 1);
+      if (e.key === 'Escape') closeZoom();
+    } else if (modal.classList.contains('open')) {
+      if (e.key === 'Escape') closeModal();
     }
   });
 })();
