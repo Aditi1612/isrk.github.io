@@ -407,6 +407,13 @@ permalink: /gallery/
   </div>
 </div>
 
+<!-- Full-screen zoom overlay -->
+<div class="gallery-zoom" id="gallery-zoom">
+  <div class="gallery-zoom-backdrop"></div>
+  <img class="gallery-zoom-img" src="" alt="">
+  <button class="gallery-zoom-close" aria-label="Close">&times;</button>
+</div>
+
 <!-- Hidden photo data -->
 <div id="gallery-data" hidden>
 <div data-event="edu-0">
@@ -762,7 +769,32 @@ permalink: /gallery/
   }
   modal.querySelector('.gallery-modal-backdrop').addEventListener('click', closeModal);
   modal.querySelector('.gallery-modal-close').addEventListener('click', closeModal);
-  document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeModal(); });
+
+  // Zoom (click photo inside modal)
+  var zoom = document.getElementById('gallery-zoom');
+  var zoomImg = zoom.querySelector('.gallery-zoom-img');
+
+  modalPhotos.addEventListener('click', function(e) {
+    if (e.target.tagName === 'IMG') {
+      zoomImg.src = e.target.src;
+      zoomImg.alt = e.target.alt;
+      zoom.classList.add('open');
+    }
+  });
+
+  function closeZoom() {
+    zoom.classList.remove('open');
+    zoomImg.src = '';
+  }
+  zoom.querySelector('.gallery-zoom-backdrop').addEventListener('click', closeZoom);
+  zoom.querySelector('.gallery-zoom-close').addEventListener('click', closeZoom);
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      if (zoom.classList.contains('open')) closeZoom();
+      else closeModal();
+    }
+  });
 })();
 </script>
 

@@ -1117,6 +1117,51 @@ tbody tr:hover td { background: var(--light); }
 }
 .gallery-modal-photos img:hover { transform: scale(1.03); }
 
+/* ---- Gallery Zoom (full-screen single photo) ---- */
+.gallery-zoom {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  align-items: center;
+  justify-content: center;
+}
+.gallery-zoom.open { display: flex; }
+.gallery-zoom-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.92);
+}
+.gallery-zoom-img {
+  position: relative;
+  z-index: 1;
+  max-width: 92vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 6px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+}
+.gallery-zoom-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 2;
+  background: rgba(255,255,255,0.15);
+  border: none;
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 1;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+.gallery-zoom-close:hover { background: rgba(255,255,255,0.3); }
+
 /* ============ SNS CARDS ============ */
 .sns-grid {
   display: grid;
