@@ -937,6 +937,34 @@ tbody tr:hover td { background: var(--light); }
   box-shadow: var(--shadow-md);
 }
 
+.gallery-photo {
+  border-radius: var(--radius);
+  overflow: hidden;
+  height: 155px;
+  border: 1px solid var(--border);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+.gallery-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.gallery-photo:hover {
+  transform: scale(1.03);
+  box-shadow: var(--shadow-md);
+}
+.gallery-event-label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin: 1.8rem 0 0.5rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--border);
+}
+
 /* ============ SNS CARDS ============ */
 .sns-grid {
   display: grid;
