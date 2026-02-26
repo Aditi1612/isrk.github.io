@@ -955,26 +955,28 @@ tbody tr:hover td { background: var(--light); }
   transform: scale(1.03);
   box-shadow: var(--shadow-md);
 }
+.gallery-event {
+  margin: 2rem 0 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
 .gallery-event-label {
   font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   color: #fff;
   background: var(--navy);
-  margin: 2rem 0 0;
   padding: 0.55rem 1rem;
-  border-radius: var(--radius) var(--radius) 0 0;
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
-.gallery-event-label + .gallery-grid {
-  border: 1px solid var(--border);
+.gallery-event .gallery-grid {
   border-top: none;
-  border-radius: 0 0 var(--radius) var(--radius);
   padding: 0.75rem;
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   background: var(--white);
 }
 
