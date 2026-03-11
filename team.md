@@ -91,13 +91,13 @@ permalink: /team/
     <p>MS Student<br>Konkuk University<br>Seoul, South Korea</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image58.jpeg' | relative_url }}" alt="Dr. Keshavananda Prabhu C.P." class="team-photo">
+    <img src="{{ '/assets/images/team/image65.jpeg' | relative_url }}" alt="Dr. Keshavananda Prabhu C.P." class="team-photo">
     <h3>Dr. Keshavananda Prabhu C.P.</h3>
     <span class="team-role">Executive Secretary</span>
     <p>Assistant Professor<br>Gachon University<br>Seongnam, South Korea</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image59.jpeg' | relative_url }}" alt="Darshna Surendran" class="team-photo">
+    <img src="{{ '/assets/images/team/image58.jpeg' | relative_url }}" alt="Darshna Surendran" class="team-photo">
     <h3>Darshna Surendran</h3>
     <span class="team-role">Executive Secretary</span>
     <p>Pro Technology and Control (ProTnC)<br>Osan, South Korea</p>
