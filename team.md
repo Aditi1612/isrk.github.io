@@ -19,7 +19,7 @@ permalink: /team/
     <img src="{{ '/assets/images/team/image20.jpeg' | relative_url }}" alt="Dr. Lailesh Kumar" class="team-photo">
     <h3>Dr. Lailesh Kumar</h3>
     <span class="team-role">Founder</span>
-    <p>COO, TEXMIN<br>IIT-ISM Dhanbad, India</p>
+    <p>CTO TEXMIN<br>IIT-ISM Dhanbad, India</p>
   </div>
   <div class="team-card">
     <img src="{{ '/assets/images/team/image18.jpeg' | relative_url }}" alt="Dr. Mohammed Iqbal Khazi" class="team-photo">
@@ -38,7 +38,7 @@ permalink: /team/
     <h3>Mr. Suresh Kumar</h3>
     <span class="team-role" style="color:var(--saffron);">Board of Director</span>
     <p style="color:var(--text-dark); font-weight:500;">Head of Consular Wing and Community Affairs Division</p>
-    <p>First Secretary — Consular &amp; Community Affairs<br>Embassy of India, Seoul</p>
+    <p>Second Secretary — Consular &amp; Community Affairs<br>Embassy of India, Seoul</p>
   </div>
 </div>
 
@@ -66,10 +66,10 @@ permalink: /team/
     <p>Senior Researcher<br>Y S Pharma<br>Suwon, South Korea</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image23.jpeg' | relative_url }}" alt="Noopur Baghel" class="team-photo">
-    <h3>Noopur Baghel</h3>
+    <img src="{{ '/assets/images/team/image35.jpeg' | relative_url }}" alt="Jannat Shreya" class="team-photo">
+    <h3>Jannat Shreya</h3>
     <span class="team-role">Vice President — Educational Programs & Student Affairs</span>
-    <p>Ph.D. Scholar<br>Korea University<br>Seoul, South Korea</p>
+    <p>BBA Student<br>Seoul National University<br>Seoul, South Korea</p>
   </div>
 </div>
 
@@ -85,16 +85,22 @@ permalink: /team/
     <p>Ph.D. Scholar<br>Seoul National University<br>Seoul, South Korea</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image25.jpeg' | relative_url }}" alt="Keerti Yadav" class="team-photo">
-    <h3>Keerti Yadav</h3>
+    <img src="{{ '/assets/images/team/image37.jpeg' | relative_url }}" alt="Jaiwanti Sivakumar" class="team-photo">
+    <h3>Jaiwanti Sivakumar</h3>
     <span class="team-role">Executive Secretary</span>
-    <p>Ph.D. Scholar<br>Kongju National University<br>Gongju, South Korea</p>
+    <p>MS Student<br>Konkuk University<br>Seoul, South Korea</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image26.jpeg' | relative_url }}" alt="Pooja Singh" class="team-photo">
-    <h3>Pooja Singh</h3>
+    <div class="team-photo" style="display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--navy),#2e4a8e); color:#fff; font-size:2rem; font-weight:700; letter-spacing:1px;">KP</div>
+    <h3>Dr. Keshavananda Prabhu C.P.</h3>
     <span class="team-role">Executive Secretary</span>
-    <p>Ph.D. Scholar<br>Gyeongsang National University<br>Jinju, South Korea</p>
+    <p>Assistant Professor<br>Gachon University<br>Seongnam, South Korea</p>
+  </div>
+  <div class="team-card">
+    <div class="team-photo" style="display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--navy),#2e4a8e); color:#fff; font-size:2rem; font-weight:700; letter-spacing:1px;">DS</div>
+    <h3>Darshna Surendran</h3>
+    <span class="team-role">Executive Secretary</span>
+    <p>Pro Technology and Control (ProTnC)<br>Osan, South Korea</p>
   </div>
 </div>
 
@@ -104,28 +110,28 @@ permalink: /team/
 
 <div class="team-grid">
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image27.jpeg' | relative_url }}" alt="Tejas" class="team-photo">
-    <h3>Tejas</h3>
-    <span class="team-role">Executive Secretary</span>
-    <p>Ph.D. Scholar<br>Korea University<br>Seoul, South Korea</p>
-  </div>
-  <div class="team-card">
-    <img src="{{ '/assets/images/team/image28.jpeg' | relative_url }}" alt="Shambhavi Sharma" class="team-photo">
-    <h3>Shambhavi Sharma</h3>
-    <span class="team-role">Executive Secretary</span>
-    <p>Ph.D. Scholar<br>Korea Railroad Research Institute (KRRI)<br>Uiwang, South Korea</p>
-  </div>
-  <div class="team-card">
     <img src="{{ '/assets/images/team/image29.jpeg' | relative_url }}" alt="Dr. Arati Kumari Shah" class="team-photo">
     <h3>Dr. Arati Kumari Shah</h3>
     <span class="team-role">Executive Secretary</span>
-    <p>Senior Researcher<br>Philophos Korea<br>Seongnam, South Korea</p>
+    <p>Senior Researcher<br>Alphalite Co. Inc.<br>Seoul, South Korea</p>
   </div>
   <div class="team-card">
     <img src="{{ '/assets/images/team/image30.jpeg' | relative_url }}" alt="Dr. Chinna Bathula" class="team-photo">
     <h3>Dr. Chinna Bathula</h3>
     <span class="team-role">Executive Secretary</span>
     <p>Associate Professor<br>Dongguk University<br>Seoul, South Korea</p>
+  </div>
+  <div class="team-card">
+    <div class="team-photo" style="display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--navy),#2e4a8e); color:#fff; font-size:2rem; font-weight:700; letter-spacing:1px;">AP</div>
+    <h3>Ayush Patel</h3>
+    <span class="team-role">Executive Secretary</span>
+    <p>Engineer<br>Samsung Electronics<br>Seoul, South Korea</p>
+  </div>
+  <div class="team-card">
+    <div class="team-photo" style="display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--navy),#2e4a8e); color:#fff; font-size:2rem; font-weight:700; letter-spacing:1px;">V</div>
+    <h3>Dr. Vikas</h3>
+    <span class="team-role">Executive Secretary</span>
+    <p>Senior Researcher<br>Space Solutions Co., Ltd.<br>Daejeon, South Korea</p>
   </div>
 </div>
 
@@ -135,16 +141,22 @@ permalink: /team/
 
 <div class="team-grid">
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image32.png' | relative_url }}" alt="Kunal Kumar" class="team-photo">
-    <h3>Kunal Kumar</h3>
-    <span class="team-role">Executive Secretary</span>
-    <p>Director<br>HVS India<br>Seoul, South Korea</p>
-  </div>
-  <div class="team-card">
     <img src="{{ '/assets/images/team/image31.jpeg' | relative_url }}" alt="Dr. Pravin P. Upare" class="team-photo">
     <h3>Dr. Pravin P. Upare</h3>
     <span class="team-role">Executive Secretary</span>
     <p>Principal Research Scientist<br>Activon Co. Ltd<br>Cheongju, South Korea</p>
+  </div>
+  <div class="team-card">
+    <img src="{{ '/assets/images/team/image27.jpeg' | relative_url }}" alt="Tejas D. Raju" class="team-photo">
+    <h3>Tejas D. Raju</h3>
+    <span class="team-role">Executive Secretary</span>
+    <p>Ph.D. Scholar<br>Korea University<br>Seoul, South Korea</p>
+  </div>
+  <div class="team-card">
+    <img src="{{ '/assets/images/team/image38.jpeg' | relative_url }}" alt="Adil Sheikh" class="team-photo">
+    <h3>Adil Sheikh</h3>
+    <span class="team-role">Executive Secretary</span>
+    <p>Ph.D. Scholar<br>Yeungnam University<br>Daegu, South Korea</p>
   </div>
 </div>
 
@@ -165,6 +177,12 @@ permalink: /team/
     <span class="team-role">Executive Secretary</span>
     <p>Ph.D. Scholar<br>Chung-Ang University<br>Seoul, South Korea</p>
   </div>
+  <div class="team-card">
+    <div class="team-photo" style="display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--navy),#2e4a8e); color:#fff; font-size:2rem; font-weight:700; letter-spacing:1px;">MS</div>
+    <h3>Mohammad Aakib Shaikh</h3>
+    <span class="team-role">Executive Secretary</span>
+    <p>Researcher<br>BNJ Bio Pharma<br>Incheon, South Korea</p>
+  </div>
 </div>
 
 ---
@@ -173,28 +191,16 @@ permalink: /team/
 
 <div class="team-grid">
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image35.jpeg' | relative_url }}" alt="Jannat Shreya" class="team-photo">
-    <h3>Jannat Shreya</h3>
+    <div class="team-photo" style="display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--navy),#2e4a8e); color:#fff; font-size:2rem; font-weight:700; letter-spacing:1px;">VM</div>
+    <h3>Vanshika Mittal</h3>
     <span class="team-role">Executive Secretary</span>
-    <p>BS Student<br>Seoul National University<br>Seoul, South Korea</p>
+    <p>MS Student<br>Kyung Hee University<br>Yongin, South Korea</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image36.jpeg' | relative_url }}" alt="Dr. M Shriya Jaiswal" class="team-photo">
-    <h3>Dr. M Shriya Jaiswal</h3>
+    <div class="team-photo" style="display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--navy),#2e4a8e); color:#fff; font-size:2rem; font-weight:700; letter-spacing:1px;">AN</div>
+    <h3>Abhishek Negi</h3>
     <span class="team-role">Executive Secretary</span>
-    <p>Ph.D. Scholar<br>Pusan National University<br>Busan, South Korea</p>
-  </div>
-  <div class="team-card">
-    <img src="{{ '/assets/images/team/image37.jpeg' | relative_url }}" alt="Jaiwanti Sivakumar" class="team-photo">
-    <h3>Jaiwanti Sivakumar</h3>
-    <span class="team-role">Executive Secretary</span>
-    <p>MS Student<br>Konkuk University<br>Seoul, South Korea</p>
-  </div>
-  <div class="team-card">
-    <img src="{{ '/assets/images/team/image38.jpeg' | relative_url }}" alt="Adil Sheikh" class="team-photo">
-    <h3>Adil Sheikh</h3>
-    <span class="team-role">Executive Secretary</span>
-    <p>Ph.D. Scholar<br>Yeungnam University<br>Daegu, South Korea</p>
+    <p>Ph.D. Scholar<br>University of Science &amp; Technology (UST)<br>Daejeon, South Korea</p>
   </div>
 </div>
 
