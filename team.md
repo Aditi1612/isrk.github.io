@@ -191,16 +191,16 @@ permalink: /team/
 
 <div class="team-grid">
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image63.jpeg' | relative_url }}" alt="Vanshika Mittal" class="team-photo">
-    <h3>Vanshika Mittal</h3>
-    <span class="team-role">Executive Secretary</span>
-    <p>MS Student<br>Kyung Hee University<br>Yongin, South Korea</p>
-  </div>
-  <div class="team-card">
     <img src="{{ '/assets/images/team/image64.jpeg' | relative_url }}" alt="Abhishek Negi" class="team-photo">
     <h3>Abhishek Negi</h3>
     <span class="team-role">Executive Secretary</span>
     <p>Ph.D. Scholar<br>University of Science &amp; Technology (UST)<br>Daejeon, South Korea</p>
+  </div>
+  <div class="team-card">
+    <img src="{{ '/assets/images/team/image63.jpeg' | relative_url }}" alt="Vanshika Mittal" class="team-photo">
+    <h3>Vanshika Mittal</h3>
+    <span class="team-role">Executive Secretary</span>
+    <p>MS Student<br>Kyung Hee University<br>Yongin, South Korea</p>
   </div>
 </div>
 
