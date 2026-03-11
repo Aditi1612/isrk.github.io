@@ -91,13 +91,13 @@ permalink: /team/
     <p>MS Student<br>Konkuk University<br>Seoul, South Korea</p>
   </div>
   <div class="team-card">
-    <div class="team-photo" style="display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--navy),#2e4a8e); color:#fff; font-size:2rem; font-weight:700; letter-spacing:1px;">KP</div>
+    <img src="{{ '/assets/images/team/image58.jpeg' | relative_url }}" alt="Dr. Keshavananda Prabhu C.P." class="team-photo">
     <h3>Dr. Keshavananda Prabhu C.P.</h3>
     <span class="team-role">Executive Secretary</span>
     <p>Assistant Professor<br>Gachon University<br>Seongnam, South Korea</p>
   </div>
   <div class="team-card">
-    <div class="team-photo" style="display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--navy),#2e4a8e); color:#fff; font-size:2rem; font-weight:700; letter-spacing:1px;">DS</div>
+    <img src="{{ '/assets/images/team/image59.jpeg' | relative_url }}" alt="Darshna Surendran" class="team-photo">
     <h3>Darshna Surendran</h3>
     <span class="team-role">Executive Secretary</span>
     <p>Pro Technology and Control (ProTnC)<br>Osan, South Korea</p>
@@ -122,13 +122,13 @@ permalink: /team/
     <p>Associate Professor<br>Dongguk University<br>Seoul, South Korea</p>
   </div>
   <div class="team-card">
-    <div class="team-photo" style="display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--navy),#2e4a8e); color:#fff; font-size:2rem; font-weight:700; letter-spacing:1px;">AP</div>
+    <img src="{{ '/assets/images/team/image60.jpeg' | relative_url }}" alt="Ayush Patel" class="team-photo">
     <h3>Ayush Patel</h3>
     <span class="team-role">Executive Secretary</span>
     <p>Engineer<br>Samsung Electronics<br>Seoul, South Korea</p>
   </div>
   <div class="team-card">
-    <div class="team-photo" style="display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--navy),#2e4a8e); color:#fff; font-size:2rem; font-weight:700; letter-spacing:1px;">V</div>
+    <img src="{{ '/assets/images/team/image61.jpeg' | relative_url }}" alt="Dr. Vikas" class="team-photo">
     <h3>Dr. Vikas</h3>
     <span class="team-role">Executive Secretary</span>
     <p>Senior Researcher<br>Space Solutions Co., Ltd.<br>Daejeon, South Korea</p>
@@ -178,7 +178,7 @@ permalink: /team/
     <p>Ph.D. Scholar<br>Chung-Ang University<br>Seoul, South Korea</p>
   </div>
   <div class="team-card">
-    <div class="team-photo" style="display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--navy),#2e4a8e); color:#fff; font-size:2rem; font-weight:700; letter-spacing:1px;">MS</div>
+    <img src="{{ '/assets/images/team/image62.jpeg' | relative_url }}" alt="Mohammad Aakib Shaikh" class="team-photo">
     <h3>Mohammad Aakib Shaikh</h3>
     <span class="team-role">Executive Secretary</span>
     <p>Researcher<br>BNJ Bio Pharma<br>Incheon, South Korea</p>
@@ -191,13 +191,13 @@ permalink: /team/
 
 <div class="team-grid">
   <div class="team-card">
-    <div class="team-photo" style="display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--navy),#2e4a8e); color:#fff; font-size:2rem; font-weight:700; letter-spacing:1px;">VM</div>
+    <img src="{{ '/assets/images/team/image63.jpeg' | relative_url }}" alt="Vanshika Mittal" class="team-photo">
     <h3>Vanshika Mittal</h3>
     <span class="team-role">Executive Secretary</span>
     <p>MS Student<br>Kyung Hee University<br>Yongin, South Korea</p>
   </div>
   <div class="team-card">
-    <div class="team-photo" style="display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg,var(--navy),#2e4a8e); color:#fff; font-size:2rem; font-weight:700; letter-spacing:1px;">AN</div>
+    <img src="{{ '/assets/images/team/image64.jpeg' | relative_url }}" alt="Abhishek Negi" class="team-photo">
     <h3>Abhishek Negi</h3>
     <span class="team-role">Executive Secretary</span>
     <p>Ph.D. Scholar<br>University of Science &amp; Technology (UST)<br>Daejeon, South Korea</p>
