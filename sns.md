@@ -27,6 +27,13 @@ permalink: /sns/
     <a href="https://chat.whatsapp.com/KdrmdYrla6WFHnt6E7wMVL" target="_blank" class="sns-btn">Join on WhatsApp</a>
   </div>
 
+  <div class="sns-card kakao">
+    <div class="sns-icon"><i class="fa-solid fa-comment-dots"></i></div>
+    <h3>KakaoTalk</h3>
+    <p>Join our KakaoTalk open chat for quick community updates and conversations.</p>
+    <a href="https://invite.kakao.com/tc/P4jMDCVboP" target="_blank" class="sns-btn">Join on KakaoTalk</a>
+  </div>
+
   <div class="sns-card youtube">
     <div class="sns-icon"><i class="fa-brands fa-youtube"></i></div>
     <h3>YouTube</h3>

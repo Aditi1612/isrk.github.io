@@ -99,6 +99,7 @@ To receive ISRK notices and announcements directly:
 <div class="info-box">
   <strong>Email:</strong> Send a subscription request to <a href="mailto:isrk.association@gmail.com">isrk.association@gmail.com</a> with subject "Subscribe to Updates"<br><br>
   <strong>WhatsApp:</strong> Join our announcement group — <a href="mailto:isrk.association@gmail.com?subject=Join Announcements Group">Request to join</a><br><br>
+  <strong>KakaoTalk:</strong> Join our open chat — <a href="https://invite.kakao.com/tc/P4jMDCVboP" target="_blank">Join on KakaoTalk</a><br><br>
   <strong>Social Media:</strong> Follow our platforms on the <a href="{{ '/sns/' | relative_url }}">SNS page</a> for real-time updates.
 </div>
 

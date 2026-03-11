@@ -387,6 +387,7 @@ tr:nth-child(even) td { background: var(--light-bg); }
 .sns-card.youtube { border-top: 4px solid #ff0000; }
 .sns-card.email { border-top: 4px solid var(--saffron); }
 .sns-card.whatsapp { border-top: 4px solid #25D366; }
+.sns-card.kakao    { border-top: 4px solid #FAE100; }
 .sns-card.facebook { border-top: 4px solid #1877f2; }
 .sns-card.instagram { border-top: 4px solid #e1306c; }
 .sns-card.linkedin { border-top: 4px solid #0077b5; }

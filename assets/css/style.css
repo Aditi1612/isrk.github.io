@@ -487,6 +487,7 @@ p { margin-bottom: 1rem; color: var(--text-md); }
 }
 
 .hero-sns-icon.whatsapp:hover   { background: #25d366; border-color: #25d366; }
+.hero-sns-icon.kakao:hover      { background: #FAE100; border-color: #FAE100; color: #3C1E1E; }
 .hero-sns-icon.youtube:hover   { background: #ff0000; border-color: #ff0000; }
 .hero-sns-icon.telegram:hover  { background: #229ED9; border-color: #229ED9; }
 .hero-sns-icon.facebook:hover  { background: #1877f2; border-color: #1877f2; }
@@ -1235,6 +1236,7 @@ tbody tr:hover td { background: var(--light); }
 }
 
 .sns-card.whatsapp .sns-icon { color: #25d366; }
+.sns-card.kakao    .sns-icon { color: #FAE100; }
 .sns-card.youtube  .sns-icon { color: #ff0000; }
 .sns-card.email    .sns-icon { color: var(--saffron); }
 .sns-card.telegram .sns-icon { color: #229ED9; }
@@ -1246,6 +1248,7 @@ tbody tr:hover td { background: var(--light); }
 .sns-card p  { font-size: 0.86rem; color: var(--text-lt); margin-bottom: 1.2rem; }
 
 .sns-card.whatsapp  { border-top: 4px solid #25d366; }
+.sns-card.kakao     { border-top: 4px solid #FAE100; }
 .sns-card.youtube   { border-top: 4px solid #ff0000; }
 .sns-card.email     { border-top: 4px solid var(--saffron); }
 .sns-card.telegram  { border-top: 4px solid #229ED9; }
