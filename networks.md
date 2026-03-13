@@ -44,6 +44,14 @@ permalink: /networks/
   </div>
 </div>
 
+<div class="registry-section" style="margin-top:1.5rem; border-left-color: var(--saffron); text-align:center;">
+  <h2 class="registry-title">&#127958; Weekend Getaway &amp; Recreation</h2>
+  <p class="registry-subtitle" style="margin-left:auto; margin-right:auto;">Join ISRK's Weekend Getaway KakaoTalk group for recreational activities, hiking trips, travel plans, and fun outings with the Indian community across Korea. Explore Korea together!</p>
+  <div style="margin-top:1rem;">
+    <a href="https://invite.kakao.com/tc/P4jMDCVboP" target="_blank" class="btn btn-primary" style="background:var(--saffron);border-color:var(--saffron);">&#128172; Join on KakaoTalk</a>
+  </div>
+</div>
+
 <div class="info-box" style="margin-top:2.5rem;">
   <strong>Want to propose a new research network?</strong> Reach out at <a href="mailto:isrk.association@gmail.com">isrk.association@gmail.com</a> and we'll work together to set it up.
 </div>
