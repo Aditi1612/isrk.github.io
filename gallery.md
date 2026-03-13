@@ -1360,14 +1360,28 @@ permalink: /gallery/
   max-width: 700px;
   margin: 0 auto 2rem;
   border-radius: 12px;
-  overflow: hidden;
   box-shadow: 0 4px 24px rgba(0,0,0,0.13);
   background: #f5f5f5;
 }
-.fts-track { position: relative; }
-.fts-slide { display: none; }
-.fts-slide.active { display: block; }
-.fts-slide img { width: 100%; display: block; border-radius: 12px; }
+.fts-track {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.fts-slide {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  pointer-events: none;
+}
+.fts-slide.active {
+  position: relative;
+  opacity: 1;
+  pointer-events: auto;
+}
+.fts-slide img { width: 100%; display: block; }
 .fts-btn {
   position: absolute;
   top: 50%;
@@ -1379,7 +1393,6 @@ permalink: /gallery/
   height: 42px;
   border-radius: 50%;
   font-size: 1.6rem;
-  line-height: 1;
   cursor: pointer;
   z-index: 10;
   transition: background 0.2s;
@@ -1391,51 +1404,64 @@ permalink: /gallery/
 .fts-prev { left: 12px; }
 .fts-next { right: 12px; }
 .fts-dots {
-  position: absolute;
-  bottom: 12px;
-  left: 50%;
-  transform: translateX(-50%);
   display: flex;
+  justify-content: center;
   gap: 8px;
+  padding: 10px 0 6px;
 }
 .fts-dot {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.5);
+  background: #ccc;
   cursor: pointer;
-  border: 2px solid rgba(255,255,255,0.8);
-  transition: background 0.2s;
+  border: 2px solid #bbb;
+  transition: background 0.2s, border-color 0.2s;
 }
 .fts-dot.active { background: #FF9933; border-color: #FF9933; }
 </style>
 
 <script>
 (function(){
-  var slides = document.querySelectorAll('#formerTeamSlider .fts-slide');
-  var dots = document.querySelectorAll('#formerTeamSlider .fts-dot');
-  var current = 0;
-  var timer;
+  var slider = document.getElementById('formerTeamSlider');
+  var slides = slider.querySelectorAll('.fts-slide');
+  var dots   = slider.querySelectorAll('.fts-dot');
+  var current = 0, timer, isAnimating = false;
 
   function goTo(n) {
-    slides[current].classList.remove('active');
-    dots[current].classList.remove('active');
+    if (isAnimating) return;
+    isAnimating = true;
+    var prev = current;
     current = (n + slides.length) % slides.length;
+
+    /* Fade out old, fade in new */
+    slides[prev].style.position = 'absolute';
+    slides[prev].style.opacity  = '0';
+    slides[current].style.position = 'relative';
+    slides[current].style.opacity   = '1';
+
+    slides[prev].classList.remove('active');
     slides[current].classList.add('active');
+    dots[prev].classList.remove('active');
     dots[current].classList.add('active');
+
+    setTimeout(function(){ isAnimating = false; }, 650);
   }
 
-  function next() { goTo(current + 1); }
-  function prev() { goTo(current - 1); }
-
-  function startAuto() { timer = setInterval(next, 4000); }
+  function startAuto() { timer = setInterval(function(){ goTo(current + 1); }, 4500); }
   function stopAuto()  { clearInterval(timer); }
 
-  document.querySelector('#formerTeamSlider .fts-next').addEventListener('click', function(){ stopAuto(); next(); startAuto(); });
-  document.querySelector('#formerTeamSlider .fts-prev').addEventListener('click', function(){ stopAuto(); prev(); startAuto(); });
-  dots.forEach(function(dot){ dot.addEventListener('click', function(){ stopAuto(); goTo(+this.dataset.index); startAuto(); }); });
+  slider.querySelector('.fts-next').addEventListener('click', function(){ stopAuto(); goTo(current+1); startAuto(); });
+  slider.querySelector('.fts-prev').addEventListener('click', function(){ stopAuto(); goTo(current-1); startAuto(); });
+  dots.forEach(function(d){ d.addEventListener('click', function(){ stopAuto(); goTo(+this.dataset.index); startAuto(); }); });
 
-  startAuto();
+  /* Preload all images then start */
+  var imgs = slider.querySelectorAll('img'), loaded = 0;
+  imgs.forEach(function(img){
+    if (img.complete) { loaded++; if(loaded===imgs.length) startAuto(); }
+    else img.addEventListener('load', function(){ loaded++; if(loaded===imgs.length) startAuto(); });
+  });
+  if (loaded === imgs.length) startAuto();
 })();
 </script>
 
