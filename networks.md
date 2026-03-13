@@ -28,6 +28,14 @@ permalink: /networks/
   </div>
 </div>
 
+<div class="registry-section" style="margin-top:1.5rem; border-left-color: var(--saffron); text-align:center;">
+  <h2 class="registry-title">&#127958; Weekend Getaway &amp; Recreation</h2>
+  <p class="registry-subtitle" style="margin-left:auto; margin-right:auto;">Join ISRK's Weekend Getaway KakaoTalk group for recreational activities, hiking trips, travel plans, and fun outings with the Indian community across Korea. Explore Korea together!</p>
+  <div style="margin-top:1rem;">
+    <a href="https://invite.kakao.com/tc/P4jMDCVboP" target="_blank" class="btn btn-primary" style="background:var(--saffron);border-color:var(--saffron);">&#128172; Join on KakaoTalk</a>
+  </div>
+</div>
+
 <div class="registry-section" style="margin-top:1.5rem; border-left-color: var(--navy); text-align:center;">
   <h2 class="registry-title">&#128300; Semiconductor Research Network</h2>
   <p class="registry-subtitle" style="margin-left:auto; margin-right:auto;">A dedicated network for Indian researchers and students working in semiconductor science and engineering across Korean universities and institutes. <em>Coming soon — registration opening shortly.</em></p>
@@ -41,14 +49,6 @@ permalink: /networks/
   <p class="registry-subtitle" style="margin-left:auto; margin-right:auto;">Connecting Indian researchers and students in Artificial Intelligence and Robotics across Korea for collaboration, knowledge exchange, and industry engagement. <em>Coming soon — registration opening shortly.</em></p>
   <div style="margin-top:1rem;">
     <a href="mailto:isrk.association@gmail.com?subject=AI and Robotics Research Network" class="btn btn-primary" style="opacity:0.7; cursor:default;">&#128337; Coming Soon</a>
-  </div>
-</div>
-
-<div class="registry-section" style="margin-top:1.5rem; border-left-color: var(--saffron); text-align:center;">
-  <h2 class="registry-title">&#127958; Weekend Getaway &amp; Recreation</h2>
-  <p class="registry-subtitle" style="margin-left:auto; margin-right:auto;">Join ISRK's Weekend Getaway KakaoTalk group for recreational activities, hiking trips, travel plans, and fun outings with the Indian community across Korea. Explore Korea together!</p>
-  <div style="margin-top:1rem;">
-    <a href="https://invite.kakao.com/tc/P4jMDCVboP" target="_blank" class="btn btn-primary" style="background:var(--saffron);border-color:var(--saffron);">&#128172; Join on KakaoTalk</a>
   </div>
 </div>
 
