@@ -1325,13 +1325,119 @@ permalink: /gallery/
 
 ## Former Executive Team {#former-executives}
 
-<div class="gallery-grid">
-  <img src="{{ '/assets/images/gallery/former-team-slides/1.png' | relative_url }}" alt="Former Executive Team - Slide 1" loading="lazy" style="width:100%;border-radius:8px;">
-  <img src="{{ '/assets/images/gallery/former-team-slides/2.png' | relative_url }}" alt="Former Executive Team - Slide 2" loading="lazy" style="width:100%;border-radius:8px;">
-  <img src="{{ '/assets/images/gallery/former-team-slides/3.png' | relative_url }}" alt="Former Executive Team - Slide 3" loading="lazy" style="width:100%;border-radius:8px;">
-  <img src="{{ '/assets/images/gallery/former-team-slides/4.png' | relative_url }}" alt="Former Executive Team - Slide 4" loading="lazy" style="width:100%;border-radius:8px;">
-  <img src="{{ '/assets/images/gallery/former-team-slides/5.png' | relative_url }}" alt="Former Executive Team - Slide 5" loading="lazy" style="width:100%;border-radius:8px;">
+<div class="former-team-slider" id="formerTeamSlider">
+  <div class="fts-track">
+    <div class="fts-slide active">
+      <img src="{{ '/assets/images/gallery/former-team-slides/1.png' | relative_url }}" alt="Former Executive Team - Slide 1" loading="lazy">
+    </div>
+    <div class="fts-slide">
+      <img src="{{ '/assets/images/gallery/former-team-slides/2.png' | relative_url }}" alt="Former Executive Team - Slide 2" loading="lazy">
+    </div>
+    <div class="fts-slide">
+      <img src="{{ '/assets/images/gallery/former-team-slides/3.png' | relative_url }}" alt="Former Executive Team - Slide 3" loading="lazy">
+    </div>
+    <div class="fts-slide">
+      <img src="{{ '/assets/images/gallery/former-team-slides/4.png' | relative_url }}" alt="Former Executive Team - Slide 4" loading="lazy">
+    </div>
+    <div class="fts-slide">
+      <img src="{{ '/assets/images/gallery/former-team-slides/5.png' | relative_url }}" alt="Former Executive Team - Slide 5" loading="lazy">
+    </div>
+  </div>
+  <button class="fts-btn fts-prev" aria-label="Previous">&#8249;</button>
+  <button class="fts-btn fts-next" aria-label="Next">&#8250;</button>
+  <div class="fts-dots">
+    <span class="fts-dot active" data-index="0"></span>
+    <span class="fts-dot" data-index="1"></span>
+    <span class="fts-dot" data-index="2"></span>
+    <span class="fts-dot" data-index="3"></span>
+    <span class="fts-dot" data-index="4"></span>
+  </div>
 </div>
+
+<style>
+.former-team-slider {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+  background: #f5f5f5;
+}
+.fts-track { position: relative; }
+.fts-slide { display: none; }
+.fts-slide.active { display: block; }
+.fts-slide img { width: 100%; display: block; border-radius: 12px; }
+.fts-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(26,42,94,0.75);
+  color: #fff;
+  border: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fts-btn:hover { background: rgba(255,153,51,0.9); }
+.fts-prev { left: 12px; }
+.fts-next { right: 12px; }
+.fts-dots {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+.fts-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+  border: 2px solid rgba(255,255,255,0.8);
+  transition: background 0.2s;
+}
+.fts-dot.active { background: #FF9933; border-color: #FF9933; }
+</style>
+
+<script>
+(function(){
+  var slides = document.querySelectorAll('#formerTeamSlider .fts-slide');
+  var dots = document.querySelectorAll('#formerTeamSlider .fts-dot');
+  var current = 0;
+  var timer;
+
+  function goTo(n) {
+    slides[current].classList.remove('active');
+    dots[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    dots[current].classList.add('active');
+  }
+
+  function next() { goTo(current + 1); }
+  function prev() { goTo(current - 1); }
+
+  function startAuto() { timer = setInterval(next, 4000); }
+  function stopAuto()  { clearInterval(timer); }
+
+  document.querySelector('#formerTeamSlider .fts-next').addEventListener('click', function(){ stopAuto(); next(); startAuto(); });
+  document.querySelector('#formerTeamSlider .fts-prev').addEventListener('click', function(){ stopAuto(); prev(); startAuto(); });
+  dots.forEach(function(dot){ dot.addEventListener('click', function(){ stopAuto(); goTo(+this.dataset.index); startAuto(); }); });
+
+  startAuto();
+})();
+</script>
 
 ---
 
