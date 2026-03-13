@@ -151,3 +151,13 @@ title: Home
   <a href="{{ '/information/' | relative_url }}" class="btn btn-primary" style="margin-right:0.8rem;">Important Information</a>
   <a href="{{ '/sns/' | relative_url }}" class="btn btn-outline">Join Our Groups</a>
 </div>
+
+<div class="collab-section" style="background:linear-gradient(135deg,#1a2a5e 0%,#2e4a8e 100%);color:#fff;padding:3rem 2rem;text-align:center;border-radius:12px;margin:2rem 0;">
+  <h2 style="color:#fff;margin-bottom:0.75rem;">Collaboration &amp; Partnerships</h2>
+  <p style="color:rgba(255,255,255,0.85);font-size:1.05rem;max-width:600px;margin:0 auto 1.5rem;">
+    Interested in sponsoring ISRK events, signing an MoU, or partnering with the largest Indian student and researcher community in Korea?
+  </p>
+  <a href="mailto:president.isrk@gmail.com" class="btn btn-primary" style="background:#FF9933;border-color:#FF9933;font-size:1rem;padding:0.75rem 2rem;">
+    Contact: president.isrk@gmail.com
+  </a>
+</div>
