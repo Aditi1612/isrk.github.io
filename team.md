@@ -22,7 +22,7 @@ permalink: /team/
     <p>CTO TEXMIN<br>IIT-ISM Dhanbad, India</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image18.jpeg' | relative_url }}" alt="Dr. Mohammed Iqbal Khazi" class="team-photo">
+    <img src="{{ '/assets/images/team/image18.jpeg' | relative_url }}" alt="Dr. Mohammed Iqbal Khazi" class="team-photo" style="object-position: center 15%;">
     <h3>Dr. Mohammed Iqbal Khazi</h3>
     <span class="team-role">Co-Founder & President</span>
     <p>Research Associate Professor<br>Hanyang University<br>Seoul, South Korea</p>
@@ -48,7 +48,7 @@ permalink: /team/
 
 <div class="team-grid">
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image18.jpeg' | relative_url }}" alt="Dr. Mohammed Iqbal Khazi" class="team-photo">
+    <img src="{{ '/assets/images/team/image18.jpeg' | relative_url }}" alt="Dr. Mohammed Iqbal Khazi" class="team-photo" style="object-position: center 15%;">
     <h3>Dr. Mohammed Iqbal Khazi</h3>
     <span class="team-role">President</span>
     <p>Research Associate Professor<br>Hanyang University<br>Seoul, South Korea</p>
