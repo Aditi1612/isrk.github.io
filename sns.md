@@ -34,6 +34,13 @@ permalink: /sns/
     <a href="https://invite.kakao.com/tc/P4jMDCVboP" target="_blank" class="sns-btn">Join on KakaoTalk</a>
   </div>
 
+  <div class="sns-card kakao">
+    <div class="sns-icon"><i class="fa-solid fa-person-hiking"></i></div>
+    <h3>KakaoTalk — Weekend Getaway</h3>
+    <p>Join ISRK's Weekend Getaway group for recreational activities, hiking trips, travel plans, and fun outings with the community across Korea.</p>
+    <a href="https://invite.kakao.com/tc/P4jMDCVboP" target="_blank" class="sns-btn">Join Weekend Getaway</a>
+  </div>
+
   <div class="sns-card youtube">
     <div class="sns-icon"><i class="fa-brands fa-youtube"></i></div>
     <h3>YouTube</h3>
