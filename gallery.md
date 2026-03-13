@@ -20,6 +20,7 @@ permalink: /gallery/
   <button class="gallery-filter" data-filter="sports">Sports</button>
   <button class="gallery-filter" data-filter="community">Community</button>
   <button class="gallery-filter" data-filter="mous">MoUs &amp; Partnerships</button>
+  <button class="gallery-filter" data-filter="former-team">Former Team</button>
 </div>
 
 <!-- Event cards -->
@@ -393,6 +394,160 @@ permalink: /gallery/
     <span class="gallery-card-meta">1 photo &middot; MoUs & Partnerships</span>
   </div>
 </div>
+
+<div class="gallery-event-card" data-category="cultural" data-event="cult-13">
+  <div class="gallery-card-img-wrap">
+    <img src="{{ '/assets/images/gallery/foundation-day-2022/480970667_9643105399074834_9064126764766674209_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  </div>
+  <div class="gallery-card-info">
+    <p class="gallery-card-title">Foundation Day 2022</p>
+    <span class="gallery-card-meta">20 photos &middot; Cultural</span>
+  </div>
+</div>
+<div class="gallery-event-card" data-category="cultural" data-event="cult-14">
+  <div class="gallery-card-img-wrap">
+    <img src="{{ '/assets/images/gallery/deepotsav-2022/480186072_2026351067878435_5664947849459208705_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  </div>
+  <div class="gallery-card-info">
+    <p class="gallery-card-title">Deepotsav 2022 - Diwali Celebration</p>
+    <span class="gallery-card-meta">28 photos &middot; Cultural</span>
+  </div>
+</div>
+<div class="gallery-event-card" data-category="cultural" data-event="cult-15">
+  <div class="gallery-card-img-wrap">
+    <img src="{{ '/assets/images/gallery/deepotsav-2023/466420439_10230642884367398_4361061553259894226_n.jpg' | relative_url }}" alt="Deepotsav 2023 - Diwali Celebration" loading="lazy">
+  </div>
+  <div class="gallery-card-info">
+    <p class="gallery-card-title">Deepotsav 2023 - Diwali Celebration</p>
+    <span class="gallery-card-meta">8 photos &middot; Cultural</span>
+  </div>
+</div>
+<div class="gallery-event-card" data-category="cultural" data-event="cult-16">
+  <div class="gallery-card-img-wrap">
+    <img src="{{ '/assets/images/gallery/deepotsav-2024/466397029_10230642890567553_5976761074081294879_n.jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+  </div>
+  <div class="gallery-card-info">
+    <p class="gallery-card-title">Deepotsav 2024 - Diwali Celebration</p>
+    <span class="gallery-card-meta">17 photos &middot; Cultural</span>
+  </div>
+</div>
+<div class="gallery-event-card" data-category="cultural" data-event="cult-17">
+  <div class="gallery-card-img-wrap">
+    <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.53.jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  </div>
+  <div class="gallery-card-info">
+    <p class="gallery-card-title">Indo Utsav 2022 - Cultural Festival</p>
+    <span class="gallery-card-meta">25 photos &middot; Cultural</span>
+  </div>
+</div>
+<div class="gallery-event-card" data-category="cultural" data-event="cult-18">
+  <div class="gallery-card-img-wrap">
+    <img src="{{ '/assets/images/gallery/indo-utsav-2023/WhatsApp Image 2026-02-26 at 23.39.14 (2).jpeg' | relative_url }}" alt="Indo Utsav 2023 - Cultural Festival" loading="lazy">
+  </div>
+  <div class="gallery-card-info">
+    <p class="gallery-card-title">Indo Utsav 2023 - Cultural Festival</p>
+    <span class="gallery-card-meta">16 photos &middot; Cultural</span>
+  </div>
+</div>
+<div class="gallery-event-card" data-category="cultural" data-event="cult-19">
+  <div class="gallery-card-img-wrap">
+    <img src="{{ '/assets/images/gallery/garba-2024/WhatsApp Image 2026-02-26 at 21.47.49 (1).jpeg' | relative_url }}" alt="Garba Night 2024 - Navratri Celebrations" loading="lazy">
+  </div>
+  <div class="gallery-card-info">
+    <p class="gallery-card-title">Garba Night 2024 - Navratri Celebrations</p>
+    <span class="gallery-card-meta">5 photos &middot; Cultural</span>
+  </div>
+</div>
+<div class="gallery-event-card" data-category="cultural" data-event="cult-20">
+  <div class="gallery-card-img-wrap">
+    <img src="{{ '/assets/images/gallery/garba-2025/WhatsApp Image 2026-02-26 at 21.45.23.jpeg' | relative_url }}" alt="Garba Night 2025 - Navratri Celebrations" loading="lazy">
+  </div>
+  <div class="gallery-card-info">
+    <p class="gallery-card-title">Garba Night 2025 - Navratri Celebrations</p>
+    <span class="gallery-card-meta">13 photos &middot; Cultural</span>
+  </div>
+</div>
+<div class="gallery-event-card" data-category="sports" data-event="sport-4">
+  <div class="gallery-card-img-wrap">
+    <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.16.jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  </div>
+  <div class="gallery-card-info">
+    <p class="gallery-card-title">ISRK Cricket Club 2022</p>
+    <span class="gallery-card-meta">22 photos &middot; Sports</span>
+  </div>
+</div>
+<div class="gallery-event-card" data-category="sports" data-event="sport-5">
+  <div class="gallery-card-img-wrap">
+    <img src="{{ '/assets/images/gallery/cricket-cc-2023/492479825_9671445292938711_6736142571208163119_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  </div>
+  <div class="gallery-card-info">
+    <p class="gallery-card-title">ISRK Cricket Club 2023</p>
+    <span class="gallery-card-meta">25 photos &middot; Sports</span>
+  </div>
+</div>
+<div class="gallery-event-card" data-category="sports" data-event="sport-6">
+  <div class="gallery-card-img-wrap">
+    <img src="{{ '/assets/images/gallery/cricket-cc-2024/465849955_10230693075382142_6575705010823276005_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  </div>
+  <div class="gallery-card-info">
+    <p class="gallery-card-title">ISRK Cricket Club 2024</p>
+    <span class="gallery-card-meta">28 photos &middot; Sports</span>
+  </div>
+</div>
+<div class="gallery-event-card" data-category="sports" data-event="sport-7">
+  <div class="gallery-card-img-wrap">
+    <img src="{{ '/assets/images/gallery/cricket-women-2022/476034095_3473000626339042_6074800145509689523_n.jpg' | relative_url }}" alt="ISRK Women Cricket 2022" loading="lazy">
+  </div>
+  <div class="gallery-card-info">
+    <p class="gallery-card-title">ISRK Women Cricket 2022</p>
+    <span class="gallery-card-meta">11 photos &middot; Sports</span>
+  </div>
+</div>
+<div class="gallery-event-card" data-category="sports" data-event="sport-8">
+  <div class="gallery-card-img-wrap">
+    <img src="{{ '/assets/images/gallery/cricket-winning-2023/WhatsApp Image 2026-02-27 at 13.02.33 (1).jpeg' | relative_url }}" alt="ISRK Cricket - Winning Moments 2023" loading="lazy">
+  </div>
+  <div class="gallery-card-info">
+    <p class="gallery-card-title">ISRK Cricket - Winning Moments 2023</p>
+    <span class="gallery-card-meta">4 photos &middot; Sports</span>
+  </div>
+</div>
+<div class="gallery-event-card" data-category="community" data-event="comm-6">
+  <div class="gallery-card-img-wrap">
+    <img src="{{ '/assets/images/gallery/hiking/481252649_3496636773975427_3607617590788975760_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  </div>
+  <div class="gallery-card-info">
+    <p class="gallery-card-title">ISRK Hiking Adventures - Across Korea</p>
+    <span class="gallery-card-meta">46 photos &middot; Community</span>
+  </div>
+</div>
+<div class="gallery-event-card" data-category="community" data-event="comm-7">
+  <div class="gallery-card-img-wrap">
+    <img src="{{ '/assets/images/gallery/team-2026/1.png' | relative_url }}" alt="ISRK Team 2026" loading="lazy">
+  </div>
+  <div class="gallery-card-info">
+    <p class="gallery-card-title">ISRK Team 2026</p>
+    <span class="gallery-card-meta">9 photos &middot; Community</span>
+  </div>
+</div>
+<div class="gallery-event-card" data-category="mous" data-event="mou-7">
+  <div class="gallery-card-img-wrap">
+    <img src="{{ '/assets/images/gallery/mou/485695395_10089207224436461_485025311205992305_n (1).jpg' | relative_url }}" alt="MoU Agreements - Korea Times, JobKorea and Klik" loading="lazy">
+  </div>
+  <div class="gallery-card-info">
+    <p class="gallery-card-title">MoU Agreements - Korea Times, JobKorea and Klik</p>
+    <span class="gallery-card-meta">7 photos &middot; MoUs and Partnerships</span>
+  </div>
+</div>
+<div class="gallery-event-card" data-category="former-team" data-event="former-0">
+  <div class="gallery-card-img-wrap">
+    <img src="{{ '/assets/images/gallery/former-team-slides/1.png' | relative_url }}" alt="Former Executive Team Slides" loading="lazy">
+  </div>
+  <div class="gallery-card-info">
+    <p class="gallery-card-title">Former Executive Team Slides</p>
+    <span class="gallery-card-meta">5 photos &middot; Former Team</span>
+  </div>
+</div>
 </div>
 
 <!-- Lightbox modal -->
@@ -734,6 +889,329 @@ permalink: /gallery/
 <div data-event="mou-6">
   <img src="{{ '/assets/images/gallery/mous/mou-vijob/540683596_18055274939563879_2180373126219011806_n.webp' | relative_url }}" alt="MoU ViJob" loading="lazy">
 </div>
+<div data-event="cult-13">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/480970667_9643105399074834_9064126764766674209_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/484785018_9643105355741505_707260884829389531_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/484827387_9643105352408172_949645769657405783_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/484846598_9643105009074873_2236029348548997132_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/484855769_9643105212408186_5652532562811264642_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/484859023_9643105209074853_8275315868645977741_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/484981561_9643105422408165_7091898119682175024_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/484987347_9643105339074840_9067938725643504819_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/485151699_9643105332408174_7417702040165742057_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/485152788_9643105202408187_3463609726757242800_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/485310618_9643105342408173_1945803848613065729_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/485332203_9643104995741541_6160563363306801750_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/485344773_9643104989074875_5906064496989994103_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/485363635_9643105215741519_2087012677707894193_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/485614158_9643105335741507_1226972152563712285_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/485645638_9643105002408207_3858402502109103772_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/485670060_9643105305741510_8997075055224887585_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/485695857_9643105309074843_289451602000541207_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/485733681_9643105349074839_5731181516612835112_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/foundation-day-2022/485933036_9643105325741508_7675316683419075749_n.jpg' | relative_url }}" alt="Foundation Day 2022" loading="lazy">
+</div>
+<div data-event="cult-14">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/480186072_2026351067878435_5664947849459208705_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/480228909_2026350997878442_7132842241628784408_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/480342545_2026351227878419_4971630005709625487_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/480409628_3481485228823915_8790674778448024167_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/485790649_3340474516089354_1052709079483838603_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/486152140_9502765523144643_1904129537537606065_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/486527298_9395037643936476_6954449663139368226_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/486541364_9502765586477970_859580119807588441_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/486648587_9502765396477989_4758866975715814157_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/486675690_9502765536477975_2169831371688086003_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/488570633_9758348197550553_1802519451220954326_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/488904083_9758348147550558_8168335414088545501_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/488935190_9758348204217219_4566076906533450156_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/488950332_9758348177550555_3614308444405433967_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/489041272_9758348184217221_5028699576421989233_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/489078166_9758348000883906_6873026581488714552_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/489135673_9758348210883885_8094094754983577899_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/489322629_9758348254217214_1888327696409609302_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/489356639_9758348187550554_7827804399981863840_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/489430811_9758347997550573_160754203759143459_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/489443367_9758347947550578_8777336929987231738_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/489600550_9758348364217203_4989958194927670968_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/489733771_9758348180883888_5897481675657286502_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/489746431_9758348137550559_7094804122545344269_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/489786616_9758348397550533_1375714504087124355_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/489787438_9758348234217216_4875648236774344154_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/489788483_9758347944217245_2350276563711875012_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2022/489832867_9758347970883909_3730758463723487512_n.jpg' | relative_url }}" alt="Deepotsav 2022 - Diwali Celebration" loading="lazy">
+</div>
+<div data-event="cult-15">
+  <img src="{{ '/assets/images/gallery/deepotsav-2023/466420439_10230642884367398_4361061553259894226_n.jpg' | relative_url }}" alt="Deepotsav 2023 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2023/466852424_10230642883207369_9171412439101205132_n.jpg' | relative_url }}" alt="Deepotsav 2023 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2023/488223359_1907370410079249_6399053341834982628_n.jpg' | relative_url }}" alt="Deepotsav 2023 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2023/492479825_9671445292938711_6736142571208163119_n.jpg' | relative_url }}" alt="Deepotsav 2023 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2023/492849596_9671445026272071_8705590344438758000_n.jpg' | relative_url }}" alt="Deepotsav 2023 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2023/493507734_9671445029605404_3866709329635176745_n.jpg' | relative_url }}" alt="Deepotsav 2023 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2023/497559808_10223297526746943_1625497613171587394_n.jpg' | relative_url }}" alt="Deepotsav 2023 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2023/497708312_10223297508306482_4310519083984634609_n.jpg' | relative_url }}" alt="Deepotsav 2023 - Diwali Celebration" loading="lazy">
+</div>
+<div data-event="cult-16">
+  <img src="{{ '/assets/images/gallery/deepotsav-2024/466397029_10230642890567553_5976761074081294879_n.jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2024/466420439_10230642884367398_4361061553259894226_n.jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2024/466465502_10230642888087491_2566549923806545324_n.jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2024/466477677_10230642884847410_1585688765996282304_n.jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2024/466482786_10230642890767558_698756514597793654_n.jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2024/466553800_10230642889887536_9071073461906801303_n.jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2024/466603706_10230642886447450_6332586954270909315_n.jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2024/466669006_10230642885407424_4873992215470676999_n.jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2024/466670713_10230642887567478_9075561884827580078_n.jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2024/466671425_10230642885647430_3649060640873424010_n.jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2024/466673205_10230642892007589_1075746721341722534_n.jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2024/466678512_10230642891847585_3090233382918703271_n.jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2024/466681742_10230642889007514_4201096327120482245_n.jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2024/466764420_10230642889567528_1115851831507933872_n.jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2024/466787509_10230642887367473_2749786354794985066_n.jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2024/466852424_10230642883207369_9171412439101205132_n (1).jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+  <img src="{{ '/assets/images/gallery/deepotsav-2024/566256960_24894662656857060_3989630546456094093_n.jpg' | relative_url }}" alt="Deepotsav 2024 - Diwali Celebration" loading="lazy">
+</div>
+<div data-event="cult-17">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.53.jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.54.jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.56(1).jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.56.jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.57 (1).jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.57 (2).jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.57 (3).jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.57 (4).jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.57.jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.58 (1).jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.58 (2).jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.58 (3).jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.58 (4).jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.58.jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.59 (1).jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.59 (2).jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.59 (3).jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.45.59.jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.46.00 (1).jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.46.00 (2).jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.46.00.jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.46.01 (1).jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.46.01 (2).jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.46.01.jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2022/WhatsApp Image 2026-02-26 at 23.46.02.jpeg' | relative_url }}" alt="Indo Utsav 2022 - Cultural Festival" loading="lazy">
+</div>
+<div data-event="cult-18">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2023/WhatsApp Image 2026-02-26 at 23.39.14 (2).jpeg' | relative_url }}" alt="Indo Utsav 2023 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2023/WhatsApp Image 2026-02-26 at 23.39.14 (3).jpeg' | relative_url }}" alt="Indo Utsav 2023 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2023/WhatsApp Image 2026-02-26 at 23.39.15 (1).jpeg' | relative_url }}" alt="Indo Utsav 2023 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2023/WhatsApp Image 2026-02-26 at 23.39.15 (2).jpeg' | relative_url }}" alt="Indo Utsav 2023 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2023/WhatsApp Image 2026-02-26 at 23.39.15 (3).jpeg' | relative_url }}" alt="Indo Utsav 2023 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2023/WhatsApp Image 2026-02-26 at 23.39.15.jpeg' | relative_url }}" alt="Indo Utsav 2023 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2023/WhatsApp Image 2026-02-26 at 23.39.16 (1).jpeg' | relative_url }}" alt="Indo Utsav 2023 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2023/WhatsApp Image 2026-02-26 at 23.39.16 (2).jpeg' | relative_url }}" alt="Indo Utsav 2023 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2023/WhatsApp Image 2026-02-26 at 23.39.16 (3).jpeg' | relative_url }}" alt="Indo Utsav 2023 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2023/WhatsApp Image 2026-02-26 at 23.39.16.jpeg' | relative_url }}" alt="Indo Utsav 2023 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2023/WhatsApp Image 2026-02-26 at 23.39.17 (1).jpeg' | relative_url }}" alt="Indo Utsav 2023 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2023/WhatsApp Image 2026-02-26 at 23.39.17 (2).jpeg' | relative_url }}" alt="Indo Utsav 2023 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2023/WhatsApp Image 2026-02-26 at 23.39.17 (3).jpeg' | relative_url }}" alt="Indo Utsav 2023 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2023/WhatsApp Image 2026-02-26 at 23.39.17.jpeg' | relative_url }}" alt="Indo Utsav 2023 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2023/WhatsApp Image 2026-02-26 at 23.39.18 (1).jpeg' | relative_url }}" alt="Indo Utsav 2023 - Cultural Festival" loading="lazy">
+  <img src="{{ '/assets/images/gallery/indo-utsav-2023/WhatsApp Image 2026-02-26 at 23.39.18.jpeg' | relative_url }}" alt="Indo Utsav 2023 - Cultural Festival" loading="lazy">
+</div>
+<div data-event="cult-19">
+  <img src="{{ '/assets/images/gallery/garba-2024/WhatsApp Image 2026-02-26 at 21.47.49 (1).jpeg' | relative_url }}" alt="Garba Night 2024 - Navratri Celebrations" loading="lazy">
+  <img src="{{ '/assets/images/gallery/garba-2024/WhatsApp Image 2026-02-26 at 21.47.49.jpeg' | relative_url }}" alt="Garba Night 2024 - Navratri Celebrations" loading="lazy">
+  <img src="{{ '/assets/images/gallery/garba-2024/WhatsApp Image 2026-02-26 at 21.47.50 (1).jpeg' | relative_url }}" alt="Garba Night 2024 - Navratri Celebrations" loading="lazy">
+  <img src="{{ '/assets/images/gallery/garba-2024/WhatsApp Image 2026-02-26 at 21.47.50 (2).jpeg' | relative_url }}" alt="Garba Night 2024 - Navratri Celebrations" loading="lazy">
+  <img src="{{ '/assets/images/gallery/garba-2024/WhatsApp Image 2026-02-26 at 21.47.50.jpeg' | relative_url }}" alt="Garba Night 2024 - Navratri Celebrations" loading="lazy">
+</div>
+<div data-event="cult-20">
+  <img src="{{ '/assets/images/gallery/garba-2025/WhatsApp Image 2026-02-26 at 21.45.23.jpeg' | relative_url }}" alt="Garba Night 2025 - Navratri Celebrations" loading="lazy">
+  <img src="{{ '/assets/images/gallery/garba-2025/WhatsApp Image 2026-02-26 at 21.45.24 (1).jpeg' | relative_url }}" alt="Garba Night 2025 - Navratri Celebrations" loading="lazy">
+  <img src="{{ '/assets/images/gallery/garba-2025/WhatsApp Image 2026-02-26 at 21.45.24 (2).jpeg' | relative_url }}" alt="Garba Night 2025 - Navratri Celebrations" loading="lazy">
+  <img src="{{ '/assets/images/gallery/garba-2025/WhatsApp Image 2026-02-26 at 21.45.24.jpeg' | relative_url }}" alt="Garba Night 2025 - Navratri Celebrations" loading="lazy">
+  <img src="{{ '/assets/images/gallery/garba-2025/WhatsApp Image 2026-02-26 at 21.45.25 (1).jpeg' | relative_url }}" alt="Garba Night 2025 - Navratri Celebrations" loading="lazy">
+  <img src="{{ '/assets/images/gallery/garba-2025/WhatsApp Image 2026-02-26 at 21.45.25 (2).jpeg' | relative_url }}" alt="Garba Night 2025 - Navratri Celebrations" loading="lazy">
+  <img src="{{ '/assets/images/gallery/garba-2025/WhatsApp Image 2026-02-26 at 21.45.25.jpeg' | relative_url }}" alt="Garba Night 2025 - Navratri Celebrations" loading="lazy">
+  <img src="{{ '/assets/images/gallery/garba-2025/WhatsApp Image 2026-02-26 at 21.45.26 (1).jpeg' | relative_url }}" alt="Garba Night 2025 - Navratri Celebrations" loading="lazy">
+  <img src="{{ '/assets/images/gallery/garba-2025/WhatsApp Image 2026-02-26 at 21.45.26 (2).jpeg' | relative_url }}" alt="Garba Night 2025 - Navratri Celebrations" loading="lazy">
+  <img src="{{ '/assets/images/gallery/garba-2025/WhatsApp Image 2026-02-26 at 21.45.26.jpeg' | relative_url }}" alt="Garba Night 2025 - Navratri Celebrations" loading="lazy">
+  <img src="{{ '/assets/images/gallery/garba-2025/WhatsApp Image 2026-02-26 at 21.45.27 (1).jpeg' | relative_url }}" alt="Garba Night 2025 - Navratri Celebrations" loading="lazy">
+  <img src="{{ '/assets/images/gallery/garba-2025/WhatsApp Image 2026-02-26 at 21.45.27(1).jpeg' | relative_url }}" alt="Garba Night 2025 - Navratri Celebrations" loading="lazy">
+  <img src="{{ '/assets/images/gallery/garba-2025/WhatsApp Image 2026-02-26 at 21.45.27.jpeg' | relative_url }}" alt="Garba Night 2025 - Navratri Celebrations" loading="lazy">
+</div>
+<div data-event="sport-4">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.16.jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.18 (1).jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.18 (2).jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.18.jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.19.jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.23 (1).jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.23.jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.24.jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.25 (1).jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.25.jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.26 (1).jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.26 (2).jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.26.jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.27.jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.30 (1).jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.30 (2).jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.31 (1).jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.31 (2).jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.31.jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.32 (1).jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.32 (2).jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2022/WhatsApp Image 2026-02-27 at 13.02.32.jpeg' | relative_url }}" alt="ISRK Cricket Club 2022" loading="lazy">
+</div>
+<div data-event="sport-5">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/492479825_9671445292938711_6736142571208163119_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494301797_9921947694523935_5854711882527756945_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494354491_9921947477857290_3550576497260782216_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494376344_9921947397857298_7134070009728986581_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494389418_9921947434523961_7174356532980530091_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494410531_9921947387857299_6975936951322664887_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494424828_9921947384523966_1113197201077386332_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494437795_9921947437857294_6018012482519419933_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494464669_9921947524523952_2454346238952898117_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494466821_9921947674523937_2411666063739763571_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494467037_9921947691190602_2036671996926719269_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494468797_9921947687857269_7949285505118526982_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494468894_9921947457857292_3947621260908329016_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494472764_9921947311190640_4127952267824615933_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494490303_9921947444523960_1023323609725459205_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494620226_9921947727857265_5638702207482799656_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494678153_9921947451190626_5246017882311480315_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494745733_9921947711190600_1711490476431960192_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494750332_9921947314523973_6901696741423783097_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494752089_9921947474523957_809090910941686908_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494753118_9921947461190625_9140888794144099927_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494812445_9921947304523974_6064662353611180734_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494843191_9921947677857270_3975436224161439266_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/494932332_9921947744523930_926317207902130852_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2023/495023272_9921947704523934_3473694198229297109_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2023" loading="lazy">
+</div>
+<div data-event="sport-6">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/465849955_10230693075382142_6575705010823276005_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/466142754_10230693070982032_7142905157481190664_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/466653922_10230693071782052_9164734747452304619_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/466786317_10230693074982132_1127467634132331806_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/466789864_10230693075902155_7059526520247221870_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/466859569_10230693073742101_8835809580970184382_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/467012541_10230693073102085_7123241820909699748_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/467021844_10230693073542096_6442498382562725709_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/506445280_10233111628644462_668240717300273415_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/506451305_10233111627844442_8432435864663181346_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/506457481_10233111628884468_2649071186129043205_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/506465599_10233111624444357_5479875273795578066_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/506468454_10233111756327654_5073527463872109868_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/506474254_10233111629004471_5792860456737471445_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/506476341_10233111625284378_3684530192957656049_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/507125010_10233111625004371_2266285660005600846_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/507480543_10233111628204451_998749194535643165_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/507494844_10233111760207751_6942444665982878511_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/507518794_10233111624964370_7275990067873287906_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/507540773_10233111623844342_5292618305838263725_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/507701517_10233111627884443_1040873624913317766_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/507955862_10233111628244452_8329742885519846212_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/507975497_10233111627924444_1506879941804502776_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/508072336_10233111625084373_3656917593677310474_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/508162811_10233111625684388_981081900708919652_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/508308899_10233111629324479_6391331961562466026_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/508363461_10233111624204351_103311645984415410_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-cc-2024/508413304_24879044765017512_1181587985257407288_n.jpg' | relative_url }}" alt="ISRK Cricket Club 2024" loading="lazy">
+</div>
+<div data-event="sport-7">
+  <img src="{{ '/assets/images/gallery/cricket-women-2022/476034095_3473000626339042_6074800145509689523_n.jpg' | relative_url }}" alt="ISRK Women Cricket 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-women-2022/476076073_3473000383005733_9191598103261831408_n.jpg' | relative_url }}" alt="ISRK Women Cricket 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-women-2022/WhatsApp Image 2026-02-27 at 13.02.27 (1).jpeg' | relative_url }}" alt="ISRK Women Cricket 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-women-2022/WhatsApp Image 2026-02-27 at 13.02.27 (2).jpeg' | relative_url }}" alt="ISRK Women Cricket 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-women-2022/WhatsApp Image 2026-02-27 at 13.02.27 (3).jpeg' | relative_url }}" alt="ISRK Women Cricket 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-women-2022/WhatsApp Image 2026-02-27 at 13.02.28 (1).jpeg' | relative_url }}" alt="ISRK Women Cricket 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-women-2022/WhatsApp Image 2026-02-27 at 13.02.28.jpeg' | relative_url }}" alt="ISRK Women Cricket 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-women-2022/WhatsApp Image 2026-02-27 at 13.02.29 (1).jpeg' | relative_url }}" alt="ISRK Women Cricket 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-women-2022/WhatsApp Image 2026-02-27 at 13.02.29 (2).jpeg' | relative_url }}" alt="ISRK Women Cricket 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-women-2022/WhatsApp Image 2026-02-27 at 13.02.29.jpeg' | relative_url }}" alt="ISRK Women Cricket 2022" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-women-2022/WhatsApp Image 2026-02-27 at 13.02.30.jpeg' | relative_url }}" alt="ISRK Women Cricket 2022" loading="lazy">
+</div>
+<div data-event="sport-8">
+  <img src="{{ '/assets/images/gallery/cricket-winning-2023/WhatsApp Image 2026-02-27 at 13.02.33 (1).jpeg' | relative_url }}" alt="ISRK Cricket - Winning Moments 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-winning-2023/WhatsApp Image 2026-02-27 at 13.02.33 (2).jpeg' | relative_url }}" alt="ISRK Cricket - Winning Moments 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-winning-2023/WhatsApp Image 2026-02-27 at 13.02.33.jpeg' | relative_url }}" alt="ISRK Cricket - Winning Moments 2023" loading="lazy">
+  <img src="{{ '/assets/images/gallery/cricket-winning-2023/WhatsApp Image 2026-02-27 at 13.02.34.jpeg' | relative_url }}" alt="ISRK Cricket - Winning Moments 2023" loading="lazy">
+</div>
+<div data-event="comm-6">
+  <img src="{{ '/assets/images/gallery/hiking/481252649_3496636773975427_3607617590788975760_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/481261825_3496636630642108_8710412247315417001_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/481356122_3496636760642095_8000791298473124368_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/482085063_3237636716378069_4590877415726359015_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/482216051_3496636763975428_2254076366410040514_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/482303893_3496636743975430_467845293839716512_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/485017522_3237636986378042_6737255635000746377_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/485076800_3237636926378048_1746453743830162426_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/485173379_3237636973044710_9163203766357864975_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/485735554_3237636983044709_4435289227651029660_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/485989840_3237636713044736_3888268021352943838_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/485995967_3237636869711387_2049745208482523196_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/489565283_9566012426797558_4739409322903506570_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/489585971_9562805787128418_1039687910152893078_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/489681895_9562805613795102_2877896703389698585_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/489830559_9658479274217331_9141774046673612856_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/489859172_9658479520883973_1456027429665680265_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/489925500_9658479480883977_8039242167432338748_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/489929995_9658479470883978_1740746966381015962_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/489951285_9658479590883966_4553101743628314938_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/490019299_9566012383464229_5930389093849361761_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/490022439_9566012113464256_6659356280684732038_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/490050221_9566012360130898_91041596992219107_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/490065719_9566014223464045_2739727858275300255_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/490173073_9562805900461740_4687663377600698105_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/490183275_9566012116797589_2624527322100997979_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/490298080_9562805903795073_3756699232457342846_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/490338959_9658479307550661_5748479458934865861_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/490802332_9566012436797557_900971595990984954_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/492506024_9755424944577990_7064706232104316218_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/492509776_9755424967911321_6484470728334440735_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/492747259_9893701984015173_7629033156394810948_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/492885458_9755424694578015_8583795039881107120_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/493589570_9893702044015167_7357977432606446136_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/493756022_9755424934577991_2079732216401211995_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/493829769_9893702200681818_3174405771983680037_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/493866189_9893702267348478_4910810682585480262_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/493971440_9755424697911348_1502953436203675489_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/493982149_9893702080681830_8676042668359319310_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/494273965_9893701934015178_4516061868546491767_n.jpg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/WhatsApp Image 2026-02-26 at 23.50.43 (1).jpeg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/WhatsApp Image 2026-02-26 at 23.50.43 (2).jpeg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/WhatsApp Image 2026-02-26 at 23.50.43 (3).jpeg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/WhatsApp Image 2026-02-26 at 23.50.43 (4).jpeg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/WhatsApp Image 2026-02-26 at 23.50.43.jpeg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+  <img src="{{ '/assets/images/gallery/hiking/WhatsApp Image 2026-02-26 at 23.50.44.jpeg' | relative_url }}" alt="ISRK Hiking Adventures - Across Korea" loading="lazy">
+</div>
+<div data-event="comm-7">
+  <img src="{{ '/assets/images/gallery/team-2026/1.png' | relative_url }}" alt="ISRK Team 2026" loading="lazy">
+  <img src="{{ '/assets/images/gallery/team-2026/2.png' | relative_url }}" alt="ISRK Team 2026" loading="lazy">
+  <img src="{{ '/assets/images/gallery/team-2026/3.png' | relative_url }}" alt="ISRK Team 2026" loading="lazy">
+  <img src="{{ '/assets/images/gallery/team-2026/4.png' | relative_url }}" alt="ISRK Team 2026" loading="lazy">
+  <img src="{{ '/assets/images/gallery/team-2026/5.png' | relative_url }}" alt="ISRK Team 2026" loading="lazy">
+  <img src="{{ '/assets/images/gallery/team-2026/6.png' | relative_url }}" alt="ISRK Team 2026" loading="lazy">
+  <img src="{{ '/assets/images/gallery/team-2026/7.png' | relative_url }}" alt="ISRK Team 2026" loading="lazy">
+  <img src="{{ '/assets/images/gallery/team-2026/8.png' | relative_url }}" alt="ISRK Team 2026" loading="lazy">
+  <img src="{{ '/assets/images/gallery/team-2026/9.png' | relative_url }}" alt="ISRK Team 2026" loading="lazy">
+</div>
+<div data-event="mou-7">
+  <img src="{{ '/assets/images/gallery/mou/485695395_10089207224436461_485025311205992305_n (1).jpg' | relative_url }}" alt="MoU Agreements - Korea Times, JobKorea and Klik" loading="lazy">
+  <img src="{{ '/assets/images/gallery/mou/Agrement of Cooperation with with The Korea Times.png' | relative_url }}" alt="MoU Agreements - Korea Times, JobKorea and Klik" loading="lazy">
+  <img src="{{ '/assets/images/gallery/mou/MoU with JobKorea-Klik.png' | relative_url }}" alt="MoU Agreements - Korea Times, JobKorea and Klik" loading="lazy">
+  <img src="{{ '/assets/images/gallery/mou/MoU4.png' | relative_url }}" alt="MoU Agreements - Korea Times, JobKorea and Klik" loading="lazy">
+  <img src="{{ '/assets/images/gallery/mou/MoU7.png' | relative_url }}" alt="MoU Agreements - Korea Times, JobKorea and Klik" loading="lazy">
+  <img src="{{ '/assets/images/gallery/mou/WhatsApp Image 2026-02-26 at 23.39.14 (1).jpeg' | relative_url }}" alt="MoU Agreements - Korea Times, JobKorea and Klik" loading="lazy">
+  <img src="{{ '/assets/images/gallery/mou/WhatsApp Image 2026-02-26 at 23.39.14.jpeg' | relative_url }}" alt="MoU Agreements - Korea Times, JobKorea and Klik" loading="lazy">
+</div>
+<div data-event="former-0">
+  <img src="{{ '/assets/images/gallery/former-team-slides/1.png' | relative_url }}" alt="Former Executive Team Slides" loading="lazy">
+  <img src="{{ '/assets/images/gallery/former-team-slides/2.png' | relative_url }}" alt="Former Executive Team Slides" loading="lazy">
+  <img src="{{ '/assets/images/gallery/former-team-slides/3.png' | relative_url }}" alt="Former Executive Team Slides" loading="lazy">
+  <img src="{{ '/assets/images/gallery/former-team-slides/4.png' | relative_url }}" alt="Former Executive Team Slides" loading="lazy">
+  <img src="{{ '/assets/images/gallery/former-team-slides/5.png' | relative_url }}" alt="Former Executive Team Slides" loading="lazy">
+</div>
 </div>
 
 <script>
@@ -845,18 +1323,14 @@ permalink: /gallery/
 
 ---
 
-## Former Executives {#former-executives}
+## Former Executive Team {#former-executives}
 
 <div class="gallery-grid">
-  <div class="gallery-placeholder">
-    <span>Former Executive Team</span>
-  </div>
-  <div class="gallery-placeholder">
-    <span>Past Leadership</span>
-  </div>
-  <div class="gallery-placeholder">
-    <span>Founding Members</span>
-  </div>
+  <img src="{{ '/assets/images/gallery/former-team-slides/1.png' | relative_url }}" alt="Former Executive Team - Slide 1" loading="lazy" style="width:100%;border-radius:8px;">
+  <img src="{{ '/assets/images/gallery/former-team-slides/2.png' | relative_url }}" alt="Former Executive Team - Slide 2" loading="lazy" style="width:100%;border-radius:8px;">
+  <img src="{{ '/assets/images/gallery/former-team-slides/3.png' | relative_url }}" alt="Former Executive Team - Slide 3" loading="lazy" style="width:100%;border-radius:8px;">
+  <img src="{{ '/assets/images/gallery/former-team-slides/4.png' | relative_url }}" alt="Former Executive Team - Slide 4" loading="lazy" style="width:100%;border-radius:8px;">
+  <img src="{{ '/assets/images/gallery/former-team-slides/5.png' | relative_url }}" alt="Former Executive Team - Slide 5" loading="lazy" style="width:100%;border-radius:8px;">
 </div>
 
 ---
