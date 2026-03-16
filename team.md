@@ -54,6 +54,12 @@ permalink: /team/
     <p>Research Associate Professor<br>Hanyang University<br>Seoul, South Korea</p>
   </div>
   <div class="team-card">
+    <img src="{{ '/assets/images/team/image35.jpeg' | relative_url }}" alt="Jannat Shreya" class="team-photo">
+    <h3>Jannat Shreya</h3>
+    <span class="team-role">Vice President — Educational Programs & Student Affairs</span>
+    <p>BBA Student<br>Seoul National University<br>Seoul, South Korea</p>
+  </div>
+  <div class="team-card">
     <img src="{{ '/assets/images/team/image21.jpeg' | relative_url }}" alt="Dr. Manas Biswal" class="team-photo">
     <h3>Dr. Manas Biswal</h3>
     <span class="team-role">Vice President — Cultural Programs & Events</span>
@@ -64,12 +70,6 @@ permalink: /team/
     <h3>Dr. Dilip V. Patil</h3>
     <span class="team-role">Vice President — Sports</span>
     <p>Senior Researcher<br>Y S Pharma<br>Suwon, South Korea</p>
-  </div>
-  <div class="team-card">
-    <img src="{{ '/assets/images/team/image35.jpeg' | relative_url }}" alt="Jannat Shreya" class="team-photo">
-    <h3>Jannat Shreya</h3>
-    <span class="team-role">Vice President — Educational Programs & Student Affairs</span>
-    <p>BBA Student<br>Seoul National University<br>Seoul, South Korea</p>
   </div>
 </div>
 
