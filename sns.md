@@ -31,7 +31,7 @@ permalink: /sns/
     <div class="sns-icon"><i class="fa-solid fa-comment-dots"></i></div>
     <h3>KakaoTalk</h3>
     <p>Join our KakaoTalk open chat for quick community updates and conversations.</p>
-    <a href="https://invite.kakao.com/tc/P4jMDCVboP" target="_blank" class="sns-btn">Join on KakaoTalk</a>
+    <a href="https://open.kakao.com/o/g5y5TPli" target="_blank" class="sns-btn">Join on KakaoTalk</a>
   </div>
 
   <div class="sns-card youtube">
