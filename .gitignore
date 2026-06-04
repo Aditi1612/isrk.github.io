@@ -1,0 +1,11 @@
+
+# Large source/working files
+*.zip
+*.pptx
+*.pdf
+assets/images/extracted_new/
+assets/images/extracted_new2/
+assets/images/logos/extracted/
+assets/images/logos/extracted_full/
+new_cards.html
+new_lightbox.html
