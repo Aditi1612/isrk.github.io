@@ -70,25 +70,25 @@ Stay informed with the latest news, upcoming events, and important announcements
 
 ## Recent Updates
 
+### May 2026
+- India Day celebrated with in support with Embassy of India on May 16, 2026.
+- ISRK-CC (Annual Cricket) 2026 Tournament held on Sunday, May 24, 2026 at Jamwon Hangang Park, Seoul.
+
 ### January 2026
 - ISRK executive committee elections completed for 2026
 - New university representatives onboarded from 5 new universities
-- WhatsApp groups reorganized by city and university
 
 ### December 2025
 - ISRK end-of-year community gathering held in Seoul
 - Annual report for 2025 distributed to all members
-- Christmas & New Year greetings shared with partner organizations
+
 
 ### November 2025
 - Diwali celebration held with 200+ attendees across multiple cities
 - New MoU discussions initiated with partner organizations
 - ISRK research networking event connecting 50+ researchers
 
-### October 2025
-- ISRK sports day held in Seoul with teams from 10 universities
-- New scholarship resource guide published and shared with members
-- Photography contest results announced
+
 
 ---
 
