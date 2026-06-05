@@ -69,7 +69,7 @@ This page compiles key information every Indian student or researcher in Korea s
   </tbody>
 </table>
 
-### Key Immigration Contacts
+### Key Korean Immigration Contacts
 - **Hi Korea (Immigration Portal):** [www.hikorea.go.kr](https://www.hikorea.go.kr)
 - **Immigration Contact Center:** 1345 (available in English)
 - **Korea Immigration Service:** [www.immigration.go.kr](https://www.immigration.go.kr)
@@ -82,16 +82,16 @@ This page compiles key information every Indian student or researcher in Korea s
   <strong>Embassy of India, Seoul</strong><br>
   37-3, Hannam-daero 28-gil, Yongsan-gu, Seoul<br>
   <strong>Phone:</strong> +82-2-798-4257/4268<br>
-  <strong>Emergency (24hr):</strong> +82-10-8958-2121<br>
-  <strong>Website:</strong> <a href="https://www.indembassy-seoul.gov.in" target="_blank">indembassy-seoul.gov.in</a>
+  <strong>EMERGENCY HELP (24hr):</strong> +82-10-8958-2121<br>
+  <strong>Website:</strong> <a href="https://www.indembassyseoul.gov.in/" target="_blank">indembassyseoul.gov.in</a>
 </div>
 
-### Consular Services
+### Consular Services 
 - Passport renewal and new passport issuance
 - OCI (Overseas Citizen of India) card applications
 - Emergency travel documents
 - Attestation of documents
-- Visa services for travel to India
+- Visa services for travel to India (For Non-Indian Citizens)
 
 ---
 
