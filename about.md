@@ -14,7 +14,7 @@ permalink: /about/
 
 ## Who We Are
 
-**Indian Students and Researchers in Korea (ISRK)** is a non-profit voluntary organization officially registered with the Korean government. Founded on **8th May 2019**, ISRK aims to connect all Indian-origin students and researchers residing in Korea and provide them with support in education, research, social engagement, recreation, employment, and community networking.
+**Indian Students and Researchers in Korea (ISRK)** is a non-profit voluntary organization officially registered with the Korean government. Founded on **May 2019**, ISRK aims to connect all Indian-origin students and researchers residing in Korea and provide them with support in education, research, social engagement, recreation, employment, and community networking.
 
 Today, ISRK has grown to over **5,000 members** and includes representatives from more than **70 universities and institutions** across South Korea.
 
