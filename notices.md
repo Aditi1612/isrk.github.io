@@ -32,7 +32,7 @@ Stay informed with the latest news, upcoming events, and important announcements
     <span class="notice-tag">Events</span>
     <span class="notice-date">Upcoming</span>
   </div>
-  <h3>Holi Celebration 2026 — Save the Date!</h3>
+  <h3>Holi Celebration 2026 — March 08, 2026</h3>
   <p>ISRK is organizing the annual Holi celebration. Details on location, date, and registration will be shared soon. Watch this space and our social media channels for updates.</p>
 </div>
 
