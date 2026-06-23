@@ -60,11 +60,11 @@ Stay informed with the latest news, upcoming events, and important announcements
 
 | Date | Event | Location | Details |
 |------|-------|----------|---------|
+| 2026-06-27 | International Day of Yoga | Nami Island | Promoted by EoI |
 | 2026-07-11 | Start-Up Session & Job Fair | Seoul | Engineering . Marketing . R&D . Start-Ups|
-<!-- | TBA | Annual Sports Day | TBA | Cricket, football, badminton & more |
 | TBA | Career Workshop | Online | Resume and interview skills |
 | TBA | Monthly Meetup | Varies | Networking and community hangout |
-| TBA | Korean Language Workshop | Online | Beginner Korean for newcomers | -->
+| TBA | Korean Language Workshop | Online | Beginner Korean for newcomers |
 
 ---
 
