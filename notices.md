@@ -12,7 +12,7 @@ permalink: /notices/
   </div>
 </div>
 
-Stay informed with the latest news, upcoming events, and important announcements from ISRK. This page is regularly updated.
+Stay informed with the latest news, upcoming events, and important announcements from ISRK. 
 
 ---
 
@@ -20,11 +20,11 @@ Stay informed with the latest news, upcoming events, and important announcements
 
 <div class="notice-card urgent">
   <div class="notice-meta">
-    <span class="notice-tag">General</span>
-    <span class="notice-date">February 2026</span>
+    <span class="notice-tag">Job-Fair</span>
+    <span class="notice-date">July 2026</span>
   </div>
-  <h3>ISRK Website Launched!</h3>
-  <p>We are excited to announce the launch of the new ISRK website! Explore all our pages for information about our activities, team, opportunities, and more. Stay connected and check back regularly for updates.</p>
+  <h3>Start-up Session and Job Fair</h3>
+  <p>ISRK In collaboration with Hanpass and Vizabridge Corporation, brings together startups, career opportunities, and global talent under one roof. Meet industry leaders and founders | Explore opportunities in Engineering, Marketing, R&D, and Startups |  Network with fellow students, researchers, and professionals in Korea | <a href="https://forms.gle/8bGrsUPQ1hQs3TRb9">Registration Details</a></p>
 </div>
 
 <div class="notice-card">
@@ -60,15 +60,15 @@ Stay informed with the latest news, upcoming events, and important announcements
 
 | Date | Event | Location | Details |
 |------|-------|----------|---------|
-| TBA | Holi Celebration 2026 | Seoul | Annual festival of colors |
-| TBA | Annual Sports Day | TBA | Cricket, football, badminton & more |
+| 2026-07-11 | Start-Up Session & Job Fair | Seoul | Engineering . Marketing . R&D . Start-Ups|
+<!-- | TBA | Annual Sports Day | TBA | Cricket, football, badminton & more |
 | TBA | Career Workshop | Online | Resume and interview skills |
 | TBA | Monthly Meetup | Varies | Networking and community hangout |
-| TBA | Korean Language Workshop | Online | Beginner Korean for newcomers |
+| TBA | Korean Language Workshop | Online | Beginner Korean for newcomers | -->
 
 ---
 
-## Recent Updates
+## Recent Activities
 
 ### May 2026
 - India Day celebrated with in support with Embassy of India on May 16, 2026.
@@ -84,7 +84,7 @@ Stay informed with the latest news, upcoming events, and important announcements
 
 
 ### November 2025
-- Diwali celebration held with 200+ attendees across multiple cities
+- Diwali celebration held held at NIIED, Seongnam-si. 
 - New MoU discussions initiated with partner organizations
 - ISRK research networking event connecting 50+ researchers
 
