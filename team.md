@@ -128,10 +128,10 @@ permalink: /team/
     <p>Engineer<br>Samsung Electronics<br>Seoul, South Korea</p>
   </div>
   <div class="team-card">
-    <img src="{{ '/assets/images/team/image61.jpeg' | relative_url }}" alt="Dr. Vikas" class="team-photo">
-    <h3>Dr. Vikas</h3>
+    <img src="{{ '/assets/images/team/Rumi.png' | relative_url }}" alt="Dr. Rumi Acharya" class="team-photo">
+    <h3>Dr. Rumi Acharya</h3>
     <span class="team-role">Executive Secretary</span>
-    <p>Senior Researcher<br>Space Solutions Co., Ltd.<br>Daejeon, South Korea</p>
+    <p>Postdoctoral Researcher<br>kangwon National University<br> Chuncheon-si, Seoul</p>
   </div>
 </div>
 
