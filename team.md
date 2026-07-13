@@ -71,6 +71,12 @@ permalink: /team/
     <span class="team-role">Vice President — Sports</span>
     <p>Senior Researcher<br>Y S Pharma<br>Suwon, South Korea</p>
   </div>
+  <div class="team-card">
+    <img src="{{ '/assets/images/team/image29.jpeg' | relative_url }}" alt="Dr. Arati Kumari Shah" class="team-photo">
+    <h3>Dr. Arati Kumari Shah</h3>
+    <span class="team-role">Vice President - SNS & Media</span>
+    <p>Senior Researcher<br>Alphalite Co. Inc.<br>Seoul, South Korea</p>
+  </div>
 </div>
 
 ---
@@ -109,12 +115,6 @@ permalink: /team/
 ## Cultural Programs & Events
 
 <div class="team-grid">
-  <div class="team-card">
-    <img src="{{ '/assets/images/team/image29.jpeg' | relative_url }}" alt="Dr. Arati Kumari Shah" class="team-photo">
-    <h3>Dr. Arati Kumari Shah</h3>
-    <span class="team-role">Executive Secretary</span>
-    <p>Senior Researcher<br>Alphalite Co. Inc.<br>Seoul, South Korea</p>
-  </div>
   <div class="team-card">
     <img src="{{ '/assets/images/team/image30.jpeg' | relative_url }}" alt="Dr. Chinna Bathula" class="team-photo">
     <h3>Dr. Chinna Bathula</h3>
@@ -190,6 +190,12 @@ permalink: /team/
 ## Social Engagement & Communication
 
 <div class="team-grid">
+  <div class="team-card">
+    <img src="{{ '/assets/images/team/image29.jpeg' | relative_url }}" alt="Dr. Arati Kumari Shah" class="team-photo">
+    <h3>Dr. Arati Kumari Shah</h3>
+    <span class="team-role">Vice-President : SNS</span>
+    <p>Senior Researcher<br>Alphalite Co. Inc.<br>Seoul, South Korea</p>
+  </div>
   <div class="team-card">
     <img src="{{ '/assets/images/team/image64.jpeg' | relative_url }}" alt="Abhishek Negi" class="team-photo">
     <h3>Abhishek Negi</h3>
