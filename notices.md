@@ -20,6 +20,51 @@ Stay informed with the latest news, upcoming events, and important announcements
 
 <div class="notice-card urgent">
   <div class="notice-meta">
+    <span class="notice-tag">Job Position</span>
+    <span class="notice-date">July 2026</span>
+  </div>
+  <h3>Global Influencer Marketing</h3>
+  <p>Job position posted via kowork | Full time position | <a href="https://kowork.kr/en/post/6917?utm_source=meta&utm_medium=display&utm_campaign=conversion&utm_term=b2c&utm_content=hotel">external Link >>> </a></p>
+</div>
+
+<div class="notice-card urgent">
+  <div class="notice-meta">
+    <span class="notice-tag">Job Position</span>
+    <span class="notice-date">July 2026</span>
+  </div>
+  <h3>Onsite Marketing Officer</h3>
+  <p>Job position posted via kowork  <a href="https://kowork.kr/en/post/6840?utm_source=meta&utm_medium=display&utm_campaign=conversion&utm_term=b2c&utm_content=hotel">external Link >>> </a></p>
+</div>
+
+<div class="notice-card urgent">
+  <div class="notice-meta">
+    <span class="notice-tag">Job Position</span>
+    <span class="notice-date">July 2026</span>
+  </div>
+  <h3>Skincare Startuo Global Marketing & Cosmetics QC/RA Manager (STEM Only)</h3>
+  <p>Job position posted via kowork  <a href="https://kowork.kr/en/post/6782?utm_source=meta&utm_medium=display&utm_campaign=conversion&utm_term=b2c&utm_content=hotel">external Link >>> </a></p>
+</div>
+
+<div class="notice-card urgent">
+  <div class="notice-meta">
+    <span class="notice-tag">Job Position</span>
+    <span class="notice-date">July 2026</span>
+  </div>
+  <h3>Hindi Visit Preview Video Translator Recruitment | Hindi --> Korean</h3>
+  <p>Job position posted via kowork  <a href="https://kowork.kr/en/post/6954?utm_source=meta&utm_medium=display&utm_campaign=conversion&utm_term=b2c&utm_content=hotel">external Link >>> </a></p>
+</div>
+
+<div class="notice-card urgent">
+  <div class="notice-meta">
+    <span class="notice-tag">Job Position</span>
+    <span class="notice-date">July 2026</span>
+  </div>
+  <h3>Hiring Overseas Social Marketing Manager (Conversion-type Intern)</h3>
+  <p>Job position posted via kowork  <a href="https://kowork.kr/en/post/6935?utm_source=meta&utm_medium=display&utm_campaign=conversion&utm_term=b2c&utm_content=hotel">external Link >>> </a></p>
+</div>
+
+<div class="notice-card urgent">
+  <div class="notice-meta">
     <span class="notice-tag">Job-Fair</span>
     <span class="notice-date">July 2026</span>
   </div>
@@ -60,11 +105,12 @@ Stay informed with the latest news, upcoming events, and important announcements
 
 | Date | Event | Location | Details |
 |------|-------|----------|---------|
+| TBA | ISRK StartUP Mentorship | Offline | Start-Up Mentorship |
 | 2026-06-27 | International Day of Yoga | Nami Island | Promoted by EoI |
 | 2026-07-11 | Start-Up Session & Job Fair | Seoul | Engineering . Marketing . R&D . Start-Ups|
 | TBA | Career Workshop | Online | Resume and interview skills |
 | TBA | Monthly Meetup | Varies | Networking and community hangout |
-| TBA | Korean Language Workshop | Online | Beginner Korean for newcomers |
+
 
 ---
 
