@@ -27,7 +27,7 @@ Stay informed with the latest news, upcoming events, and important announcements
   <p>Job position posted via kowork | Full time position | <a href="https://kowork.kr/en/post/6917?utm_source=meta&utm_medium=display&utm_campaign=conversion&utm_term=b2c&utm_content=hotel">external Link >>> </a></p>
 </div>
 
-<div class="notice-card urgent">
+<div class="notice-card">
   <div class="notice-meta">
     <span class="notice-tag">Job Position</span>
     <span class="notice-date">July 2026</span>
@@ -45,7 +45,7 @@ Stay informed with the latest news, upcoming events, and important announcements
   <p>Job position posted via kowork  <a href="https://kowork.kr/en/post/6782?utm_source=meta&utm_medium=display&utm_campaign=conversion&utm_term=b2c&utm_content=hotel">external Link >>> </a></p>
 </div>
 
-<div class="notice-card urgent">
+<div class="notice-card">
   <div class="notice-meta">
     <span class="notice-tag">Job Position</span>
     <span class="notice-date">July 2026</span>
@@ -63,7 +63,7 @@ Stay informed with the latest news, upcoming events, and important announcements
   <p>Job position posted via kowork  <a href="https://kowork.kr/en/post/6935?utm_source=meta&utm_medium=display&utm_campaign=conversion&utm_term=b2c&utm_content=hotel">external Link >>> </a></p>
 </div>
 
-<div class="notice-card urgent">
+<div class="notice-card">
   <div class="notice-meta">
     <span class="notice-tag">Job-Fair</span>
     <span class="notice-date">July 2026</span>
