@@ -27,7 +27,7 @@ This was the **second time ISRK co-organized Indo-Utsav with IID**, continuing a
 
 ## IID - ISRK Leadership
 
-The IID-cum-ISRK team leaded by **Dr. Pravin** and **Mr. Abhishek**, both serving as Executive Secretaries in ISRK, who played leading roles in supporting and coordinating the event. **Dr. Manas R. Biswal**, Vice-President for Cultural Programs and Events at ISRK, also joined the function and supported the celebration.
+The IID-ISRK team leaded by **Dr. Pravin** and **Mr. Abhishek**, both serving as Executive Secretaries in ISRK, who played leading roles in supporting and coordinating the event. **Dr. Manas R. Biswal**, Vice-President for Cultural Programs and Events at ISRK, also joined the function and supported the celebration.
 
 ---
 
