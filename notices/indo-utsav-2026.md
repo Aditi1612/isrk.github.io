@@ -36,7 +36,7 @@ The IID-ISRK team led by **Dr. Pravin Upare** and **Mr. Abhishek Negi**, both se
 The event was honored by the presence of:
 
 - **Colonel Pankaj J. Bhojwani** - Chief Guest
-- **Mr. Seungju Kim** - Student Services Division
+- **Mr. Seungju Kim** - Student Services Division, UST
 - **Mr. Youngjo Choi** - CEO, Study News Korea
 
 ---
