@@ -20,6 +20,15 @@ Stay informed with the latest news, upcoming events, and important announcements
 
 <div class="notice-card urgent">
   <div class="notice-meta">
+    <span class="notice-tag">Community Event</span>
+    <span class="notice-date">August 2026</span>
+  </div>
+  <h3>Indo-Utsav 2026: Celebrating Unity, Culture, and Independence</h3>
+  <p>ISRK co-organized Indo-Utsav 2026 with Indians in Daejeon (IID) at UST Hall, Daejeon, on August 15, 2026. Around 100 participants, including families and children, joined the multicultural celebration. <a href="{{ '/notices/indo-utsav-2026/' | relative_url }}">View Details >>> </a></p>
+</div>
+
+<div class="notice-card urgent">
+  <div class="notice-meta">
     <span class="notice-tag">Job Position</span>
     <span class="notice-date">July 2026</span>
   </div>
