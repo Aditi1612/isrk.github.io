@@ -19,17 +19,15 @@ permalink: /notices/indo-utsav-2026/
 
 ## Event Overview
 
-ISRK was proud to be a co-organizer of **Indo-Utsav 2026**, held at **UST Hall, Daejeon, South Korea**, on **August 15, 2026**. The event was organized by **Indians in Daejeon (IID)** and brought together the Indian community for a meaningful celebration of culture, patriotism, friendship, and unity away from home.
+**ISRK** was proud to be a co-organizer of **Indo-Utsav 2026**, held at **UST Hall, Daejeon, South Korea**, on **August 15, 2026**. The event was organized by **Indians in Daejeon (IID)** and brought together the Indian community for a meaningful celebration of culture, patriotism, friendship, and unity away from home.
 
 This was the **second time ISRK co-organized Indo-Utsav with IID**, continuing a strong community partnership and shared commitment to bringing Indian families, students, researchers, and professionals together in Korea.
 
 ---
 
-## ISRK Leadership
+## IID - ISRK Leadership
 
-The ISRK team was represented by **Dr. Pravin** and **Mr. Abhishek**, both serving as Executive Secretaries in ISRK, who played leading roles in supporting and coordinating the event.
-
-**Dr. Manas R. Biswal**, Vice-President for Cultural Programs and Events at ISRK, also joined the function and supported the celebration.
+The IID-cum-ISRK team leaded by **Dr. Pravin** and **Mr. Abhishek**, both serving as Executive Secretaries in ISRK, who played leading roles in supporting and coordinating the event. **Dr. Manas R. Biswal**, Vice-President for Cultural Programs and Events at ISRK, also joined the function and supported the celebration.
 
 ---
 
