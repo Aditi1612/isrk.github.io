@@ -2,6 +2,8 @@
 layout: page
 title: Indo-Utsav 2026
 permalink: /notices/indo-utsav-2026/
+description: ISRK co-organized Indo-Utsav 2026 with Indians in Daejeon at UST Hall on August 15, 2026.
+image: /assets/images/events/indo-utsav-2026-1.jpeg
 ---
 
 <div class="page-hero">
