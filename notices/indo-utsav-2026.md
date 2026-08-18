@@ -27,7 +27,7 @@ This was the **second time ISRK co-organized Indo-Utsav with IID**, continuing a
 
 ## IID - ISRK Leadership
 
-The IID-ISRK team leaded by **Dr. Pravin Upare** and **Mr. Abhishek Negi**, both serving as Executive Secretaries in ISRK, who played leading roles in supporting and coordinating the event. **Dr. Manas R. Biswal**, Vice-President for Cultural Programs and Events at ISRK, also joined the function and supported the celebration.
+The IID-ISRK team led by **Dr. Pravin Upare** and **Mr. Abhishek Negi**, both serving as Executive Secretaries in ISRK, who played leading roles in supporting and coordinating the event. **Dr. Manas R. Biswal**, Vice-President for Cultural Programs and Events at ISRK, also joined the function and supported the celebration.
 
 ---
 
@@ -36,14 +36,14 @@ The IID-ISRK team leaded by **Dr. Pravin Upare** and **Mr. Abhishek Negi**, both
 The event was honored by the presence of:
 
 - **Colonel Pankaj J. Bhojwani** - Chief Guest
-- **Mr. Seungju Kim** - Head of Student Services Division
-- **Mr. Youngji Choi** - CEO, Study News Korea
+- **Mr. Seungju Kim** - Student Services Division
+- **Mr. Youngjo Choi** - CEO, Study News Korea
 
 ---
 
 ## Community Participation
 
-Around **100 participants**, including families and children, attended the event. The celebration created a warm and welcoming atmosphere where the Indian community could come together, connect, and celebrate shared identity while living in Korea.
+Around **120 participants**, including families and children, attended the event. The celebration created a warm and welcoming atmosphere where the Indian community could come together, connect, and celebrate shared identity while living in Korea.
 
 Children presented multicultural activities and patriotic performances, adding energy and meaning to the celebration. Their performances reflected the spirit of India while also embracing the multicultural environment of Korea.
 
