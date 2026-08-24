@@ -137,51 +137,6 @@ Stay informed with the latest news, upcoming events, and important announcements
   <p>ISRK co-organized Indo-Utsav 2026 with Indians in Daejeon (IID) at UST Hall, Daejeon, on August 15, 2026. Around 100 participants, including families and children, joined the multicultural celebration. <a href="{{ '/notices/indo-utsav-2026/' | relative_url }}">View Details >>> </a></p>
 </div>
 
-<div class="notice-card urgent">
-  <div class="notice-meta">
-    <span class="notice-tag">Job Position</span>
-    <span class="notice-date">July 2026</span>
-  </div>
-  <h3>Global Influencer Marketing</h3>
-  <p>Job position posted via kowork | Full time position | <a href="https://kowork.kr/en/post/6917?utm_source=meta&utm_medium=display&utm_campaign=conversion&utm_term=b2c&utm_content=hotel">external Link >>> </a></p>
-</div>
-
-<div class="notice-card">
-  <div class="notice-meta">
-    <span class="notice-tag">Job Position</span>
-    <span class="notice-date">July 2026</span>
-  </div>
-  <h3>Onsite Marketing Officer</h3>
-  <p>Job position posted via kowork  <a href="https://kowork.kr/en/post/6840?utm_source=meta&utm_medium=display&utm_campaign=conversion&utm_term=b2c&utm_content=hotel">external Link >>> </a></p>
-</div>
-
-<div class="notice-card urgent">
-  <div class="notice-meta">
-    <span class="notice-tag">Job Position</span>
-    <span class="notice-date">July 2026</span>
-  </div>
-  <h3>Skincare Startuo Global Marketing & Cosmetics QC/RA Manager (STEM Only)</h3>
-  <p>Job position posted via kowork  <a href="https://kowork.kr/en/post/6782?utm_source=meta&utm_medium=display&utm_campaign=conversion&utm_term=b2c&utm_content=hotel">external Link >>> </a></p>
-</div>
-
-<div class="notice-card">
-  <div class="notice-meta">
-    <span class="notice-tag">Job Position</span>
-    <span class="notice-date">July 2026</span>
-  </div>
-  <h3>Hindi Visit Preview Video Translator Recruitment | Hindi --> Korean</h3>
-  <p>Job position posted via kowork  <a href="https://kowork.kr/en/post/6954?utm_source=meta&utm_medium=display&utm_campaign=conversion&utm_term=b2c&utm_content=hotel">external Link >>> </a></p>
-</div>
-
-<div class="notice-card urgent">
-  <div class="notice-meta">
-    <span class="notice-tag">Job Position</span>
-    <span class="notice-date">July 2026</span>
-  </div>
-  <h3>Hiring Overseas Social Marketing Manager (Conversion-type Intern)</h3>
-  <p>Job position posted via kowork  <a href="https://kowork.kr/en/post/6935?utm_source=meta&utm_medium=display&utm_campaign=conversion&utm_term=b2c&utm_content=hotel">external Link >>> </a></p>
-</div>
-
 <div class="notice-card">
   <div class="notice-meta">
     <span class="notice-tag">Job-Fair</span>
