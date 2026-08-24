@@ -18,6 +18,116 @@ Stay informed with the latest news, upcoming events, and important announcements
 
 ## Latest Announcements
 
+
+
+<div class="notice-card">
+  <div class="notice-meta">
+    <span class="notice-tag">Research Opportunities | MS/Ph.D.</span>
+    <span class="notice-date">August 2026</span>
+  </div>
+  <h3>Functional Inorganic Nanoporous Materials for Energy and Environments | Hwang Group | AJOU University </h3>
+  <p>Seeking motivated undergraduate and graduate students, as well as postdoctoral researchers, with interests in the synthesis of functional inorganic nanomaterials, polymer-directed assembly, and metal–organic frameworks for energy and environmental applications. Check for more details : <a href="https://fine.ajou.ac.kr/home">external Link >>> </a></p>
+</div>
+
+<div class="notice-card urgent">
+  <div class="notice-meta">
+    <span class="notice-tag">Study Opportunities</span>
+    <span class="notice-date">August 2026</span>
+  </div>
+  <h3>Open Positions (Including Master and Ph.D. opportunities) available in Polymer Photocatalysts</h3>
+  <p>Research and Higher degree opportunities available in Seunghyeon Kim Laboratory. Potential candidates interested in Research areas of Polymer photocatalysts, Sustainable chemistry & Energy conversion. Check for more details : <a href="https://sites.google.com/view/seunghyeonkimlab/recruiting"> external Link >>> </a></p>
+</div>
+
+<div class="notice-card">
+  <div class="notice-meta">
+    <span class="notice-tag">Research Opportunities</span>
+    <span class="notice-date">August 2026</span>
+  </div>
+  <h3>Privacy & Applied Cryptography Lab (PACL) | DGIST </h3>
+  <p>Privacy and Applied Cryptography Lab (PACL) is a Research group looking for interested candidates in Privacy-Preserving Machine Learning, Post-Quantum Cryptography, and Vehicular Security. Check for more details : <a href="https://sites.google.com/view/pacl/openings?authuser=0">external Link >>> </a></p>
+</div>
+
+<div class="notice-card urgent">
+  <div class="notice-meta">
+    <span class="notice-tag">Study Opportunities</span>
+    <span class="notice-date">August 2026</span>
+  </div>
+  <h3>POSTECH Application for Master and Ph.D. Studies (2027 Spring Admission)</h3>
+  <p>Admissions open for Spring 2027 for  Master's and Ph.D. courses in Pohang University of Science and Technology (POSTECH)  | Full time Scholarships. Check for mode details : <a href="https://adm-g.postech.ac.kr/ENG/">external Link >>> </a></p>
+</div>
+
+<div class="notice-card">
+  <div class="notice-meta">
+    <span class="notice-tag">Study Opportunities</span>
+    <span class="notice-date">August 2026</span>
+  </div>
+  <h3>KAIST Application for Master and Ph.D. Studies </h3>
+  <p>Admissions open for Spring 2027 for  Master's and Ph.D. courses in Korea Advanced Institute of Science & Technology (KAIST) | Full time Scholarships. Check for more details : <a href="https://admission.kaist.ac.kr/intl-graduate">external Link >>> </a></p>
+</div>
+
+<div class="notice-card urgent">
+  <div class="notice-meta">
+    <span class="notice-tag">Study Opportunities</span>
+    <span class="notice-date">August 2026</span>
+  </div>
+  <h3>Graduate Student Position (2027 Spring Admission) | KAIST</h3>
+  <p>Research Position and Higher study opportunities in  Self-driving laboratories for autonomous materials discovery, Generative AI for materials design,  Electrochemical systems (catalysis · battery) or solar cells. Check for mode details : <a href="https://www.caim.kaist.ac.kr/recruit-graduate">external Link >>> </a></p>
+</div>
+
+<div class="notice-card">
+  <div class="notice-meta">
+    <span class="notice-tag">Study Opportunities</span>
+    <span class="notice-date">August 2026</span>
+  </div>
+  <h3>Higher study and Research Position openings | KAIST </h3>
+  <p>The Multimodal AI Lab of School of Electrical Engineering in KAIST is looking for motivated students in machine learning, speech processing and computer vision. Check for mode details : <a href="https://mmai.io/admissions/">external Link >>> </a></p>
+</div>
+
+<div class="notice-card urgent">
+  <div class="notice-meta">
+    <span class="notice-tag">Study Opportunities</span>
+    <span class="notice-date">August 2026</span>
+  </div>
+  <h3>Higher study and Research Position openings | Kyung Hee University</h3>
+  <p>Research Position and Higher study opportunities in Electrochemical Engineering Lab for interested students/ researchers in Yoon Lab. Check for mode details : <a href="https://yoonlab.khu.ac.kr/join/">external Link >>> </a></p>
+</div>
+
+<div class="notice-card">
+  <div class="notice-meta">
+    <span class="notice-tag">Study Opportunities | Research Positions</span>
+    <span class="notice-date">August 2026</span>
+  </div>
+  <h3>Higher study and Research Position openings | Yonsei University</h3>
+  <p>Research positions and Higher study opportunities in Yonsei University in Materials Theory Group Lab. Check for more details : <a href="https://www.materials-theory.group/team/open-positions">external Link >>> </a></p>
+</div>
+
+<div class="notice-card urgent">
+  <div class="notice-meta">
+    <span class="notice-tag">Study Opportunities | GIST</span>
+    <span class="notice-date">August 2026</span>
+  </div>
+  <h3>GIST International Admission</h3>
+  <p>Study in Korea : Graduate Application for 2027 Spring Admission startin from September 07, 2026. Check for the latest admission notice and procedure from Gwangju Institute of Science and Technology (GIST). <a href="https://www.gist.ac.kr/iadm/html/sub05/0502.html?mode=V&no=222702">external Link >>> </a></p>
+</div>
+
+<div class="notice-card">
+  <div class="notice-meta">
+    <span class="notice-tag">Research Opportunities | MS/Ph.D.</span>
+    <span class="notice-date">August 2026</span>
+  </div>
+  <h3>OH GROUP | Korea Institute of Energy Technology (KENTECH) </h3>
+  <p> OH GROUP welcomes new scientific individuals interested in the synthesis of nano-interfaces on nanocrystals, the reaction dynamics of nano-interfaces in catalysis, and the system design and control of nonequilibrium catalysis. Check for more details : <a href="https://mhohlab.kentech.ac.kr/">external Link >>> </a></p>
+</div>
+
+<div class="notice-card urgent">
+  <div class="notice-meta">
+    <span class="notice-tag">Research Opportunities | MS/Ph.D.</span>
+    <span class="notice-date">August 2026</span>
+  </div>
+  <h3>Open Positions (Including Master and Ph.D. opportunities) available in Polymer Photocatalysts</h3>
+  <p>Yoon Research Group invites motivated students with a background in chemical engineering, chemistry, materials science, physics, or related fields. Research spans soft materials design, microfabrication, and wearable device engineering — no single background is required; curiosity and commitment matter most. Check for more details : <a href="https://yoongroup.net/positions.html"> external Link >>> </a></p>
+</div>
+
 <div class="notice-card">
   <div class="notice-meta">
     <span class="notice-tag">Community Event</span>
@@ -90,23 +200,7 @@ Stay informed with the latest news, upcoming events, and important announcements
   <p>ISRK is organizing the annual Holi celebration. Details on location, date, and registration will be shared soon. Watch this space and our social media channels for updates.</p>
 </div>
 
-<div class="notice-card">
-  <div class="notice-meta">
-    <span class="notice-tag">Opportunities</span>
-    <span class="notice-date">Ongoing</span>
-  </div>
-  <h3>KGSP 2026 Applications Open</h3>
-  <p>The Korean Government Scholarship Program (KGSP) applications for 2026 are now open. Visit the NIIED website for details. ISRK will be hosting an information session for interested applicants — watch for the date announcement.</p>
-</div>
 
-<div class="notice-card">
-  <div class="notice-meta">
-    <span class="notice-tag">Community</span>
-    <span class="notice-date">Ongoing</span>
-  </div>
-  <h3>New Members Welcome — Join ISRK Today</h3>
-  <p>If you are a new Indian student or researcher who recently arrived in Korea, welcome! Register with ISRK to access our community, resources, and events. Email us at isrk.association@gmail.com to join.</p>
-</div>
 
 ---
 
