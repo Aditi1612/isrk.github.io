@@ -155,11 +155,11 @@ Stay informed with the latest news, upcoming events, and important announcements
 
 | Date | Event | Location | Details |
 |------|-------|----------|---------|
-| TBA | ISRK StartUP Mentorship | Offline | Start-Up Mentorship |
+<!-- | TBA | ISRK StartUP Mentorship | Offline | Start-Up Mentorship |
 | 2026-06-27 | International Day of Yoga | Nami Island | Promoted by EoI |
 | 2026-07-11 | Start-Up Session & Job Fair | Seoul | Engineering . Marketing . R&D . Start-Ups|
 | TBA | Career Workshop | Online | Resume and interview skills |
-| TBA | Monthly Meetup | Varies | Networking and community hangout |
+| TBA | Monthly Meetup | Varies | Networking and community hangout | -->
 
 
 ---
