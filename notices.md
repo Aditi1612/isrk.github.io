@@ -185,8 +185,8 @@ Stay informed with the latest news, upcoming events, and important announcements
 
 
 ---
-
-## Subscribe to Updates
+{% comment %}
+## Stay Connected on our Network
 
 To receive ISRK notices and announcements directly:
 
@@ -198,6 +198,7 @@ To receive ISRK notices and announcements directly:
 </div>
 
 ---
+{% endcomment %}
 
 ## Archive
 
