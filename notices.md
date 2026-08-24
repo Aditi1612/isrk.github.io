@@ -137,14 +137,6 @@ Stay informed with the latest news, upcoming events, and important announcements
   <p>ISRK co-organized Indo-Utsav 2026 with Indians in Daejeon (IID) at UST Hall, Daejeon, on August 15, 2026. Around 100 participants, including families and children, joined the multicultural celebration. <a href="{{ '/notices/indo-utsav-2026/' | relative_url }}">View Details >>> </a></p>
 </div>
 
-<div class="notice-card">
-  <div class="notice-meta">
-    <span class="notice-tag">Job-Fair</span>
-    <span class="notice-date">July 2026</span>
-  </div>
-  <h3>Start-up Session and Job Fair</h3>
-  <p>ISRK In collaboration with Hanpass and Vizabridge Corporation, brings together startups, career opportunities, and global talent under one roof. Meet industry leaders and founders | Explore opportunities in Engineering, Marketing, R&D, and Startups |  Network with fellow students, researchers, and professionals in Korea | <a href="https://forms.gle/8bGrsUPQ1hQs3TRb9">Registration Details >>> </a></p>
-</div>
 
 <div class="notice-card">
   <div class="notice-meta">
