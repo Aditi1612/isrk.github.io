@@ -20,6 +20,15 @@ Stay informed with the latest news, upcoming events, and important announcements
 
 <div class="notice-card urgent">
   <div class="notice-meta">
+    <span class="notice-tag">Research Opportunities | Ph.D.</span>
+    <span class="notice-date">September-October 2026</span>
+  </div>
+  <h3>MEFE Lab Yonsei University Graduate Student Recruitment 2027</h3>
+  <p>The MEFE Lab at Yonsei University is recruiting undergraduate researchers and PhD students for a new microbiome research group opening in March 2027. <a href="{{ '/notices/mefe-lab-yonsei-recruitment-2027/' | relative_url }}">View Details >>> </a></p>
+</div>
+
+<div class="notice-card urgent">
+  <div class="notice-meta">
     <span class="notice-tag">Job Opportunity</span>
     <span class="notice-date">August 2026</span>
   </div>
