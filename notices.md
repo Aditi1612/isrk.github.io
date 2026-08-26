@@ -18,6 +18,15 @@ Stay informed with the latest news, upcoming events, and important announcements
 
 ## Latest Announcements
 
+<div class="notice-card urgent">
+  <div class="notice-meta">
+    <span class="notice-tag">Job Opportunity</span>
+    <span class="notice-date">August 2026</span>
+  </div>
+  <h3>Samsung Display Recruitment for International Students - Second Half of 2026</h3>
+  <p>Samsung Display will conduct online one-on-one recruitment consultations for international students on August 31 and September 1, 2026. <a href="{{ '/notices/samsung-display-recruitment-2026/' | relative_url }}">View Details >>> </a></p>
+</div>
+
 
 
 <div class="notice-card">
