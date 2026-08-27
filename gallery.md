@@ -142,14 +142,7 @@ permalink: /gallery/
     <span class="gallery-card-meta">6 photos &middot; Cultural</span>
   </div>
 </div>
-<div class="gallery-event-card" data-category="cultural" data-event="cult-2">
-  <div class="gallery-card-img-wrap">
-    <img src="{{ '/assets/images/gallery/cultural/eid-milan/488596832_18040228931563879_3598166441830726423_n.webp' | relative_url }}" alt="Eid Milan" loading="lazy">
-  </div>
-  <div class="gallery-card-info">
-    <p class="gallery-card-title">Eid Milan 2025</p>
-    <span class="gallery-card-meta">5 photos &middot; Cultural</span>
-  </div>
+
 </div>
 <div class="gallery-event-card" data-category="cultural" data-event="cult-3">
   <div class="gallery-card-img-wrap">
