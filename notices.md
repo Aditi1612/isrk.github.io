@@ -18,7 +18,7 @@ Stay informed with the latest news, upcoming events, and important announcements
 
 ## Latest Announcements
 
-<div class="notice-card urgent">
+<div class="notice-card">
   <div class="notice-meta">
     <span class="notice-tag">Research Opportunities | Ph.D.</span>
     <span class="notice-date">August 2026</span>
