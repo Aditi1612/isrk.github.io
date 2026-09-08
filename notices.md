@@ -18,6 +18,15 @@ Stay informed with the latest news, upcoming events, and important announcements
 
 ## Latest Announcements
 
+<div class="notice-card urgent">
+  <div class="notice-meta">
+    <span class="notice-tag">Sports Event</span>
+    <span class="notice-date">September 2026</span>
+  </div>
+  <h3>Davis Cup India vs Korea Ticket Information 2026</h3>
+  <p>The Davis Cup tie between the men's national tennis teams of India and Korea will be held at Olympic Park Tennis Center, Seoul, on September 18-19. <a href="{{ '/notices/davis-cup-india-korea-2026/' | relative_url }}">View Details >>> </a></p>
+</div>
+
 <div class="notice-card">
   <div class="notice-meta">
     <span class="notice-tag">Research Opportunities | Ph.D.</span>
