@@ -22,7 +22,7 @@ image: /assets/images/events/davis cup_ticket sales_image.png
 
 The **Davis Cup tie between the men's national tennis teams of India and Korea** will be held at the **Center Court of the Olympic Park Tennis Center** in Songpa-gu, Seoul.
 
-This information was shared with ISRK by the **Indian Chamber of Commerce in Korea (ICCK)**, following a request from the **Korea Tennis Association** to help promote the event among Indian nationals residing in Korea.
+This information was shared with ISRK by the **Indian Chamber of Commerce in Korea (ICCK)**, via **Korea Tennis Association** to help promote the event among Indian nationals residing in Korea.
 
 ---
 
