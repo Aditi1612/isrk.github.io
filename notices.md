@@ -18,6 +18,15 @@ Stay informed with the latest news, upcoming events, and important announcements
 
 ## Latest Announcements
 
+<div class="notice-card">
+  <div class="notice-meta">
+    <span class="notice-tag">Partner Opportunity</span>
+    <span class="notice-date">September 2026</span>
+  </div>
+  <h3>VIJOB Global Supporters 2nd Recruitment</h3>
+  <p>VIJOB Global Supporters is recruiting around 20 foreign students in Korea for its second supporters program under the theme "Connect with your people in Korea." <a href="{{ '/notices/vijob-global-supporters-2nd-recruitment/' | relative_url }}">View Details >>> </a></p>
+</div>
+
 <div class="notice-card urgent">
   <div class="notice-meta">
     <span class="notice-tag">Sports Event</span>
