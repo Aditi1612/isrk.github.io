@@ -18,6 +18,15 @@ Stay informed with the latest news, upcoming events, and important announcements
 
 ## Latest Announcements
 
+<div class="notice-card urgent">
+  <div class="notice-meta">
+    <span class="notice-tag">Paid Translation Opportunity</span>
+    <span class="notice-date">September 2026</span>
+  </div>
+  <h3>Urgent Paid Translation Opportunity: Hindi, Punjabi and Haryanvi Speakers in Korea</h3>
+  <p>Ewha Korea urgently seeks speakers of Hindi, Punjabi or Haryanvi residing in South Korea for paid, in-person translation work in Sangam, Seoul. Applicants need only one of these languages; professional experience is preferred but not required. <a href="{{ '/notices/ewha-korea-language-translation-opportunity/' | relative_url }}">View Details >>> </a></p>
+</div>
+
 <div class="notice-card">
   <div class="notice-meta">
     <span class="notice-tag">Partner Opportunity</span>
