@@ -24,7 +24,7 @@ Stay informed with the latest news, upcoming events, and important announcements
     <span class="notice-date">September 2026</span>
   </div>
   <h3>Urgent Paid Translation Opportunity: Hindi, Punjabi and Haryanvi Speakers in Korea</h3>
-  <p>Ewha Korea urgently seeks speakers of Hindi, Punjabi or Haryanvi residing in South Korea for paid, in-person translation work in Sangam, Seoul. Applicants need only one of these languages; professional experience is preferred but not required. <a href="{{ '/notices/ewha-korea-language-translation-opportunity/' | relative_url }}">View Details >>> </a></p>
+  <p>Ewha Korea urgently needs Punjabi and Haryanvi speakers and is also recruiting Hindi speakers for on-site translation in Sangam, Seoul. Pay is KRW 100,000 for 4 hours or KRW 200,000 for 8 hours, with an additional KRW 10,000 meal allowance for an 8-hour shift. Korean speakers receive priority; English speakers are also welcome. <a href="{{ '/notices/ewha-korea-language-translation-opportunity/' | relative_url }}">View Details >>> </a></p>
 </div>
 
 <div class="notice-card">

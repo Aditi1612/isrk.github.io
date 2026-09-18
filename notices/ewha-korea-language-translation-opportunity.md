@@ -2,7 +2,7 @@
 layout: page
 title: "Urgent Paid Translation Opportunity: Hindi, Punjabi and Haryanvi Speakers in Korea"
 permalink: /notices/ewha-korea-language-translation-opportunity/
-description: Ewha Korea urgently seeks Hindi, Punjabi or Haryanvi speakers residing in South Korea for paid, in-person translation work in Sangam, Seoul. Professional experience is preferred but not required.
+description: "Ewha Korea seeks Hindi, Punjabi and Haryanvi speakers for on-site translation in Seoul. Punjabi and Haryanvi are urgently needed. Pay: KRW 100,000 for 4 hours or KRW 200,000 for 8 hours."
 image: /assets/images/logos/isrk_logo_tri_color.png
 ---
 
@@ -18,17 +18,27 @@ image: /assets/images/logos/isrk_logo_tri_color.png
 
 ISRK is sharing an urgent recruitment request received from **Sophia Jung, CEO of Ewha Korea (Ewhakorea)**, a Seoul-based translation company specializing in broadcast and media content.
 
-According to Ewha Korea, the company is working on the translation of a major Korean program scheduled for global release on **Netflix** and is seeking speakers of **Hindi, Punjabi or Haryanvi** who currently reside in South Korea. Punjabi and Haryanvi speakers are particularly needed.
+According to Ewha Korea's updated recruitment notice, the company is seeking Indian native or highly fluent speakers to assist with translating content featuring Indian participants in a program scheduled for release on a **global OTT platform**.
+
+## Languages Needed
+
+- **Punjabi - URGENT**
+- **Haryanvi - URGENT**
+- **Hindi**
+
+**The most urgent need is for Punjabi and Haryanvi speakers. You only need to speak one of these languages.** Different individuals can participate for each language.
 
 ## Who Can Participate?
 
-- Individuals currently residing in **South Korea** who accurately understand spoken **Hindi, Punjabi or Haryanvi**.
-- Individuals who can communicate the meaning of recorded dialogue in **English or Korean**.
-- Individuals available to work **in person at the production office in Sangam, Seoul**.
+- Native or highly fluent speakers of **Hindi, Punjabi or Haryanvi** currently residing in **South Korea**.
+- Individuals who accurately understand regional expressions, accents and natural conversation.
+- Individuals available to work **on-site at the production office in Sangam-dong, Mapo-gu, Seoul**.
 
-**You only need to speak one of these languages.** Different individuals can participate for each language.
+**Korean-speaking applicants will be given priority, including Hindi applicants who can communicate in Korean. English-speaking applicants who do not speak Korean are also welcome to apply.**
 
-Professional translation experience is **preferred but not required**. Ewha Korea's professional translation team can assist with the remaining translation process if you can accurately understand the dialogue and explain its meaning.
+If your Korean or English is not strong enough to translate independently, Ewha Korea can arrange for a Korean translator to work with you. **The ability to accurately understand the Indian language is the most important requirement.**
+
+Basic computer skills are helpful, but **professional translation experience is not required**.
 
 ## Work Details
 
@@ -37,14 +47,48 @@ The work involves listening to recorded dialogue in one of the requested languag
 | Item | Details |
 |------|---------|
 | Languages | Hindi, Punjabi or Haryanvi |
-| Compensation | Paid translation work; contact Ewha Korea for rates and payment details |
-| Work location | Production office in Sangam, Seoul; in-person attendance required |
+| Work location | Production office in Sangam-dong, Mapo-gu, Seoul; on-site attendance required |
 | Confidentiality | A confidentiality agreement must be signed before the program title and specific details can be disclosed |
 | Schedule | Urgent; contact Ewha Korea promptly for availability and scheduling |
 
+**Remote work is not available** due to strict confidentiality requirements.
+
+## Working Hours
+
+**Full day: 8 hours of work plus a 1-hour break.** Applicants can choose their starting time:
+
+| Start | Finish |
+|-------|--------|
+| 8:00 AM | 5:00 PM |
+| 9:00 AM | 6:00 PM |
+| 10:00 AM | 7:00 PM |
+
+**Half day: 4 hours.** Applicants who cannot work a full day may apply for a 4-hour shift.
+
+You do not need to work every day. Students and people with other commitments are welcome to contact Ewha Korea with their available dates.
+
+## Payment
+
+| Work Duration | Payment |
+|---------------|---------|
+| 4 hours | KRW 100,000 |
+| 8 hours | KRW 200,000, plus a KRW 10,000 meal allowance |
+
 ## How To Express Interest
 
-Interested individuals should contact **Sophia Jung at Ewha Korea** using the numbers below and mention the language they speak. Please contact the company directly for the work schedule, compensation and participation details.
+Interested individuals should contact **Sophia Jung at Ewha Korea**:
+
+- **Mobile:** [010-7918-7981](tel:+821079187981) (international: +82 10 7918 7981)
+- **KakaoTalk ID:** `aiyalin`
+
+Please include:
+
+1. Language(s) you speak
+2. Your Korean/English level
+3. Available dates
+4. A brief introduction or CV
+
+## Company Information
 
 - **Phone:** [+82 2 6235 8858](tel:+82262358858)
 - **Website:** [www.ewhakorea.co.kr](http://www.ewhakorea.co.kr)
