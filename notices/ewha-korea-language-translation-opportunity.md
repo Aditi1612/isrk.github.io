@@ -47,7 +47,6 @@ The work involves listening to recorded dialogue in one of the requested languag
 Interested individuals should contact **Sophia Jung at Ewha Korea** using the numbers below and mention the language they speak. Please contact the company directly for the work schedule, compensation and participation details.
 
 - **Phone:** [+82 2 6235 8858](tel:+82262358858)
-- **Mobile:** [+82 10 7918 7981](tel:+821079187981)
 - **Website:** [www.ewhakorea.co.kr](http://www.ewhakorea.co.kr)
 - **Company address:** #307, 136 Yangpyeong-ro, Yeongdeungpo-gu, Seoul, Korea
 
