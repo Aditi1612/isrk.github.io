@@ -7,7 +7,7 @@ image: /assets/images/events/deepotsav-2026/isrk-logo-deep-blue.png
 robots: noindex, nofollow
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20260921-2">
 
 <div class="deepotsav-page" data-early-bird-deadline="2026-10-25T23:59:59+09:00">
   <header class="deepotsav-heading">
@@ -222,4 +222,4 @@ robots: noindex, nofollow
   </div>
 </div>
 
-<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20260921-2" defer></script>
