@@ -15,6 +15,7 @@
   const status = document.getElementById('form-status');
   const submitButton = form.querySelector('button[type="submit"]');
   let submissionInProgress = false;
+  let submissionTimeout;
 
   function formatWon(value) {
     return new Intl.NumberFormat('en-US').format(value) + ' KRW';
@@ -96,6 +97,15 @@
     submissionInProgress = true;
     submitButton.disabled = true;
     showStatus('Submitting your test registration...', 'working');
+
+    window.clearTimeout(submissionTimeout);
+    submissionTimeout = window.setTimeout(function () {
+      if (!submissionInProgress) return;
+
+      submissionInProgress = false;
+      submitButton.disabled = false;
+      showStatus('The registration service did not respond. Please check the Apps Script deployment access and try again.', 'error');
+    }, 20000);
   });
 
   window.addEventListener('message', function (event) {
@@ -103,6 +113,7 @@
       event.origin.endsWith('.googleusercontent.com');
     if (!allowedOrigin || !submissionInProgress || !event.data || event.data.type !== 'deepotsav-registration') return;
 
+    window.clearTimeout(submissionTimeout);
     submissionInProgress = false;
     submitButton.disabled = false;
 
