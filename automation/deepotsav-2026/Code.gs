@@ -548,6 +548,6 @@ function safeErrorMessage_(error) {
 function responsePage_(status, message) {
   const payload = JSON.stringify({ type: 'deepotsav-registration', status: status, message: message }).replace(/</g, '\\u003c');
   return HtmlService.createHtmlOutput(
-    `<!doctype html><html><body><p>${escapeHtml_(message)}</p><script>window.parent.postMessage(${payload}, '*');</script></body></html>`
+    `<!doctype html><html><body><p>${escapeHtml_(message)}</p><script>window.top.postMessage(${payload}, '*');</script></body></html>`
   ).setTitle('Deepotsav 2026 Registration');
 }
