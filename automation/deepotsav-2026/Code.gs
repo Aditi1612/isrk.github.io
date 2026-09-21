@@ -18,7 +18,7 @@ const CONFIG = Object.freeze({
   CONTACT_LINE: 'Iqbal Khazi: 010-9544-0786 | Dilip Patil: 010-7471-9016 | Pravin Upare: 010-7633-8112 | Manas Biswal: 010-9807-0763',
   REPLY_TO: 'isrk.association@gmail.com',
   LOGO_FILE_ID: '1sFH5OAzQlhB3R9cdybzQDSju0Tf6gmhy',
-  TEST_MODE: true,
+  TEST_MODE: false,
   TEST_RECIPIENTS: ['mrbiswal13@gmail.com', 'cometomanas@gmail.com']
 });
 
