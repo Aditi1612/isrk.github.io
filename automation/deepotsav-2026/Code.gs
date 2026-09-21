@@ -245,9 +245,9 @@ function sendPaymentForRow_(sheet, row, forceRetry) {
       throw new Error('Payment Status must be Paid before sending confirmation.');
     }
     if (!forceRetry && (record['Payment Email Status'] === 'SENT' || record['Payment Email Status'] === 'SENDING')) return;
-    if (record['Payment Email Status'] === 'SENT' && record['Payment Email Sent At']) return;
 
     enforceTestRecipient_(record.Email);
+    const isResend = forceRetry && record['Payment Email Status'] === 'SENT';
     const verifier = Session.getActiveUser().getEmail() || 'ISRK organizer';
     const paidAmount = record['Paid Amount (KRW)'] || record['Expected Amount (KRW)'];
 
@@ -266,7 +266,8 @@ function sendPaymentForRow_(sheet, row, forceRetry) {
         fullName: record['Full Name'],
         paidAttendees: record['Paid Attendees (Age 5+)'],
         childrenUnderFive: record['Children Under 5'],
-        paidAmount: paidAmount
+        paidAmount: paidAmount,
+        isResend: isResend
       });
       setCellsByHeader_(sheet, row, {
         'Payment Email Status': 'SENT',
@@ -427,7 +428,7 @@ function sendRegistrationEmail_(record) {
 }
 
 function sendPaymentEmail_(record) {
-  const subject = `[DEEPOTSAV 2026] Payment confirmed - ${record.registrationId}`;
+  const subject = `[DEEPOTSAV 2026] Payment confirmed - ${record.registrationId}${record.isResend ? ' (resent)' : ''}`;
   const statusBlock = emailStatusBlock_('Payment confirmed', 'Your registration is complete', '#17823b', '#edf8f0');
   const body = `Dear ${record.fullName},\n\nYour Deepotsav 2026 payment has been verified.\nReference: ${record.registrationId}\nAmount confirmed: ${formatWon_(record.paidAmount)}\n\nPlease present this reference at the registration desk.\n\n${eventPlainText_()}\n\nISRK Team`;
   const html = emailShell_(
