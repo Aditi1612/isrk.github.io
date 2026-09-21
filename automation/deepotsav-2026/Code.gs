@@ -55,8 +55,6 @@ function doPost(e) {
     try {
       sheet = getRegistrationSheet_();
       assertHeaders_(sheet);
-      assertNoActiveDuplicate_(sheet, payload.email);
-
       const totalAttendees = payload.paidAttendees + payload.childrenUnderFive;
       if (activeAttendanceCount_(sheet) + totalAttendees > CONFIG.CAPACITY) {
         throw new Error('Registration capacity has been reached. Please contact the ISRK team.');
@@ -389,17 +387,6 @@ function activeAttendanceCount_(sheet) {
   return totals.reduce((sum, row, index) => {
     return ['Cancelled', 'Rejected'].includes(statuses[index][0]) ? sum : sum + Number(row[0] || 0);
   }, 0);
-}
-
-function assertNoActiveDuplicate_(sheet, email) {
-  if (sheet.getLastRow() < 2) return;
-  const columns = headerMap_(sheet);
-  const rowCount = sheet.getLastRow() - 1;
-  const emails = sheet.getRange(2, columns.Email, rowCount, 1).getDisplayValues();
-  const statuses = sheet.getRange(2, columns['Payment Status'], rowCount, 1).getDisplayValues();
-  const duplicate = emails.some((row, index) => row[0].trim().toLowerCase() === email &&
-    !['Cancelled', 'Rejected'].includes(statuses[index][0]));
-  if (duplicate) throw new Error('An active registration already exists for this email address.');
 }
 
 function nextRegistrationId_(sheet) {

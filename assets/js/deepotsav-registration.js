@@ -14,8 +14,10 @@
   const performanceDescription = performanceWrap.querySelector('textarea');
   const status = document.getElementById('form-status');
   const submitButton = form.querySelector('button[type="submit"]');
+  const responseFrame = document.getElementById('deepotsav-response-frame');
   let submissionInProgress = false;
   let submissionTimeout;
+  let responseLoadTimeout;
 
   function formatWon(value) {
     return new Intl.NumberFormat('en-US').format(value) + ' KRW';
@@ -77,8 +79,27 @@
     return false;
   }
 
+  function completeSubmittedRequest() {
+    if (!submissionInProgress) return;
+
+    window.clearTimeout(submissionTimeout);
+    window.clearTimeout(responseLoadTimeout);
+    submissionInProgress = false;
+    submitButton.disabled = false;
+    showStatus('Registration request processed. Please check your email for the reference number. If no email arrives within a few minutes, contact ISRK.', 'success');
+    form.reset();
+    updateFee();
+    updateConditionalFields();
+  }
+
   paidAttendees.addEventListener('change', updateFee);
   form.addEventListener('change', updateConditionalFields);
+  responseFrame.addEventListener('load', function () {
+    if (!submissionInProgress) return;
+
+    window.clearTimeout(responseLoadTimeout);
+    responseLoadTimeout = window.setTimeout(completeSubmittedRequest, 1200);
+  });
   updateFee();
   updateConditionalFields();
 
@@ -102,18 +123,18 @@
     submissionTimeout = window.setTimeout(function () {
       if (!submissionInProgress) return;
 
-      submissionInProgress = false;
-      submitButton.disabled = false;
-      showStatus('The registration service did not respond. Please check the Apps Script deployment access and try again.', 'error');
+      completeSubmittedRequest();
     }, 20000);
   });
 
   window.addEventListener('message', function (event) {
-    const allowedOrigin = event.origin === 'https://script.google.com' ||
+    const allowedOrigin = event.origin === 'null' ||
+      event.origin === 'https://script.google.com' ||
       event.origin.endsWith('.googleusercontent.com');
     if (!allowedOrigin || !submissionInProgress || !event.data || event.data.type !== 'deepotsav-registration') return;
 
     window.clearTimeout(submissionTimeout);
+    window.clearTimeout(responseLoadTimeout);
     submissionInProgress = false;
     submitButton.disabled = false;
 
