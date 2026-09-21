@@ -31,7 +31,7 @@ const HEADERS = Object.freeze([
   'ISRK Representative Team', 'Agreement Accepted', 'Payment Status', 'Paid Amount (KRW)',
   'Payment Verified By', 'Payment Verified At', 'Registration Email Status',
   'Registration Email Sent At', 'Payment Email Status', 'Payment Email Sent At',
-  'Internal Notes', 'Submission Source'
+  'Internal Notes', 'Submission Source', 'Submission Token'
 ]);
 
 function doGet() {
@@ -55,6 +55,10 @@ function doPost(e) {
     try {
       sheet = getRegistrationSheet_();
       assertHeaders_(sheet);
+      const existingRegistrationId = registrationIdForSubmissionToken_(sheet, payload.submissionToken);
+      if (existingRegistrationId) {
+        return responsePage_('success', `Registration already received. Reference: ${existingRegistrationId}`);
+      }
       const totalAttendees = payload.paidAttendees + payload.childrenUnderFive;
       if (activeAttendanceCount_(sheet) + totalAttendees > CONFIG.CAPACITY) {
         throw new Error('Registration capacity has been reached. Please contact the ISRK team.');
@@ -88,7 +92,8 @@ function doPost(e) {
         suggestions: payload.suggestions,
         isrkRepresentative: payload.isrkRepresentative,
         agreement: payload.agreement,
-        submissionSource: payload.submissionSource
+        submissionSource: payload.submissionSource,
+        submissionToken: payload.submissionToken
       };
 
       const row = [
@@ -98,7 +103,7 @@ function doPost(e) {
         record.expectedAmount, record.performance, record.performanceDescription, record.fashionShow,
         record.volunteerRoles, record.communityMela, record.kidsActivity, record.mobile,
         record.suggestions, record.isrkRepresentative, record.agreement, 'Pending', '', '', '',
-        'SENDING', '', '', '', '', record.submissionSource
+        'SENDING', '', '', '', '', record.submissionSource, record.submissionToken
       ];
       if (row.length !== HEADERS.length) throw new Error('Registration row does not match the sheet schema.');
       sheet.appendRow(row);
@@ -310,7 +315,8 @@ function normalizePayload_(e) {
     suggestions: first('suggestions'),
     isrkRepresentative: first('isrkRepresentative'),
     agreement: first('agreement'),
-    submissionSource: first('submissionSource') || 'ISRK website'
+    submissionSource: first('submissionSource') || 'ISRK website',
+    submissionToken: first('submissionToken')
   };
 }
 
@@ -338,6 +344,9 @@ function validatePayload_(payload) {
   if (activityContactRequired && !payload.mobile) throw new Error('A mobile number is required for activity coordination.');
   if (payload.performance.length > 0 && !payload.performanceDescription) throw new Error('Please describe the proposed performance.');
   if (payload.agreement !== 'I Agree') throw new Error('You must accept the declaration and agreement.');
+  if (!/^[a-zA-Z0-9-]{16,100}$/.test(payload.submissionToken)) {
+    throw new Error('Please refresh the registration page and submit again.');
+  }
 }
 
 function enforceTestRecipient_(email) {
@@ -388,6 +397,16 @@ function activeAttendanceCount_(sheet) {
   return totals.reduce((sum, row, index) => {
     return ['Cancelled', 'Rejected'].includes(statuses[index][0]) ? sum : sum + Number(row[0] || 0);
   }, 0);
+}
+
+function registrationIdForSubmissionToken_(sheet, submissionToken) {
+  if (sheet.getLastRow() < 2) return '';
+  const columns = headerMap_(sheet);
+  const rowCount = sheet.getLastRow() - 1;
+  const tokens = sheet.getRange(2, columns['Submission Token'], rowCount, 1).getDisplayValues();
+  const index = tokens.findIndex((row) => row[0] === submissionToken);
+  if (index < 0) return '';
+  return String(sheet.getRange(index + 2, columns['Registration ID']).getDisplayValue());
 }
 
 function nextRegistrationId_(sheet) {

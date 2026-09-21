@@ -55,11 +55,11 @@ robots: noindex, nofollow
       <form id="deepotsav-registration-form"
             class="deepotsav-form"
             method="post"
-            target="deepotsav-response-frame"
     action="https://script.google.com/macros/s/AKfycbxzSdW1Da4M1Y-S64-AaSo4QTeq05dvsVnvwTd1Y43FcPSheO4hV3k2CiSBGSGwvdiVKA/exec"
             novalidate>
         <input type="text" name="website" class="deepotsav-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
         <input type="hidden" name="submissionSource" value="ISRK website test page">
+        <input type="hidden" name="submissionToken" id="submission-token">
 
         <fieldset>
           <legend><span>1</span> Registration details</legend>
@@ -217,9 +217,8 @@ robots: noindex, nofollow
         </button>
       </form>
 
-      <iframe name="deepotsav-response-frame" id="deepotsav-response-frame" title="Registration response" hidden></iframe>
     </main>
   </div>
 </div>
 
-<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20260921-2" defer></script>
+<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20260921-3" defer></script>

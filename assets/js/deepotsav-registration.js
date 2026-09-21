@@ -14,7 +14,8 @@
   const performanceDescription = performanceWrap.querySelector('textarea');
   const status = document.getElementById('form-status');
   const submitButton = form.querySelector('button[type="submit"]');
-  const responseFrame = document.getElementById('deepotsav-response-frame');
+  const submissionToken = document.getElementById('submission-token');
+  let responseFrame;
   let submissionInProgress = false;
   let submissionTimeout;
   let responseLoadTimeout;
@@ -86,20 +87,40 @@
     window.clearTimeout(responseLoadTimeout);
     submissionInProgress = false;
     submitButton.disabled = false;
+    form.removeAttribute('target');
+    if (responseFrame) responseFrame.remove();
+    responseFrame = null;
     showStatus('Registration request processed. Please check your email for the reference number. If no email arrives within a few minutes, contact ISRK.', 'success');
     form.reset();
     updateFee();
     updateConditionalFields();
   }
 
+  function createResponseFrame() {
+    if (responseFrame) responseFrame.remove();
+
+    responseFrame = document.createElement('iframe');
+    responseFrame.name = `deepotsav-response-${Date.now()}`;
+    responseFrame.title = 'Registration response';
+    responseFrame.hidden = true;
+    responseFrame.addEventListener('load', function () {
+      if (!submissionInProgress) return;
+
+      try {
+        if (responseFrame.contentWindow.location.href === 'about:blank') return;
+      } catch (error) {
+        // The Apps Script response is cross-origin, which confirms the real request loaded.
+      }
+
+      window.clearTimeout(responseLoadTimeout);
+      responseLoadTimeout = window.setTimeout(completeSubmittedRequest, 1200);
+    });
+    document.body.appendChild(responseFrame);
+    form.target = responseFrame.name;
+  }
+
   paidAttendees.addEventListener('change', updateFee);
   form.addEventListener('change', updateConditionalFields);
-  responseFrame.addEventListener('load', function () {
-    if (!submissionInProgress) return;
-
-    window.clearTimeout(responseLoadTimeout);
-    responseLoadTimeout = window.setTimeout(completeSubmittedRequest, 1200);
-  });
   updateFee();
   updateConditionalFields();
 
@@ -115,6 +136,10 @@
       return;
     }
 
+    submissionToken.value = window.crypto && window.crypto.randomUUID
+      ? window.crypto.randomUUID()
+      : `${Date.now()}-${Math.random().toString(36).slice(2)}-${Math.random().toString(36).slice(2)}`;
+    createResponseFrame();
     submissionInProgress = true;
     submitButton.disabled = true;
     showStatus('Submitting your test registration...', 'working');
@@ -137,6 +162,9 @@
     window.clearTimeout(responseLoadTimeout);
     submissionInProgress = false;
     submitButton.disabled = false;
+    form.removeAttribute('target');
+    if (responseFrame) responseFrame.remove();
+    responseFrame = null;
 
     if (event.data.status === 'success') {
       showStatus(event.data.message || 'Registration received. Please check your email.', 'success');
