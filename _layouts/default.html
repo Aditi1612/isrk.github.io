@@ -8,6 +8,7 @@
   {% assign meta_image = page.image | default: '/assets/images/logos/isrk_logo_tri_color.png' %}
   <title>{{ meta_title }} | ISRK</title>
   <meta name="description" content="{{ meta_description }}">
+  {% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% endif %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <meta property="og:site_name" content="ISRK">
   <meta property="og:title" content="{{ meta_title }} | ISRK">
