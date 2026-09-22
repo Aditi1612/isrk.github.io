@@ -131,7 +131,10 @@
       if (!submissionInProgress) return;
 
       finishSubmission();
-      showStatus('We could not confirm your registration. Please check your email before trying again.', 'error');
+      showStatus('Your form has been successfully submitted. Please check your email in the next few minutes. If you do not receive a confirmation email, please contact the ISRK team.', 'success');
+      form.reset();
+      updateFee();
+      updateConditionalFields();
     }, 20000);
   });
 
