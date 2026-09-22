@@ -98,6 +98,19 @@
     mobileInput.value = `${digits.slice(0, 3)}-${digits.slice(3, 7)}-${digits.slice(7)}`;
   }
 
+  function isAcceptedPerformanceUrl(value) {
+    try {
+      const url = new URL(value);
+      const hostname = url.hostname.toLowerCase().replace(/^www\./, '');
+      return ['http:', 'https:'].includes(url.protocol) && (
+        hostname === 'youtu.be' || hostname === 'youtube.com' || hostname.endsWith('.youtube.com') ||
+        hostname === 'drive.google.com' || hostname === 'instagram.com' || hostname.endsWith('.instagram.com')
+      );
+    } catch (error) {
+      return false;
+    }
+  }
+
   function showStatus(message, state) {
     status.className = `deepotsav-status is-${state}`;
     status.textContent = message;
@@ -106,6 +119,11 @@
 
   function validateForm() {
     updateConditionalFields();
+    performanceSampleUrl.setCustomValidity('');
+    if (selectedValue('performanceInterest') === 'Yes' && performanceSampleUrl.value &&
+        !isAcceptedPerformanceUrl(performanceSampleUrl.value)) {
+      performanceSampleUrl.setCustomValidity('Please provide a valid YouTube, Google Drive, or Instagram link.');
+    }
     const controls = form.querySelectorAll('input, select, textarea');
     controls.forEach((control) => control.removeAttribute('aria-invalid'));
     form.querySelectorAll('.deepotsav-options.is-invalid').forEach((group) => group.classList.remove('is-invalid'));
@@ -161,6 +179,9 @@
 
   paidAttendees.addEventListener('change', updateFee);
   mobileInput.addEventListener('input', formatMobileNumber);
+  performanceSampleUrl.addEventListener('input', function () {
+    performanceSampleUrl.setCustomValidity('');
+  });
   form.addEventListener('change', updateConditionalFields);
   updateFee();
   updateConditionalFields();

@@ -255,4 +255,4 @@ robots: noindex, nofollow
   </div>
 </div>
 
-<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20260922-5" defer></script>
+<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20260922-6" defer></script>
