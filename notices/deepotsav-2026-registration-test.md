@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Deepotsav 2026 Registration Test
-permalink: /deepotsav-2026-registration-test/
-description: Private organizer test page for Deepotsav 2026 registration.
+title: Deepotsav 2026 Registration
+permalink: /deepotsav-2026-registration/
+description: Registration for Deepotsav 2026, the annual Diwali cultural get-together in Korea.
 image: /assets/images/events/deepotsav-2026/isrk-logo-deep-blue.png
 robots: noindex, nofollow
 ---
@@ -14,7 +14,7 @@ robots: noindex, nofollow
     <div class="deepotsav-heading__inner">
       <img src="{{ '/assets/images/events/deepotsav-2026/isrk-logo-deep-blue.png' | relative_url }}" alt="Indian Students and Researchers in Korea" class="deepotsav-heading__logo">
       <div>
-        <p class="deepotsav-kicker">Private organizer test</p>
+        <p class="deepotsav-kicker">ISRK and IIK present</p>
         <h1>Deepotsav 2026 Registration</h1>
         <p>An evening of Diwali celebration, culture, music, food, and community in Seoul.</p>
       </div>
@@ -58,17 +58,13 @@ robots: noindex, nofollow
     </aside>
 
     <main class="deepotsav-form-wrap">
-      <div class="deepotsav-test-note" role="note">
-        <strong>Team testing:</strong> use a valid email address so you can check the registration acknowledgement.
-      </div>
-
       <form id="deepotsav-registration-form"
             class="deepotsav-form"
             method="post"
     action="https://script.google.com/macros/s/AKfycbxzSdW1Da4M1Y-S64-AaSo4QTeq05dvsVnvwTd1Y43FcPSheO4hV3k2CiSBGSGwvdiVKA/exec"
             novalidate>
         <input type="text" name="form_guard_7x" class="deepotsav-honeypot" tabindex="-1" autocomplete="one-time-code" aria-hidden="true" readonly>
-        <input type="hidden" name="submissionSource" value="ISRK website test page">
+        <input type="hidden" name="submissionSource" value="ISRK website registration page">
         <input type="hidden" name="submissionToken" id="submission-token">
 
         <fieldset>
@@ -248,7 +244,7 @@ robots: noindex, nofollow
 
         <div id="form-status" class="deepotsav-status" role="status" aria-live="polite"></div>
         <button type="submit" class="deepotsav-submit">
-          <span>Submit test registration</span>
+          <span>Submit registration</span>
           <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
         </button>
       </form>
