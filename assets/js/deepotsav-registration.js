@@ -98,14 +98,14 @@
     mobileInput.value = `${digits.slice(0, 3)}-${digits.slice(3, 7)}-${digits.slice(7)}`;
   }
 
-  function isAcceptedPerformanceUrl(value) {
+  function isValidPerformanceUrl(value) {
+    // Loose sanity check only: must be a well-formed http(s) URL. We don't
+    // restrict to a fixed set of platforms -- the ISRK team reviews
+    // submitted links manually and follows up with the submitter if a link
+    // turns out to be invalid or inaccessible.
     try {
       const url = new URL(value);
-      const hostname = url.hostname.toLowerCase().replace(/^www\./, '');
-      return ['http:', 'https:'].includes(url.protocol) && (
-        hostname === 'youtu.be' || hostname === 'youtube.com' || hostname.endsWith('.youtube.com') ||
-        hostname === 'drive.google.com' || hostname === 'instagram.com' || hostname.endsWith('.instagram.com')
-      );
+      return url.protocol === 'http:' || url.protocol === 'https:';
     } catch (error) {
       return false;
     }
@@ -121,8 +121,8 @@
     updateConditionalFields();
     performanceSampleUrl.setCustomValidity('');
     if (selectedValue('performanceInterest') === 'Yes' && performanceSampleUrl.value &&
-        !isAcceptedPerformanceUrl(performanceSampleUrl.value)) {
-      performanceSampleUrl.setCustomValidity('Please provide a valid YouTube, Google Drive, or Instagram link.');
+        !isValidPerformanceUrl(performanceSampleUrl.value)) {
+      performanceSampleUrl.setCustomValidity('Please provide a valid link (starting with http:// or https://) to your performance sample.');
     }
     const controls = form.querySelectorAll('input, select, textarea');
     controls.forEach((control) => control.removeAttribute('aria-invalid'));

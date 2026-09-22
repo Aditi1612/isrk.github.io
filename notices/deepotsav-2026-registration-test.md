@@ -148,7 +148,7 @@ robots: noindex, nofollow
               </label>
               <label>Performance sample link <span class="deepotsav-required" aria-hidden="true">*</span>
                 <input type="url" name="performanceSampleUrl" inputmode="url" autocomplete="url" placeholder="https://youtube.com/...">
-                <small>Share a YouTube, Google Drive, or Instagram link that showcases the proposed talent. For Google Drive, set access to &ldquo;Anyone with the link can view&rdquo; so the selection team can review it.</small>
+                <small>Share any public link to a video or sample of your performance (YouTube, Instagram, Google Drive, etc.). If using Google Drive, set access to &ldquo;Anyone with the link can view&rdquo; so the selection team can review it. Our team will review the link and contact you if there's any issue with it.</small>
               </label>
             </div>
           </div>
@@ -255,4 +255,4 @@ robots: noindex, nofollow
   </div>
 </div>
 
-<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20260922-6" defer></script>
+<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20260922-7" defer></script>

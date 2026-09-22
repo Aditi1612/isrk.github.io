@@ -359,8 +359,8 @@ function validatePayload_(payload) {
   if (activityContactRequired && !/^010-[0-9]{4}-[0-9]{4}$/.test(payload.mobile)) throw new Error('Please enter the mobile number as 010-XXXX-XXXX.');
   if (payload.performanceInterest === 'Yes' && !payload.performanceDescription) throw new Error('Please describe the proposed performance.');
   if (payload.performanceInterest === 'Yes' && !payload.performanceSampleUrl) throw new Error('Please provide a performance sample link.');
-  if (payload.performanceInterest === 'Yes' && !isAcceptedPerformanceUrl_(payload.performanceSampleUrl)) {
-    throw new Error('Please provide a valid YouTube, Google Drive, or Instagram link.');
+  if (payload.performanceInterest === 'Yes' && !isValidPerformanceUrl_(payload.performanceSampleUrl)) {
+    throw new Error('Please provide a valid link (starting with http:// or https://) to your performance sample.');
   }
   if (payload.fashionShow === 'Yes' && !payload.fashionDescription) throw new Error('Please describe the fashion show idea or theme.');
   if (payload.agreement !== 'I Agree') throw new Error('You must accept the declaration and agreement.');
@@ -369,16 +369,17 @@ function validatePayload_(payload) {
   }
 }
 
-function isAcceptedPerformanceUrl_(value) {
-  try {
-    const url = new URL(value);
-    if (url.protocol !== 'https:' && url.protocol !== 'http:') return false;
-    const hostname = url.hostname.toLowerCase().replace(/^www\./, '');
-    return hostname === 'youtu.be' || hostname === 'youtube.com' || hostname.endsWith('.youtube.com') ||
-      hostname === 'drive.google.com' || hostname === 'instagram.com' || hostname.endsWith('.instagram.com');
-  } catch (error) {
-    return false;
-  }
+function isValidPerformanceUrl_(value) {
+  // Loose sanity check only: must start with http(s):// and have a dotted
+  // host (e.g. youtube.com, vimeo.com, drive.google.com, ...). We do not
+  // restrict to a fixed set of platforms here -- the ISRK team reviews
+  // submitted links manually and follows up with the submitter if a link
+  // turns out to be invalid or inaccessible.
+  //
+  // Note: Apps Script's V8 runtime does not implement the standard URL
+  // class (new URL() throws "ReferenceError: URL is not defined"), so this
+  // is a regex check rather than a URL-object based one.
+  return /^https?:\/\/\S+\.\S+/i.test(String(value || '').trim());
 }
 
 function enforceTestRecipient_(email) {
