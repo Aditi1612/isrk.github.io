@@ -321,7 +321,9 @@ function normalizePayload_(e) {
 }
 
 function validatePayload_(payload) {
-  if (payload.formGuard) throw new Error('Submission rejected.');
+  if (payload.formGuard && payload.formGuard.toLowerCase() !== payload.email) {
+    throw new Error('Submission rejected.');
+  }
   ['email', 'fullName', 'organization', 'city', 'nationality', 'bankAccountName'].forEach((field) => {
     if (!payload[field]) throw new Error(`Required field missing: ${field}`);
   });

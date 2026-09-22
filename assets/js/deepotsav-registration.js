@@ -15,6 +15,7 @@
   const status = document.getElementById('form-status');
   const submitButton = form.querySelector('button[type="submit"]');
   const submissionToken = document.getElementById('submission-token');
+  const formGuard = form.elements.form_guard_7x;
   let responseFrame;
   let submissionInProgress = false;
   let submissionTimeout;
@@ -116,6 +117,7 @@
       return;
     }
 
+    if (formGuard) formGuard.value = '';
     if (!submissionToken.value) {
       submissionToken.value = window.crypto && window.crypto.randomUUID
         ? window.crypto.randomUUID()
