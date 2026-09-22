@@ -330,7 +330,7 @@ function validatePayload_(payload) {
   if (payload.formGuard && payload.formGuard.toLowerCase() !== payload.email) {
     throw new Error('Submission rejected.');
   }
-  ['email', 'fullName', 'organization', 'city', 'nationality', 'bankAccountName'].forEach((field) => {
+  ['email', 'fullName', 'organization', 'city', 'nationality'].forEach((field) => {
     if (!payload[field]) throw new Error(`Required field missing: ${field}`);
   });
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(payload.email)) throw new Error('Please provide a valid email address.');

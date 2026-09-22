@@ -88,12 +88,12 @@ robots: noindex, nofollow
             <label>City <span class="deepotsav-required" aria-hidden="true">*</span>
               <input type="text" name="city" autocomplete="address-level2" required>
             </label>
-            <label>Nationality <span class="deepotsav-helper-inline">(Indian / Korean)</span> <span class="deepotsav-required" aria-hidden="true">*</span>
+            <label>Nationality <span class="deepotsav-helper-inline">(Indian/ Korea/ etc.,)</span> <span class="deepotsav-required" aria-hidden="true">*</span>
               <input type="text" name="nationality" autocomplete="country-name" required>
             </label>
-            <label>Name used for bank transfer <span class="deepotsav-required" aria-hidden="true">*</span>
-              <input type="text" name="bankAccountName" required>
-              <small>Enter the sender or account-holder name exactly as it will appear in the Woori Bank transfer.</small>
+            <label>Name used for bank transfer <span class="deepotsav-helper-inline">(Optional)</span>
+              <input type="text" name="bankAccountName">
+              <small>Please mention your name as it appears in your bank record name for easy identification.</small>
             </label>
           </div>
         </fieldset>
@@ -236,6 +236,8 @@ robots: noindex, nofollow
               <li>I am responsible for my personal belongings, and the organizers cannot accept responsibility for personal loss or damage except where responsibility cannot legally be excluded.</li>
               <li>My registration information will be used for event administration and related communication.</li>
               <li>The initial automated email acknowledges receipt of registration but does not confirm payment. A separate email will follow after payment verification.</li>
+              <li>I will keep an acceptable ID (passport, ARC, etc.) available for verification at the event.</li>
+              <li>G1 visa holders need prior permission before joining the event. Please contact the ISRK team.</li>
             </ol>
           </div>
           <label class="deepotsav-agreement">
