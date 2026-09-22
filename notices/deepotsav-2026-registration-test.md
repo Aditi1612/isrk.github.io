@@ -7,7 +7,7 @@ image: /assets/images/events/deepotsav-2026/isrk-logo-deep-blue.png
 robots: noindex, nofollow
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20260921-2">
+<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20260922-1">
 
 <div class="deepotsav-page" data-early-bird-deadline="2026-10-25T23:59:59+09:00">
   <header class="deepotsav-heading">
@@ -45,11 +45,21 @@ robots: noindex, nofollow
         <p><strong>Woori Bank</strong><br>1005-104-804620<br><span lang="ko">주한 인도 유학생</span> / Indian Students and R***</p>
         <p class="deepotsav-note">Please use the bank-account holder's name entered in this form when transferring.</p>
       </div>
+
+      <div class="deepotsav-contacts">
+        <h3>Organizer contacts</h3>
+        <ul>
+          <li><span>Iqbal Khazi</span><a href="tel:+821095440786">010-9544-0786</a></li>
+          <li><span>Dilip Patil</span><a href="tel:+821074719016">010-7471-9016</a></li>
+          <li><span>Pravin Upare</span><a href="tel:+821076338112">010-7633-8112</a></li>
+          <li><span>Manas Biswal</span><a href="tel:+821098070763">010-9807-0763</a></li>
+        </ul>
+      </div>
     </aside>
 
     <main class="deepotsav-form-wrap">
       <div class="deepotsav-test-note" role="note">
-        <strong>Test mode:</strong> submissions are currently limited to the two organizer test email addresses.
+        <strong>Team testing:</strong> use a valid email address so you can check the registration acknowledgement.
       </div>
 
       <form id="deepotsav-registration-form"
@@ -63,24 +73,27 @@ robots: noindex, nofollow
 
         <fieldset>
           <legend><span>1</span> Registration details</legend>
+          <p class="deepotsav-required-note"><span aria-hidden="true">*</span> Required field</p>
           <div class="deepotsav-grid deepotsav-grid--two">
-            <label>Full name
+            <label>Full name <span class="deepotsav-required" aria-hidden="true">*</span>
               <input type="text" name="fullName" autocomplete="name" required>
             </label>
-            <label>Email address
+            <label>Email address <span class="deepotsav-required" aria-hidden="true">*</span>
               <input type="email" name="email" autocomplete="email" required>
+              <small>Double-check this address. Your reference number and all event communication will be sent here.</small>
             </label>
-            <label>University or company
+            <label>University or company <span class="deepotsav-required" aria-hidden="true">*</span>
               <input type="text" name="organization" autocomplete="organization" required>
             </label>
-            <label>City
+            <label>City <span class="deepotsav-required" aria-hidden="true">*</span>
               <input type="text" name="city" autocomplete="address-level2" required>
             </label>
-            <label>Nationality
+            <label>Nationality <span class="deepotsav-helper-inline">(Indian / Korean)</span> <span class="deepotsav-required" aria-hidden="true">*</span>
               <input type="text" name="nationality" autocomplete="country-name" required>
             </label>
-            <label>Name used for bank transfer
+            <label>Name used for bank transfer <span class="deepotsav-required" aria-hidden="true">*</span>
               <input type="text" name="bankAccountName" required>
+              <small>Enter the sender or account-holder name exactly as it will appear in the Woori Bank transfer.</small>
             </label>
           </div>
         </fieldset>
@@ -88,7 +101,7 @@ robots: noindex, nofollow
         <fieldset>
           <legend><span>2</span> Attendees and fee</legend>
           <div class="deepotsav-grid deepotsav-grid--two">
-            <label>Attendees aged five and above
+            <label>Attendees aged five and above <span class="deepotsav-required" aria-hidden="true">*</span>
               <select name="paidAttendees" id="paid-attendees" required>
                 <option value="">Select</option>
                 <option value="1">1</option><option value="2">2</option><option value="3">3</option>
@@ -96,7 +109,7 @@ robots: noindex, nofollow
                 <option value="7">7</option><option value="8">8</option><option value="9">9</option>
               </select>
             </label>
-            <label>Children under five
+            <label>Children under five <span class="deepotsav-required" aria-hidden="true">*</span>
               <select name="childrenUnderFive" id="children-under-five" required>
                 <option value="">Select</option>
                 <option value="0">0</option><option value="1">1</option><option value="2">2</option>
@@ -115,30 +128,40 @@ robots: noindex, nofollow
           <legend><span>3</span> Event participation</legend>
 
           <div class="deepotsav-question">
-            <p class="deepotsav-label">Would you like to perform?</p>
-            <div class="deepotsav-options">
-              <label><input type="checkbox" name="performance" value="Dance"> Dance</label>
-              <label><input type="checkbox" name="performance" value="Music"> Music</label>
-              <label><input type="checkbox" name="performance" value="Stand-up Comedy"> Stand-up comedy</label>
-              <label><input type="checkbox" name="performance" value="Skit"> Skit</label>
-              <label><input type="checkbox" name="performance" value="Games"> Games</label>
-              <label><input type="checkbox" name="performance" value="Other"> Other</label>
+            <p class="deepotsav-label">Would you like to perform? <span class="deepotsav-required" aria-hidden="true">*</span></p>
+            <div class="deepotsav-options deepotsav-options--compact">
+              <label><input type="radio" name="performanceInterest" value="Yes" required> Yes</label>
+              <label><input type="radio" name="performanceInterest" value="No"> No</label>
             </div>
-            <label class="deepotsav-conditional" id="performance-description-wrap">Performance description
-              <textarea name="performanceDescription" rows="3"></textarea>
-            </label>
+            <div class="deepotsav-conditional" id="performance-options-wrap" hidden>
+              <p class="deepotsav-label">Select performance type <span class="deepotsav-required" aria-hidden="true">*</span></p>
+              <div class="deepotsav-options" id="performance-options">
+                <label><input type="checkbox" name="performance" value="Dance"> Dance</label>
+                <label><input type="checkbox" name="performance" value="Music"> Music</label>
+                <label><input type="checkbox" name="performance" value="Stand-up Comedy"> Stand-up comedy</label>
+                <label><input type="checkbox" name="performance" value="Skit"> Skit</label>
+                <label><input type="checkbox" name="performance" value="Games"> Games</label>
+                <label><input type="checkbox" name="performance" value="Other"> Other</label>
+              </div>
+              <label>Performance description <span class="deepotsav-required" aria-hidden="true">*</span>
+                <textarea name="performanceDescription" rows="3" placeholder="Tell us about the performance, number of performers, and approximate duration."></textarea>
+              </label>
+            </div>
           </div>
 
           <div class="deepotsav-grid deepotsav-grid--two">
             <div class="deepotsav-question">
-              <p class="deepotsav-label">Interested in the fashion show?</p>
+              <p class="deepotsav-label">Interested in the fashion show? <span class="deepotsav-required" aria-hidden="true">*</span></p>
               <div class="deepotsav-options deepotsav-options--compact">
                 <label><input type="radio" name="fashionShow" value="Yes" required> Yes</label>
                 <label><input type="radio" name="fashionShow" value="No"> No</label>
               </div>
+              <label class="deepotsav-conditional" id="fashion-description-wrap" hidden>Fashion show idea or theme <span class="deepotsav-required" aria-hidden="true">*</span>
+                <textarea name="fashionDescription" rows="3" placeholder="Briefly describe the theme, attire, or participation idea."></textarea>
+              </label>
             </div>
             <div class="deepotsav-question">
-              <p class="deepotsav-label">Children's painting or sketching activity?</p>
+              <p class="deepotsav-label">Children's painting or sketching activity? <span class="deepotsav-required" aria-hidden="true">*</span></p>
               <div class="deepotsav-options deepotsav-options--compact">
                 <label><input type="radio" name="kidsActivity" value="Yes" required> Yes</label>
                 <label><input type="radio" name="kidsActivity" value="No"> No</label>
@@ -147,28 +170,35 @@ robots: noindex, nofollow
           </div>
 
           <div class="deepotsav-question">
-            <p class="deepotsav-label">Would you like to volunteer?</p>
-            <div class="deepotsav-options">
-              <label><input type="checkbox" name="volunteerRoles" value="Event Host / Anchor"> Event host / anchor</label>
-              <label><input type="checkbox" name="volunteerRoles" value="Decoration Team"> Decoration team</label>
-              <label><input type="checkbox" name="volunteerRoles" value="Registration Team"> Registration team</label>
-              <label><input type="checkbox" name="volunteerRoles" value="Bollywood DJ"> Bollywood DJ</label>
-              <label><input type="checkbox" name="volunteerRoles" value="Technical Support"> Technical support</label>
-              <label><input type="checkbox" name="volunteerRoles" value="Food Mela Arrangements"> Food Mela arrangements</label>
-              <label><input type="checkbox" name="volunteerRoles" value="General Support"> General support</label>
+            <p class="deepotsav-label">Would you like to volunteer? <span class="deepotsav-required" aria-hidden="true">*</span></p>
+            <div class="deepotsav-options deepotsav-options--compact">
+              <label><input type="radio" name="volunteerInterest" value="Yes" required> Yes</label>
+              <label><input type="radio" name="volunteerInterest" value="No"> No</label>
+            </div>
+            <div class="deepotsav-conditional" id="volunteer-options-wrap" hidden>
+              <p class="deepotsav-label">Select volunteer role <span class="deepotsav-required" aria-hidden="true">*</span></p>
+              <div class="deepotsav-options" id="volunteer-options">
+                <label><input type="checkbox" name="volunteerRoles" value="Event Host / Anchor"> Event host / anchor</label>
+                <label><input type="checkbox" name="volunteerRoles" value="Decoration Team"> Decoration team</label>
+                <label><input type="checkbox" name="volunteerRoles" value="Registration Team"> Registration team</label>
+                <label><input type="checkbox" name="volunteerRoles" value="Bollywood DJ"> Bollywood DJ</label>
+                <label><input type="checkbox" name="volunteerRoles" value="Technical Support"> Technical support</label>
+                <label><input type="checkbox" name="volunteerRoles" value="Food Mela Arrangements"> Food Mela arrangements</label>
+                <label><input type="checkbox" name="volunteerRoles" value="General Support"> General support</label>
+              </div>
             </div>
           </div>
 
           <div class="deepotsav-grid deepotsav-grid--two">
             <div class="deepotsav-question">
-              <p class="deepotsav-label">Interested in Community Diwali Mela participation?</p>
+              <p class="deepotsav-label">Interested in Community Diwali Mela participation? <span class="deepotsav-required" aria-hidden="true">*</span></p>
               <div class="deepotsav-options deepotsav-options--compact">
                 <label><input type="radio" name="communityMela" value="Yes" required> Yes</label>
                 <label><input type="radio" name="communityMela" value="No"> No</label>
               </div>
             </div>
             <div class="deepotsav-question">
-              <p class="deepotsav-label">Would you like to join the ISRK Representative Team?</p>
+              <p class="deepotsav-label">Would you like to join the ISRK Representative Team? <span class="deepotsav-required" aria-hidden="true">*</span></p>
               <div class="deepotsav-options deepotsav-options--stacked">
                 <label><input type="radio" name="isrkRepresentative" value="Yes" required> Yes</label>
                 <label><input type="radio" name="isrkRepresentative" value="Already a member"> Already a member</label>
@@ -177,12 +207,12 @@ robots: noindex, nofollow
             </div>
           </div>
 
-          <label class="deepotsav-conditional" id="mobile-wrap">Mobile number for activity coordination
-            <input type="tel" name="mobile" autocomplete="tel" inputmode="tel">
-            <small>Requested only for performance, volunteering, fashion show, or Community Mela coordination.</small>
+          <label class="deepotsav-conditional" id="mobile-wrap">Mobile number for activity coordination <span class="deepotsav-required" aria-hidden="true">*</span>
+            <input type="tel" name="mobile" autocomplete="tel" inputmode="numeric" placeholder="010-XXXX-XXXX" pattern="010-[0-9]{4}-[0-9]{4}" maxlength="13">
+            <small>Use the format 010-XXXX-XXXX. Requested only for performance, volunteering, fashion show, or Community Mela coordination.</small>
           </label>
 
-          <label>Suggestions or activity ideas
+          <label>Suggestions or activity ideas <span class="deepotsav-helper-inline">(Optional)</span>
             <textarea name="suggestions" rows="3"></textarea>
           </label>
         </fieldset>
@@ -206,7 +236,7 @@ robots: noindex, nofollow
           </div>
           <label class="deepotsav-agreement">
             <input type="checkbox" name="agreement" value="I Agree" required>
-            <span>I have read and agree to the declaration above.</span>
+            <span>I have read and agree to the declaration above. <span class="deepotsav-required" aria-hidden="true">*</span></span>
           </label>
         </fieldset>
 
@@ -221,4 +251,4 @@ robots: noindex, nofollow
   </div>
 </div>
 
-<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20260922-3" defer></script>
+<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20260922-4" defer></script>

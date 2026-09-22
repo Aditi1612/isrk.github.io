@@ -91,6 +91,11 @@
 .deepotsav-payment h3 { font-size: 1rem; margin-bottom: 0.35rem; }
 .deepotsav-payment p { margin-bottom: 0.45rem; }
 .deepotsav-note { color: var(--deep-muted); font-size: 0.8rem; }
+.deepotsav-contacts { border-top: 1px solid var(--deep-line); margin-top: 1.25rem; padding-top: 1rem; }
+.deepotsav-contacts h3 { font-size: 1rem; margin-bottom: 0.55rem; }
+.deepotsav-contacts ul { list-style: none; margin: 0; padding: 0; }
+.deepotsav-contacts li { display: flex; font-size: 0.84rem; justify-content: space-between; padding: 0.25rem 0; }
+.deepotsav-contacts a { color: var(--deep-blue); font-weight: 600; }
 
 .deepotsav-form-wrap { min-width: 0; }
 .deepotsav-test-note { background: #fff6e8; border: 1px solid #f3c477; border-radius: 6px; color: #704500; margin-bottom: 1rem; padding: 0.8rem 1rem; }
@@ -111,6 +116,11 @@
 
 .deepotsav-form label,
 .deepotsav-label { color: var(--deep-ink); display: block; font-size: 0.9rem; font-weight: 600; margin: 0; }
+.deepotsav-form label > small { color: var(--deep-muted); display: block; font-size: 0.78rem; font-weight: 400; line-height: 1.45; margin-top: 0.3rem; }
+.deepotsav-required { color: #b42318; font-weight: 700; }
+.deepotsav-helper-inline { color: var(--deep-muted); font-size: 0.8rem; font-weight: 400; }
+.deepotsav-required-note { color: var(--deep-muted); font-size: 0.78rem; margin: -0.75rem 0 1rem; }
+.deepotsav-required-note span { color: #b42318; font-weight: 700; }
 
 .deepotsav-form input[type="text"],
 .deepotsav-form input[type="email"],
@@ -132,7 +142,9 @@
 .deepotsav-form input:focus,
 .deepotsav-form select:focus,
 .deepotsav-form textarea:focus { border-color: var(--deep-blue); box-shadow: 0 0 0 3px rgba(36,73,130,0.13); outline: 0; }
-.deepotsav-form input[aria-invalid="true"], .deepotsav-form select[aria-invalid="true"] { border-color: #b42318; }
+.deepotsav-form input[aria-invalid="true"],
+.deepotsav-form select[aria-invalid="true"],
+.deepotsav-form textarea[aria-invalid="true"] { background: #fff7f6; border-color: #b42318; box-shadow: 0 0 0 2px rgba(180,35,24,0.1); }
 
 .deepotsav-total { align-items: center; background: var(--deep-navy); border-radius: 6px; color: #fff; display: grid; grid-template-columns: 1fr auto; margin-top: 1.25rem; padding: 1rem 1.15rem; }
 .deepotsav-total span { font-size: 0.85rem; }
@@ -144,6 +156,9 @@
 .deepotsav-options label { align-items: center; border: 1px solid var(--deep-line); border-radius: 5px; cursor: pointer; display: flex; gap: 0.55rem; min-height: 42px; padding: 0.55rem 0.7rem; }
 .deepotsav-options label:has(input:checked) { background: #edf3ff; border-color: var(--deep-blue); }
 .deepotsav-options input { accent-color: var(--deep-blue); flex: 0 0 auto; }
+.deepotsav-options.is-invalid { border: 1px solid #b42318; border-radius: 6px; padding: 0.45rem; }
+.deepotsav-question.is-invalid > .deepotsav-label { color: #8b2017; }
+.deepotsav-question.is-invalid > .deepotsav-options { border: 1px solid #b42318; border-radius: 6px; padding: 0.45rem; }
 .deepotsav-options--compact { grid-template-columns: repeat(2, minmax(84px, 1fr)); }
 .deepotsav-options--stacked { grid-template-columns: 1fr; }
 .deepotsav-conditional { margin: 1rem 0; }
@@ -156,6 +171,7 @@
 .deepotsav-declaration li { margin-bottom: 0.55rem; }
 .deepotsav-agreement { align-items: flex-start; display: flex !important; gap: 0.7rem; margin-top: 1rem !important; }
 .deepotsav-agreement input { accent-color: var(--deep-green); height: 20px; margin-top: 0.15rem; width: 20px; }
+.deepotsav-agreement:has(input[aria-invalid="true"]) { background: #fff7f6; border: 1px solid #b42318; border-radius: 5px; padding: 0.65rem; }
 
 .deepotsav-submit { align-items: center; background: var(--deep-saffron); border: 0; border-radius: 6px; color: #fff; cursor: pointer; display: inline-flex; font-family: 'Poppins', sans-serif; font-size: 1rem; font-weight: 700; gap: 0.7rem; justify-content: center; min-height: 50px; padding: 0.75rem 1.25rem; }
 .deepotsav-submit:hover { background: #da6510; }

@@ -26,7 +26,7 @@ const HEADERS = Object.freeze([
   'Timestamp', 'Registration ID', 'Email', 'Full Name', 'University/Company', 'City',
   'Nationality', 'Bank Transfer Name', 'Paid Attendees (Age 5+)', 'Children Under 5',
   'Total Attendees', 'Fee Per Paid Attendee (KRW)', 'Expected Amount (KRW)',
-  'Performance Interests', 'Performance Description', 'Fashion Show', 'Volunteer Roles',
+  'Performance Interests', 'Performance Description', 'Fashion Show', 'Fashion Show Description', 'Volunteer Roles',
   'Community Mela', 'Kids Activity', 'Mobile Number', 'Suggestions',
   'ISRK Representative Team', 'Agreement Accepted', 'Payment Status', 'Paid Amount (KRW)',
   'Payment Verified By', 'Payment Verified At', 'Registration Email Status',
@@ -85,6 +85,7 @@ function doPost(e) {
         performance: payload.performance.join(', '),
         performanceDescription: payload.performanceDescription,
         fashionShow: payload.fashionShow,
+        fashionDescription: payload.fashionDescription,
         volunteerRoles: payload.volunteerRoles.join(', '),
         communityMela: payload.communityMela,
         kidsActivity: payload.kidsActivity,
@@ -101,7 +102,7 @@ function doPost(e) {
         record.city, record.nationality, record.bankAccountName, record.paidAttendees,
         record.childrenUnderFive, record.totalAttendees, record.feePerAttendee,
         record.expectedAmount, record.performance, record.performanceDescription, record.fashionShow,
-        record.volunteerRoles, record.communityMela, record.kidsActivity, record.mobile,
+        record.fashionDescription, record.volunteerRoles, record.communityMela, record.kidsActivity, record.mobile,
         record.suggestions, record.isrkRepresentative, record.agreement, 'Pending', '', '', '',
         'SENDING', '', '', '', '', record.submissionSource, record.submissionToken
       ];
@@ -305,9 +306,12 @@ function normalizePayload_(e) {
     bankAccountName: first('bankAccountName'),
     paidAttendees: Number(first('paidAttendees')),
     childrenUnderFive: Number(first('childrenUnderFive')),
+    performanceInterest: first('performanceInterest'),
     performance: all('performance'),
     performanceDescription: first('performanceDescription'),
     fashionShow: first('fashionShow'),
+    fashionDescription: first('fashionDescription'),
+    volunteerInterest: first('volunteerInterest'),
     volunteerRoles: all('volunteerRoles'),
     communityMela: first('communityMela'),
     kidsActivity: first('kidsActivity'),
@@ -335,16 +339,24 @@ function validatePayload_(payload) {
   if (!Number.isInteger(payload.childrenUnderFive) || payload.childrenUnderFive < 0 || payload.childrenUnderFive > 5) {
     throw new Error('Children under five must be between 0 and 5.');
   }
+  if (!['Yes', 'No'].includes(payload.performanceInterest)) throw new Error('Please complete the performance question.');
+  if (payload.performanceInterest === 'Yes' && payload.performance.length === 0) throw new Error('Please select at least one performance type.');
+  if (payload.performanceInterest === 'No' && payload.performance.length > 0) throw new Error('Performance choices do not match the selected answer.');
+  if (!['Yes', 'No'].includes(payload.volunteerInterest)) throw new Error('Please complete the volunteer question.');
+  if (payload.volunteerInterest === 'Yes' && payload.volunteerRoles.length === 0) throw new Error('Please select at least one volunteer role.');
+  if (payload.volunteerInterest === 'No' && payload.volunteerRoles.length > 0) throw new Error('Volunteer choices do not match the selected answer.');
   if (!['Yes', 'No'].includes(payload.fashionShow) || !['Yes', 'No'].includes(payload.communityMela) || !['Yes', 'No'].includes(payload.kidsActivity)) {
     throw new Error('Please complete all participation questions.');
   }
   if (!['Yes', 'Already a member', 'No'].includes(payload.isrkRepresentative)) {
     throw new Error('Please complete the ISRK Representative Team question.');
   }
-  const activityContactRequired = payload.performance.length > 0 || payload.volunteerRoles.length > 0 ||
+  const activityContactRequired = payload.performanceInterest === 'Yes' || payload.volunteerInterest === 'Yes' ||
     payload.fashionShow === 'Yes' || payload.communityMela === 'Yes';
   if (activityContactRequired && !payload.mobile) throw new Error('A mobile number is required for activity coordination.');
-  if (payload.performance.length > 0 && !payload.performanceDescription) throw new Error('Please describe the proposed performance.');
+  if (activityContactRequired && !/^010-[0-9]{4}-[0-9]{4}$/.test(payload.mobile)) throw new Error('Please enter the mobile number as 010-XXXX-XXXX.');
+  if (payload.performanceInterest === 'Yes' && !payload.performanceDescription) throw new Error('Please describe the proposed performance.');
+  if (payload.fashionShow === 'Yes' && !payload.fashionDescription) throw new Error('Please describe the fashion show idea or theme.');
   if (payload.agreement !== 'I Agree') throw new Error('You must accept the declaration and agreement.');
   if (!/^[a-zA-Z0-9-]{16,100}$/.test(payload.submissionToken)) {
     throw new Error('Please refresh the registration page and submit again.');

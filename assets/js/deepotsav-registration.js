@@ -10,8 +10,13 @@
   const feeRateNote = document.getElementById('fee-rate-note');
   const mobileWrap = document.getElementById('mobile-wrap');
   const mobileInput = mobileWrap.querySelector('input');
-  const performanceWrap = document.getElementById('performance-description-wrap');
+  const performanceWrap = document.getElementById('performance-options-wrap');
+  const performanceOptions = document.getElementById('performance-options');
   const performanceDescription = performanceWrap.querySelector('textarea');
+  const volunteerWrap = document.getElementById('volunteer-options-wrap');
+  const volunteerOptions = document.getElementById('volunteer-options');
+  const fashionWrap = document.getElementById('fashion-description-wrap');
+  const fashionDescription = fashionWrap.querySelector('textarea');
   const status = document.getElementById('form-status');
   const submitButton = form.querySelector('button[type="submit"]');
   const submissionToken = document.getElementById('submission-token');
@@ -45,17 +50,49 @@
     return input ? input.value : '';
   }
 
-  function updateConditionalFields() {
-    const hasPerformance = hasChecked('performance');
-    const hasVolunteerRole = hasChecked('volunteerRoles');
-    const needsContact = hasPerformance || hasVolunteerRole ||
-      selectedValue('fashionShow') === 'Yes' || selectedValue('communityMela') === 'Yes';
+  function clearChecked(name) {
+    form.querySelectorAll(`input[name="${name}"]`).forEach((input) => {
+      input.checked = false;
+    });
+  }
 
-    performanceWrap.hidden = !hasPerformance;
-    performanceDescription.required = hasPerformance;
+  function updateConditionalFields() {
+    const wantsPerformance = selectedValue('performanceInterest') === 'Yes';
+    const wantsVolunteerRole = selectedValue('volunteerInterest') === 'Yes';
+    const wantsFashionShow = selectedValue('fashionShow') === 'Yes';
+    const needsContact = wantsPerformance || wantsVolunteerRole || wantsFashionShow ||
+      selectedValue('communityMela') === 'Yes';
+
+    performanceWrap.hidden = !wantsPerformance;
+    performanceDescription.required = wantsPerformance;
+    if (!wantsPerformance) {
+      clearChecked('performance');
+      performanceDescription.value = '';
+    }
+
+    volunteerWrap.hidden = !wantsVolunteerRole;
+    if (!wantsVolunteerRole) clearChecked('volunteerRoles');
+
+    fashionWrap.hidden = !wantsFashionShow;
+    fashionDescription.required = wantsFashionShow;
+    if (!wantsFashionShow) fashionDescription.value = '';
+
     mobileWrap.hidden = !needsContact;
     mobileInput.required = needsContact;
     if (!needsContact) mobileInput.value = '';
+  }
+
+  function formatMobileNumber() {
+    const digits = mobileInput.value.replace(/\D/g, '').slice(0, 11);
+    if (digits.length <= 3) {
+      mobileInput.value = digits;
+      return;
+    }
+    if (digits.length <= 7) {
+      mobileInput.value = `${digits.slice(0, 3)}-${digits.slice(3)}`;
+      return;
+    }
+    mobileInput.value = `${digits.slice(0, 3)}-${digits.slice(3, 7)}-${digits.slice(7)}`;
   }
 
   function showStatus(message, state) {
@@ -68,12 +105,31 @@
     updateConditionalFields();
     const controls = form.querySelectorAll('input, select, textarea');
     controls.forEach((control) => control.removeAttribute('aria-invalid'));
+    form.querySelectorAll('.deepotsav-options.is-invalid').forEach((group) => group.classList.remove('is-invalid'));
+    form.querySelectorAll('.deepotsav-question.is-invalid').forEach((question) => question.classList.remove('is-invalid'));
 
-    if (form.checkValidity()) return true;
+    const customInvalid = [];
+    if (selectedValue('performanceInterest') === 'Yes' && !hasChecked('performance')) {
+      performanceOptions.classList.add('is-invalid');
+      customInvalid.push(performanceOptions.querySelector('input'));
+    }
+    if (selectedValue('volunteerInterest') === 'Yes' && !hasChecked('volunteerRoles')) {
+      volunteerOptions.classList.add('is-invalid');
+      customInvalid.push(volunteerOptions.querySelector('input'));
+    }
 
-    const firstInvalid = form.querySelector(':invalid');
+    const invalidControls = Array.from(form.querySelectorAll(':invalid'));
+    invalidControls.forEach((control) => {
+      control.setAttribute('aria-invalid', 'true');
+      const question = control.closest('.deepotsav-question');
+      if (question) question.classList.add('is-invalid');
+    });
+    customInvalid.forEach((control) => control.setAttribute('aria-invalid', 'true'));
+
+    if (invalidControls.length === 0 && customInvalid.length === 0) return true;
+
+    const firstInvalid = invalidControls[0] || customInvalid[0];
     if (firstInvalid) {
-      firstInvalid.setAttribute('aria-invalid', 'true');
       firstInvalid.focus();
     }
     showStatus('Please complete the required fields before submitting.', 'error');
@@ -101,6 +157,7 @@
   }
 
   paidAttendees.addEventListener('change', updateFee);
+  mobileInput.addEventListener('input', formatMobileNumber);
   form.addEventListener('change', updateConditionalFields);
   updateFee();
   updateConditionalFields();
