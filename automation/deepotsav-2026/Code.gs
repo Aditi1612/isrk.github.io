@@ -26,7 +26,7 @@ const HEADERS = Object.freeze([
   'Timestamp', 'Registration ID', 'Email', 'Full Name', 'University/Company', 'City',
   'Nationality', 'Bank Transfer Name', 'Paid Attendees (Age 5+)', 'Children Under 5',
   'Total Attendees', 'Fee Per Paid Attendee (KRW)', 'Expected Amount (KRW)',
-  'Performance Interests', 'Performance Description', 'Fashion Show', 'Fashion Show Description', 'Volunteer Roles',
+  'Performance Interests', 'Performance Description', 'Performance Sample Link', 'Fashion Show', 'Fashion Show Description', 'Volunteer Roles',
   'Community Mela', 'Kids Activity', 'Mobile Number', 'Suggestions',
   'ISRK Representative Team', 'Agreement Accepted', 'Payment Status', 'Paid Amount (KRW)',
   'Payment Verified By', 'Payment Verified At', 'Registration Email Status',
@@ -84,6 +84,7 @@ function doPost(e) {
         expectedAmount: expectedAmount,
         performance: payload.performance.join(', '),
         performanceDescription: payload.performanceDescription,
+        performanceSampleUrl: payload.performanceSampleUrl,
         fashionShow: payload.fashionShow,
         fashionDescription: payload.fashionDescription,
         volunteerRoles: payload.volunteerRoles.join(', '),
@@ -101,7 +102,7 @@ function doPost(e) {
         record.timestamp, record.registrationId, record.email, record.fullName, record.organization,
         record.city, record.nationality, record.bankAccountName, record.paidAttendees,
         record.childrenUnderFive, record.totalAttendees, record.feePerAttendee,
-        record.expectedAmount, record.performance, record.performanceDescription, record.fashionShow,
+        record.expectedAmount, record.performance, record.performanceDescription, record.performanceSampleUrl, record.fashionShow,
         record.fashionDescription, record.volunteerRoles, record.communityMela, record.kidsActivity, record.mobile,
         record.suggestions, record.isrkRepresentative, record.agreement, 'Pending', '', '', '',
         'SENDING', '', '', '', '', record.submissionSource, record.submissionToken
@@ -309,6 +310,7 @@ function normalizePayload_(e) {
     performanceInterest: first('performanceInterest'),
     performance: all('performance'),
     performanceDescription: first('performanceDescription'),
+    performanceSampleUrl: first('performanceSampleUrl'),
     fashionShow: first('fashionShow'),
     fashionDescription: first('fashionDescription'),
     volunteerInterest: first('volunteerInterest'),
@@ -356,10 +358,26 @@ function validatePayload_(payload) {
   if (activityContactRequired && !payload.mobile) throw new Error('A mobile number is required for activity coordination.');
   if (activityContactRequired && !/^010-[0-9]{4}-[0-9]{4}$/.test(payload.mobile)) throw new Error('Please enter the mobile number as 010-XXXX-XXXX.');
   if (payload.performanceInterest === 'Yes' && !payload.performanceDescription) throw new Error('Please describe the proposed performance.');
+  if (payload.performanceInterest === 'Yes' && !payload.performanceSampleUrl) throw new Error('Please provide a performance sample link.');
+  if (payload.performanceInterest === 'Yes' && !isAcceptedPerformanceUrl_(payload.performanceSampleUrl)) {
+    throw new Error('Please provide a valid YouTube, Google Drive, or Instagram link.');
+  }
   if (payload.fashionShow === 'Yes' && !payload.fashionDescription) throw new Error('Please describe the fashion show idea or theme.');
   if (payload.agreement !== 'I Agree') throw new Error('You must accept the declaration and agreement.');
   if (!/^[a-zA-Z0-9-]{16,100}$/.test(payload.submissionToken)) {
     throw new Error('Please refresh the registration page and submit again.');
+  }
+}
+
+function isAcceptedPerformanceUrl_(value) {
+  try {
+    const url = new URL(value);
+    if (url.protocol !== 'https:' && url.protocol !== 'http:') return false;
+    const hostname = url.hostname.toLowerCase().replace(/^www\./, '');
+    return hostname === 'youtu.be' || hostname === 'youtube.com' || hostname.endsWith('.youtube.com') ||
+      hostname === 'drive.google.com' || hostname === 'instagram.com' || hostname.endsWith('.instagram.com');
+  } catch (error) {
+    return false;
   }
 }
 

@@ -13,6 +13,7 @@
   const performanceWrap = document.getElementById('performance-options-wrap');
   const performanceOptions = document.getElementById('performance-options');
   const performanceDescription = performanceWrap.querySelector('textarea');
+  const performanceSampleUrl = performanceWrap.querySelector('input[name="performanceSampleUrl"]');
   const volunteerWrap = document.getElementById('volunteer-options-wrap');
   const volunteerOptions = document.getElementById('volunteer-options');
   const fashionWrap = document.getElementById('fashion-description-wrap');
@@ -65,9 +66,11 @@
 
     performanceWrap.hidden = !wantsPerformance;
     performanceDescription.required = wantsPerformance;
+    performanceSampleUrl.required = wantsPerformance;
     if (!wantsPerformance) {
       clearChecked('performance');
       performanceDescription.value = '';
+      performanceSampleUrl.value = '';
     }
 
     volunteerWrap.hidden = !wantsVolunteerRole;

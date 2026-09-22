@@ -146,6 +146,10 @@ robots: noindex, nofollow
               <label>Performance description <span class="deepotsav-required" aria-hidden="true">*</span>
                 <textarea name="performanceDescription" rows="3" placeholder="Tell us about the performance, number of performers, and approximate duration."></textarea>
               </label>
+              <label>Performance sample link <span class="deepotsav-required" aria-hidden="true">*</span>
+                <input type="url" name="performanceSampleUrl" inputmode="url" autocomplete="url" placeholder="https://youtube.com/...">
+                <small>Share a YouTube, Google Drive, or Instagram link that showcases the proposed talent. For Google Drive, set access to &ldquo;Anyone with the link can view&rdquo; so the selection team can review it.</small>
+              </label>
             </div>
           </div>
 
@@ -251,4 +255,4 @@ robots: noindex, nofollow
   </div>
 </div>
 
-<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20260922-4" defer></script>
+<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20260922-5" defer></script>
