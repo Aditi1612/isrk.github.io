@@ -296,7 +296,7 @@ function normalizePayload_(e) {
   const all = (name) => (parameters[name] || []).map((value) => String(value).trim()).filter(Boolean);
 
   return {
-    website: first('website'),
+    formGuard: first('form_guard_7x'),
     email: first('email').toLowerCase(),
     fullName: first('fullName'),
     organization: first('organization'),
@@ -321,7 +321,7 @@ function normalizePayload_(e) {
 }
 
 function validatePayload_(payload) {
-  if (payload.website) throw new Error('Submission rejected.');
+  if (payload.formGuard) throw new Error('Submission rejected.');
   ['email', 'fullName', 'organization', 'city', 'nationality', 'bankAccountName'].forEach((field) => {
     if (!payload[field]) throw new Error(`Required field missing: ${field}`);
   });

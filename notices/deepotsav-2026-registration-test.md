@@ -57,7 +57,7 @@ robots: noindex, nofollow
             method="post"
     action="https://script.google.com/macros/s/AKfycbxzSdW1Da4M1Y-S64-AaSo4QTeq05dvsVnvwTd1Y43FcPSheO4hV3k2CiSBGSGwvdiVKA/exec"
             novalidate>
-        <input type="text" name="website" class="deepotsav-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <input type="text" name="form_guard_7x" class="deepotsav-honeypot" tabindex="-1" autocomplete="one-time-code" aria-hidden="true" readonly>
         <input type="hidden" name="submissionSource" value="ISRK website test page">
         <input type="hidden" name="submissionToken" id="submission-token">
 
@@ -221,4 +221,4 @@ robots: noindex, nofollow
   </div>
 </div>
 
-<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20260921-3" defer></script>
+<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20260922-1" defer></script>
