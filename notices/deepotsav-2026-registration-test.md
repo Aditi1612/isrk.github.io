@@ -14,7 +14,7 @@ robots: noindex, nofollow
     <div class="deepotsav-heading__inner">
       <img src="{{ '/assets/images/events/deepotsav-2026/isrk-logo-deep-blue.png' | relative_url }}" alt="Indian Students and Researchers in Korea" class="deepotsav-heading__logo">
       <div>
-        <p class="deepotsav-kicker">ISRK and IIK present</p>
+        <p class="deepotsav-kicker">Co-organized by IIK(A) and IITAAK</p>
         <h1>Deepotsav 2026 Registration</h1>
         <p>An evening of Diwali celebration, culture, music, food, and community in Seoul.</p>
       </div>
