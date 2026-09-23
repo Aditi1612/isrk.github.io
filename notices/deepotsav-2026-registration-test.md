@@ -84,7 +84,7 @@ robots: noindex, nofollow
             <label>City <span class="deepotsav-required" aria-hidden="true">*</span>
               <input type="text" name="city" autocomplete="address-level2" required>
             </label>
-            <label>Nationality <span class="deepotsav-helper-inline">(Indian/ Korea/ etc.,)</span> <span class="deepotsav-required" aria-hidden="true">*</span>
+            <label>Nationality <span class="deepotsav-helper-inline">(Indian/ Korean/ etc.,)</span> <span class="deepotsav-required" aria-hidden="true">*</span>
               <input type="text" name="nationality" autocomplete="country-name" required>
             </label>
             <label>Name used for bank transfer <span class="deepotsav-helper-inline">(Optional)</span>
