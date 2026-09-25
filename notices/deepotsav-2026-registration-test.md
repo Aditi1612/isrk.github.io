@@ -223,12 +223,10 @@ robots: noindex, nofollow
             <p>By submitting this form, I declare and agree to the following:</p>
             <ol>
               <li>The information provided is true and accurate to the best of my knowledge.</li>
-              <li>Registration is complete only after payment of the applicable entry fee: ₩10,000 per paid attendee through October 25, or ₩12,000 from October 26. Children under five enter free but do not receive a complimentary sweet box.</li>
+              <li>Registration is complete only after payment of the applicable entry fee.Children under Six enter free but do not receive a complimentary sweet box.</li>
               <li>A unique registration reference number will be emailed to me and must be presented at the registration desk.</li>
               <li>I will follow event guidelines and cooperate with organizers and volunteers.</li>
-              <li>Photographs and videos may be taken during Deepotsav 2026 for event documentation and non-commercial promotion through official ISRK and IIK platforms.</li>
               <li>I consent to the use of photographs or videos containing my image for these purposes.</li>
-              <li>This is a voluntary community cultural event organized by ISRK and IIK with the support of the Embassy of India.</li>
               <li>I am responsible for my personal belongings, and the organizers cannot accept responsibility for personal loss or damage except where responsibility cannot legally be excluded.</li>
               <li>My registration information will be used for event administration and related communication.</li>
               <li>The initial automated email acknowledges receipt of registration but does not confirm payment. A separate email will follow after payment verification.</li>
