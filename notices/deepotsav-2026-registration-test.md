@@ -38,7 +38,7 @@ robots: noindex, nofollow
     </div>
     <div class="deepotsav-sweet-box">
       <i class="fa-solid fa-gift" aria-hidden="true"></i>
-      <p><strong>Complimentary sweet box for registered participants aged six and above.</strong><span>Children under 6 enter free and do not receive a sweet box.</span></p>
+      <p><strong>Complimentary sweet box (Besan Laddoo/ Dry Fruit Laddoo/ Mysore-pak) for registered participants aged six and above.</strong><span>Free Regisration for Children under 6 (Sweet Boxes Not inluded).</span></p>
     </div>
   </section>
 
