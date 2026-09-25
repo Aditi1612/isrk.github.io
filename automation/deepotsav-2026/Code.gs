@@ -18,6 +18,7 @@ const CONFIG = Object.freeze({
   CONTACT_LINE: 'Iqbal Khazi: 010-9544-0786 | Dilip Patil: 010-7471-9016 | Pravin Upare: 010-7633-8112 | Manas Biswal: 010-9807-0763',
   REPLY_TO: 'isrk.association@gmail.com',
   LOGO_FILE_ID: '1sFH5OAzQlhB3R9cdybzQDSju0Tf6gmhy',
+  HEADER_IMAGE_URL: 'https://www.isrk.in/assets/images/events/deepotsav-2026/deepotsav-form-header.png',
   TEST_MODE: false,
   TEST_RECIPIENTS: ['mrbiswal13@gmail.com', 'cometomanas@gmail.com']
 });
@@ -461,9 +462,9 @@ function maxRegistrationNumber_(sheet) {
 function sendRegistrationEmail_(record) {
   const subject = `[DEEPOTSAV 2026] Registration received - ${record.registrationId}`;
   const statusBlock = emailStatusBlock_('Registration received', 'Payment verification pending', '#f47b20', '#fff6e8');
-  const body = `Dear ${record.fullName},\n\nWe received your Deepotsav 2026 registration.\nReference: ${record.registrationId}\nPayment status: Pending verification\nExpected amount: ${formatWon_(record.expectedAmount)}\n\n${eventPlainText_()}\n\nISRK Team`;
+  const body = `Dear ${respectfulName_(record.fullName)},\n\nWe received your Deepotsav 2026 registration.\nReference: ${record.registrationId}\nPayment status: Pending verification\nExpected amount: ${formatWon_(record.expectedAmount)}\n\n${eventPlainText_()}\n\nISRK Team`;
   const html = emailShell_(
-    `Dear ${escapeHtml_(record.fullName)},`,
+    `Dear ${escapeHtml_(respectfulName_(record.fullName))},`,
     statusBlock +
     `<p style="margin:20px 0 8px;color:#344054;">Thank you for registering for <strong>Deepotsav 2026</strong>. Keep the reference number below for the registration desk.</p>` +
     referenceBlock_(record.registrationId) +
@@ -482,18 +483,19 @@ function sendRegistrationEmail_(record) {
 function sendPaymentEmail_(record) {
   const subject = `[DEEPOTSAV 2026] Payment confirmed - ${record.registrationId}${record.isResend ? ' (resent)' : ''}`;
   const statusBlock = emailStatusBlock_('Payment confirmed', 'Your registration is complete', '#17823b', '#edf8f0');
-  const body = `Dear ${record.fullName},\n\nYour Deepotsav 2026 payment has been verified.\nReference: ${record.registrationId}\nAmount confirmed: ${formatWon_(record.paidAmount)}\n\nPlease present this reference at the registration desk.\n\n${eventPlainText_()}\n\nISRK Team`;
+  const body = `Dear ${respectfulName_(record.fullName)},\n\nThank you for completing your payment for Deepotsav 2026. Your payment has been verified and your registration is now complete.\nReference: ${record.registrationId}\nAmount confirmed: ${formatWon_(record.paidAmount)}\n\nPlease present this reference at the registration desk.\n\nThe final event itinerary and other related details will be shared with you before the event.\n\n${eventPlainText_()}\n\nISRK Team`;
   const html = emailShell_(
-    `Dear ${escapeHtml_(record.fullName)},`,
+    `Dear ${escapeHtml_(respectfulName_(record.fullName))},`,
     statusBlock +
-    `<p style="margin:20px 0 8px;color:#344054;">We have verified your payment. Your Deepotsav 2026 registration is now complete.</p>` +
+    `<p style="margin:20px 0 8px;color:#344054;"><strong>Thank you for completing your payment for Deepotsav 2026.</strong> We have verified your payment, and your registration is now complete.</p>` +
     referenceBlock_(record.registrationId) +
     detailsTable_([
       ['Amount confirmed', formatWon_(record.paidAmount)],
       ['Paid attendees', record.paidAttendees],
       ['Children aged five and under', record.childrenUnderFive]
     ]) + eventBlock_() +
-    `<p style="font-size:14px;color:#344054;margin:20px 0 0;"><strong>Please present this reference number at the registration desk.</strong></p>`
+    `<p style="font-size:14px;color:#344054;margin:20px 0 0;"><strong>Please present this reference number at the registration desk.</strong></p>` +
+    `<div style="background:#fff8e7;border-left:4px solid #d7a62a;padding:13px 16px;margin:18px 0 0;color:#4b075d;font-size:14px;line-height:1.6;"><strong>The final event itinerary and other related details will be shared with you before the event.</strong></div>`
   );
   sendHtmlEmail_(record.email, subject, body, html);
 }
@@ -520,13 +522,12 @@ function emailShell_(greeting, content) {
   return `<!doctype html><html><head><meta charset="UTF-8"></head><body style="margin:0;background:#f3f5f9;font-family:Arial,sans-serif;color:#182230;">` +
     `<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#f3f5f9;padding:28px 12px;"><tr><td align="center">` +
     `<table role="presentation" width="620" cellspacing="0" cellpadding="0" style="max-width:620px;width:100%;background:#ffffff;border:1px solid #dfe3eb;border-radius:8px;overflow:hidden;">` +
-    `<tr><td style="background:#071c4a;padding:22px 28px;text-align:center;">` +
-    `<img src="cid:isrkLogo" alt="ISRK" width="145" style="display:inline-block;max-width:145px;height:auto;background:#fff;border-radius:4px;padding:7px;">` +
-    `<div style="color:#ffffff;font-size:22px;font-weight:700;margin-top:12px;">Deepotsav 2026</div>` +
-    `<div style="height:4px;margin:16px -28px -22px;background:linear-gradient(90deg,#f47b20 0 33%,#ffffff 33% 66%,#17823b 66%);"></div></td></tr>` +
+    `<tr><td style="background:#2d043b;padding:0;text-align:center;">` +
+    `<img src="${CONFIG.HEADER_IMAGE_URL}" alt="Deepotsav 2026 - November 7, 2026 at Mokdong Youth Center Auditorium, Seoul" width="620" style="display:block;width:100%;max-width:620px;height:auto;border:0;">` +
+    `<div style="height:4px;background:#d7a62a;"></div></td></tr>` +
     `<tr><td style="padding:28px;"><p style="font-size:17px;margin:0 0 18px;color:#182230;">${greeting}</p>${content}</td></tr>` +
     `<tr><td style="background:#f7f8fb;border-top:1px solid #e4e7ec;padding:20px 28px;font-size:12px;line-height:1.6;color:#667085;">` +
-    `<strong style="color:#071c4a;">ISRK Team</strong><br>Indian Students and Researchers in Korea<br>` +
+    `<img src="cid:isrkLogo" alt="ISRK" width="90" style="display:block;max-width:90px;height:auto;margin:0 0 10px;"><strong style="color:#071c4a;">ISRK Team</strong><br>Indian Students and Researchers in Korea<br>` +
     `${escapeHtml_(CONFIG.CONTACT_LINE)}<br><a href="mailto:${CONFIG.REPLY_TO}" style="color:#244982;">${CONFIG.REPLY_TO}</a> &middot; <a href="https://www.isrk.in" style="color:#244982;">www.isrk.in</a>` +
     `</td></tr></table></td></tr></table></body></html>`;
 }
@@ -573,6 +574,11 @@ function eventPlainText_() {
 
 function formatWon_(value) {
   return `${Number(value || 0).toLocaleString('en-US')} KRW`;
+}
+
+function respectfulName_(value) {
+  const name = String(value == null ? '' : value).trim();
+  return /\bji$/i.test(name) ? name : `${name} Ji`;
 }
 
 function escapeHtml_(value) {
