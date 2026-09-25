@@ -522,8 +522,8 @@ function emailShell_(greeting, content) {
   return `<!doctype html><html><head><meta charset="UTF-8"></head><body style="margin:0;background:#f3f5f9;font-family:Arial,sans-serif;color:#182230;">` +
     `<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#f3f5f9;padding:28px 12px;"><tr><td align="center">` +
     `<table role="presentation" width="620" cellspacing="0" cellpadding="0" style="max-width:620px;width:100%;background:#ffffff;border:1px solid #dfe3eb;border-radius:8px;overflow:hidden;">` +
-    `<tr><td style="background:#2d043b;padding:0;text-align:center;">` +
-    `<img src="${CONFIG.HEADER_IMAGE_URL}" alt="Deepotsav 2026 - November 7, 2026 at Mokdong Youth Center Auditorium, Seoul" width="620" style="display:block;width:100%;max-width:620px;height:auto;border:0;">` +
+    `<tr><td style="background:#2d043b;padding:0;text-align:center;font-size:0;line-height:0;mso-line-height-rule:exactly;">` +
+    `<img src="${CONFIG.HEADER_IMAGE_URL}" alt="Deepotsav 2026 - November 7, 2026 at Mokdong Youth Center Auditorium, Seoul" width="620" height="155" style="display:block;width:100%;max-width:620px;height:auto;border:0;vertical-align:top;">` +
     `<div style="height:4px;background:#d7a62a;"></div></td></tr>` +
     `<tr><td style="padding:28px;"><p style="font-size:17px;margin:0 0 18px;color:#182230;">${greeting}</p>${content}</td></tr>` +
     `<tr><td style="background:#f7f8fb;border-top:1px solid #e4e7ec;padding:20px 28px;font-size:12px;line-height:1.6;color:#667085;">` +
