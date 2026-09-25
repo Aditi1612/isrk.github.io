@@ -24,7 +24,7 @@ const CONFIG = Object.freeze({
 
 const HEADERS = Object.freeze([
   'Timestamp', 'Registration ID', 'Email', 'Full Name', 'University/Company', 'City',
-  'Nationality', 'Bank Transfer Name', 'Paid Attendees (Age 5+)', 'Children Under 5',
+  'Nationality', 'Bank Transfer Name', 'Paid Attendees (Age 6+)', 'Children (Age 5 & Under)',
   'Total Attendees', 'Fee Per Paid Attendee (KRW)', 'Expected Amount (KRW)',
   'Performance Interests', 'Performance Description', 'Performance Sample Link', 'Fashion Show', 'Fashion Show Description', 'Volunteer Roles',
   'Community Mela', 'Kids Activity', 'Mobile Number', 'Suggestions',
@@ -216,8 +216,8 @@ function sendRegistrationForSelectedRow() {
     registrationId: source['Registration ID'],
     email: source.Email,
     fullName: source['Full Name'],
-    paidAttendees: source['Paid Attendees (Age 5+)'],
-    childrenUnderFive: source['Children Under 5'],
+    paidAttendees: source['Paid Attendees (Age 6+)'],
+    childrenUnderFive: source['Children (Age 5 & Under)'],
     feePerAttendee: source['Fee Per Paid Attendee (KRW)'],
     expectedAmount: source['Expected Amount (KRW)']
   };
@@ -271,8 +271,8 @@ function sendPaymentForRow_(sheet, row, forceRetry) {
         registrationId: record['Registration ID'],
         email: record.Email,
         fullName: record['Full Name'],
-        paidAttendees: record['Paid Attendees (Age 5+)'],
-        childrenUnderFive: record['Children Under 5'],
+        paidAttendees: record['Paid Attendees (Age 6+)'],
+        childrenUnderFive: record['Children (Age 5 & Under)'],
         paidAmount: paidAmount,
         isResend: isResend
       });
@@ -339,7 +339,7 @@ function validatePayload_(payload) {
     throw new Error('Paid attendee count must be between 1 and 9.');
   }
   if (!Number.isInteger(payload.childrenUnderFive) || payload.childrenUnderFive < 0 || payload.childrenUnderFive > 5) {
-    throw new Error('Children under five must be between 0 and 5.');
+    throw new Error('Children aged five and under must be between 0 and 5.');
   }
   if (!['Yes', 'No'].includes(payload.performanceInterest)) throw new Error('Please complete the performance question.');
   if (payload.performanceInterest === 'Yes' && payload.performance.length === 0) throw new Error('Please select at least one performance type.');
@@ -469,7 +469,7 @@ function sendRegistrationEmail_(record) {
     referenceBlock_(record.registrationId) +
     detailsTable_([
       ['Paid attendees', record.paidAttendees],
-      ['Children under five', record.childrenUnderFive],
+      ['Children aged five and under', record.childrenUnderFive],
       ['Fee per paid attendee', formatWon_(record.feePerAttendee)],
       ['Expected payment', formatWon_(record.expectedAmount)]
     ]) +
@@ -491,7 +491,7 @@ function sendPaymentEmail_(record) {
     detailsTable_([
       ['Amount confirmed', formatWon_(record.paidAmount)],
       ['Paid attendees', record.paidAttendees],
-      ['Children under five', record.childrenUnderFive]
+      ['Children aged five and under', record.childrenUnderFive]
     ]) + eventBlock_() +
     `<p style="font-size:14px;color:#344054;margin:20px 0 0;"><strong>Please present this reference number at the registration desk.</strong></p>`
   );

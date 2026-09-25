@@ -37,7 +37,7 @@ robots: noindex, nofollow
         <strong>₩10,000</strong>
         <span>Regular fee from October 26</span>
         <strong>₩12,000</strong>
-        <small>Per attendee aged five and above. Children under five enter free without a complimentary sweet box.</small>
+        <small>Per attendee aged six and above. Children aged five and under enter free without a complimentary sweet box.</small>
       </div>
 
       <div class="deepotsav-payment">
@@ -97,7 +97,7 @@ robots: noindex, nofollow
         <fieldset>
           <legend><span>2</span> Attendees and fee</legend>
           <div class="deepotsav-grid deepotsav-grid--two">
-            <label>Attendees aged five and above <span class="deepotsav-required" aria-hidden="true">*</span>
+            <label>Attendees aged six and above <span class="deepotsav-required" aria-hidden="true">*</span>
               <select name="paidAttendees" id="paid-attendees" required>
                 <option value="">Select</option>
                 <option value="1">1</option><option value="2">2</option><option value="3">3</option>
@@ -105,7 +105,7 @@ robots: noindex, nofollow
                 <option value="7">7</option><option value="8">8</option><option value="9">9</option>
               </select>
             </label>
-            <label>Children under five <span class="deepotsav-required" aria-hidden="true">*</span>
+            <label>Children aged five and under <span class="deepotsav-required" aria-hidden="true">*</span>
               <select name="childrenUnderFive" id="children-under-five" required>
                 <option value="">Select</option>
                 <option value="0">0</option><option value="1">1</option><option value="2">2</option>
@@ -223,7 +223,7 @@ robots: noindex, nofollow
             <p>By submitting this form, I declare and agree to the following:</p>
             <ol>
               <li>The information provided is true and accurate to the best of my knowledge.</li>
-              <li>Registration is complete only after payment of the applicable entry fee.Children under Six enter free but do not receive a complimentary sweet box.</li>
+              <li>Registration is complete only after payment of the applicable entry fee. Children aged five and under enter free but do not receive a complimentary sweet box.</li>
               <li>A unique registration reference number will be emailed to me and must be presented at the registration desk.</li>
               <li>I will follow event guidelines and cooperate with organizers and volunteers.</li>
               <li>I consent to the use of photographs or videos containing my image for these purposes.</li>
