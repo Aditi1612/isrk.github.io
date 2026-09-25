@@ -3,21 +3,19 @@ layout: page
 title: Deepotsav 2026 Registration
 permalink: /deepotsav-2026-registration/
 description: Registration for Deepotsav 2026, the annual Diwali cultural get-together in Korea.
-image: /assets/images/events/deepotsav-2026/isrk-logo-deep-blue.png
+image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
 robots: noindex, nofollow
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20260922-1">
+<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20260926-1">
 
 <div class="deepotsav-page" data-early-bird-deadline="2026-10-25T23:59:59+09:00">
   <header class="deepotsav-heading">
-    <div class="deepotsav-heading__inner">
-      <img src="{{ '/assets/images/events/deepotsav-2026/isrk-logo-deep-blue.png' | relative_url }}" alt="Indian Students and Researchers in Korea" class="deepotsav-heading__logo">
-      <div>
-        <p class="deepotsav-kicker">Co-organized by IIK(A) and IITAAK</p>
-        <h1>Deepotsav 2026 Registration</h1>
-        <p>An evening of Diwali celebration, culture, music, food, and community in Seoul.</p>
-      </div>
+    <h1 class="deepotsav-visually-hidden">Deepotsav 2026 Registration</h1>
+    <img src="{{ '/assets/images/events/deepotsav-2026/deepotsav-form-header.png' | relative_url }}" alt="Deepotsav 2026, November 7, 2026 from 2 PM at Mokdong Youth Center Auditorium, Seoul" class="deepotsav-heading__art">
+    <div class="deepotsav-heading__caption">
+      <p class="deepotsav-kicker">Co-organized by IIK(A) and IITAAK</p>
+      <p>Celebrate Diwali with an afternoon of culture, music, food, and community in Seoul.</p>
     </div>
   </header>
 
