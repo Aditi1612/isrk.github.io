@@ -26,6 +26,44 @@
   let submissionInProgress = false;
   let submissionTimeout;
 
+  function startCountdown() {
+    const eventStart = new Date(page.dataset.eventStart);
+    const days = document.getElementById('countdown-days');
+    const hours = document.getElementById('countdown-hours');
+    const minutes = document.getElementById('countdown-minutes');
+    const seconds = document.getElementById('countdown-seconds');
+    const countdownStatus = document.getElementById('countdown-status');
+    const countdownEyebrow = document.querySelector('.deepotsav-countdown__eyebrow');
+
+    if (!Number.isFinite(eventStart.getTime()) || !days || !hours || !minutes || !seconds) return;
+
+    function updateCountdown() {
+      const remaining = eventStart.getTime() - Date.now();
+      if (remaining <= 0) {
+        days.textContent = '00';
+        hours.textContent = '00';
+        minutes.textContent = '00';
+        seconds.textContent = '00';
+        countdownEyebrow.textContent = 'The Deepotsav celebration is here';
+        countdownStatus.textContent = 'Deepotsav 2026 has begun.';
+        return false;
+      }
+
+      const totalSeconds = Math.floor(remaining / 1000);
+      days.textContent = String(Math.floor(totalSeconds / 86400)).padStart(2, '0');
+      hours.textContent = String(Math.floor((totalSeconds % 86400) / 3600)).padStart(2, '0');
+      minutes.textContent = String(Math.floor((totalSeconds % 3600) / 60)).padStart(2, '0');
+      seconds.textContent = String(totalSeconds % 60).padStart(2, '0');
+      countdownStatus.textContent = `${days.textContent} days, ${hours.textContent} hours, ${minutes.textContent} minutes until Deepotsav 2026.`;
+      return true;
+    }
+
+    updateCountdown();
+    const countdownTimer = window.setInterval(function () {
+      if (!updateCountdown()) window.clearInterval(countdownTimer);
+    }, 1000);
+  }
+
   function formatWon(value) {
     return new Intl.NumberFormat('en-US').format(value) + ' KRW';
   }
@@ -183,6 +221,7 @@
     performanceSampleUrl.setCustomValidity('');
   });
   form.addEventListener('change', updateConditionalFields);
+  startCountdown();
   updateFee();
   updateConditionalFields();
 

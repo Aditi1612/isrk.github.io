@@ -7,9 +7,9 @@ image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
 robots: noindex, nofollow
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20260926-1">
+<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20260926-2">
 
-<div class="deepotsav-page" data-early-bird-deadline="2026-10-25T23:59:59+09:00">
+<div class="deepotsav-page" data-early-bird-deadline="2026-10-25T23:59:59+09:00" data-event-start="2026-11-07T14:00:00+09:00">
   <header class="deepotsav-heading">
     <h1 class="deepotsav-visually-hidden">Deepotsav 2026 Registration</h1>
     <img src="{{ '/assets/images/events/deepotsav-2026/deepotsav-form-header.png' | relative_url }}" alt="Deepotsav 2026, November 7, 2026 from 2 PM at Mokdong Youth Center Auditorium, Seoul" class="deepotsav-heading__art">
@@ -18,6 +18,29 @@ robots: noindex, nofollow
       <p>Celebrate Diwali with an afternoon of culture, music, food, and community in Seoul.</p>
     </div>
   </header>
+
+  <section class="deepotsav-countdown-band" aria-labelledby="deepotsav-countdown-title">
+    <div class="deepotsav-calendar" aria-hidden="true">
+      <span>NOV</span>
+      <strong>07</strong>
+      <small>SATURDAY</small>
+    </div>
+    <div class="deepotsav-countdown">
+      <p class="deepotsav-countdown__eyebrow">The celebration begins in</p>
+      <h2 id="deepotsav-countdown-title" class="deepotsav-visually-hidden">Countdown to Deepotsav 2026</h2>
+      <div class="deepotsav-countdown__units" aria-live="off">
+        <div><strong id="countdown-days">--</strong><span>Days</span></div>
+        <div><strong id="countdown-hours">--</strong><span>Hours</span></div>
+        <div><strong id="countdown-minutes">--</strong><span>Minutes</span></div>
+        <div><strong id="countdown-seconds">--</strong><span>Seconds</span></div>
+      </div>
+      <p id="countdown-status" class="deepotsav-visually-hidden" aria-live="off"></p>
+    </div>
+    <div class="deepotsav-sweet-box">
+      <i class="fa-solid fa-gift" aria-hidden="true"></i>
+      <p><strong>Complimentary sweet box for registered participants aged six and above.</strong><span>Children under 6 enter free and do not receive a sweet box.</span></p>
+    </div>
+  </section>
 
   <div class="deepotsav-layout">
     <aside class="deepotsav-summary" aria-label="Event details">
@@ -249,4 +272,4 @@ robots: noindex, nofollow
   </div>
 </div>
 
-<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20260922-7" defer></script>
+<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20260926-8" defer></script>
