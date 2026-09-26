@@ -31,13 +31,18 @@ title: Home
 
 <section class="home-event-spotlight" aria-labelledby="home-deepotsav-title">
   <a href="{{ '/deepotsav-2026-registration/' | relative_url }}" class="home-event-spotlight__link" aria-label="Register for Deepotsav 2026">
-    <img src="{{ '/assets/images/events/deepotsav-2026/deepotsav-form-header.png' | relative_url }}" alt="Deepotsav 2026, November 7, 2026 from 2 PM at Mokdong Youth Center Auditorium, Seoul">
-    <span class="home-event-spotlight__bar">
-      <span class="home-event-spotlight__eyebrow">ISRK's annual Diwali celebration</span>
-      <strong id="home-deepotsav-title">Deepotsav 2026 registration is now open</strong>
-      <span class="home-event-spotlight__details">November 7 · Seoul</span>
-      <span class="home-event-spotlight__action">Register now <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
+    <span class="home-event-spotlight__date" aria-hidden="true">
+      <small>NOV</small>
+      <strong>07</strong>
+      <em>SAT</em>
     </span>
+    <span class="home-event-spotlight__copy">
+      <span class="home-event-spotlight__eyebrow">ISRK's annual Diwali celebration</span>
+      <strong id="home-deepotsav-title">Deepotsav 2026</strong>
+      <span>Culture, cuisine, music, and community</span>
+    </span>
+    <span class="home-event-spotlight__details"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span><strong>2 PM onwards</strong>Mokdong Youth Center Auditorium, Seoul</span></span>
+    <span class="home-event-spotlight__action"><small>Registration open</small><strong>Register now <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></strong></span>
   </a>
 </section>
 
