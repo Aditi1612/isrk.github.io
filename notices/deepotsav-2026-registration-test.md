@@ -7,7 +7,7 @@ image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
 robots: noindex, nofollow
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20260926-2">
+<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20260927-1">
 
 <div class="deepotsav-page" data-early-bird-deadline="2026-10-25T23:59:59+09:00" data-event-start="2026-11-07T14:00:00+09:00">
   <header class="deepotsav-heading">
@@ -38,8 +38,30 @@ robots: noindex, nofollow
     </div>
     <div class="deepotsav-sweet-box">
       <i class="fa-solid fa-gift" aria-hidden="true"></i>
-      <p><strong>Complimentary sweet box (Besan Laddoo/ Dry Fruit Laddoo/ Mysore-pak) for registered participants aged six and above.</strong><span>Free Regisration for Children under 6 (Sweet Boxes Not inluded).</span></p>
+      <p><strong>Complimentary sweet box (Besan Laddoo/ Dry Fruit Laddoo/ Mysore-pak) for registered participants aged six and above.</strong><span>Free registration for children under 6 (sweet boxes not included).</span></p>
     </div>
+  </section>
+
+  <section class="deepotsav-highlights" aria-labelledby="deepotsav-highlights-title">
+    <div class="deepotsav-highlights__heading">
+      <span aria-hidden="true">🌟</span>
+      <div>
+        <p>A celebration for the whole community</p>
+        <h2 id="deepotsav-highlights-title">What Awaits You at Deepotsav 2026?</h2>
+      </div>
+    </div>
+    <ul class="deepotsav-highlights__list">
+      <li><span aria-hidden="true">🙏</span><div><strong>Ganesh Aarti &amp; Pooja</strong><small>Invoking divine blessings for the festivities</small></div></li>
+      <li><span aria-hidden="true">🍬</span><div><strong>Complimentary Sweet Box</strong><small>A token of sweetness for registered attendees aged six and above</small></div></li>
+      <li><span aria-hidden="true">🎭</span><div><strong>Cultural Showcases</strong><small>Dance, music, and traditions brought to life</small></div></li>
+      <li><span aria-hidden="true">🎲</span><div><strong>Fun Games &amp; Lucky Draws</strong><small>Win attractive prizes</small></div></li>
+      <li><span aria-hidden="true">🎧</span><div><strong>Bollywood DJ Night</strong><small>Dance the evening away to energetic beats</small></div></li>
+      <li><span aria-hidden="true">👗</span><div><strong>Fashion Flair Contest</strong><small>Flaunt your festive attire</small></div></li>
+      <li><span aria-hidden="true">🍛</span><div><strong>Authentic Indian Cuisine &amp; Sweets</strong><small>A feast to remind you of home</small></div></li>
+      <li><span aria-hidden="true">👶</span><div><strong>Children's Play Zone</strong><small>Activities to keep the little ones entertained</small></div></li>
+      <li><span aria-hidden="true">🎨</span><div><strong>Art &amp; Handicraft Exhibition</strong><small>Explore creativity at the Mela</small></div></li>
+      <li class="deepotsav-highlights__final"><span aria-hidden="true">✨</span><div><strong>And many more joyful surprises to unfold!</strong></div></li>
+    </ul>
   </section>
 
   <div class="deepotsav-layout">

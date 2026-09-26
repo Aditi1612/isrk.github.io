@@ -138,6 +138,51 @@
 .deepotsav-sweet-box strong { color: var(--deep-plum); display: block; }
 .deepotsav-sweet-box span { color: var(--deep-muted); display: block; margin-top: 0.2rem; }
 
+.deepotsav-highlights {
+  background: #fffdf7;
+  border-bottom: 1px solid #ead9bf;
+  padding: 2.4rem clamp(1rem, 4vw, 2.75rem) 2.6rem;
+  position: relative;
+}
+
+.deepotsav-highlights__heading {
+  align-items: center;
+  display: flex;
+  gap: 0.85rem;
+  margin: 0 auto 1.5rem;
+  max-width: 1100px;
+}
+
+.deepotsav-highlights__heading > span { font-size: 2rem; line-height: 1; }
+.deepotsav-highlights__heading p { color: var(--deep-magenta); font-size: 0.72rem; font-weight: 700; margin: 0 0 0.15rem; text-transform: uppercase; }
+.deepotsav-highlights__heading h2 { border: 0; color: var(--deep-plum); font-family: 'Poppins', sans-serif; font-size: clamp(1.45rem, 3vw, 2rem); margin: 0; padding: 0; }
+
+.deepotsav-highlights__list {
+  display: grid;
+  gap: 0 2.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  list-style: none;
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 0;
+}
+
+.deepotsav-highlights__list li {
+  align-items: center;
+  border-top: 1px solid var(--deep-line);
+  display: flex;
+  gap: 0.8rem;
+  min-width: 0;
+  padding: 0.8rem 0;
+}
+
+.deepotsav-highlights__list li > span { flex: 0 0 2rem; font-size: 1.35rem; line-height: 1; text-align: center; }
+.deepotsav-highlights__list li > div { min-width: 0; }
+.deepotsav-highlights__list strong { color: var(--deep-ink); display: block; font-size: 0.9rem; }
+.deepotsav-highlights__list small { color: var(--deep-muted); display: block; font-size: 0.8rem; line-height: 1.45; margin-top: 0.1rem; }
+.deepotsav-highlights__final { border-bottom: 2px solid var(--deep-gold); grid-column: 1 / -1; justify-content: center; text-align: center; }
+.deepotsav-highlights__final strong { color: var(--deep-magenta); font-family: 'Poppins', sans-serif; }
+
 .deepotsav-layout {
   align-items: start;
   display: grid;
@@ -304,6 +349,12 @@
   .deepotsav-countdown__units div { padding-right: 0.3rem; }
   .deepotsav-countdown__units strong { font-size: 1.25rem; }
   .deepotsav-countdown__units span { font-size: 0.52rem; }
+  .deepotsav-highlights { padding: 1.8rem 1rem 2rem; }
+  .deepotsav-highlights__heading { align-items: flex-start; }
+  .deepotsav-highlights__heading > span { font-size: 1.6rem; }
+  .deepotsav-highlights__heading h2 { font-size: 1.35rem; line-height: 1.3; }
+  .deepotsav-highlights__list { grid-template-columns: 1fr; }
+  .deepotsav-highlights__final { grid-column: auto; justify-content: flex-start; text-align: left; }
   .deepotsav-layout { padding-left: 1rem; padding-right: 1rem; }
   .deepotsav-form-wrap { padding-left: 1rem; padding-right: 1rem; }
   .deepotsav-grid--two, .deepotsav-options { grid-template-columns: 1fr; }
