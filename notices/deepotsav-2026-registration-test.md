@@ -4,7 +4,6 @@ title: Deepotsav 2026 Registration
 permalink: /deepotsav-2026-registration/
 description: Registration for Deepotsav 2026, the annual Diwali cultural get-together in Korea.
 image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
-robots: noindex, nofollow
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20260927-1">
