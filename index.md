@@ -3,6 +3,23 @@ layout: home
 title: Home
 ---
 
+<section class="home-event-spotlight" aria-labelledby="home-deepotsav-title">
+  <a href="{{ '/deepotsav-2026-registration/' | relative_url }}" class="home-event-spotlight__link" aria-label="Register for Deepotsav 2026">
+    <span class="home-event-spotlight__date" aria-hidden="true">
+      <small>NOV</small>
+      <strong>07</strong>
+      <em>SAT</em>
+    </span>
+    <span class="home-event-spotlight__copy">
+      <span class="home-event-spotlight__eyebrow">ISRK's annual Diwali celebration</span>
+      <strong id="home-deepotsav-title">Deepotsav 2026</strong>
+      <span>Culture, cuisine, music, and community</span>
+    </span>
+    <span class="home-event-spotlight__details"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span><strong>2 PM onwards</strong>Mokdong Youth Center Auditorium, Seoul</span></span>
+    <span class="home-event-spotlight__action"><small>Registration open</small><strong>Register now <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></strong></span>
+  </a>
+</section>
+
 <section class="hero">
   <div class="hero-inner">
     <img src="{{ '/assets/images/logos/isrk_logo_tri_color.png' | relative_url }}" alt="ISRK Logo" class="hero-logo">
@@ -27,23 +44,6 @@ title: Home
       </div>
     </div>
   </div>
-</section>
-
-<section class="home-event-spotlight" aria-labelledby="home-deepotsav-title">
-  <a href="{{ '/deepotsav-2026-registration/' | relative_url }}" class="home-event-spotlight__link" aria-label="Register for Deepotsav 2026">
-    <span class="home-event-spotlight__date" aria-hidden="true">
-      <small>NOV</small>
-      <strong>07</strong>
-      <em>SAT</em>
-    </span>
-    <span class="home-event-spotlight__copy">
-      <span class="home-event-spotlight__eyebrow">ISRK's annual Diwali celebration</span>
-      <strong id="home-deepotsav-title">Deepotsav 2026</strong>
-      <span>Culture, cuisine, music, and community</span>
-    </span>
-    <span class="home-event-spotlight__details"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span><strong>2 PM onwards</strong>Mokdong Youth Center Auditorium, Seoul</span></span>
-    <span class="home-event-spotlight__action"><small>Registration open</small><strong>Register now <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></strong></span>
-  </a>
 </section>
 
 <div class="stats-bar">
