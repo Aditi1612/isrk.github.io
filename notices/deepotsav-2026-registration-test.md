@@ -6,7 +6,7 @@ description: Registration for Deepotsav 2026, the annual Diwali cultural get-tog
 image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20261015-1">
+<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20261015-2">
 
 <div class="deepotsav-page" data-early-bird-deadline="2026-10-25T23:59:59+09:00" data-event-start="2026-11-07T14:00:00+09:00">
   <header class="deepotsav-heading">
@@ -67,19 +67,20 @@ image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
     <div class="deepotsav-sponsor-offer__inner">
       <div class="deepotsav-sponsor-offer__intro">
         <p class="deepotsav-sponsor-offer__eyebrow"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> Sponsoring partner benefit</p>
-        <h2 id="shinhan-offer-title">Shinhan Bank account-opening offer</h2>
-        <p>Eligible ISRK members may receive benefits worth up to <strong>₩30,000</strong> when opening a Shinhan Bank account at the Deepotsav venue.</p>
+        <h2 id="shinhan-offer-title">Shinhan Bank exclusive account-opening offer</h2>
+        <p>Eligible ISRK Deepotsav 2026 participants may receive promotional benefits worth up to <strong>₩30,000</strong> by opening a Shinhan Bank account at the event venue.</p>
       </div>
-      <dl class="deepotsav-sponsor-offer__benefits" aria-label="Offer benefit breakdown">
-        <div>
-          <dt>₩20,000</dt>
-          <dd><i class="fa-solid fa-coins" aria-hidden="true"></i> Credited to the new account</dd>
-        </div>
-        <div>
-          <dt>₩10,000</dt>
-          <dd><i class="fa-solid fa-ticket" aria-hidden="true"></i> Gift voucher</dd>
-        </div>
-      </dl>
+      <div class="deepotsav-sponsor-offer__benefits" aria-label="Offer benefit breakdown">
+        <article>
+          <h3><i class="fa-solid fa-ticket" aria-hidden="true"></i><span>₩10,000</span> Welcome Gift Voucher</h3>
+          <p>Receive a ₩10,000 gift voucher after applying for a Shinhan Bank account, downloading the designated mobile banking app, and successfully logging in.</p>
+        </article>
+        <article>
+          <h3><i class="fa-solid fa-coins" aria-hidden="true"></i><span>₩20,000</span> Installment Savings Account Benefit</h3>
+          <p>Eligible participants may receive ₩20,000 deposited by Shinhan Bank into a newly opened designated installment savings account (적금).</p>
+          <p>Participants may continue adding savings or withdraw the deposited funds after three months, subject to the bank's account conditions.</p>
+        </article>
+      </div>
       <div class="deepotsav-sponsor-offer__requirements">
         <strong>Bring to the event venue</strong>
         <ul>
@@ -87,7 +88,14 @@ image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
           <li><i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i> An active Korean mobile phone number</li>
         </ul>
       </div>
-      <p class="deepotsav-sponsor-offer__terms">Account opening and promotional benefits are subject to Shinhan Bank's eligibility verification, offer conditions, and availability.</p>
+      <div class="deepotsav-sponsor-offer__important">
+        <strong>Important information</strong>
+        <ul>
+          <li>The ₩20,000 savings benefit is available only to participants eligible to open the designated installment savings product.</li>
+          <li>Participants who already hold the same restricted savings product through another bank may not qualify for the ₩20,000 incentive.</li>
+          <li>All promotional benefits are subject to Shinhan Bank's eligibility verification, product conditions, and availability.</li>
+        </ul>
+      </div>
     </div>
   </section>
 
