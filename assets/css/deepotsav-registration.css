@@ -183,6 +183,43 @@
 .deepotsav-highlights__final { border-bottom: 2px solid var(--deep-gold); grid-column: 1 / -1; justify-content: center; text-align: center; }
 .deepotsav-highlights__final strong { color: var(--deep-magenta); font-family: 'Poppins', sans-serif; }
 
+.deepotsav-sponsor-offer {
+  background: #edf7ff;
+  border-bottom: 1px solid #b9d7ed;
+  border-top: 1px solid #b9d7ed;
+  padding: 2rem clamp(1rem, 4vw, 2.75rem);
+  position: relative;
+}
+
+.deepotsav-sponsor-offer__inner {
+  align-items: center;
+  display: grid;
+  gap: 1.25rem 2rem;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.deepotsav-sponsor-offer__intro { min-width: 0; }
+.deepotsav-sponsor-offer__eyebrow { align-items: center; color: #00529b; display: flex; font-size: 0.74rem; font-weight: 700; gap: 0.5rem; margin: 0 0 0.35rem; text-transform: uppercase; }
+.deepotsav-sponsor-offer__eyebrow i { font-size: 1rem; }
+.deepotsav-sponsor-offer h2 { border: 0; color: #073b72; font-family: 'Poppins', sans-serif; font-size: 1.55rem; margin: 0 0 0.45rem; padding: 0; }
+.deepotsav-sponsor-offer__intro > p:last-child { color: #29445f; line-height: 1.55; margin: 0; }
+.deepotsav-sponsor-offer__intro strong { color: #00529b; }
+
+.deepotsav-sponsor-offer__benefits { display: grid; gap: 0.75rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 0; }
+.deepotsav-sponsor-offer__benefits div { background: #fff; border-left: 4px solid #00a6ce; min-width: 0; padding: 0.8rem 0.9rem; }
+.deepotsav-sponsor-offer__benefits dt { color: #00529b; font-family: 'Poppins', sans-serif; font-size: 1.35rem; font-weight: 700; }
+.deepotsav-sponsor-offer__benefits dd { color: #29445f; font-size: 0.78rem; line-height: 1.4; margin: 0.15rem 0 0; }
+.deepotsav-sponsor-offer__benefits i { color: #e56f19; margin-right: 0.25rem; }
+
+.deepotsav-sponsor-offer__requirements { border-top: 1px solid #b9d7ed; grid-column: 1 / -1; padding-top: 1rem; }
+.deepotsav-sponsor-offer__requirements > strong { color: #073b72; display: block; font-size: 0.88rem; margin-bottom: 0.55rem; }
+.deepotsav-sponsor-offer__requirements ul { display: flex; flex-wrap: wrap; gap: 0.65rem 1.5rem; list-style: none; margin: 0; padding: 0; }
+.deepotsav-sponsor-offer__requirements li { align-items: center; color: #29445f; display: flex; font-size: 0.84rem; gap: 0.45rem; }
+.deepotsav-sponsor-offer__requirements i { color: #00529b; width: 1rem; }
+.deepotsav-sponsor-offer__terms { color: #5b6f81; font-size: 0.72rem; grid-column: 1 / -1; line-height: 1.45; margin: -0.55rem 0 0; }
+
 .deepotsav-layout {
   align-items: start;
   display: grid;
@@ -355,6 +392,12 @@
   .deepotsav-highlights__heading h2 { font-size: 1.35rem; line-height: 1.3; }
   .deepotsav-highlights__list { grid-template-columns: 1fr; }
   .deepotsav-highlights__final { grid-column: auto; justify-content: flex-start; text-align: left; }
+  .deepotsav-sponsor-offer { padding: 1.5rem 1rem; }
+  .deepotsav-sponsor-offer__inner { grid-template-columns: 1fr; }
+  .deepotsav-sponsor-offer__benefits { grid-template-columns: 1fr; }
+  .deepotsav-sponsor-offer__requirements { grid-column: auto; }
+  .deepotsav-sponsor-offer__requirements ul { align-items: flex-start; flex-direction: column; }
+  .deepotsav-sponsor-offer__terms { grid-column: auto; margin-top: -0.25rem; }
   .deepotsav-layout { padding-left: 1rem; padding-right: 1rem; }
   .deepotsav-form-wrap { padding-left: 1rem; padding-right: 1rem; }
   .deepotsav-grid--two, .deepotsav-options { grid-template-columns: 1fr; }

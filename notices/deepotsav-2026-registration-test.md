@@ -6,14 +6,14 @@ description: Registration for Deepotsav 2026, the annual Diwali cultural get-tog
 image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20260927-1">
+<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20261015-1">
 
 <div class="deepotsav-page" data-early-bird-deadline="2026-10-25T23:59:59+09:00" data-event-start="2026-11-07T14:00:00+09:00">
   <header class="deepotsav-heading">
     <h1 class="deepotsav-visually-hidden">Deepotsav 2026 Registration</h1>
     <img src="{{ '/assets/images/events/deepotsav-2026/deepotsav-form-header.png' | relative_url }}" alt="Deepotsav 2026, November 7, 2026 from 2 PM at Mokdong Youth Center Auditorium, Seoul" class="deepotsav-heading__art">
     <div class="deepotsav-heading__caption">
-      <p class="deepotsav-kicker">Co-organized by IIK(A) and IITAAK</p>
+      <p class="deepotsav-kicker">Co-organized by IITAAK and IIK(A)</p>
       <p>Celebrate Diwali with an afternoon of culture, music, food, and community in Seoul.</p>
     </div>
   </header>
@@ -61,6 +61,34 @@ image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
       <li><span aria-hidden="true">🎨</span><div><strong>Art &amp; Handicraft Exhibition</strong><small>Explore creativity at the Mela</small></div></li>
       <li class="deepotsav-highlights__final"><span aria-hidden="true">✨</span><div><strong>And many more joyful surprises to unfold!</strong></div></li>
     </ul>
+  </section>
+
+  <section class="deepotsav-sponsor-offer" aria-labelledby="shinhan-offer-title">
+    <div class="deepotsav-sponsor-offer__inner">
+      <div class="deepotsav-sponsor-offer__intro">
+        <p class="deepotsav-sponsor-offer__eyebrow"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> Sponsoring partner benefit</p>
+        <h2 id="shinhan-offer-title">Shinhan Bank account-opening offer</h2>
+        <p>Eligible ISRK members may receive benefits worth up to <strong>₩30,000</strong> when opening a Shinhan Bank account at the Deepotsav venue.</p>
+      </div>
+      <dl class="deepotsav-sponsor-offer__benefits" aria-label="Offer benefit breakdown">
+        <div>
+          <dt>₩20,000</dt>
+          <dd><i class="fa-solid fa-coins" aria-hidden="true"></i> Credited to the new account</dd>
+        </div>
+        <div>
+          <dt>₩10,000</dt>
+          <dd><i class="fa-solid fa-ticket" aria-hidden="true"></i> Gift voucher</dd>
+        </div>
+      </dl>
+      <div class="deepotsav-sponsor-offer__requirements">
+        <strong>Bring to the event venue</strong>
+        <ul>
+          <li><i class="fa-solid fa-id-card" aria-hidden="true"></i> A valid Alien Registration Card (ARC)</li>
+          <li><i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i> An active Korean mobile phone number</li>
+        </ul>
+      </div>
+      <p class="deepotsav-sponsor-offer__terms">Account opening and promotional benefits are subject to Shinhan Bank's eligibility verification, offer conditions, and availability.</p>
+    </div>
   </section>
 
   <div class="deepotsav-layout">
