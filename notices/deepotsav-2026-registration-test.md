@@ -3,22 +3,15 @@ layout: page
 title: Deepotsav 2026 Registration
 permalink: /deepotsav-2026-registration/
 description: Registration for Deepotsav 2026, the annual Diwali cultural get-together in Korea.
-image: /assets/images/events/deepotsav-2026/deepotsav-hero-background-v2.png
+image: /assets/images/events/deepotsav-2026/deepotsav-hero-shinhan-venue.png
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20261020-1">
+<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20261020-2">
 
 <div class="deepotsav-page" data-early-bird-deadline="2026-10-25T23:59:59+09:00" data-event-start="2026-11-07T14:00:00+09:00">
   <header class="deepotsav-heading">
     <div class="deepotsav-heading__hero">
-      <img src="{{ '/assets/images/events/deepotsav-2026/deepotsav-hero-background-v2.png' | relative_url }}" alt="" aria-hidden="true" class="deepotsav-heading__art">
-      <div class="deepotsav-heading__content">
-        <p>ISRK cordially invites you to the Grand Diwali Celebration</p>
-        <h1>Deepotsav 2026</h1>
-        <strong>November 7, 2026 &middot; 2 PM onwards</strong>
-        <span>Grand Auditorium, Shinhan Bank Head Office</span>
-        <small>20, Sejong-daero 9-gil, Jung-gu, Seoul &middot; 20th Floor</small>
-      </div>
+      <img src="{{ '/assets/images/events/deepotsav-2026/deepotsav-hero-shinhan-venue.png' | relative_url }}" alt="Deepotsav 2026, November 7, 2026 at 2 PM onwards. Grand Auditorium, Shinhan Bank Head Office, 20, Sejong-daero 9-gil, Jung-gu, Seoul, 20th Floor." class="deepotsav-heading__art">
     </div>
     <div class="deepotsav-heading__caption">
       <p class="deepotsav-kicker">Co-organized by IITAAK and IIK(A)</p>
