@@ -6,10 +6,9 @@ email when an organizer changes `Payment Status` to `Paid`.
 
 ## Test safeguards
 
-- `TEST_MODE` is `true`.
-- Only `mrbiswal13@gmail.com` and `cometomanas@gmail.com` can submit or receive mail.
-- The website page is unlisted and marked `noindex, nofollow`.
-- Do not switch `TEST_MODE` to `false` until the complete workflow is approved.
+- `TEST_MODE` is `false` for the public registration period.
+- `TEST_RECIPIENTS` remains available for any future restricted test deployment.
+- The public form permits repeated registrations from the same email address; submission tokens prevent accidental replay of one submission.
 
 ## Google Apps Script setup
 
@@ -19,6 +18,10 @@ email when an organizer changes `Payment Status` to `Paid`.
 4. Run `setupProject` once and authorize the requested Sheets, Gmail, and Drive access.
 5. Deploy as a Web app, executing as the deploying account, with access set to anyone.
 6. Replace `REPLACE_WITH_DEPLOYMENT_ID` in the website form action with the deployment ID.
+
+The `Registrations` tab must match the `HEADERS` schema in `Code.gs`. The final
+column is `Additional Attendee Details`, which stores the name, relationship,
+and applicable phone number for each attendee after the main registrant.
 
 The logo is embedded from Drive file ID `1sFH5OAzQlhB3R9cdybzQDSju0Tf6gmhy`.
 

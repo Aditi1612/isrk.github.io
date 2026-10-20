@@ -15,7 +15,7 @@ title: Home
       <strong id="home-deepotsav-title">Deepotsav 2026</strong>
       <span>Culture, cuisine, music, and community</span>
     </span>
-    <span class="home-event-spotlight__details"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span><strong>2 PM onwards</strong>Mokdong Youth Center Auditorium, Seoul</span></span>
+    <span class="home-event-spotlight__details"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span><strong>2 PM onwards</strong>Grand Auditorium, Shinhan Bank Head Office</span></span>
     <span class="home-event-spotlight__action"><small>Registration open</small><strong>Register now <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></strong></span>
   </a>
 </section>

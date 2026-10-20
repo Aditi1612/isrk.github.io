@@ -3,15 +3,23 @@ layout: page
 title: Deepotsav 2026 Registration
 permalink: /deepotsav-2026-registration/
 description: Registration for Deepotsav 2026, the annual Diwali cultural get-together in Korea.
-image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
+image: /assets/images/events/deepotsav-2026/deepotsav-hero-background-v2.png
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20261015-2">
+<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20261020-1">
 
 <div class="deepotsav-page" data-early-bird-deadline="2026-10-25T23:59:59+09:00" data-event-start="2026-11-07T14:00:00+09:00">
   <header class="deepotsav-heading">
-    <h1 class="deepotsav-visually-hidden">Deepotsav 2026 Registration</h1>
-    <img src="{{ '/assets/images/events/deepotsav-2026/deepotsav-form-header.png' | relative_url }}" alt="Deepotsav 2026, November 7, 2026 from 2 PM at Mokdong Youth Center Auditorium, Seoul" class="deepotsav-heading__art">
+    <div class="deepotsav-heading__hero">
+      <img src="{{ '/assets/images/events/deepotsav-2026/deepotsav-hero-background-v2.png' | relative_url }}" alt="" aria-hidden="true" class="deepotsav-heading__art">
+      <div class="deepotsav-heading__content">
+        <p>ISRK cordially invites you to the Grand Diwali Celebration</p>
+        <h1>Deepotsav 2026</h1>
+        <strong>November 7, 2026 &middot; 2 PM onwards</strong>
+        <span>Grand Auditorium, Shinhan Bank Head Office</span>
+        <small>20, Sejong-daero 9-gil, Jung-gu, Seoul &middot; 20th Floor</small>
+      </div>
+    </div>
     <div class="deepotsav-heading__caption">
       <p class="deepotsav-kicker">Co-organized by IITAAK and IIK(A)</p>
       <p>Celebrate Diwali with an afternoon of culture, music, food, and community in Seoul.</p>
@@ -84,7 +92,7 @@ image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
       <div class="deepotsav-sponsor-offer__requirements">
         <strong>Bring to the event venue</strong>
         <ul>
-          <li><i class="fa-solid fa-id-card" aria-hidden="true"></i> A valid Alien Registration Card (ARC)</li>
+          <li><i class="fa-solid fa-id-card" aria-hidden="true"></i> A valid Alien Registration Card (ARC), or passport if you do not have an ARC</li>
           <li><i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i> An active Korean mobile phone number</li>
         </ul>
       </div>
@@ -105,10 +113,20 @@ image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
       <dl>
         <div><dt>Date</dt><dd>Saturday, November 7, 2026</dd></div>
         <div><dt>Time</dt><dd>2:00 PM onwards</dd></div>
-        <div><dt>Venue</dt><dd>Auditorium at the Mokdong Youth Center</dd></div>
-        <div><dt>Address</dt><dd>143, Mokdongseo-ro, Yangcheon-gu, Seoul<br><span lang="ko">서울특별시 양천구 목동서로 143</span></dd></div>
+        <div><dt>Venue</dt><dd>Grand Auditorium, Shinhan Bank Head Office, 20th Floor</dd></div>
+        <div><dt>Address</dt><dd>20, Sejong-daero 9-gil, Jung-gu, Seoul<br><span lang="ko">서울특별시 중구 세종대로9길 20</span></dd></div>
         <div><dt>Registration closes</dt><dd>November 2, 2026</dd></div>
       </dl>
+
+      <div class="deepotsav-entry-notice">
+        <h3><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Secure venue entry</h3>
+        <ul>
+          <li>Advance registration is mandatory.</li>
+          <li>No on-site registration or walk-in entry is permitted.</li>
+          <li>Every attendee must bring a valid ARC, or passport if no ARC is available.</li>
+          <li>Entry will not be permitted without valid identification.</li>
+        </ul>
+      </div>
 
       <div class="deepotsav-fee-panel">
         <span>Early bird through October 25</span>
@@ -165,6 +183,10 @@ image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
             <label>Nationality <span class="deepotsav-helper-inline">(Indian/ Korean/ etc.,)</span> <span class="deepotsav-required" aria-hidden="true">*</span>
               <input type="text" name="nationality" autocomplete="country-name" required>
             </label>
+            <label>Korean mobile number <span class="deepotsav-required" aria-hidden="true">*</span>
+              <input type="tel" name="mobile" id="primary-mobile" autocomplete="tel" inputmode="numeric" placeholder="010-XXXX-XXXX" pattern="010-[0-9]{4}-[0-9]{4}" maxlength="13" required>
+              <small>Use 010-XXXX-XXXX. A mobile number is mandatory for the main registrant.</small>
+            </label>
             <label>Name used for bank transfer <span class="deepotsav-helper-inline">(Optional)</span>
               <input type="text" name="bankAccountName">
               <small>Please mention your name as it appears in your bank record name for easy identification.</small>
@@ -182,6 +204,7 @@ image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
                 <option value="4">4</option><option value="5">5</option><option value="6">6</option>
                 <option value="7">7</option><option value="8">8</option><option value="9">9</option>
               </select>
+              <small>The main registrant is included in this number.</small>
             </label>
             <label>Children aged five and under <span class="deepotsav-required" aria-hidden="true">*</span>
               <select name="childrenUnderFive" id="children-under-five" required>
@@ -191,6 +214,37 @@ image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
               </select>
             </label>
           </div>
+          <div id="additional-attendees" class="deepotsav-additional-attendees" hidden>
+            <div class="deepotsav-additional-attendees__intro">
+              <h3>Additional attendee details</h3>
+              <p>Enter a separate name for every additional attendee. Friends, colleagues, and other non-family attendees must also provide their own Korean mobile number. A separate phone number is optional only for a spouse or child.</p>
+            </div>
+            <div id="additional-attendee-list"></div>
+          </div>
+          <template id="additional-attendee-template">
+            <article class="deepotsav-attendee-card">
+              <h3 data-attendee-heading></h3>
+              <div class="deepotsav-grid deepotsav-grid--attendee">
+                <label>Full name <span class="deepotsav-required" aria-hidden="true">*</span>
+                  <input type="text" data-attendee-field="name" autocomplete="off" required>
+                </label>
+                <label>Relationship to main registrant <span class="deepotsav-required" aria-hidden="true">*</span>
+                  <select data-attendee-field="relationship" required>
+                    <option value="">Select</option>
+                    <option value="Spouse">Spouse (husband/wife)</option>
+                    <option value="Child">Child</option>
+                    <option value="Friend">Friend</option>
+                    <option value="Colleague">Colleague</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </label>
+                <label>Korean mobile number <span class="deepotsav-required" data-phone-required aria-hidden="true">*</span>
+                  <input type="tel" data-attendee-field="phone" inputmode="numeric" placeholder="010-XXXX-XXXX" pattern="010-[0-9]{4}-[0-9]{4}" maxlength="13">
+                  <small data-phone-help>Required for friends, colleagues, and other non-family attendees.</small>
+                </label>
+              </div>
+            </article>
+          </template>
           <div class="deepotsav-total" aria-live="polite">
             <span>Estimated registration fee</span>
             <strong id="estimated-fee">Select attendee count</strong>
@@ -285,11 +339,6 @@ image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
             </div>
           </div>
 
-          <label class="deepotsav-conditional" id="mobile-wrap">Mobile number for activity coordination <span class="deepotsav-required" aria-hidden="true">*</span>
-            <input type="tel" name="mobile" autocomplete="tel" inputmode="numeric" placeholder="010-XXXX-XXXX" pattern="010-[0-9]{4}-[0-9]{4}" maxlength="13">
-            <small>Use the format 010-XXXX-XXXX. Requested only for performance, volunteering, fashion show, or Community Mela coordination.</small>
-          </label>
-
           <label>Suggestions or activity ideas <span class="deepotsav-helper-inline">(Optional)</span>
             <textarea name="suggestions" rows="3"></textarea>
           </label>
@@ -308,7 +357,9 @@ image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
               <li>I am responsible for my personal belongings, and the organizers cannot accept responsibility for personal loss or damage except where responsibility cannot legally be excluded.</li>
               <li>My registration information will be used for event administration and related communication.</li>
               <li>The initial automated email acknowledges receipt of registration but does not confirm payment. A separate email will follow after payment verification.</li>
-              <li>I will keep an acceptable ID (passport, ARC, etc.) available for verification at the event.</li>
+              <li>I understand that advance registration is mandatory and that no on-site registration or walk-in entry is permitted under the venue's security regulations.</li>
+              <li>I will bring a valid ARC, or a valid passport if I do not have an ARC. Entry will not be permitted without valid identification.</li>
+              <li>I have provided a separate name and Korean mobile number for every friend, colleague, or other non-family attendee included in this registration.</li>
               <li>G1 visa holders need prior permission before joining the event. Please contact the ISRK team.</li>
             </ol>
           </div>
@@ -329,4 +380,4 @@ image: /assets/images/events/deepotsav-2026/deepotsav-form-header.png
   </div>
 </div>
 
-<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20260926-8" defer></script>
+<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20261020-1" defer></script>

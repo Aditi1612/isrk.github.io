@@ -8,8 +8,10 @@
   const paidAttendees = document.getElementById('paid-attendees');
   const estimatedFee = document.getElementById('estimated-fee');
   const feeRateNote = document.getElementById('fee-rate-note');
-  const mobileWrap = document.getElementById('mobile-wrap');
-  const mobileInput = mobileWrap.querySelector('input');
+  const mobileInput = document.getElementById('primary-mobile');
+  const additionalAttendees = document.getElementById('additional-attendees');
+  const additionalAttendeeList = document.getElementById('additional-attendee-list');
+  const additionalAttendeeTemplate = document.getElementById('additional-attendee-template');
   const performanceWrap = document.getElementById('performance-options-wrap');
   const performanceOptions = document.getElementById('performance-options');
   const performanceDescription = performanceWrap.querySelector('textarea');
@@ -99,9 +101,6 @@
     const wantsPerformance = selectedValue('performanceInterest') === 'Yes';
     const wantsVolunteerRole = selectedValue('volunteerInterest') === 'Yes';
     const wantsFashionShow = selectedValue('fashionShow') === 'Yes';
-    const needsContact = wantsPerformance || wantsVolunteerRole || wantsFashionShow ||
-      selectedValue('communityMela') === 'Yes';
-
     performanceWrap.hidden = !wantsPerformance;
     performanceDescription.required = wantsPerformance;
     performanceSampleUrl.required = wantsPerformance;
@@ -118,22 +117,68 @@
     fashionDescription.required = wantsFashionShow;
     if (!wantsFashionShow) fashionDescription.value = '';
 
-    mobileWrap.hidden = !needsContact;
-    mobileInput.required = needsContact;
-    if (!needsContact) mobileInput.value = '';
   }
 
-  function formatMobileNumber() {
-    const digits = mobileInput.value.replace(/\D/g, '').slice(0, 11);
+  function formatMobileNumber(input) {
+    const digits = input.value.replace(/\D/g, '').slice(0, 11);
     if (digits.length <= 3) {
-      mobileInput.value = digits;
+      input.value = digits;
       return;
     }
     if (digits.length <= 7) {
-      mobileInput.value = `${digits.slice(0, 3)}-${digits.slice(3)}`;
+      input.value = `${digits.slice(0, 3)}-${digits.slice(3)}`;
       return;
     }
-    mobileInput.value = `${digits.slice(0, 3)}-${digits.slice(3, 7)}-${digits.slice(7)}`;
+    input.value = `${digits.slice(0, 3)}-${digits.slice(3, 7)}-${digits.slice(7)}`;
+  }
+
+  function updateAdditionalPhoneRequirement(card) {
+    const relationship = card.querySelector('[data-attendee-field="relationship"]').value;
+    const phone = card.querySelector('[data-attendee-field="phone"]');
+    const requiredMarker = card.querySelector('[data-phone-required]');
+    const help = card.querySelector('[data-phone-help]');
+    const isFamilyExempt = relationship === 'Spouse' || relationship === 'Child';
+
+    phone.required = Boolean(relationship) && !isFamilyExempt;
+    requiredMarker.hidden = isFamilyExempt;
+    help.textContent = isFamilyExempt
+      ? 'Optional for a spouse or child included in this registration.'
+      : 'Required for friends, colleagues, and other non-family attendees.';
+  }
+
+  function createAdditionalAttendeeCard(index) {
+    const fragment = additionalAttendeeTemplate.content.cloneNode(true);
+    const card = fragment.querySelector('.deepotsav-attendee-card');
+    const attendeeNumber = index + 1;
+    card.dataset.attendeeIndex = String(index);
+    card.querySelector('[data-attendee-heading]').textContent = `Attendee ${attendeeNumber}`;
+
+    const name = card.querySelector('[data-attendee-field="name"]');
+    const relationship = card.querySelector('[data-attendee-field="relationship"]');
+    const phone = card.querySelector('[data-attendee-field="phone"]');
+    name.name = `additionalAttendeeName_${index}`;
+    relationship.name = `additionalAttendeeRelationship_${index}`;
+    phone.name = `additionalAttendeePhone_${index}`;
+    relationship.addEventListener('change', function () {
+      updateAdditionalPhoneRequirement(card);
+    });
+    phone.addEventListener('input', function () {
+      formatMobileNumber(phone);
+    });
+    updateAdditionalPhoneRequirement(card);
+    return card;
+  }
+
+  function updateAdditionalAttendees() {
+    const requiredCount = Math.max(0, Number(paidAttendees.value || 0) - 1);
+    while (additionalAttendeeList.children.length < requiredCount) {
+      const index = additionalAttendeeList.children.length + 1;
+      additionalAttendeeList.appendChild(createAdditionalAttendeeCard(index));
+    }
+    while (additionalAttendeeList.children.length > requiredCount) {
+      additionalAttendeeList.lastElementChild.remove();
+    }
+    additionalAttendees.hidden = requiredCount === 0;
   }
 
   function isValidPerformanceUrl(value) {
@@ -215,14 +260,20 @@
     form.target = responseFrame.name;
   }
 
-  paidAttendees.addEventListener('change', updateFee);
-  mobileInput.addEventListener('input', formatMobileNumber);
+  paidAttendees.addEventListener('change', function () {
+    updateFee();
+    updateAdditionalAttendees();
+  });
+  mobileInput.addEventListener('input', function () {
+    formatMobileNumber(mobileInput);
+  });
   performanceSampleUrl.addEventListener('input', function () {
     performanceSampleUrl.setCustomValidity('');
   });
   form.addEventListener('change', updateConditionalFields);
   startCountdown();
   updateFee();
+  updateAdditionalAttendees();
   updateConditionalFields();
 
   form.addEventListener('submit', function (event) {
@@ -256,6 +307,7 @@
       showStatus('Your form has been successfully submitted. Please check your email in the next few minutes. If you do not receive a confirmation email, please contact the ISRK team.', 'success');
       form.reset();
       updateFee();
+      updateAdditionalAttendees();
       updateConditionalFields();
     }, 20000);
   });
@@ -272,6 +324,7 @@
       showStatus(event.data.message || 'Registration received. Please check your email.', 'success');
       form.reset();
       updateFee();
+      updateAdditionalAttendees();
       updateConditionalFields();
       return;
     }

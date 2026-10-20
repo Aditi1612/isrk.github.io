@@ -4,9 +4,9 @@ const CONFIG = Object.freeze({
   EVENT_NAME: 'Deepotsav 2026',
   EVENT_DATE: 'Saturday, November 7, 2026',
   EVENT_TIME: '2:00 PM onwards',
-  VENUE: 'Auditorium at the Mokdong Youth Center',
-  ADDRESS_EN: '143, Mokdongseo-ro, Yangcheon-gu, Seoul',
-  ADDRESS_KO: '서울특별시 양천구 목동서로 143',
+  VENUE: 'Grand Auditorium, Shinhan Bank Head Office, 20th Floor',
+  ADDRESS_EN: '20, Sejong-daero 9-gil, Jung-gu, Seoul',
+  ADDRESS_KO: '서울특별시 중구 세종대로9길 20',
   REGISTRATION_CLOSE: new Date('2026-11-02T23:59:59+09:00'),
   EARLY_BIRD_CLOSE: new Date('2026-10-25T23:59:59+09:00'),
   EARLY_BIRD_FEE: 10000,
@@ -18,7 +18,7 @@ const CONFIG = Object.freeze({
   CONTACT_LINE: 'Iqbal Khazi: 010-9544-0786 | Dilip Patil: 010-7471-9016 | Pravin Upare: 010-7633-8112 | Manas Biswal: 010-9807-0763',
   REPLY_TO: 'isrk.association@gmail.com',
   LOGO_FILE_ID: '1sFH5OAzQlhB3R9cdybzQDSju0Tf6gmhy',
-  HEADER_IMAGE_URL: 'https://www.isrk.in/assets/images/events/deepotsav-2026/deepotsav-form-header.png',
+  HEADER_IMAGE_URL: 'https://www.isrk.in/assets/images/events/deepotsav-2026/deepotsav-hero-background-v2.png',
   TEST_MODE: false,
   TEST_RECIPIENTS: ['mrbiswal13@gmail.com', 'cometomanas@gmail.com']
 });
@@ -32,7 +32,7 @@ const HEADERS = Object.freeze([
   'ISRK Representative Team', 'Agreement Accepted', 'Payment Status', 'Paid Amount (KRW)',
   'Payment Verified By', 'Payment Verified At', 'Registration Email Status',
   'Registration Email Sent At', 'Payment Email Status', 'Payment Email Sent At',
-  'Internal Notes', 'Submission Source', 'Submission Token'
+  'Internal Notes', 'Submission Source', 'Submission Token', 'Additional Attendee Details'
 ]);
 
 function doGet() {
@@ -92,6 +92,7 @@ function doPost(e) {
         communityMela: payload.communityMela,
         kidsActivity: payload.kidsActivity,
         mobile: payload.mobile,
+        additionalAttendeeDetails: formatAdditionalAttendees_(payload.additionalAttendees),
         suggestions: payload.suggestions,
         isrkRepresentative: payload.isrkRepresentative,
         agreement: payload.agreement,
@@ -106,7 +107,8 @@ function doPost(e) {
         record.expectedAmount, record.performance, record.performanceDescription, record.performanceSampleUrl, record.fashionShow,
         record.fashionDescription, record.volunteerRoles, record.communityMela, record.kidsActivity, record.mobile,
         record.suggestions, record.isrkRepresentative, record.agreement, 'Pending', '', '', '',
-        'SENDING', '', '', '', '', record.submissionSource, record.submissionToken
+        'SENDING', '', '', '', '', record.submissionSource, record.submissionToken,
+        record.additionalAttendeeDetails
       ];
       if (row.length !== HEADERS.length) throw new Error('Registration row does not match the sheet schema.');
       sheet.appendRow(row);
@@ -220,7 +222,9 @@ function sendRegistrationForSelectedRow() {
     paidAttendees: source['Paid Attendees (Age 6+)'],
     childrenUnderFive: source['Children (Age 5 & Under)'],
     feePerAttendee: source['Fee Per Paid Attendee (KRW)'],
-    expectedAmount: source['Expected Amount (KRW)']
+    expectedAmount: source['Expected Amount (KRW)'],
+    mobile: source['Mobile Number'],
+    additionalAttendeeDetails: source['Additional Attendee Details']
   };
   enforceTestRecipient_(record.email);
   setCellsByHeader_(sheet, row, { 'Registration Email Status': 'SENDING' });
@@ -275,6 +279,8 @@ function sendPaymentForRow_(sheet, row, forceRetry) {
         paidAttendees: record['Paid Attendees (Age 6+)'],
         childrenUnderFive: record['Children (Age 5 & Under)'],
         paidAmount: paidAmount,
+        mobile: record['Mobile Number'],
+        additionalAttendeeDetails: record['Additional Attendee Details'],
         isResend: isResend
       });
       setCellsByHeader_(sheet, row, {
@@ -297,6 +303,15 @@ function normalizePayload_(e) {
   const parameters = e && e.parameters ? e.parameters : {};
   const first = (name) => String((parameters[name] || [''])[0]).trim();
   const all = (name) => (parameters[name] || []).map((value) => String(value).trim()).filter(Boolean);
+  const paidAttendees = Number(first('paidAttendees'));
+  const additionalAttendees = [];
+  for (let index = 1; index < paidAttendees; index += 1) {
+    additionalAttendees.push({
+      name: first(`additionalAttendeeName_${index}`),
+      relationship: first(`additionalAttendeeRelationship_${index}`),
+      mobile: first(`additionalAttendeePhone_${index}`)
+    });
+  }
 
   return {
     formGuard: first('form_guard_7x'),
@@ -306,7 +321,7 @@ function normalizePayload_(e) {
     city: first('city'),
     nationality: first('nationality'),
     bankAccountName: first('bankAccountName'),
-    paidAttendees: Number(first('paidAttendees')),
+    paidAttendees: paidAttendees,
     childrenUnderFive: Number(first('childrenUnderFive')),
     performanceInterest: first('performanceInterest'),
     performance: all('performance'),
@@ -319,6 +334,7 @@ function normalizePayload_(e) {
     communityMela: first('communityMela'),
     kidsActivity: first('kidsActivity'),
     mobile: first('mobile'),
+    additionalAttendees: additionalAttendees,
     suggestions: first('suggestions'),
     isrkRepresentative: first('isrkRepresentative'),
     agreement: first('agreement'),
@@ -354,10 +370,26 @@ function validatePayload_(payload) {
   if (!['Yes', 'Already a member', 'No'].includes(payload.isrkRepresentative)) {
     throw new Error('Please complete the ISRK Representative Team question.');
   }
-  const activityContactRequired = payload.performanceInterest === 'Yes' || payload.volunteerInterest === 'Yes' ||
-    payload.fashionShow === 'Yes' || payload.communityMela === 'Yes';
-  if (activityContactRequired && !payload.mobile) throw new Error('A mobile number is required for activity coordination.');
-  if (activityContactRequired && !/^010-[0-9]{4}-[0-9]{4}$/.test(payload.mobile)) throw new Error('Please enter the mobile number as 010-XXXX-XXXX.');
+  if (!/^010-[0-9]{4}-[0-9]{4}$/.test(payload.mobile)) {
+    throw new Error('The main registrant must provide a Korean mobile number in the format 010-XXXX-XXXX.');
+  }
+  if (payload.additionalAttendees.length !== payload.paidAttendees - 1) {
+    throw new Error('Please provide details for every additional attendee aged six and above.');
+  }
+  payload.additionalAttendees.forEach((attendee, index) => {
+    const number = index + 2;
+    if (!attendee.name) throw new Error(`Please provide the full name of attendee ${number}.`);
+    if (!['Spouse', 'Child', 'Friend', 'Colleague', 'Other'].includes(attendee.relationship)) {
+      throw new Error(`Please select the relationship for attendee ${number}.`);
+    }
+    const familyPhoneExempt = attendee.relationship === 'Spouse' || attendee.relationship === 'Child';
+    if (!familyPhoneExempt && !attendee.mobile) {
+      throw new Error(`A separate Korean mobile number is required for attendee ${number}.`);
+    }
+    if (attendee.mobile && !/^010-[0-9]{4}-[0-9]{4}$/.test(attendee.mobile)) {
+      throw new Error(`Please enter attendee ${number}'s mobile number as 010-XXXX-XXXX.`);
+    }
+  });
   if (payload.performanceInterest === 'Yes' && !payload.performanceDescription) throw new Error('Please describe the proposed performance.');
   if (payload.performanceInterest === 'Yes' && !payload.performanceSampleUrl) throw new Error('Please provide a performance sample link.');
   if (payload.performanceInterest === 'Yes' && !isValidPerformanceUrl_(payload.performanceSampleUrl)) {
@@ -381,6 +413,13 @@ function isValidPerformanceUrl_(value) {
   // class (new URL() throws "ReferenceError: URL is not defined"), so this
   // is a regex check rather than a URL-object based one.
   return /^https?:\/\/\S+\.\S+/i.test(String(value || '').trim());
+}
+
+function formatAdditionalAttendees_(attendees) {
+  return attendees.map((attendee, index) => {
+    const mobile = attendee.mobile || 'Spouse/child phone exemption';
+    return `Attendee ${index + 2}: ${attendee.name} | ${attendee.relationship} | ${mobile}`;
+  }).join('\n');
 }
 
 function enforceTestRecipient_(email) {
@@ -462,7 +501,8 @@ function maxRegistrationNumber_(sheet) {
 function sendRegistrationEmail_(record) {
   const subject = `[DEEPOTSAV 2026] Registration received - ${record.registrationId}`;
   const statusBlock = emailStatusBlock_('Registration received', 'Payment verification pending', '#f47b20', '#fff6e8');
-  const body = `Dear ${respectfulName_(record.fullName)},\n\nWe received your Deepotsav 2026 registration.\nReference: ${record.registrationId}\nPayment status: Pending verification\nExpected amount: ${formatWon_(record.expectedAmount)}\n\n${eventPlainText_()}\n\nISRK Team`;
+  const additionalText = record.additionalAttendeeDetails ? `\nAdditional attendees:\n${record.additionalAttendeeDetails}\n` : '';
+  const body = `Dear ${respectfulName_(record.fullName)},\n\nWe received your Deepotsav 2026 registration.\nReference: ${record.registrationId}\nPayment status: Pending verification\nExpected amount: ${formatWon_(record.expectedAmount)}\nMain registrant mobile: ${record.mobile}${additionalText}\n${eventPlainText_()}\n\n${entryRequirementsPlainText_()}\n\nISRK Team`;
   const html = emailShell_(
     `Dear ${escapeHtml_(respectfulName_(record.fullName))},`,
     statusBlock +
@@ -472,9 +512,10 @@ function sendRegistrationEmail_(record) {
       ['Paid attendees', record.paidAttendees],
       ['Children aged five and under', record.childrenUnderFive],
       ['Fee per paid attendee', formatWon_(record.feePerAttendee)],
-      ['Expected payment', formatWon_(record.expectedAmount)]
+      ['Expected payment', formatWon_(record.expectedAmount)],
+      ['Main registrant mobile', record.mobile]
     ]) +
-    paymentBlock_() + eventBlock_() +
+    attendeeDetailsBlock_(record.additionalAttendeeDetails) + paymentBlock_() + eventBlock_() + entryRequirementsBlock_() +
     `<p style="font-size:13px;color:#667085;margin:20px 0 0;">This email acknowledges your registration. It is not proof of payment. A separate confirmation will be sent after the ISRK team verifies your payment.</p>`
   );
   sendHtmlEmail_(record.email, subject, body, html);
@@ -483,7 +524,8 @@ function sendRegistrationEmail_(record) {
 function sendPaymentEmail_(record) {
   const subject = `[DEEPOTSAV 2026] Payment confirmed - ${record.registrationId}${record.isResend ? ' (resent)' : ''}`;
   const statusBlock = emailStatusBlock_('Payment confirmed', 'Your registration is complete', '#17823b', '#edf8f0');
-  const body = `Dear ${respectfulName_(record.fullName)},\n\nThank you for completing your payment for Deepotsav 2026. Your payment has been verified and your registration is now complete.\nReference: ${record.registrationId}\nAmount confirmed: ${formatWon_(record.paidAmount)}\n\nPlease present this reference at the registration desk.\n\nThe final event itinerary and other related details will be shared with you before the event.\n\n${eventPlainText_()}\n\nISRK Team`;
+  const additionalText = record.additionalAttendeeDetails ? `\nAdditional attendees:\n${record.additionalAttendeeDetails}\n` : '';
+  const body = `Dear ${respectfulName_(record.fullName)},\n\nThank you for completing your payment for Deepotsav 2026. Your payment has been verified and your registration is now complete.\nReference: ${record.registrationId}\nAmount confirmed: ${formatWon_(record.paidAmount)}\nMain registrant mobile: ${record.mobile}${additionalText}\nPlease present this reference at the registration desk.\n\nThe final event itinerary and other related details will be shared with you before the event.\n\n${eventPlainText_()}\n\n${entryRequirementsPlainText_()}\n\nISRK Team`;
   const html = emailShell_(
     `Dear ${escapeHtml_(respectfulName_(record.fullName))},`,
     statusBlock +
@@ -492,8 +534,9 @@ function sendPaymentEmail_(record) {
     detailsTable_([
       ['Amount confirmed', formatWon_(record.paidAmount)],
       ['Paid attendees', record.paidAttendees],
-      ['Children aged five and under', record.childrenUnderFive]
-    ]) + eventBlock_() +
+      ['Children aged five and under', record.childrenUnderFive],
+      ['Main registrant mobile', record.mobile]
+    ]) + attendeeDetailsBlock_(record.additionalAttendeeDetails) + eventBlock_() + entryRequirementsBlock_() +
     `<p style="font-size:14px;color:#344054;margin:20px 0 0;"><strong>Please present this reference number at the registration desk.</strong></p>` +
     `<div style="background:#fff8e7;border-left:4px solid #d7a62a;padding:13px 16px;margin:18px 0 0;color:#4b075d;font-size:14px;line-height:1.6;"><strong>The final event itinerary and other related details will be shared with you before the event.</strong></div>`
   );
@@ -523,7 +566,9 @@ function emailShell_(greeting, content) {
     `<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#f3f5f9;padding:28px 12px;"><tr><td align="center">` +
     `<table role="presentation" width="620" cellspacing="0" cellpadding="0" style="max-width:620px;width:100%;background:#ffffff;border:1px solid #dfe3eb;border-radius:8px;overflow:hidden;">` +
     `<tr><td style="background:#2d043b;padding:0;text-align:center;font-size:0;line-height:0;mso-line-height-rule:exactly;">` +
-    `<img src="${CONFIG.HEADER_IMAGE_URL}" alt="Deepotsav 2026 - November 7, 2026 at Mokdong Youth Center Auditorium, Seoul" width="620" height="155" style="display:block;width:100%;max-width:620px;height:auto;border:0;vertical-align:top;">` +
+    `<img src="${CONFIG.HEADER_IMAGE_URL}" alt="Deepotsav 2026 - November 7, 2026 at Shinhan Bank Head Office, Seoul" width="620" height="207" style="display:block;width:100%;max-width:620px;height:auto;border:0;vertical-align:top;">` +
+    `<div style="background:#2d043b;color:#fff4d3;font-size:20px;font-weight:700;line-height:1.3;padding:10px 18px 3px;">DEEPOTSAV 2026</div>` +
+    `<div style="background:#2d043b;color:#f8dd83;font-size:12px;line-height:1.5;padding:0 18px 11px;">November 7, 2026 &middot; 2 PM onwards<br>Grand Auditorium, Shinhan Bank Head Office, 20th Floor</div>` +
     `<div style="height:4px;background:#d7a62a;"></div></td></tr>` +
     `<tr><td style="padding:28px;"><p style="font-size:17px;margin:0 0 18px;color:#182230;">${greeting}</p>${content}</td></tr>` +
     `<tr><td style="background:#f7f8fb;border-top:1px solid #e4e7ec;padding:20px 28px;font-size:12px;line-height:1.6;color:#667085;">` +
@@ -551,6 +596,13 @@ function detailsTable_(rows) {
     `</table>`;
 }
 
+function attendeeDetailsBlock_(details) {
+  if (!details) return '';
+  return `<div style="border:1px solid #dfe3eb;border-radius:6px;padding:14px 16px;margin:18px 0;">` +
+    `<div style="font-weight:700;color:#071c4a;margin-bottom:7px;">Additional registered attendees</div>` +
+    `<div style="font-size:13px;line-height:1.7;color:#344054;">${escapeHtml_(details).replace(/\n/g, '<br>')}</div></div>`;
+}
+
 function paymentBlock_() {
   return `<div style="border:1px solid #dfe3eb;border-radius:6px;padding:16px;margin:20px 0;">` +
     `<div style="font-weight:700;color:#071c4a;margin-bottom:8px;">Payment details</div>` +
@@ -568,8 +620,18 @@ function eventBlock_() {
     `</table></div>`;
 }
 
+function entryRequirementsBlock_() {
+  return `<div style="background:#eef5fb;border-left:4px solid #00529b;padding:14px 16px;margin:20px 0 0;color:#29445f;font-size:13px;line-height:1.6;">` +
+    `<strong style="color:#073b72;">Important entry requirements</strong><br>` +
+    `Advance registration is mandatory. No on-site registration or walk-in entry is permitted. Every attendee must bring a valid ARC, or a valid passport if they do not have an ARC. Entry will not be permitted without valid identification.</div>`;
+}
+
 function eventPlainText_() {
   return `${CONFIG.EVENT_DATE}\n${CONFIG.EVENT_TIME}\n${CONFIG.VENUE}\n${CONFIG.ADDRESS_EN}\n${CONFIG.ADDRESS_KO}`;
+}
+
+function entryRequirementsPlainText_() {
+  return 'Important entry requirements:\nAdvance registration is mandatory. No on-site registration or walk-in entry is permitted. Every attendee must bring a valid ARC, or a valid passport if they do not have an ARC. Entry will not be permitted without valid identification.';
 }
 
 function formatWon_(value) {
