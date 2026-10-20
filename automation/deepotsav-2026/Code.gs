@@ -18,7 +18,7 @@ const CONFIG = Object.freeze({
   CONTACT_LINE: 'Iqbal Khazi: 010-9544-0786 | Dilip Patil: 010-7471-9016 | Pravin Upare: 010-7633-8112 | Manas Biswal: 010-9807-0763',
   REPLY_TO: 'isrk.association@gmail.com',
   LOGO_FILE_ID: '1sFH5OAzQlhB3R9cdybzQDSju0Tf6gmhy',
-  HEADER_IMAGE_URL: 'https://www.isrk.in/assets/images/events/deepotsav-2026/deepotsav-hero-background-v2.png',
+  HEADER_IMAGE_URL: 'https://www.isrk.in/assets/images/events/deepotsav-2026/deepotsav-hero-shinhan-venue.png',
   TEST_MODE: false,
   TEST_RECIPIENTS: ['mrbiswal13@gmail.com', 'cometomanas@gmail.com']
 });
@@ -566,9 +566,7 @@ function emailShell_(greeting, content) {
     `<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#f3f5f9;padding:28px 12px;"><tr><td align="center">` +
     `<table role="presentation" width="620" cellspacing="0" cellpadding="0" style="max-width:620px;width:100%;background:#ffffff;border:1px solid #dfe3eb;border-radius:8px;overflow:hidden;">` +
     `<tr><td style="background:#2d043b;padding:0;text-align:center;font-size:0;line-height:0;mso-line-height-rule:exactly;">` +
-    `<img src="${CONFIG.HEADER_IMAGE_URL}" alt="Deepotsav 2026 - November 7, 2026 at Shinhan Bank Head Office, Seoul" width="620" height="207" style="display:block;width:100%;max-width:620px;height:auto;border:0;vertical-align:top;">` +
-    `<div style="background:#2d043b;color:#fff4d3;font-size:20px;font-weight:700;line-height:1.3;padding:10px 18px 3px;">DEEPOTSAV 2026</div>` +
-    `<div style="background:#2d043b;color:#f8dd83;font-size:12px;line-height:1.5;padding:0 18px 11px;">November 7, 2026 &middot; 2 PM onwards<br>Grand Auditorium, Shinhan Bank Head Office, 20th Floor</div>` +
+    `<img src="${CONFIG.HEADER_IMAGE_URL}" alt="Deepotsav 2026 - November 7, 2026 at Shinhan Bank Head Office, Seoul" width="620" height="155" style="display:block;width:100%;max-width:620px;height:auto;border:0;vertical-align:top;">` +
     `<div style="height:4px;background:#d7a62a;"></div></td></tr>` +
     `<tr><td style="padding:28px;"><p style="font-size:17px;margin:0 0 18px;color:#182230;">${greeting}</p>${content}</td></tr>` +
     `<tr><td style="background:#f7f8fb;border-top:1px solid #e4e7ec;padding:20px 28px;font-size:12px;line-height:1.6;color:#667085;">` +
