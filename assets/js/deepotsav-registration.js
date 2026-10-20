@@ -306,6 +306,7 @@
       finishSubmission();
       showStatus('Your form has been successfully submitted. Please check your email in the next few minutes. If you do not receive a confirmation email, please contact the ISRK team.', 'success');
       form.reset();
+      submissionToken.value = '';
       updateFee();
       updateAdditionalAttendees();
       updateConditionalFields();
@@ -323,6 +324,7 @@
     if (event.data.status === 'success') {
       showStatus(event.data.message || 'Registration received. Please check your email.', 'success');
       form.reset();
+      submissionToken.value = '';
       updateFee();
       updateAdditionalAttendees();
       updateConditionalFields();

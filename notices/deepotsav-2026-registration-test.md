@@ -373,4 +373,4 @@ image: /assets/images/events/deepotsav-2026/deepotsav-hero-shinhan-venue.png
   </div>
 </div>
 
-<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20261020-1" defer></script>
+<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20261020-3" defer></script>
