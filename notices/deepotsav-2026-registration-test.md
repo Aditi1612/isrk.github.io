@@ -210,7 +210,7 @@ image: /assets/images/events/deepotsav-2026/deepotsav-hero-shinhan-venue.png
           <div id="additional-attendees" class="deepotsav-additional-attendees" hidden>
             <div class="deepotsav-additional-attendees__intro">
               <h3>Additional attendee details</h3>
-              <p>Enter a separate name for every additional attendee. Friends, colleagues, and other non-family attendees must also provide their own Korean mobile number. A separate phone number is optional only for a spouse or child.</p>
+              <p>Enter a separate name for every additional attendee. Friends, colleagues, and other non-family attendees must also provide their own Korean mobile number. A separate phone number is optional only for a spouse, child, or parent.</p>
             </div>
             <div id="additional-attendee-list"></div>
           </div>
@@ -226,6 +226,7 @@ image: /assets/images/events/deepotsav-2026/deepotsav-hero-shinhan-venue.png
                     <option value="">Select</option>
                     <option value="Spouse">Spouse (husband/wife)</option>
                     <option value="Child">Child</option>
+                    <option value="Parent">Parent (mother/father)</option>
                     <option value="Friend">Friend</option>
                     <option value="Colleague">Colleague</option>
                     <option value="Other">Other</option>
@@ -373,4 +374,4 @@ image: /assets/images/events/deepotsav-2026/deepotsav-hero-shinhan-venue.png
   </div>
 </div>
 
-<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20261020-3" defer></script>
+<script src="{{ '/assets/js/deepotsav-registration.js' | relative_url }}?v=20261021-1" defer></script>

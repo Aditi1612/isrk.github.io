@@ -137,12 +137,12 @@
     const phone = card.querySelector('[data-attendee-field="phone"]');
     const requiredMarker = card.querySelector('[data-phone-required]');
     const help = card.querySelector('[data-phone-help]');
-    const isFamilyExempt = relationship === 'Spouse' || relationship === 'Child';
+    const isFamilyExempt = ['Spouse', 'Child', 'Parent'].includes(relationship);
 
     phone.required = Boolean(relationship) && !isFamilyExempt;
     requiredMarker.hidden = isFamilyExempt;
     help.textContent = isFamilyExempt
-      ? 'Optional for a spouse or child included in this registration.'
+      ? 'Optional for a spouse, child, or parent included in this registration.'
       : 'Required for friends, colleagues, and other non-family attendees.';
   }
 

@@ -379,10 +379,10 @@ function validatePayload_(payload) {
   payload.additionalAttendees.forEach((attendee, index) => {
     const number = index + 2;
     if (!attendee.name) throw new Error(`Please provide the full name of attendee ${number}.`);
-    if (!['Spouse', 'Child', 'Friend', 'Colleague', 'Other'].includes(attendee.relationship)) {
+    if (!['Spouse', 'Child', 'Parent', 'Friend', 'Colleague', 'Other'].includes(attendee.relationship)) {
       throw new Error(`Please select the relationship for attendee ${number}.`);
     }
-    const familyPhoneExempt = attendee.relationship === 'Spouse' || attendee.relationship === 'Child';
+    const familyPhoneExempt = ['Spouse', 'Child', 'Parent'].includes(attendee.relationship);
     if (!familyPhoneExempt && !attendee.mobile) {
       throw new Error(`A separate Korean mobile number is required for attendee ${number}.`);
     }
@@ -417,7 +417,7 @@ function isValidPerformanceUrl_(value) {
 
 function formatAdditionalAttendees_(attendees) {
   return attendees.map((attendee, index) => {
-    const mobile = attendee.mobile || 'Spouse/child phone exemption';
+    const mobile = attendee.mobile || 'Spouse/child/parent phone exemption';
     return `Attendee ${index + 2}: ${attendee.name} | ${attendee.relationship} | ${mobile}`;
   }).join('\n');
 }
