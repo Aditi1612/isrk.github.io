@@ -21,7 +21,7 @@ A Korean startup IT company, **ARYAZITECH**, is searching for potential candidat
 | Item | Details |
 |------|---------|
 | Company | ARYAZITECH |
-| Job type | Remote / work from home |
+| Job type | On-site / Part-Time |
 | Work arrangement | Part-time |
 | Language | Basic Korean-language understanding is helpful |
 

@@ -24,7 +24,7 @@ Stay informed with the latest news, upcoming events, and important announcements
     <span class="notice-date">October 2026</span>
   </div>
   <h3>ARYAZITECH Part-Time IT Support Opportunity</h3>
-  <p>ARYAZITECH is searchin for potential candidates for a remote, part-time IT support opportunity in South Korea. F-2, F-5 and eligible D-2 visa holders with valid work permission may apply through the Google Form. <a href="{{ '/notices/aryazitech-part-time-it-support-opportunity/' | relative_url }}">View Details &gt;&gt;&gt; </a></p>
+  <p>ARYAZITECH is searchin for potential candidates for a on-site, part-time IT support opportunity in South Korea. F-2, F-5 and eligible D-2 visa holders with valid work permission may apply through the Google Form. <a href="{{ '/notices/aryazitech-part-time-it-support-opportunity/' | relative_url }}">View Details &gt;&gt;&gt; </a></p>
 </div>
 
 <div class="notice-card urgent">
