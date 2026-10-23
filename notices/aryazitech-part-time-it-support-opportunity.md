@@ -10,13 +10,13 @@ image: /assets/images/logos/isrk_logo_tri_color.png
   <div class="page-hero-inner">
     <p class="breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/notices/' | relative_url }}">Notices</a> / ARYAZITECH IT Support Opportunity</p>
     <h1>ARYAZITECH Part-Time IT Support Opportunity</h1>
-    <p class="subtitle">Initial profile collection for IT support candidates in Korea</p>
+    <p class="subtitle">Initial profile screening for IT support candidates in Korea</p>
   </div>
 </div>
 
 ## Opportunity Overview
 
-A Korean startup IT company, **ARYAZITECH**, is collecting profiles from candidates with experience or interest in IT support. This is an **initial profile collection**. Candidates whose profiles match the requirements will be contacted directly and given further information about the opportunity.
+A Korean startup IT company, **ARYAZITECH**, is searching for potential candidates with experience or interest in IT support. This is an **initial profile collection**. Candidates whose profiles match the requirements will be contacted directly and given further information about the opportunity.
 
 | Item | Details |
 |------|---------|
