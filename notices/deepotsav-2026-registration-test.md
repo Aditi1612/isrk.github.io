@@ -6,7 +6,7 @@ description: Registration for Deepotsav 2026, the annual Diwali cultural get-tog
 image: /assets/images/events/deepotsav-2026/deepotsav-hero-shinhan-venue.png
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20261020-2">
+<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20261023-1">
 
 <div class="deepotsav-page" data-early-bird-deadline="2026-10-25T23:59:59+09:00" data-event-start="2026-11-07T14:00:00+09:00">
   <header class="deepotsav-heading">
@@ -40,6 +40,16 @@ image: /assets/images/events/deepotsav-2026/deepotsav-hero-shinhan-venue.png
       <i class="fa-solid fa-gift" aria-hidden="true"></i>
       <p><strong>Complimentary sweet box (Besan Laddoo/ Dry Fruit Laddoo/ Mysore-pak) for registered participants aged six and above.</strong><span>Free registration for children under 6 (sweet boxes not included).</span></p>
     </div>
+  </section>
+
+  <section class="deepotsav-registration-alert" role="note" aria-labelledby="deepotsav-registration-alert-title">
+    <div class="deepotsav-registration-alert__icon" aria-hidden="true"><i class="fa-solid fa-shield-halved"></i></div>
+    <div class="deepotsav-registration-alert__copy">
+      <p>Important venue security requirement</p>
+      <h2 id="deepotsav-registration-alert-title">No on-site or on-the-spot registration</h2>
+      <span>Advance registration is mandatory. Because the event is being held at Shinhan Bank Head Office, bank security procedures do not permit walk-in registration.</span>
+    </div>
+    <a href="#deepotsav-registration-form">Register by November 2 <i class="fa-solid fa-arrow-down" aria-hidden="true"></i></a>
   </section>
 
   <section class="deepotsav-highlights" aria-labelledby="deepotsav-highlights-title">

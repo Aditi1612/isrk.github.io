@@ -141,6 +141,38 @@
 .deepotsav-sweet-box strong { color: var(--deep-plum); display: block; }
 .deepotsav-sweet-box span { color: var(--deep-muted); display: block; margin-top: 0.2rem; }
 
+.deepotsav-registration-alert {
+  align-items: center;
+  background: #fff3e6;
+  border-bottom: 2px solid #e56f19;
+  border-top: 2px solid #e56f19;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  padding: 1rem clamp(1rem, 4vw, 2.75rem);
+  position: relative;
+}
+
+.deepotsav-registration-alert__icon {
+  align-items: center;
+  background: #8b2017;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  flex: 0 0 auto;
+  font-size: 1.25rem;
+  height: 44px;
+  justify-content: center;
+  width: 44px;
+}
+
+.deepotsav-registration-alert__copy { min-width: 0; }
+.deepotsav-registration-alert__copy p { color: #8b2017; font-size: 0.68rem; font-weight: 800; margin: 0 0 0.1rem; text-transform: uppercase; }
+.deepotsav-registration-alert__copy h2 { border: 0; color: #651811; font-family: 'Poppins', sans-serif; font-size: 1.2rem; margin: 0 0 0.15rem; padding: 0; }
+.deepotsav-registration-alert__copy span { color: #57352f; display: block; font-size: 0.84rem; line-height: 1.45; }
+.deepotsav-registration-alert > a { align-items: center; background: #8b2017; border: 1px solid #651811; color: #fff; display: inline-flex; font-size: 0.8rem; font-weight: 700; gap: 0.5rem; justify-content: center; padding: 0.65rem 0.85rem; text-decoration: none; white-space: nowrap; }
+.deepotsav-registration-alert > a:hover { background: #651811; color: #fff; text-decoration: none; }
+
 .deepotsav-highlights {
   background: #fffdf7;
   border-bottom: 1px solid #ead9bf;
@@ -407,6 +439,11 @@
   .deepotsav-countdown__units div { padding-right: 0.3rem; }
   .deepotsav-countdown__units strong { font-size: 1.25rem; }
   .deepotsav-countdown__units span { font-size: 0.52rem; }
+  .deepotsav-registration-alert { grid-template-columns: auto minmax(0, 1fr); padding: 0.9rem 1rem; }
+  .deepotsav-registration-alert__icon { height: 38px; width: 38px; }
+  .deepotsav-registration-alert__copy h2 { font-size: 1rem; line-height: 1.3; }
+  .deepotsav-registration-alert__copy span { font-size: 0.78rem; }
+  .deepotsav-registration-alert > a { grid-column: 1 / -1; width: 100%; }
   .deepotsav-highlights { padding: 1.8rem 1rem 2rem; }
   .deepotsav-highlights__heading { align-items: flex-start; }
   .deepotsav-highlights__heading > span { font-size: 1.6rem; }
