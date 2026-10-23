@@ -14,8 +14,8 @@ image: /assets/images/events/deepotsav-2026/deepotsav-hero-shinhan-venue.png
       <img src="{{ '/assets/images/events/deepotsav-2026/deepotsav-hero-shinhan-venue.png' | relative_url }}" alt="Deepotsav 2026, November 7, 2026 at 2 PM onwards. Grand Auditorium, Shinhan Bank Head Office, 20, Sejong-daero 9-gil, Jung-gu, Seoul, 20th Floor." class="deepotsav-heading__art">
     </div>
     <div class="deepotsav-heading__caption">
-      <!-- <p class="deepotsav-kicker">Co-organized by IITAAK and IIK(A)</p> -->
-      <p>Celebrate Diwali with an afternoon of culture, music, food, and community in Seoul.</p>
+      <p class="deepotsav-kicker">Celebrate Diwali with an afternoon of culture, music, food, and community in Seoul.</p>
+      <!-- <p>Celebrate Diwali with an afternoon of culture, music, food, and community in Seoul.</p> -->
     </div>
   </header>
 
