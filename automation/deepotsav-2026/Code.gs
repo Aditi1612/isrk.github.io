@@ -11,7 +11,7 @@ const CONFIG = Object.freeze({
   EARLY_BIRD_CLOSE: new Date('2026-10-25T23:59:59+09:00'),
   EARLY_BIRD_FEE: 10000,
   REGULAR_FEE: 12000,
-  CAPACITY: 350,
+  CAPACITY: 600,
   BANK_NAME: 'Woori Bank',
   BANK_ACCOUNT: '1005-104-804620',
   BANK_HOLDER: '주한 인도 유학생 / Indian Students and R***',
