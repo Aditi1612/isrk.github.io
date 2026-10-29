@@ -306,12 +306,12 @@ permalink: /team/
 ## ISRK Outreach & Promotion Consultants
 
 <div class="team-grid">
-  <div class="team-card">
+  <!-- <div class="team-card">
     <img src="{{ '/assets/images/team/image53.jpeg' | relative_url }}" alt="Dr. Soyoun Lim" class="team-photo">
     <h3>Dr. Soyoun Lim</h3>
     <span class="team-role">Outreach Consultant</span>
     <p>CEO, K-CareerNet Korea<br>Seoul, South Korea</p>
-  </div>
+  </div> -->
   <div class="team-card">
     <img src="{{ '/assets/images/team/image54.jpeg' | relative_url }}" alt="Dr. Srijan Kumar" class="team-photo">
     <h3>Dr. Srijan Kumar</h3>
@@ -330,12 +330,12 @@ permalink: /team/
     <span class="team-role">Outreach Consultant</span>
     <p>Creative Writer & Project Manager<br>BCM Educational Group<br>Seoul, South Korea</p>
   </div>
-  <div class="team-card">
+  <!-- <div class="team-card">
     <img src="{{ '/assets/images/team/image57.jpeg' | relative_url }}" alt="Ravi Pandit" class="team-photo">
     <h3>Ravi Pandit</h3>
     <span class="team-role">Outreach Consultant</span>
     <p>Entrepreneur, Founder & CEO<br>Konnect Korea<br>Daejeon, South Korea</p>
-  </div>
+  </div> -->
 </div>
 
 ---
