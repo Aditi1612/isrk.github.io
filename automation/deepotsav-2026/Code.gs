@@ -7,6 +7,7 @@ const CONFIG = Object.freeze({
   VENUE: 'Grand Auditorium, Shinhan Bank Head Office, 20th Floor',
   ADDRESS_EN: '20, Sejong-daero 9-gil, Jung-gu, Seoul',
   ADDRESS_KO: '서울특별시 중구 세종대로9길 20',
+  REGISTRATION_OPEN: false,
   REGISTRATION_CLOSE: new Date('2026-11-02T23:59:59+09:00'),
   EARLY_BIRD_CLOSE: new Date('2026-10-25T23:59:59+09:00'),
   EARLY_BIRD_FEE: 10000,
@@ -43,6 +44,10 @@ function doPost(e) {
   let sheet;
   let rowNumber;
   try {
+    if (!CONFIG.REGISTRATION_OPEN) {
+      throw new Error('Registration is closed because the participation capacity has been reached.');
+    }
+
     const payload = normalizePayload_(e);
     validatePayload_(payload);
 

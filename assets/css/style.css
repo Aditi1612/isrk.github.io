@@ -560,6 +560,9 @@ p { margin-bottom: 1rem; color: var(--text-md); }
 .home-event-spotlight__action strong { color: #fff; font-size: 0.85rem; }
 .home-event-spotlight__action i { margin-left: 0.35rem; }
 .home-event-spotlight__link:hover .home-event-spotlight__action { background: #c95a13; }
+.home-event-spotlight--closed .home-event-spotlight__action { background: #8b2017; }
+.home-event-spotlight--closed .home-event-spotlight__link:hover .home-event-spotlight__action { background: #651811; }
+.home-event-spotlight--closed .home-event-spotlight__action i { margin-left: 0; margin-right: 0.35rem; }
 
 /* ============ STATS BAR ============ */
 .stats-bar {

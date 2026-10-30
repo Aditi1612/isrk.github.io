@@ -3,8 +3,8 @@ layout: home
 title: Home
 ---
 
-<section class="home-event-spotlight" aria-labelledby="home-deepotsav-title">
-  <a href="{{ '/deepotsav-2026-registration/' | relative_url }}" class="home-event-spotlight__link" aria-label="Register for Deepotsav 2026">
+<section class="home-event-spotlight home-event-spotlight--closed" aria-labelledby="home-deepotsav-title">
+  <a href="{{ '/deepotsav-2026-registration/' | relative_url }}" class="home-event-spotlight__link" aria-label="Deepotsav 2026 registration is closed; view event details">
     <span class="home-event-spotlight__date" aria-hidden="true">
       <small>NOV</small>
       <strong>07</strong>
@@ -16,7 +16,7 @@ title: Home
       <span>Culture, cuisine, music, and community</span>
     </span>
     <span class="home-event-spotlight__details"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span><strong>2 PM onwards</strong>Grand Auditorium, Shinhan Bank Head Office</span></span>
-    <span class="home-event-spotlight__action"><small>Registration open</small><strong>Register now <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></strong></span>
+    <span class="home-event-spotlight__action"><small>Capacity reached</small><strong><i class="fa-solid fa-lock" aria-hidden="true"></i> Registration closed</strong></span>
   </a>
 </section>
 

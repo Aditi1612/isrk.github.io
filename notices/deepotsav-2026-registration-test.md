@@ -6,9 +6,9 @@ description: Registration for Deepotsav 2026, the annual Diwali cultural get-tog
 image: /assets/images/events/deepotsav-2026/deepotsav-hero-shinhan-venue.png
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20261023-1">
+<link rel="stylesheet" href="{{ '/assets/css/deepotsav-registration.css' | relative_url }}?v=20261030-1">
 
-<div class="deepotsav-page" data-early-bird-deadline="2026-10-25T23:59:59+09:00" data-event-start="2026-11-07T14:00:00+09:00">
+<div class="deepotsav-page" data-registration-status="closed" data-early-bird-deadline="2026-10-25T23:59:59+09:00" data-event-start="2026-11-07T14:00:00+09:00">
   <header class="deepotsav-heading">
     <div class="deepotsav-heading__hero">
       <img src="{{ '/assets/images/events/deepotsav-2026/deepotsav-hero-shinhan-venue.png' | relative_url }}" alt="Deepotsav 2026, November 7, 2026 at 2 PM onwards. Grand Auditorium, Shinhan Bank Head Office, 20, Sejong-daero 9-gil, Jung-gu, Seoul, 20th Floor." class="deepotsav-heading__art">
@@ -43,13 +43,13 @@ image: /assets/images/events/deepotsav-2026/deepotsav-hero-shinhan-venue.png
   </section>
 
   <section class="deepotsav-registration-alert" role="note" aria-labelledby="deepotsav-registration-alert-title">
-    <div class="deepotsav-registration-alert__icon" aria-hidden="true"><i class="fa-solid fa-shield-halved"></i></div>
+    <div class="deepotsav-registration-alert__icon" aria-hidden="true"><i class="fa-solid fa-circle-check"></i></div>
     <div class="deepotsav-registration-alert__copy">
-      <p>Important venue security requirement</p>
-      <h2 id="deepotsav-registration-alert-title">No on-site or on-the-spot registration</h2>
-      <span>Advance registration is mandatory. Because the event is being held at Shinhan Bank Head Office, bank security procedures do not permit walk-in registration.</span>
+      <p>Registration update</p>
+      <h2 id="deepotsav-registration-alert-title">Registration closed - participation capacity reached</h2>
+      <span>Thank you for the overwhelming response. We are no longer accepting new registrations, and no on-site or walk-in registration will be available.</span>
     </div>
-    <a href="#deepotsav-registration-form">Register by November 2 <i class="fa-solid fa-arrow-down" aria-hidden="true"></i></a>
+    <strong class="deepotsav-registration-alert__status"><i class="fa-solid fa-lock" aria-hidden="true"></i> Closed</strong>
   </section>
 
   <section class="deepotsav-highlights" aria-labelledby="deepotsav-highlights-title">
@@ -118,7 +118,7 @@ image: /assets/images/events/deepotsav-2026/deepotsav-hero-shinhan-venue.png
         <div><dt>Time</dt><dd>2:00 PM onwards</dd></div>
         <div><dt>Venue</dt><dd>Grand Auditorium, Shinhan Bank Head Office, 20th Floor</dd></div>
         <div><dt>Address</dt><dd>20, Sejong-daero 9-gil, Jung-gu, Seoul<br><span lang="ko">서울특별시 중구 세종대로9길 20</span></dd></div>
-        <div><dt>Registration closes</dt><dd>November 2, 2026</dd></div>
+        <div><dt>Registration status</dt><dd><strong>Closed - capacity reached</strong></dd></div>
       </dl>
 
       <div class="deepotsav-entry-notice">
@@ -157,6 +157,17 @@ image: /assets/images/events/deepotsav-2026/deepotsav-hero-shinhan-venue.png
     </aside>
 
     <main class="deepotsav-form-wrap">
+      <section class="deepotsav-registration-closed" aria-labelledby="deepotsav-registration-closed-title">
+        <div class="deepotsav-registration-closed__icon" aria-hidden="true"><i class="fa-solid fa-lock"></i></div>
+        <p>Registration update</p>
+        <h2 id="deepotsav-registration-closed-title">Registration is now closed</h2>
+        <p>We have reached the planned participation capacity for Deepotsav 2026. New registrations can no longer be accepted.</p>
+        <div class="deepotsav-registration-closed__existing">
+          <strong>Already registered but payment is pending?</strong>
+          <span>Your registration remains valid. Please use the payment details shown on this page. A payment-confirmation email will be sent after the ISRK team verifies your payment.</span>
+        </div>
+      </section>
+
       <form id="deepotsav-registration-form"
             class="deepotsav-form"
             method="post"
