@@ -164,7 +164,7 @@ image: /assets/images/events/deepotsav-2026/deepotsav-hero-shinhan-venue.png
         <p>We have reached the planned participation capacity for Deepotsav 2026. New registrations can no longer be accepted.</p>
         <div class="deepotsav-registration-closed__existing">
           <strong>Already registered but payment is pending?</strong>
-          <span>Your registration remains valid. Please use the payment details shown on this page. A payment-confirmation email will be sent after the ISRK team verifies your payment.</span>
+          <span>If you have paid and have not got your mail regarding confirmation of registration, Please contact us at " isrk.association@gmail.com " or call us with the numbers provided mentioning your registration ID. </span>
         </div>
       </section>
 
