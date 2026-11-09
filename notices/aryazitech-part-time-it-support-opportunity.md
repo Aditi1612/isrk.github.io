@@ -2,7 +2,7 @@
 layout: page
 title: "ARYAZITECH Part-Time IT Support Opportunity"
 permalink: /notices/aryazitech-part-time-it-support-opportunity/
-description: ARYAZITECH is collecting profiles for a remote and part-time IT support opportunity. Eligible F-2, F-5 and D-2 visa holders with valid work permission may apply.
+description: ARYAZITECH is collecting profiles for a remote and part-time IT support opportunity. Eligible F-2 and F-5 visa holders may apply.
 image: /assets/images/logos/isrk_logo_tri_color.png
 ---
 
@@ -31,7 +31,6 @@ Holders of the following visas may apply:
 
 - **F-2**
 - **F-5**
-- **D-2**, with valid permission to work
 
 Applicants are responsible for ensuring that their visa status and work permission allow them to perform the offered work.
 
