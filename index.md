@@ -3,23 +3,6 @@ layout: home
 title: Home
 ---
 
-<section class="home-event-spotlight home-event-spotlight--closed" aria-labelledby="home-deepotsav-title">
-  <a href="{{ '/deepotsav-2026-registration/' | relative_url }}" class="home-event-spotlight__link" aria-label="Deepotsav 2026 registration is closed; view event details">
-    <span class="home-event-spotlight__date" aria-hidden="true">
-      <small>NOV</small>
-      <strong>07</strong>
-      <em>SAT</em>
-    </span>
-    <span class="home-event-spotlight__copy">
-      <span class="home-event-spotlight__eyebrow">ISRK's annual Diwali celebration</span>
-      <strong id="home-deepotsav-title">Deepotsav 2026</strong>
-      <span>Culture, cuisine, music, and community</span>
-    </span>
-    <span class="home-event-spotlight__details"><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span><strong>2 PM onwards</strong>Grand Auditorium, Shinhan Bank Head Office</span></span>
-    <span class="home-event-spotlight__action"><small>Capacity reached</small><strong><i class="fa-solid fa-lock" aria-hidden="true"></i> Registration closed</strong></span>
-  </a>
-</section>
-
 <section class="hero">
   <div class="hero-inner">
     <img src="{{ '/assets/images/logos/isrk_logo_tri_color.png' | relative_url }}" alt="ISRK Logo" class="hero-logo">
